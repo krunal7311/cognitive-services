@@ -61,3 +61,5 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Media.Abstractions.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Media.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/obj/iPhone/Debug/Tabs.iOS.csprojResolveAssemblyReference.cache
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Newtonsoft.Json.xml

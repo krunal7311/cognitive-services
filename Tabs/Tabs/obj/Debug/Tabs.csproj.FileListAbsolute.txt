@@ -25,3 +25,5 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.Abstractions.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Newtonsoft.Json.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Newtonsoft.Json.xml

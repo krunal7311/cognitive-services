@@ -754,9 +754,9 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_1
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_2
@@ -806,9 +806,9 @@ ldr x0, [x16, #0]
 bl _p_1
 .word 0xaa0003e2
 .word 0xf9401ba1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_2
@@ -1721,9 +1721,9 @@ ldr x16, [x16, #448]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_1
@@ -1782,9 +1782,9 @@ ldr x16, [x16, #456]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_1
@@ -1844,9 +1844,9 @@ ldr x16, [x16, #464]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_1
@@ -1915,9 +1915,9 @@ ldr x16, [x16, #472]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2801e20
+.word 0xd2801f80
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_1
@@ -4626,7 +4626,7 @@ bl _p_2
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_34
 
@@ -4760,7 +4760,7 @@ bl _p_2
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_34
 
@@ -4915,13 +4915,13 @@ ldr x16, [x16, #936]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
+.word 0xd294ea40
+.word 0xd294ea40
 bl _p_35
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_2
@@ -5282,6 +5282,56 @@ Lme_61:
 .text
 ut_98:
 add x0, x0, 16
+b System_Nullable_1_int_GetValueOrDefault_int
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_GetValueOrDefault_int
+System_Nullable_1_int_GetValueOrDefault_int:
+.loc 6 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
+ldr x16, [x16, #992]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39401320
+.word 0x35000060
+.word 0xb9801ba0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0xb9800320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_62:
+.text
+ut_99:
+add x0, x0, 16
 b System_Nullable_1_int_ToString
 .text
 	.align 4
@@ -5295,7 +5345,7 @@ System_Nullable_1_int_ToString:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5349,9 +5399,9 @@ ldr x0, [x16, #392]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_62:
+Lme_63:
 .text
-ut_99:
+ut_100:
 add x0, x0, 16
 b System_Nullable_1_int_Box_System_Nullable_1_int
 .text
@@ -5365,7 +5415,7 @@ System_Nullable_1_int_Box_System_Nullable_1_int:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5425,9 +5475,9 @@ bl _p_19
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_63:
+Lme_64:
 .text
-ut_100:
+ut_101:
 add x0, x0, 16
 b System_Nullable_1_int_Unbox_object
 .text
@@ -5442,7 +5492,7 @@ System_Nullable_1_int_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1016]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -5532,13 +5582,13 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_34
 
-Lme_64:
+Lme_65:
 .text
-ut_101:
+ut_102:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 .text
@@ -5554,7 +5604,7 @@ System_Nullable_1_bool__ctor_bool:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5596,9 +5646,9 @@ ldr x16, [x16, #1016]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_65:
+Lme_66:
 .text
-ut_102:
+ut_103:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -5612,7 +5662,7 @@ System_Nullable_1_bool_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5638,9 +5688,9 @@ ldr x16, [x16, #1024]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_66:
+Lme_67:
 .text
-ut_103:
+ut_104:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -5655,7 +5705,7 @@ System_Nullable_1_bool_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5679,13 +5729,13 @@ ldr x16, [x16, #1032]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
+.word 0xd294ea40
+.word 0xd294ea40
 bl _p_35
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_2
@@ -5705,9 +5755,9 @@ bl _p_2
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_67:
+Lme_68:
 .text
-ut_104:
+ut_105:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -5724,7 +5774,7 @@ System_Nullable_1_bool_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1048]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5769,7 +5819,7 @@ ldr x16, [x16, #1040]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x1, [x16, #1048]
+ldr x1, [x16, #1056]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -5793,7 +5843,7 @@ ldr x1, [x16, #1048]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x15, [x16, #1056]
+ldr x15, [x16, #1064]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
@@ -5803,7 +5853,7 @@ bl _p_42
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x15, [x16, #1056]
+ldr x15, [x16, #1064]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
@@ -5825,9 +5875,9 @@ bl _p_43
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_68:
+Lme_69:
 .text
-ut_105:
+ut_106:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_System_Nullable_1_bool
 .text
@@ -5843,7 +5893,7 @@ System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1072]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -5908,7 +5958,7 @@ ldr x16, [x16, #1064]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x0, [x16, #1072]
+ldr x0, [x16, #1080]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_19
@@ -5933,9 +5983,9 @@ bl _p_44
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_69:
+Lme_6a:
 .text
-ut_106:
+ut_107:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -5950,7 +6000,7 @@ System_Nullable_1_bool_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1088]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6002,9 +6052,9 @@ bl _p_45
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6a:
+Lme_6b:
 .text
-ut_107:
+ut_108:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -6018,7 +6068,7 @@ System_Nullable_1_bool_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6044,9 +6094,59 @@ ldr x16, [x16, #1088]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_6b:
+Lme_6c:
 .text
-ut_108:
+ut_109:
+add x0, x0, 16
+b System_Nullable_1_bool_GetValueOrDefault_bool
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_bool_GetValueOrDefault_bool
+System_Nullable_1_bool_GetValueOrDefault_bool:
+.loc 6 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
+ldr x16, [x16, #1104]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39400720
+.word 0x35000060
+.word 0x394063a0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0x39400320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_6d:
+.text
+ut_110:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -6061,7 +6161,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1112]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6115,9 +6215,9 @@ ldr x0, [x16, #392]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6e:
 .text
-ut_109:
+ut_111:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -6131,7 +6231,7 @@ System_Nullable_1_bool_Box_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6181,7 +6281,7 @@ ldr x16, [x16, #1104]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x0, [x16, #1072]
+ldr x0, [x16, #1080]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_19
@@ -6195,9 +6295,9 @@ bl _p_19
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6f:
 .text
-ut_110:
+ut_112:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -6212,7 +6312,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1128]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6272,7 +6372,7 @@ ldr x16, [x16, #1112]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x1, [x16, #1048]
+ldr x1, [x16, #1056]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004a1
@@ -6286,7 +6386,7 @@ ldr x1, [x16, #1048]
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x15, [x16, #1056]
+ldr x15, [x16, #1064]
 bl _p_47
 .word 0x910143a0
 .word 0x910103a0
@@ -6313,11 +6413,11 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_34
 
-Lme_6e:
+Lme_70:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
@@ -6332,7 +6432,7 @@ wrapper_delegate_invoke_System_Func_1_object_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1136]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6447,11 +6547,11 @@ bl _p_2
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_34
 
-Lme_6f:
+Lme_71:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
@@ -6468,7 +6568,7 @@ wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1144]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -6581,7 +6681,7 @@ bl _p_36
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_70:
+Lme_72:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
@@ -6598,7 +6698,7 @@ wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_objec
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1152]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -6632,7 +6732,7 @@ bl _p_2
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x15, [x16, #1056]
+ldr x15, [x16, #1064]
 .word 0x9101e3a1
 .word 0xf9004ba1
 bl _p_42
@@ -6685,7 +6785,7 @@ bl _p_2
 
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x15, [x16, #1056]
+ldr x15, [x16, #1064]
 .word 0x9101c3a1
 .word 0xf9004ba1
 bl _p_42
@@ -6715,7 +6815,7 @@ bl _p_42
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_73:
 .text
 	.align 3
 jit_code_end:
@@ -6823,6 +6923,7 @@ bl System_Nullable_1_int_Equals_object
 bl System_Nullable_1_int_Equals_System_Nullable_1_int
 bl System_Nullable_1_int_GetHashCode
 bl System_Nullable_1_int_GetValueOrDefault
+bl System_Nullable_1_int_GetValueOrDefault_int
 bl System_Nullable_1_int_ToString
 bl System_Nullable_1_int_Box_System_Nullable_1_int
 bl System_Nullable_1_int_Unbox_object
@@ -6833,6 +6934,7 @@ bl System_Nullable_1_bool_Equals_object
 bl System_Nullable_1_bool_Equals_System_Nullable_1_bool
 bl System_Nullable_1_bool_GetHashCode
 bl System_Nullable_1_bool_GetValueOrDefault
+bl System_Nullable_1_bool_GetValueOrDefault_bool
 bl System_Nullable_1_bool_ToString
 bl System_Nullable_1_bool_Box_System_Nullable_1_bool
 bl System_Nullable_1_bool_Unbox_object
@@ -6847,7 +6949,7 @@ unbox_trampolines:
 
 	.long 91,92,93,94,95,96,97,98
 	.long 99,100,101,102,103,104,105,106
-	.long 107,108,109,110
+	.long 107,108,109,110,111,112
 unbox_trampolines_end:
 
 	.long 0
@@ -6874,6 +6976,8 @@ bl ut_107
 bl ut_108
 bl ut_109
 bl ut_110
+bl ut_111
+bl ut_112
 
 	.long 0
 .section __TEXT, __const
@@ -6903,389 +7007,389 @@ plt__jit_icall_mono_helper_ldstr:
 _p_1:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1168]
 br x16
-.word 1252
+.word 1298
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_2:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1176]
 br x16
-.word 1272
+.word 1318
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory:
 _p_3:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1184]
 br x16
-.word 1300
+.word 1346
 	.no_dead_strip plt_System_IO_Path_IsPathRooted_string
 plt_System_IO_Path_IsPathRooted_string:
 _p_4:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1192]
 br x16
-.word 1305
+.word 1351
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name:
 _p_5:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1200]
 br x16
-.word 1308
+.word 1354
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_6:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 br x16
-.word 1313
+.word 1359
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_7:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1216]
 br x16
-.word 1316
+.word 1362
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_InvariantCulture
 plt_System_Globalization_CultureInfo_get_InvariantCulture:
 _p_8:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1224]
 br x16
-.word 1319
+.word 1365
 	.no_dead_strip plt_System_DateTime_ToString_string_System_IFormatProvider
 plt_System_DateTime_ToString_string_System_IFormatProvider:
 _p_9:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 br x16
-.word 1322
+.word 1368
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_10:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1240]
 br x16
-.word 1325
+.word 1371
 	.no_dead_strip plt_System_IO_Path_GetExtension_string
 plt_System_IO_Path_GetExtension_string:
 _p_11:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1248]
 br x16
-.word 1328
+.word 1374
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_12:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1256]
 br x16
-.word 1331
+.word 1377
 	.no_dead_strip plt_System_IO_Path_GetFileNameWithoutExtension_string
 plt_System_IO_Path_GetFileNameWithoutExtension_string:
 _p_13:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1264]
 br x16
-.word 1334
+.word 1380
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_14:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 br x16
-.word 1337
+.word 1383
 	.no_dead_strip plt_System_IO_Path_Combine_string__
 plt_System_IO_Path_Combine_string__:
 _p_15:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1280]
 br x16
-.word 1345
+.word 1391
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_16:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1288]
 br x16
-.word 1348
+.word 1394
 	.no_dead_strip plt_Plugin_Media_Abstractions_MediaExtensions_GetFilePath_Plugin_Media_Abstractions_StoreMediaOptions_string
 plt_Plugin_Media_Abstractions_MediaExtensions_GetFilePath_Plugin_Media_Abstractions_StoreMediaOptions_string:
 _p_17:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1296]
 br x16
-.word 1351
+.word 1397
 	.no_dead_strip plt_System_IO_Path_GetDirectoryName_string
 plt_System_IO_Path_GetDirectoryName_string:
 _p_18:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1304]
 br x16
-.word 1356
+.word 1402
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_19:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1312]
 br x16
-.word 1359
+.word 1405
 	.no_dead_strip plt_string_Concat_object__
 plt_string_Concat_object__:
 _p_20:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 br x16
-.word 1367
+.word 1413
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_21:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1328]
 br x16
-.word 1370
+.word 1416
 	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile_Dispose_bool
 plt_Plugin_Media_Abstractions_MediaFile_Dispose_bool:
 _p_22:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1336]
 br x16
-.word 1377
+.word 1423
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_23:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 br x16
-.word 1382
+.word 1428
 	.no_dead_strip plt_object_Finalize
 plt_object_Finalize:
 _p_24:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1352]
 br x16
-.word 1385
+.word 1431
 	.no_dead_strip plt_System_Exception__ctor_string
 plt_System_Exception__ctor_string:
 _p_25:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1360]
 br x16
-.word 1388
+.word 1434
 	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFileNotFoundException_set_Path_string
 plt_Plugin_Media_Abstractions_MediaFileNotFoundException_set_Path_string:
 _p_26:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1368]
 br x16
-.word 1391
+.word 1437
 	.no_dead_strip plt_System_Exception__ctor_string_System_Exception
 plt_System_Exception__ctor_string_System_Exception:
 _p_27:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1376]
 br x16
-.word 1396
+.word 1442
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions__ctor
 plt_Plugin_Media_Abstractions_StoreMediaOptions__ctor:
 _p_28:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 br x16
-.word 1399
+.word 1445
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor:
 _p_29:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1392]
 br x16
-.word 1404
+.word 1450
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_set_Quality_Plugin_Media_Abstractions_VideoQuality
 plt_Plugin_Media_Abstractions_StoreVideoOptions_set_Quality_Plugin_Media_Abstractions_VideoQuality:
 _p_30:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1400]
 br x16
-.word 1409
+.word 1455
 	.no_dead_strip plt_System_TimeSpan_FromMinutes_double
 plt_System_TimeSpan_FromMinutes_double:
 _p_31:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1408]
 br x16
-.word 1414
+.word 1460
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_set_DesiredLength_System_TimeSpan
 plt_Plugin_Media_Abstractions_StoreVideoOptions_set_DesiredLength_System_TimeSpan:
 _p_32:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1416]
 br x16
-.word 1417
+.word 1463
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_33:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1424]
 br x16
-.word 1422
+.word 1468
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_34:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1432]
 br x16
-.word 1460
+.word 1506
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_35:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1440]
 br x16
-.word 1495
+.word 1541
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_36:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1448]
 br x16
-.word 1524
+.word 1570
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_37:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1456]
 br x16
-.word 1543
+.word 1589
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_38:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1464]
 br x16
-.word 1562
+.word 1608
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_39:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1472]
 br x16
-.word 1565
+.word 1611
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_40:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1480]
 br x16
-.word 1568
+.word 1614
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_41:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1488]
 br x16
-.word 1571
+.word 1617
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_42:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1496]
 br x16
-.word 1590
+.word 1636
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_43:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1504]
 br x16
-.word 1609
+.word 1655
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_44:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1512]
 br x16
-.word 1628
+.word 1674
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_45:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1520]
 br x16
-.word 1631
+.word 1677
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_46:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1528]
 br x16
-.word 1634
+.word 1680
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_47:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1536]
 br x16
-.word 1637
+.word 1683
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_48:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1544]
 br x16
-.word 1656
+.word 1702
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Plugin_Media_Abstractions_got, 1536
+.lcomm mono_aot_Plugin_Media_Abstractions_got, 1552
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -7393,13 +7497,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 143,1536,49,114,70,391195135,0,9534
-	.long 128,8,8,10,0,26,11216,1672
-	.long 1488,960,0,1264,1448,1056,0,720
-	.long 168,0,0,0,0,0,0,0
+	.long 145,1552,49,116,70,391195135,0,9688
+	.long 128,8,8,10,0,26,11752,2056
+	.long 1872,1344,0,1648,1832,1440,0,1088
+	.long 176,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 143,217,83,246,31,210,134,116,233,172,217,129,132,183,68,235
+	.byte 176,191,230,28,54,147,10,196,154,110,236,131,108,196,37,103
 	.globl _mono_aot_module_Plugin_Media_Abstractions_info
 	.align 3
 _mono_aot_module_Plugin_Media_Abstractions_info:
@@ -13573,11 +13677,11 @@ Lfde82_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<int>:ToString"
-	.asciz "System_Nullable_1_int_ToString"
+	.asciz "System.Nullable`1<int>:GetValueOrDefault"
+	.asciz "System_Nullable_1_int_GetValueOrDefault_int"
 
-	.byte 6,152,1
-	.quad System_Nullable_1_int_ToString
+	.byte 6,147,1
+	.quad System_Nullable_1_int_GetValueOrDefault_int
 	.quad Lme_62
 
 	.byte 2,118,16,3
@@ -13585,24 +13689,63 @@ Lfde82_end:
 
 LDIFF_SYM860=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM860
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM861=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM861
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM862=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM862
+Lfde83_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_int_GetValueOrDefault_int
+
+LDIFF_SYM863=Lme_62 - System_Nullable_1_int_GetValueOrDefault_int
+	.long LDIFF_SYM863
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde83_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<int>:ToString"
+	.asciz "System_Nullable_1_int_ToString"
+
+	.byte 6,152,1
+	.quad System_Nullable_1_int_ToString
+	.quad Lme_63
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM864=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM861=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM861
-Lfde83_start:
+LDIFF_SYM865=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM865
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_ToString
 
-LDIFF_SYM862=Lme_62 - System_Nullable_1_int_ToString
-	.long LDIFF_SYM862
+LDIFF_SYM866=Lme_63 - System_Nullable_1_int_ToString
+	.long LDIFF_SYM866
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde83_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13612,53 +13755,14 @@ Lfde83_end:
 
 	.byte 6,177,1
 	.quad System_Nullable_1_int_Box_System_Nullable_1_int
-	.quad Lme_63
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM863
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM864=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM864
-Lfde84_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_int_Box_System_Nullable_1_int
-
-LDIFF_SYM865=Lme_63 - System_Nullable_1_int_Box_System_Nullable_1_int
-	.long LDIFF_SYM865
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde84_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<int>:Unbox"
-	.asciz "System_Nullable_1_int_Unbox_object"
-
-	.byte 6,185,1
-	.quad System_Nullable_1_int_Unbox_object
 	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM866=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM866
-	.byte 1,106,11
-	.asciz "V_0"
-
 LDIFF_SYM867=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM867
-	.byte 3,141,216,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13668,14 +13772,53 @@ Lfde85_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_int_Box_System_Nullable_1_int
+
+LDIFF_SYM869=Lme_64 - System_Nullable_1_int_Box_System_Nullable_1_int
+	.long LDIFF_SYM869
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde85_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<int>:Unbox"
+	.asciz "System_Nullable_1_int_Unbox_object"
+
+	.byte 6,185,1
+	.quad System_Nullable_1_int_Unbox_object
+	.quad Lme_65
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM870=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM870
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM871=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM871
+	.byte 3,141,216,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM872=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM872
+Lfde86_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_int_Unbox_object
 
-LDIFF_SYM869=Lme_64 - System_Nullable_1_int_Unbox_object
-	.long LDIFF_SYM869
+LDIFF_SYM873=Lme_65 - System_Nullable_1_int_Unbox_object
+	.long LDIFF_SYM873
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde85_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_85:
@@ -13684,69 +13827,69 @@ LTDIE_85:
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM870=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM874=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM871=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM875=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM872=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM876=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM876
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM873=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM873
+LDIFF_SYM877=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM877
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM874=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM878=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM878
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM875=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM879=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM879
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 6,94
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_65
+	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM876=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM880=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM877=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM881=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM878=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM878
-Lfde86_start:
+LDIFF_SYM882=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM882
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM879=Lme_65 - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM879
+LDIFF_SYM883=Lme_66 - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM883
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde86_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13756,31 +13899,31 @@ Lfde86_end:
 
 	.byte 6,99
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_66
+	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM880=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM884=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM881=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM881
-Lfde87_start:
+LDIFF_SYM885=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM885
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM882=Lme_66 - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM882
+LDIFF_SYM886=Lme_67 - System_Nullable_1_bool_get_HasValue
+	.long LDIFF_SYM886
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde87_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13790,51 +13933,12 @@ Lfde87_end:
 
 	.byte 6,104
 	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_67
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM883=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM883
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM884=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM884
-Lfde88_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_get_Value
-
-LDIFF_SYM885=Lme_67 - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM885
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde88_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:Equals"
-	.asciz "System_Nullable_1_bool_Equals_object"
-
-	.byte 6,113
-	.quad System_Nullable_1_bool_Equals_object
 	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM886=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM886
-	.byte 1,105,3
-	.asciz "other"
-
-LDIFF_SYM887=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM887=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM887
 	.byte 1,106,0
 
@@ -13846,12 +13950,12 @@ Lfde89_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_Equals_object
+	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM889=Lme_68 - System_Nullable_1_bool_Equals_object
+LDIFF_SYM889=Lme_68 - System_Nullable_1_bool_get_Value
 	.long LDIFF_SYM889
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde89_end:
 
@@ -13859,10 +13963,10 @@ Lfde89_end:
 
 	.byte 2
 	.asciz "System.Nullable`1<bool>:Equals"
-	.asciz "System_Nullable_1_bool_Equals_System_Nullable_1_bool"
+	.asciz "System_Nullable_1_bool_Equals_object"
 
-	.byte 6,123
-	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.byte 6,113
+	.quad System_Nullable_1_bool_Equals_object
 	.quad Lme_69
 
 	.byte 2,118,16,3
@@ -13870,12 +13974,12 @@ Lfde89_end:
 
 LDIFF_SYM890=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM890
-	.byte 1,106,3
+	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM891=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM891=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM891
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13885,14 +13989,53 @@ Lfde90_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_bool_Equals_object
+
+LDIFF_SYM893=Lme_69 - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM893
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde90_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Equals"
+	.asciz "System_Nullable_1_bool_Equals_System_Nullable_1_bool"
+
+	.byte 6,123
+	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.quad Lme_6a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM894=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM894
+	.byte 1,106,3
+	.asciz "other"
+
+LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM895
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM896=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM896
+Lfde91_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
 
-LDIFF_SYM893=Lme_69 - System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.long LDIFF_SYM893
+LDIFF_SYM897=Lme_6a - System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.long LDIFF_SYM897
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde90_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13902,31 +14045,31 @@ Lfde90_end:
 
 	.byte 6,134,1
 	.quad System_Nullable_1_bool_GetHashCode
-	.quad Lme_6a
+	.quad Lme_6b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM894=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM898=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM895=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM895
-Lfde91_start:
+LDIFF_SYM899=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM899
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetHashCode
 
-LDIFF_SYM896=Lme_6a - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM896
+LDIFF_SYM900=Lme_6b - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM900
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde91_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13936,31 +14079,70 @@ Lfde91_end:
 
 	.byte 6,142,1
 	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_6b
+	.quad Lme_6c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM897=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM901=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM898=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM898
-Lfde92_start:
+LDIFF_SYM902=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM902
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM899=Lme_6b - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM899
+LDIFF_SYM903=Lme_6c - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM903
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde92_end:
+Lfde93_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
+	.asciz "System_Nullable_1_bool_GetValueOrDefault_bool"
+
+	.byte 6,147,1
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+	.quad Lme_6d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM904=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM904
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM905=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM905
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM906=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM906
+Lfde94_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+
+LDIFF_SYM907=Lme_6d - System_Nullable_1_bool_GetValueOrDefault_bool
+	.long LDIFF_SYM907
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13970,31 +14152,31 @@ Lfde92_end:
 
 	.byte 6,152,1
 	.quad System_Nullable_1_bool_ToString
-	.quad Lme_6c
+	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM900=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM908=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM901=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM901
-Lfde93_start:
+LDIFF_SYM909=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM909
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM902=Lme_6c - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM902
+LDIFF_SYM910=Lme_6e - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM910
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde93_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14004,31 +14186,31 @@ Lfde93_end:
 
 	.byte 6,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_6d
+	.quad Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM903=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM911
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM904=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM904
-Lfde94_start:
+LDIFF_SYM912=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM912
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
 
-LDIFF_SYM905=Lme_6d - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM905
+LDIFF_SYM913=Lme_6f - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM913
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde94_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14038,36 +14220,36 @@ Lfde94_end:
 
 	.byte 6,185,1
 	.quad System_Nullable_1_bool_Unbox_object
-	.quad Lme_6e
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM906=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM914=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM907=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM907
+LDIFF_SYM915=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM908=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM908
-Lfde95_start:
+LDIFF_SYM916=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM916
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM909=Lme_6e - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM909
+LDIFF_SYM917=Lme_70 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM917
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde95_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14077,62 +14259,62 @@ Lfde95_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
-	.quad Lme_6f
+	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM910=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM918=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM913=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM921=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM921
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM914=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM922=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM922
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM915=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM923=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM916=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM924=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM917=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM917
-Lfde96_start:
+LDIFF_SYM925=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM925
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
 
-LDIFF_SYM918=Lme_6f - wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
-	.long LDIFF_SYM918
+LDIFF_SYM926=Lme_71 - wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
+	.long LDIFF_SYM926
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde96_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14142,66 +14324,7 @@ Lfde96_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
-	.quad Lme_70
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM919=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM919
-	.byte 1,104,3
-	.asciz "params"
-
-LDIFF_SYM920=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM920
-	.byte 1,105,3
-	.asciz "exc"
-
-LDIFF_SYM921=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM921
-	.byte 3,141,192,0,3
-	.asciz "method"
-
-LDIFF_SYM922=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM922
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM923=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM923
-	.byte 3,141,128,1,11
-	.asciz "V_1"
-
-LDIFF_SYM924=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM924
-	.byte 3,141,136,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM925=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM925
-Lfde97_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
-
-LDIFF_SYM926=Lme_70 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
-	.long LDIFF_SYM926
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
-	.align 3
-Lfde97_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<bool>"
-	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.quad Lme_71
+	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -14237,20 +14360,79 @@ LDIFF_SYM932=LDIE_OBJECT - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM933=Lfde98_end - Lfde98_start
+LDIFF_SYM933=Lfde99_end - Lfde99_start
 	.long LDIFF_SYM933
-Lfde98_start:
+Lfde99_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
+
+LDIFF_SYM934=Lme_72 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
+	.long LDIFF_SYM934
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
+	.align 3
+Lfde99_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<bool>"
+	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr"
+
+	.byte 0,0
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.quad Lme_73
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM935=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM935
+	.byte 1,104,3
+	.asciz "params"
+
+LDIFF_SYM936=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM936
+	.byte 1,105,3
+	.asciz "exc"
+
+LDIFF_SYM937=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM937
+	.byte 3,141,192,0,3
+	.asciz "method"
+
+LDIFF_SYM938=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM938
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM939=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM939
+	.byte 3,141,128,1,11
+	.asciz "V_1"
+
+LDIFF_SYM940=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM940
+	.byte 3,141,136,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM941=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM941
+Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
 
-LDIFF_SYM934=Lme_71 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.long LDIFF_SYM934
+LDIFF_SYM942=Lme_73 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.long LDIFF_SYM942
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
 	.align 3
-Lfde98_end:
+Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 

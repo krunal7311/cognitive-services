@@ -541,7 +541,7 @@ ldr x0, [x16, #216]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
 
@@ -871,7 +871,7 @@ bl _p_16
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #400]
-.word 0x928005f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -906,7 +906,7 @@ ldr x15, [x16, #400]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #408]
-.word 0x928000f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1389,9 +1389,9 @@ bl _p_18
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1582,9 +1582,9 @@ bl _p_26
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1607,9 +1607,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1719,9 +1719,9 @@ bl _p_30
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1819,9 +1819,9 @@ bl _p_31
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1844,9 +1844,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1956,9 +1956,9 @@ ldr x0, [x16, #0]
 .word 0xd2803c81
 bl _p_32
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -2021,9 +2021,9 @@ ldr x0, [x16, #0]
 bl _p_32
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_3
@@ -2133,9 +2133,9 @@ ldr x0, [x16, #0]
 .word 0xd2804901
 bl _p_32
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -2696,7 +2696,7 @@ bl _p_48
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -2782,9 +2782,9 @@ ldr x0, [x16, #0]
 .word 0xd28054c1
 bl _p_32
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3049,9 +3049,9 @@ ldr x0, [x16, #0]
 .word 0xd2805d01
 bl _p_32
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3181,9 +3181,9 @@ ldr x0, [x16, #0]
 .word 0xd28066c1
 bl _p_32
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3484,10 +3484,10 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_9
 
@@ -3565,9 +3565,9 @@ ldr x16, [x16, #792]
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -3798,9 +3798,9 @@ ldr x0, [x16, #0]
 .word 0xd2807801
 bl _p_32
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802540
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3941,9 +3941,9 @@ ldr x0, [x16, #0]
 .word 0xd280a1a1
 bl _p_32
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802540
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -4064,7 +4064,7 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_9
 
@@ -4235,9 +4235,9 @@ bl _p_72
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -4327,7 +4327,7 @@ bl _p_63
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -4558,7 +4558,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
 
@@ -5105,7 +5105,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
 
@@ -5922,7 +5922,7 @@ bl _p_99
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_9
 
@@ -6664,10 +6664,10 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -7875,7 +7875,7 @@ bl _p_130
 .word 0xaa1603e0
 .word 0xaa1803e2
 .word 0xf94002c3
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9494231
@@ -8113,7 +8113,7 @@ bl _p_140
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8125,7 +8125,7 @@ bl _p_140
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9436631
@@ -8177,7 +8177,7 @@ bl _p_142
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8189,7 +8189,7 @@ bl _p_142
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9446631
@@ -8241,7 +8241,7 @@ bl _p_143
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8253,7 +8253,7 @@ bl _p_143
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9456631
@@ -8291,7 +8291,7 @@ bl _p_144
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf9009ba0
 .word 0xf94037b1
@@ -8374,7 +8374,7 @@ bl _p_147
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf9008ba0
 .word 0xf94037b1
@@ -8457,7 +8457,7 @@ bl _p_130
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf9007ba0
 .word 0xf94037b1
@@ -8540,7 +8540,7 @@ bl _p_152
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94037b1
@@ -8623,7 +8623,7 @@ bl _p_155
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf94037b1
@@ -10013,9 +10013,9 @@ ldr x0, [x16, #1472]
 .word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10669,9 +10669,9 @@ ldr x16, [x16, #1544]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10712,9 +10712,9 @@ ldr x16, [x16, #1552]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10757,9 +10757,9 @@ ldr x16, [x16, #1560]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -12386,7 +12386,7 @@ ldr x0, [x16, #1728]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
 
@@ -13058,7 +13058,7 @@ bl _p_215
 .word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xaa0003f4
 .word 0xf9402fb1
@@ -13580,9 +13580,9 @@ bl _p_7
 .word 0xf94a1231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -13788,10 +13788,10 @@ bl _p_223
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -14081,7 +14081,7 @@ bl _p_227
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xaa0003f8
 .word 0xf9402fb1
@@ -14124,7 +14124,7 @@ bl _p_228
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900dfa0
 .word 0xf9402fb1
@@ -14813,7 +14813,7 @@ bl _p_242
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf9402fb1
@@ -14935,7 +14935,7 @@ bl _p_147
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900d3a0
 .word 0xf9402fb1
@@ -14984,7 +14984,7 @@ bl _p_140
 .word 0xf94147a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf90137a0
 .word 0xf9402fb1
@@ -15025,7 +15025,7 @@ bl _p_147
 .word 0xf94087a2
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9508a31
@@ -15113,7 +15113,7 @@ bl _p_246
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900afa0
 .word 0xf9402fb1
@@ -15346,7 +15346,7 @@ bl _p_246
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf900b7a0
 .word 0xf9402fb1
@@ -15863,10 +15863,10 @@ bl _p_259
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -16138,7 +16138,7 @@ bl _p_262
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf90067a0
 .word 0xf9402fb1
@@ -16343,7 +16343,7 @@ bl _p_246
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9418c50
+.word 0xf9419c50
 .word 0xd63f0200
 .word 0xf90077a0
 .word 0xf9402fb1
@@ -16872,10 +16872,10 @@ bl _p_259
 .word 0x910003bf
 .word 0xa8d87bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
@@ -17161,7 +17161,7 @@ bl _p_67
 .word 0xf940e3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf942be31
@@ -17274,7 +17274,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9447e31
@@ -17384,7 +17384,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9463231
@@ -17494,7 +17494,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf947e631
@@ -17604,7 +17604,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9499a31
@@ -17713,7 +17713,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9418870
+.word 0xf9419870
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf94b4a31
@@ -17900,7 +17900,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
@@ -18130,13 +18130,13 @@ ldr x16, [x16, #2216]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
+.word 0xd294ea40
+.word 0xd294ea40
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -18499,6 +18499,56 @@ Lme_6b:
 .text
 ut_108:
 add x0, x0, 16
+b System_Nullable_1_bool_GetValueOrDefault_bool
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_bool_GetValueOrDefault_bool
+System_Nullable_1_bool_GetValueOrDefault_bool:
+.loc 3 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2272]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39400720
+.word 0x35000060
+.word 0x394063a0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0x39400320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_6c:
+.text
+ut_109:
+add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
 	.align 4
@@ -18512,7 +18562,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2280]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18566,9 +18616,9 @@ ldr x0, [x16, #1368]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6d:
 .text
-ut_109:
+ut_110:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -18582,7 +18632,7 @@ System_Nullable_1_bool_Box_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18646,9 +18696,9 @@ bl _p_4
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6e:
 .text
-ut_110:
+ut_111:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -18663,7 +18713,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2296]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18764,11 +18814,11 @@ bl _p_287
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
-Lme_6e:
+Lme_6f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
@@ -18783,7 +18833,7 @@ wrapper_delegate_invoke_System_Func_1_object_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2304]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -18898,11 +18948,11 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_6f:
+Lme_70:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow
@@ -18918,7 +18968,7 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResul
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2312]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19038,11 +19088,11 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_74:
+Lme_75:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
@@ -19058,7 +19108,7 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2320]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19181,148 +19231,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_79:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2320]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_3
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
@@ -19456,149 +19365,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_7b:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2336]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_7c:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -19610,7 +19385,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstracti
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2336]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19731,15 +19506,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_7d:
+Lme_7c:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -19751,7 +19526,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2344]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19865,11 +19640,286 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_7d:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2352]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_7e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2360]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_7f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -19886,7 +19936,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2368]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20012,148 +20062,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_7f:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2368]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_3
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
@@ -20287,149 +20196,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_81:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2384]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_82:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20441,7 +20216,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2384]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20562,15 +20337,149 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_82:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2392]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_83:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20703,15 +20612,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_84:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20844,15 +20753,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_85:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20985,1730 +20894,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_86:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2424]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_87:
-.text
-ut_136:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
-System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
-.loc 3 94 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xaa0003f9
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2432]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800020
-.word 0xd280003e
-.word 0x3900233e
-.loc 3 95 0
-.word 0xf94013b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400fa0
-.word 0xf9000320
-.loc 3 96 0
-.word 0xf94013b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_88:
-.text
-ut_137:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
-System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
-.loc 3 99 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2440]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x39402000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_89:
-.text
-ut_138:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
-.loc 3 104 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2448]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39402340
-.word 0x350001e0
-.loc 3 105 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
-bl _p_281
-.word 0xaa0003e1
-.word 0xd2801c00
-.word 0xf2a04000
-.word 0xd2801c00
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 3 107 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xf9400fb1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_8a:
-.text
-ut_139:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
-System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object:
-.loc 3 113 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90163b7
-.word 0xa9026bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2456]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf9401bb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb500017a
-.loc 3 114 0
-.word 0xf9401bb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x39402320
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0x1400003b
-.loc 3 115 0
-.word 0xf9401bb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03f8
-.word 0xaa1a03f7
-.word 0xeb1f035f
-.word 0x54000160
-.word 0xf9400300
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2464]
-.word 0xeb01001f
-.word 0x54000040
-.word 0xd2800017
-.word 0xaa1703e0
-.word 0xb5000117
-.loc 3 116 0
-.word 0xf9401bb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000020
-.loc 3 118 0
-.word 0xf9401bb1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-.word 0x910123a0
-.word 0xf9002fa0
-.word 0xaa1a03e0
-bl _p_288
-.word 0xf9402fbe
-.word 0xf90003c0
-.word 0xf90007c1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-.word 0xaa1903e0
-.word 0x910123a1
-.word 0xf94027a1
-.word 0xf9402ba2
-bl _p_289
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9417231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xf9401bb1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94163b7
-.word 0xa9426bb9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_8b:
-.text
-ut_140:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
-System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
-.loc 3 123 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2472]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910063a0
-.word 0x910103a0
-.word 0xf9400fa0
-.word 0xf90023a0
-.word 0xf94013a0
-.word 0xf90027a0
-.word 0x910103a0
-.word 0x394123a0
-.word 0xaa1a03e1
-.word 0x39402341
-.word 0x6b01001f
-.word 0x54000100
-.loc 3 124 0
-.word 0xf94017b1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x1400003a
-.loc 3 126 0
-.word 0xf94017b1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39402340
-.word 0x35000100
-.loc 3 127 0
-.word 0xf94017b1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800020
-.word 0xd2800020
-.word 0x1400002c
-.loc 3 129 0
-.word 0xf94017b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910063a0
-.word 0xf90037a0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xf9003ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2480]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_4
-.word 0xaa0003e1
-.word 0xf94037a0
-.word 0xf9403ba2
-.word 0xf9000822
-.word 0xf90033a1
-.word 0xf9400000
-.word 0xf9002fa0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2480]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_4
-.word 0xaa0003e2
-.word 0xf9402fa0
-.word 0xf94033a1
-.word 0xf9000840
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf9402c50
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf94017b1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_8c:
-.text
-ut_141:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
-System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode:
-.loc 3 134 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2488]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39402340
-.word 0x35000100
-.loc 3 135 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000010
-.loc 3 137 0
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_290
-.word 0x93407c00
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_8d:
-.text
-ut_142:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
-System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
-.loc 3 142 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2496]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_8e:
-.text
-ut_143:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_ToString
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_ToString
-System_Nullable_1_UIKit_UIDeviceOrientation_ToString:
-.loc 3 152 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2504]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39402340
-.word 0x340003a0
-.loc 3 153 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0xf9001fa0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2480]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_4
-.word 0xaa0003e1
-.word 0xf9401fa0
-.word 0xf9000820
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9402030
-.word 0xd63f0200
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x14000009
-.loc 3 155 0
-.word 0xf9400fb1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
-.word 0xf9400000
-.word 0xf9400fb1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_8f:
-.text
-ut_144:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
-System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation:
-.loc 3 177 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2512]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910043a0
-.word 0x910123a0
-.word 0xf9400ba0
-.word 0xf90027a0
-.word 0xf9400fa0
-.word 0xf9002ba0
-.word 0x910123a0
-.word 0x394143a0
-.word 0x35000100
-.loc 3 178 0
-.word 0xf94013b1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000016
-.loc 3 180 0
-.word 0xf94013b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910043a0
-.word 0x9100e3a0
-.word 0xf9400ba0
-.word 0xf9001fa0
-.word 0xf9400fa0
-.word 0xf90023a0
-.word 0x9100e3a0
-.word 0xf9401fa0
-.word 0xf90033a0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2480]
-.word 0xd2800301
-.word 0xd2800301
-bl _p_4
-.word 0xf94033a1
-.word 0xf9000801
-.word 0xf94013b1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_90:
-.text
-ut_145:
-add x0, x0, 16
-b System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
-System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
-.loc 3 185 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2520]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0x9101c3a0
-.word 0xd2800000
-.word 0xf9003ba0
-.word 0xf9003fa0
-.word 0xf94017b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb50002da
-.loc 3 186 0
-.word 0xf94017b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9101c3a0
-.word 0xd2800000
-.word 0xf9003ba0
-.word 0xf9003fa0
-.word 0x9101c3a0
-.word 0x910143a0
-.word 0xf9403ba0
-.word 0xf9002ba0
-.word 0xf9403fa0
-.word 0xf9002fa0
-.word 0x910143a0
-.word 0x910063a0
-.word 0xf9402ba0
-.word 0xf9000fa0
-.word 0xf9402fa0
-.word 0xf90013a0
-.word 0x1400002e
-.loc 3 187 0
-.word 0xf94017b1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0x3940b001
-.word 0xeb1f003f
-.word 0x10000011
-.word 0x540005c1
-.word 0xf9400000
-.word 0xf9400000
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2528]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540004c1
-.word 0x91004340
-.word 0xf9400b41
-.word 0x910183a0
-.word 0xd2800000
-.word 0xf90033a0
-.word 0xf90037a0
-.word 0x910183a0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_93
-.word 0x910183a0
-.word 0x910103a0
-.word 0xf94033a0
-.word 0xf90023a0
-.word 0xf94037a0
-.word 0xf90027a0
-.word 0xf94017b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x910063a0
-.word 0xf94023a0
-.word 0xf9000fa0
-.word 0xf94027a0
-.word 0xf90013a0
-.word 0xf94017b1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801be0
-.word 0xaa1103e1
-bl _p_9
-
-Lme_91:
-.text
-ut_146:
-add x0, x0, 16
-b System_Nullable_1_int__ctor_int
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int__ctor_int
-System_Nullable_1_int__ctor_int:
-.loc 3 94 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xaa0003f9
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2536]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800020
-.word 0xd280003e
-.word 0x3900133e
-.loc 3 95 0
-.word 0xf94013b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb9801ba0
-.word 0xb9000320
-.loc 3 96 0
-.word 0xf94013b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_92:
-.text
-ut_147:
-add x0, x0, 16
-b System_Nullable_1_int_get_HasValue
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_get_HasValue
-System_Nullable_1_int_get_HasValue:
-.loc 3 99 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2544]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x39401000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_93:
-.text
-ut_148:
-add x0, x0, 16
-b System_Nullable_1_int_get_Value
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_get_Value
-System_Nullable_1_int_get_Value:
-.loc 3 104 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2552]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39401340
-.word 0x350001e0
-.loc 3 105 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
-bl _p_281
-.word 0xaa0003e1
-.word 0xd2801c00
-.word 0xf2a04000
-.word 0xd2801c00
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 3 107 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb9800340
-.word 0xf9400fb1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_94:
-.text
-ut_149:
-add x0, x0, 16
-b System_Nullable_1_int_Equals_object
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_Equals_object
-System_Nullable_1_int_Equals_object:
-.loc 3 113 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90163b7
-.word 0xa9026bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2560]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf9401bb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb500017a
-.loc 3 114 0
-.word 0xf9401bb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x39401320
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0x14000039
-.loc 3 115 0
-.word 0xf9401bb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03f8
-.word 0xaa1a03f7
-.word 0xeb1f035f
-.word 0x54000160
-.word 0xf9400300
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400800
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2568]
-.word 0xeb01001f
-.word 0x54000040
-.word 0xd2800017
-.word 0xaa1703e0
-.word 0xb5000117
-.loc 3 116 0
-.word 0xf9401bb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x1400001e
-.loc 3 118 0
-.word 0xf9401bb1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-.word 0x910123a0
-.word 0xf9002ba0
-.word 0xaa1a03e0
-bl _p_291
-.word 0xf9402bbe
-.word 0xf90003c0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-.word 0xaa1903e0
-.word 0x910123a1
-.word 0xf94027a1
-bl _p_292
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xf9401bb1
-.word 0xf9417e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94163b7
-.word 0xa9426bb9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_95:
-.text
-ut_150:
-add x0, x0, 16
-b System_Nullable_1_int_Equals_System_Nullable_1_int
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_Equals_System_Nullable_1_int
-System_Nullable_1_int_Equals_System_Nullable_1_int:
-.loc 3 123 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2576]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910063a0
-.word 0x910103a0
-.word 0xf9400fa0
-.word 0xf90023a0
-.word 0x910103a0
-.word 0x394113a0
-.word 0xaa1a03e1
-.word 0x39401341
-.word 0x6b01001f
-.word 0x54000100
-.loc 3 124 0
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x1400002a
-.loc 3 126 0
-.word 0xf94017b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39401340
-.word 0x35000100
-.loc 3 127 0
-.word 0xf94017b1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800020
-.word 0xd2800020
-.word 0x1400001c
-.loc 3 129 0
-.word 0xf94017b1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910063a0
-.word 0xf9002fa0
-.word 0xaa1a03e0
-.word 0xb9800340
-.word 0xf90033a0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1408]
-.word 0xd2800281
-.word 0xd2800281
-bl _p_4
-.word 0xaa0003e1
-.word 0xf9402fa0
-.word 0xf94033a2
-.word 0xb9001022
-bl _p_293
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf94017b1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_96:
-.text
-ut_151:
-add x0, x0, 16
-b System_Nullable_1_int_GetHashCode
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_GetHashCode
-System_Nullable_1_int_GetHashCode:
-.loc 3 134 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2584]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39401340
-.word 0x35000100
-.loc 3 135 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000010
-.loc 3 137 0
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_294
-.word 0x93407c00
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9400fb1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_97:
-.text
-ut_152:
-add x0, x0, 16
-b System_Nullable_1_int_GetValueOrDefault
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_GetValueOrDefault
-System_Nullable_1_int_GetValueOrDefault:
-.loc 3 142 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2592]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9800000
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_98:
-.text
-ut_153:
-add x0, x0, 16
-b System_Nullable_1_int_ToString
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_ToString
-System_Nullable_1_int_ToString:
-.loc 3 152 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2600]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x39401340
-.word 0x34000200
-.loc 3 153 0
-.word 0xf9400fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_295
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-.word 0x14000009
-.loc 3 155 0
-.word 0xf9400fb1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
-.word 0xf9400000
-.word 0xf9400fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_99:
-.text
-ut_154:
-add x0, x0, 16
-b System_Nullable_1_int_Box_System_Nullable_1_int
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_Box_System_Nullable_1_int
-System_Nullable_1_int_Box_System_Nullable_1_int:
-.loc 3 177 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2608]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910043a0
-.word 0x910103a0
-.word 0xf9400ba0
-.word 0xf90023a0
-.word 0x910103a0
-.word 0x394113a0
-.word 0x35000100
-.loc 3 178 0
-.word 0xf94013b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000014
-.loc 3 180 0
-.word 0xf94013b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910043a0
-.word 0x9100e3a0
-.word 0xf9400ba0
-.word 0xf9001fa0
-.word 0x9100e3a0
-.word 0xb9803ba0
-.word 0xf9002ba0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1408]
-.word 0xd2800281
-.word 0xd2800281
-bl _p_4
-.word 0xf9402ba1
-.word 0xb9001001
-.word 0xf94013b1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_9a:
-.text
-ut_155:
-add x0, x0, 16
-b System_Nullable_1_int_Unbox_object
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_int_Unbox_object
-System_Nullable_1_int_Unbox_object:
-.loc 3 185 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2616]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0x910163a0
-.word 0xd2800000
-.word 0xf9002fa0
-.word 0xf94017b1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb500023a
-.loc 3 186 0
-.word 0xf94017b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910163a0
-.word 0xd2800000
-.word 0xf9002fa0
-.word 0x910163a0
-.word 0x910123a0
-.word 0xf9402fa0
-.word 0xf90027a0
-.word 0x910123a0
-.word 0x910063a0
-.word 0xf94027a0
-.word 0xf9000fa0
-.word 0x14000029
-.loc 3 187 0
-.word 0xf94017b1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400340
-.word 0x3940b001
-.word 0xeb1f003f
-.word 0x10000011
-.word 0x54000501
-.word 0xf9400000
-.word 0xf9400000
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2568]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x54000401
-.word 0x91004340
-.word 0xb9801341
-.word 0x910143a0
-.word 0xd2800000
-.word 0xf9002ba0
-.word 0x910143a0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-bl _p_296
-.word 0x910143a0
-.word 0x910103a0
-.word 0xf9402ba0
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x910063a0
-.word 0xf94023a0
-.word 0xf9000fa0
-.word 0xf94017b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-.word 0xd2801be0
-.word 0xaa1103e1
-bl _p_9
-
-Lme_9b:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -22720,7 +20914,7 @@ wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_o
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2424]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -22841,11 +21035,1826 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
+Lme_87:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2432]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_88:
+.text
+ut_137:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
+System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
+.loc 3 94 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2440]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800020
+.word 0xd280003e
+.word 0x3900233e
+.loc 3 95 0
+.word 0xf94013b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400fa0
+.word 0xf9000320
+.loc 3 96 0
+.word 0xf94013b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_89:
+.text
+ut_138:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
+System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
+.loc 3 99 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2448]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x39402000
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8a:
+.text
+ut_139:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
+System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
+.loc 3 104 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2456]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39402340
+.word 0x350001e0
+.loc 3 105 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd294ea40
+.word 0xd294ea40
+bl _p_281
+.word 0xaa0003e1
+.word 0xd2801d60
+.word 0xf2a04000
+.word 0xd2801d60
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_3
+.loc 3 107 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0xf9400fb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8b:
+.text
+ut_140:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object:
+.loc 3 113 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2464]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb500017a
+.loc 3 114 0
+.word 0xf9401bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39402320
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x1400003b
+.loc 3 115 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03f8
+.word 0xaa1a03f7
+.word 0xeb1f035f
+.word 0x54000160
+.word 0xf9400300
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2472]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800017
+.word 0xaa1703e0
+.word 0xb5000117
+.loc 3 116 0
+.word 0xf9401bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000020
+.loc 3 118 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1048]
+.word 0x910123a0
+.word 0xf9002fa0
+.word 0xaa1a03e0
+bl _p_288
+.word 0xf9402fbe
+.word 0xf90003c0
+.word 0xf90007c1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1048]
+.word 0xaa1903e0
+.word 0x910123a1
+.word 0xf94027a1
+.word 0xf9402ba2
+bl _p_289
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf9401bb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_8c:
+.text
+ut_141:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
+.loc 3 123 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2480]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910063a0
+.word 0x910103a0
+.word 0xf9400fa0
+.word 0xf90023a0
+.word 0xf94013a0
+.word 0xf90027a0
+.word 0x910103a0
+.word 0x394123a0
+.word 0xaa1a03e1
+.word 0x39402341
+.word 0x6b01001f
+.word 0x54000100
+.loc 3 124 0
+.word 0xf94017b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x1400003a
+.loc 3 126 0
+.word 0xf94017b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39402340
+.word 0x35000100
+.loc 3 127 0
+.word 0xf94017b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800020
+.word 0x1400002c
+.loc 3 129 0
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910063a0
+.word 0xf90037a0
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0xf9003ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2488]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_4
+.word 0xaa0003e1
+.word 0xf94037a0
+.word 0xf9403ba2
+.word 0xf9000822
+.word 0xf90033a1
+.word 0xf9400000
+.word 0xf9002fa0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2488]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_4
+.word 0xaa0003e2
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf9000840
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9402c50
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf94017b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_8d:
+.text
+ut_142:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
+System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode:
+.loc 3 134 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2496]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39402340
+.word 0x35000100
+.loc 3 135 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000010
+.loc 3 137 0
+.word 0xf9400fb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_290
+.word 0x93407c00
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_8e:
+.text
+ut_143:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
+System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
+.loc 3 142 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2504]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400000
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8f:
+.text
+ut_144:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
+System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation:
+.loc 3 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2512]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39402320
+.word 0x35000060
+.word 0xf9400fa0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0xf9400320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_90:
+.text
+ut_145:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_ToString
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_ToString
+System_Nullable_1_UIKit_UIDeviceOrientation_ToString:
+.loc 3 152 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2520]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39402340
+.word 0x340003a0
+.loc 3 153 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0xf9001fa0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2488]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_4
+.word 0xaa0003e1
+.word 0xf9401fa0
+.word 0xf9000820
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9402030
+.word 0xd63f0200
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x14000009
+.loc 3 155 0
+.word 0xf9400fb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_91:
+.text
+ut_146:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
+System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation:
+.loc 3 177 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2528]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910043a0
+.word 0x910123a0
+.word 0xf9400ba0
+.word 0xf90027a0
+.word 0xf9400fa0
+.word 0xf9002ba0
+.word 0x910123a0
+.word 0x394143a0
+.word 0x35000100
+.loc 3 178 0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000016
+.loc 3 180 0
+.word 0xf94013b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910043a0
+.word 0x9100e3a0
+.word 0xf9400ba0
+.word 0xf9001fa0
+.word 0xf9400fa0
+.word 0xf90023a0
+.word 0x9100e3a0
+.word 0xf9401fa0
+.word 0xf90033a0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2488]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_4
+.word 0xf94033a1
+.word 0xf9000801
+.word 0xf94013b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_92:
+.text
+ut_147:
+add x0, x0, 16
+b System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
+System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
+.loc 3 185 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2536]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0x9101c3a0
+.word 0xd2800000
+.word 0xf9003ba0
+.word 0xf9003fa0
+.word 0xf94017b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb50002da
+.loc 3 186 0
+.word 0xf94017b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9101c3a0
+.word 0xd2800000
+.word 0xf9003ba0
+.word 0xf9003fa0
+.word 0x9101c3a0
+.word 0x910143a0
+.word 0xf9403ba0
+.word 0xf9002ba0
+.word 0xf9403fa0
+.word 0xf9002fa0
+.word 0x910143a0
+.word 0x910063a0
+.word 0xf9402ba0
+.word 0xf9000fa0
+.word 0xf9402fa0
+.word 0xf90013a0
+.word 0x1400002e
+.loc 3 187 0
+.word 0xf94017b1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0x3940b001
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x540005c1
+.word 0xf9400000
+.word 0xf9400000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2544]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540004c1
+.word 0x91004340
+.word 0xf9400b41
+.word 0x910183a0
+.word 0xd2800000
+.word 0xf90033a0
+.word 0xf90037a0
+.word 0x910183a0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1048]
+bl _p_93
+.word 0x910183a0
+.word 0x910103a0
+.word 0xf94033a0
+.word 0xf90023a0
+.word 0xf94037a0
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910103a0
+.word 0x910063a0
+.word 0xf94023a0
+.word 0xf9000fa0
+.word 0xf94027a0
+.word 0xf90013a0
+.word 0xf94017b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0xf9400fa0
+.word 0xf94013a1
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801d40
+.word 0xaa1103e1
+bl _p_9
+
+Lme_93:
+.text
+ut_148:
+add x0, x0, 16
+b System_Nullable_1_int__ctor_int
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int__ctor_int
+System_Nullable_1_int__ctor_int:
+.loc 3 94 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2552]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800020
+.word 0xd280003e
+.word 0x3900133e
+.loc 3 95 0
+.word 0xf94013b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xb9801ba0
+.word 0xb9000320
+.loc 3 96 0
+.word 0xf94013b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_94:
+.text
+ut_149:
+add x0, x0, 16
+b System_Nullable_1_int_get_HasValue
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_get_HasValue
+System_Nullable_1_int_get_HasValue:
+.loc 3 99 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2560]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x39401000
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_95:
+.text
+ut_150:
+add x0, x0, 16
+b System_Nullable_1_int_get_Value
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_get_Value
+System_Nullable_1_int_get_Value:
+.loc 3 104 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2568]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39401340
+.word 0x350001e0
+.loc 3 105 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd294ea40
+.word 0xd294ea40
+bl _p_281
+.word 0xaa0003e1
+.word 0xd2801d60
+.word 0xf2a04000
+.word 0xd2801d60
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_3
+.loc 3 107 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb9800340
+.word 0xf9400fb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_96:
+.text
+ut_151:
+add x0, x0, 16
+b System_Nullable_1_int_Equals_object
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_Equals_object
+System_Nullable_1_int_Equals_object:
+.loc 3 113 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2576]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb500017a
+.loc 3 114 0
+.word 0xf9401bb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39401320
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x14000039
+.loc 3 115 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03f8
+.word 0xaa1a03f7
+.word 0xeb1f035f
+.word 0x54000160
+.word 0xf9400300
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2584]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800017
+.word 0xaa1703e0
+.word 0xb5000117
+.loc 3 116 0
+.word 0xf9401bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x1400001e
+.loc 3 118 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1952]
+.word 0x910123a0
+.word 0xf9002ba0
+.word 0xaa1a03e0
+bl _p_291
+.word 0xf9402bbe
+.word 0xf90003c0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1952]
+.word 0xaa1903e0
+.word 0x910123a1
+.word 0xf94027a1
+bl _p_292
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf9401bb1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_97:
+.text
+ut_152:
+add x0, x0, 16
+b System_Nullable_1_int_Equals_System_Nullable_1_int
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_Equals_System_Nullable_1_int
+System_Nullable_1_int_Equals_System_Nullable_1_int:
+.loc 3 123 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2592]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910063a0
+.word 0x910103a0
+.word 0xf9400fa0
+.word 0xf90023a0
+.word 0x910103a0
+.word 0x394113a0
+.word 0xaa1a03e1
+.word 0x39401341
+.word 0x6b01001f
+.word 0x54000100
+.loc 3 124 0
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x1400002a
+.loc 3 126 0
+.word 0xf94017b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39401340
+.word 0x35000100
+.loc 3 127 0
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800020
+.word 0x1400001c
+.loc 3 129 0
+.word 0xf94017b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910063a0
+.word 0xf9002fa0
+.word 0xaa1a03e0
+.word 0xb9800340
+.word 0xf90033a0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1408]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_4
+.word 0xaa0003e1
+.word 0xf9402fa0
+.word 0xf94033a2
+.word 0xb9001022
+bl _p_293
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf94017b1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_98:
+.text
+ut_153:
+add x0, x0, 16
+b System_Nullable_1_int_GetHashCode
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_GetHashCode
+System_Nullable_1_int_GetHashCode:
+.loc 3 134 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2600]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39401340
+.word 0x35000100
+.loc 3 135 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000010
+.loc 3 137 0
+.word 0xf9400fb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_294
+.word 0x93407c00
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400fb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_99:
+.text
+ut_154:
+add x0, x0, 16
+b System_Nullable_1_int_GetValueOrDefault
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_GetValueOrDefault
+System_Nullable_1_int_GetValueOrDefault:
+.loc 3 142 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2608]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_9a:
+.text
+ut_155:
+add x0, x0, 16
+b System_Nullable_1_int_GetValueOrDefault_int
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_GetValueOrDefault_int
+System_Nullable_1_int_GetValueOrDefault_int:
+.loc 3 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2616]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39401320
+.word 0x35000060
+.word 0xb9801ba0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0xb9800320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_9b:
+.text
+ut_156:
+add x0, x0, 16
+b System_Nullable_1_int_ToString
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_ToString
+System_Nullable_1_int_ToString:
+.loc 3 152 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2624]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39401340
+.word 0x34000200
+.loc 3 153 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_295
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0x14000009
+.loc 3 155 0
+.word 0xf9400fb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9400fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
 Lme_9c:
+.text
+ut_157:
+add x0, x0, 16
+b System_Nullable_1_int_Box_System_Nullable_1_int
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_Box_System_Nullable_1_int
+System_Nullable_1_int_Box_System_Nullable_1_int:
+.loc 3 177 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2632]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910043a0
+.word 0x910103a0
+.word 0xf9400ba0
+.word 0xf90023a0
+.word 0x910103a0
+.word 0x394113a0
+.word 0x35000100
+.loc 3 178 0
+.word 0xf94013b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000014
+.loc 3 180 0
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910043a0
+.word 0x9100e3a0
+.word 0xf9400ba0
+.word 0xf9001fa0
+.word 0x9100e3a0
+.word 0xb9803ba0
+.word 0xf9002ba0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1408]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_4
+.word 0xf9402ba1
+.word 0xb9001001
+.word 0xf94013b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_9d:
+.text
+ut_158:
+add x0, x0, 16
+b System_Nullable_1_int_Unbox_object
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_int_Unbox_object
+System_Nullable_1_int_Unbox_object:
+.loc 3 185 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2640]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0x910163a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf94017b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb500023a
+.loc 3 186 0
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0x910163a0
+.word 0x910123a0
+.word 0xf9402fa0
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910063a0
+.word 0xf94027a0
+.word 0xf9000fa0
+.word 0x14000029
+.loc 3 187 0
+.word 0xf94017b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0x3940b001
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000501
+.word 0xf9400000
+.word 0xf9400000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2584]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000401
+.word 0x91004340
+.word 0xb9801341
+.word 0x910143a0
+.word 0xd2800000
+.word 0xf9002ba0
+.word 0x910143a0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1952]
+bl _p_296
+.word 0x910143a0
+.word 0x910103a0
+.word 0xf9402ba0
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910103a0
+.word 0x910063a0
+.word 0xf94023a0
+.word 0xf9000fa0
+.word 0xf94017b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0xf9400fa0
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+.word 0xd2801d40
+.word 0xaa1103e1
+bl _p_9
+
+Lme_9e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
@@ -22860,7 +22869,7 @@ wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -22975,290 +22984,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_9d:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2640]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_9
-
-Lme_9e:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2648]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_3
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_9f:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -23391,11 +23125,427 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
 Lme_a0:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2664]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_a1:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2672]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_a2:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2680]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_a3:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
@@ -23410,7 +23560,7 @@ wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2688]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23525,13 +23675,13 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_a1:
+Lme_a4:
 .text
-ut_162:
+ut_165:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
 .text
@@ -23547,7 +23697,7 @@ System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientatio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23589,9 +23739,9 @@ ldr x16, [x16, #2672]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a5:
 .text
-ut_163:
+ut_166:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue
 .text
@@ -23605,7 +23755,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23631,9 +23781,9 @@ ldr x16, [x16, #2680]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_a6:
 .text
-ut_164:
+ut_167:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_get_Value
 .text
@@ -23648,7 +23798,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2712]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23672,13 +23822,13 @@ ldr x16, [x16, #2688]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2939100
-.word 0xd2939100
+.word 0xd294ea40
+.word 0xd294ea40
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -23698,9 +23848,9 @@ bl _p_3
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a4:
+Lme_a7:
 .text
-ut_165:
+ut_168:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
 .text
@@ -23717,7 +23867,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2720]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -23762,7 +23912,7 @@ ldr x16, [x16, #2696]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2704]
+ldr x1, [x16, #2728]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -23818,9 +23968,9 @@ bl _p_298
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_a5:
+Lme_a8:
 .text
-ut_166:
+ut_169:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
 .text
@@ -23836,7 +23986,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImag
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2736]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -23899,7 +24049,7 @@ ldr x16, [x16, #2712]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2720]
+ldr x0, [x16, #2744]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -23913,7 +24063,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2720]
+ldr x0, [x16, #2744]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -23941,9 +24091,9 @@ bl _p_4
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a9:
 .text
-ut_167:
+ut_170:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
 .text
@@ -23958,7 +24108,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24010,9 +24160,9 @@ bl _p_294
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a7:
+Lme_aa:
 .text
-ut_168:
+ut_171:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
 .text
@@ -24026,7 +24176,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2760]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24052,9 +24202,59 @@ ldr x16, [x16, #2736]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a8:
+Lme_ab:
 .text
-ut_169:
+ut_172:
+add x0, x0, 16
+b System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
+System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation:
+.loc 3 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2768]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x39401320
+.word 0x35000060
+.word 0xb9801ba0
+.word 0x14000003
+.word 0xaa1903e0
+.word 0xb9800320
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_ac:
+.text
+ut_173:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_ToString
 .text
@@ -24069,7 +24269,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24100,7 +24300,7 @@ ldr x16, [x16, #2744]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2720]
+ldr x0, [x16, #2744]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24137,9 +24337,9 @@ ldr x0, [x16, #1368]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a9:
+Lme_ad:
 .text
-ut_170:
+ut_174:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
 .text
@@ -24153,7 +24353,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_C
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24199,7 +24399,7 @@ ldr x16, [x16, #2752]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2720]
+ldr x0, [x16, #2744]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24213,9 +24413,9 @@ bl _p_4
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_aa:
+Lme_ae:
 .text
-ut_171:
+ut_175:
 add x0, x0, 16
 b System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
 .text
@@ -24230,7 +24430,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24284,7 +24484,7 @@ ldr x16, [x16, #2760]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2568]
+ldr x1, [x16, #2584]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -24320,11 +24520,11 @@ bl _p_299
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
-Lme_ab:
+Lme_af:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
@@ -24338,7 +24538,7 @@ System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24387,7 +24587,7 @@ bl _p_302
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_ac:
+Lme_b0:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
@@ -24401,7 +24601,7 @@ System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Col
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24427,7 +24627,7 @@ ldr x16, [x16, #2776]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2784]
+ldr x0, [x16, #2816]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -24451,9 +24651,9 @@ bl _p_303
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_ad:
+Lme_b1:
 .text
-ut_174:
+ut_178:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 .text
@@ -24473,7 +24673,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAR
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2824]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -24570,15 +24770,15 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29d16c0
-.word 0xf2a00020
-.word 0xd29d16c0
-.word 0xf2a00020
+.word 0xd28065c0
+.word 0xf2a00040
+.word 0xd28065c0
+.word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -24623,7 +24823,7 @@ bl _p_309
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2800]
+ldr x0, [x16, #2832]
 .word 0xf90053a0
 .word 0xf9402fa0
 bl _p_307
@@ -24677,9 +24877,9 @@ bl _p_311
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_ae:
+Lme_b2:
 .text
-ut_175:
+ut_179:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 .text
@@ -24695,7 +24895,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24733,15 +24933,15 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29d16c0
-.word 0xf2a00020
-.word 0xd29d16c0
-.word 0xf2a00020
+.word 0xd28065c0
+.word 0xf2a00040
+.word 0xd28065c0
+.word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -24825,9 +25025,9 @@ bl _p_311
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_af:
+Lme_b3:
 .text
-ut_176:
+ut_180:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 .text
@@ -24843,7 +25043,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24881,15 +25081,15 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29d16c0
-.word 0xf2a00020
-.word 0xd29d16c0
-.word 0xf2a00020
+.word 0xd28065c0
+.word 0xf2a00040
+.word 0xd28065c0
+.word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -24973,9 +25173,9 @@ bl _p_311
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_b0:
+Lme_b4:
 .text
-ut_177:
+ut_181:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 .text
@@ -24996,7 +25196,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2856]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -25140,14 +25340,14 @@ bl _p_318
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2864]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf90077a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2872]
 .word 0xf9007ba0
 .word 0xf9403fa0
 bl _p_319
@@ -25269,7 +25469,7 @@ bl _p_322
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2848]
+ldr x0, [x16, #2880]
 .word 0xf90067a0
 .word 0xf9403fa0
 bl _p_323
@@ -25335,9 +25535,9 @@ bl _p_3
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_b1:
+Lme_b5:
 .text
-ut_178:
+ut_182:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 .text
@@ -25356,7 +25556,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2888]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -25474,7 +25674,7 @@ bl _p_82
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2896]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
@@ -25559,9 +25759,9 @@ bl _p_3
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_b2:
+Lme_b6:
 .text
-ut_179:
+ut_183:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 .text
@@ -25580,7 +25780,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2904]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -25698,7 +25898,7 @@ bl _p_82
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2880]
+ldr x0, [x16, #2912]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
@@ -25783,9 +25983,9 @@ bl _p_3
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b7:
 .text
-ut_180:
+ut_184:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -25802,7 +26002,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -25851,7 +26051,7 @@ bl _p_7
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_b4:
+Lme_b8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
@@ -25865,7 +26065,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -25918,7 +26118,7 @@ bl _p_327
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_b5:
+Lme_b9:
 .text
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
@@ -25940,7 +26140,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collec
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2936]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -25974,9 +26174,9 @@ bl _p_328
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2912]
-.word 0xd2802461
-.word 0xd2802461
+ldr x0, [x16, #2944]
+.word 0xd2805ba1
+.word 0xd2805ba1
 bl _p_32
 bl _p_329
 .word 0xf9003ba0
@@ -26001,9 +26201,9 @@ bl _p_3
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2912]
-.word 0xd2802fa1
-.word 0xd2802fa1
+ldr x0, [x16, #2944]
+.word 0xd2806561
+.word 0xd2806561
 bl _p_32
 bl _p_329
 .word 0xf9003ba0
@@ -26063,7 +26263,7 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2920]
+ldr x15, [x16, #2952]
 bl _p_330
 .word 0xf9003ba0
 .word 0xf9402fb1
@@ -26102,7 +26302,7 @@ bl _p_7
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_b6:
+Lme_ba:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -26114,7 +26314,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26146,7 +26346,7 @@ ldr x16, [x16, #2928]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b8:
+Lme_bc:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -26158,7 +26358,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26184,7 +26384,7 @@ ldr x16, [x16, #2936]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b9:
+Lme_bd:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -26196,7 +26396,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26212,13 +26412,13 @@ ldr x16, [x16, #2944]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd298f640
-.word 0xd298f640
+.word 0xd29a5a00
+.word 0xd29a5a00
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26230,7 +26430,7 @@ bl _p_3
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ba:
+Lme_be:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -26244,7 +26444,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2984]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26260,13 +26460,13 @@ ldr x16, [x16, #2952]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd298fc40
-.word 0xd298fc40
+.word 0xd29a6000
+.word 0xd29a6000
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26278,7 +26478,7 @@ bl _p_3
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_bb:
+Lme_bf:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -26292,7 +26492,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2992]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26308,13 +26508,13 @@ ldr x16, [x16, #2960]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd298fc40
-.word 0xd298fc40
+.word 0xd29a6000
+.word 0xd29a6000
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26326,7 +26526,7 @@ bl _p_3
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_bc:
+Lme_c0:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -26342,7 +26542,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #3000]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26379,8 +26579,8 @@ ldr x16, [x16, #2968]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29903c0
-.word 0xd29903c0
+.word 0xd29a6780
+.word 0xd29a6780
 bl _p_281
 bl _p_331
 .word 0xf90033a0
@@ -26389,9 +26589,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26523,7 +26723,7 @@ bl _p_332
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_bd:
+Lme_c1:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -26542,7 +26742,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #3008]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -26565,13 +26765,13 @@ ldr x16, [x16, #2976]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd285fd60
-.word 0xd285fd60
+.word 0xd2873740
+.word 0xd2873740
 bl _p_281
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26598,8 +26798,8 @@ bl _p_3
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29903c0
-.word 0xd29903c0
+.word 0xd29a6780
+.word 0xd29a6780
 bl _p_281
 bl _p_331
 .word 0xf90073a0
@@ -26608,9 +26808,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26680,13 +26880,13 @@ bl _p_3
 .word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2990ec0
-.word 0xd2990ec0
+.word 0xd29a7280
+.word 0xd29a7280
 bl _p_281
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26713,8 +26913,8 @@ bl _p_3
 .word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29903c0
-.word 0xd29903c0
+.word 0xd29a6780
+.word 0xd29a6780
 bl _p_281
 bl _p_331
 .word 0xf90073a0
@@ -26723,9 +26923,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
-.word 0xd2801f40
+.word 0xd28020a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26743,12 +26943,12 @@ bl _p_3
 .word 0xf9432e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2852dc0
-.word 0xd2852dc0
+.word 0xd2820880
+.word 0xd2820880
 bl _p_281
 .word 0xf90073a0
-.word 0xd2992720
-.word 0xd2992720
+.word 0xd29a8ae0
+.word 0xd29a8ae0
 bl _p_281
 bl _p_331
 .word 0xf90077a0
@@ -26758,9 +26958,9 @@ bl _p_331
 .word 0xd63f0220
 .word 0xf94073a1
 .word 0xf94077a2
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_3
@@ -26833,7 +27033,7 @@ bl _p_333
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_be:
+Lme_c2:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow
@@ -26849,7 +27049,7 @@ wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UI
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3016]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -26972,11 +27172,11 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_bf:
+Lme_c3:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow
@@ -26992,7 +27192,7 @@ wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWin
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3024]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27106,11 +27306,11 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_c0:
+Lme_c4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow
@@ -27127,7 +27327,7 @@ wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3032]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27256,11 +27456,11 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_c1:
+Lme_c5:
 .text
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow
@@ -27274,7 +27474,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3040]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27305,7 +27505,7 @@ ldr x16, [x16, #3008]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3016]
+ldr x0, [x16, #3048]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -27369,7 +27569,7 @@ bl _p_334
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_c2:
+Lme_c6:
 .text
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow
@@ -27384,7 +27584,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3056]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -27416,7 +27616,7 @@ ldr x16, [x16, #3024]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3032]
+ldr x0, [x16, #3064]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -27445,7 +27645,7 @@ bl _p_335
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3040]
+ldr x0, [x16, #3072]
 .word 0xd2800601
 .word 0xd2800601
 bl _p_4
@@ -27497,7 +27697,7 @@ bl _p_336
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_c3:
+Lme_c7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_System_nfloat_get_Default
@@ -27510,7 +27710,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3080]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27530,7 +27730,7 @@ ldr x16, [x16, #3048]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3056]
+ldr x0, [x16, #3088]
 .word 0xf9400000
 .word 0xaa0003fa
 .loc 9 29 0
@@ -27548,7 +27748,7 @@ ldr x0, [x16, #3056]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2920]
+ldr x15, [x16, #2952]
 bl _p_337
 .word 0xf90023a0
 .word 0xf9400fb1
@@ -27568,7 +27768,7 @@ bl _p_337
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3056]
+ldr x0, [x16, #3088]
 .word 0xf9001ba0
 .word 0xd50330bf
 .word 0xf9401ba0
@@ -27593,7 +27793,7 @@ ldr x0, [x16, #3056]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_c4:
+Lme_c8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
@@ -27608,7 +27808,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3096]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -27629,7 +27829,7 @@ ldr x16, [x16, #3064]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x24, [x16, #3072]
+ldr x24, [x16, #3104]
 .word 0xb4000178
 .word 0xf9400300
 .word 0xf9400000
@@ -27638,7 +27838,7 @@ ldr x24, [x16, #3072]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3080]
+ldr x1, [x16, #3112]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001e01
@@ -27652,7 +27852,7 @@ ldr x1, [x16, #3080]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3088]
+ldr x2, [x16, #3120]
 .word 0xaa1803e0
 .word 0xaa0203e0
 .word 0xaa1803e1
@@ -27675,7 +27875,7 @@ ldr x2, [x16, #3088]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3096]
+ldr x0, [x16, #3128]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_338
@@ -27692,7 +27892,7 @@ bl _p_338
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3104]
+ldr x1, [x16, #3136]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540017e1
@@ -27707,7 +27907,7 @@ ldr x1, [x16, #3104]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -27720,7 +27920,7 @@ ldr x1, [x16, #3104]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9409c30
+.word 0xf940a030
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94027b1
@@ -27731,7 +27931,7 @@ ldr x1, [x16, #3104]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3112]
+ldr x1, [x16, #3144]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90033a0
@@ -27749,7 +27949,7 @@ ldr x1, [x16, #3112]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940a430
+.word 0xf940a830
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94027b1
@@ -27771,7 +27971,7 @@ ldr x1, [x16, #3112]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3080]
+ldr x1, [x16, #3112]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000e81
@@ -27785,13 +27985,13 @@ ldr x1, [x16, #3080]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3120]
+ldr x0, [x16, #3152]
 .word 0xf9003fa0
 .word 0xd2800020
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3128]
+ldr x0, [x16, #3160]
 .word 0xd2800021
 bl _p_15
 .word 0xaa0003f6
@@ -27810,7 +28010,7 @@ bl _p_15
 .word 0xf9403fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b050
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94027b1
@@ -27840,7 +28040,7 @@ bl _p_15
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3136]
+ldr x0, [x16, #3168]
 .word 0xaa1903e1
 .word 0xaa1903e1
 bl _p_338
@@ -27857,7 +28057,7 @@ bl _p_338
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3104]
+ldr x1, [x16, #3136]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000481
@@ -27876,7 +28076,7 @@ ldr x1, [x16, #3104]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3144]
+ldr x0, [x16, #3176]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
@@ -27898,14 +28098,14 @@ bl _p_339
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_c5:
+Lme_c9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
@@ -27922,7 +28122,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3184]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -27984,7 +28184,7 @@ ldr x16, [x16, #3152]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3160]
+ldr x1, [x16, #3192]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800016
@@ -28001,7 +28201,7 @@ ldr x1, [x16, #3160]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3160]
+ldr x1, [x16, #3192]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800014
@@ -28023,7 +28223,7 @@ ldr x1, [x16, #3160]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3160]
+ldr x2, [x16, #3192]
 .word 0xeb02001f
 .word 0x10000011
 .word 0x54000741
@@ -28040,7 +28240,7 @@ ldr x2, [x16, #3160]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3160]
+ldr x2, [x16, #3192]
 .word 0xeb02001f
 .word 0x10000011
 .word 0x54000541
@@ -28087,11 +28287,11 @@ bl _p_340
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_9
 
-Lme_c7:
+Lme_cb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_System_nfloat__ctor
@@ -28102,7 +28302,7 @@ System_Collections_Generic_Comparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28123,7 +28323,7 @@ ldr x16, [x16, #3168]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_cc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
@@ -28137,7 +28337,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -28216,7 +28416,7 @@ bl _p_341
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_c9:
+Lme_cd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
@@ -28230,7 +28430,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3216]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28257,7 +28457,7 @@ ldr x16, [x16, #3184]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3192]
+ldr x1, [x16, #3224]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -28279,7 +28479,7 @@ ldr x1, [x16, #3192]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_ce:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
@@ -28291,7 +28491,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3232]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28345,7 +28545,7 @@ ldr x16, [x16, #3200]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_cb:
+Lme_cf:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
@@ -28356,7 +28556,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28378,7 +28578,7 @@ bl _p_342
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_d0:
 .text
 	.align 4
 	.no_dead_strip System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
@@ -28395,7 +28595,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3248]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -28472,7 +28672,7 @@ bl _p_7
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_d1:
 .text
 	.align 4
 	.no_dead_strip System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UIWindow___int
@@ -28488,7 +28688,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UI
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3256]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28510,7 +28710,7 @@ ldr x16, [x16, #3224]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3232]
+ldr x0, [x16, #3264]
 .word 0xaa1a03e1
 bl _p_15
 .word 0xf9002ba0
@@ -28629,11 +28829,11 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_ce:
+Lme_d2:
 .text
 	.align 4
 	.no_dead_strip System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_int
@@ -28649,7 +28849,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_i
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3272]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28697,8 +28897,8 @@ ldr x16, [x16, #3240]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3248]
-.word 0x92800cf0
+ldr x15, [x16, #3280]
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28788,11 +28988,11 @@ ldr x15, [x16, #3248]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_9
 
-Lme_cf:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
@@ -28808,7 +29008,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_U
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3288]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28873,7 +29073,7 @@ bl _p_7
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_d0:
+Lme_d4:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
@@ -28889,7 +29089,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindo
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3296]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -28941,8 +29141,8 @@ ldr x16, [x16, #3264]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3248]
-.word 0x92800cf0
+ldr x15, [x16, #3280]
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28965,8 +29165,8 @@ ldr x15, [x16, #3248]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3248]
-.word 0x92800cf0
+ldr x15, [x16, #3280]
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29021,7 +29221,7 @@ ldr x15, [x16, #3248]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_d1:
+Lme_d5:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
@@ -29035,7 +29235,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWi
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29081,7 +29281,7 @@ ldr x16, [x16, #3272]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_d2:
+Lme_d6:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
@@ -29098,7 +29298,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3312]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29146,7 +29346,7 @@ bl _p_7
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_d3:
+Lme_d7:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
@@ -29163,7 +29363,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKi
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3320]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29216,8 +29416,8 @@ ldr x16, [x16, #3288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3248]
-.word 0x92800cf0
+ldr x15, [x16, #3280]
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29240,8 +29440,8 @@ ldr x15, [x16, #3248]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3248]
-.word 0x92800cf0
+ldr x15, [x16, #3280]
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29340,7 +29540,7 @@ ldr x15, [x16, #3248]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_d4:
+Lme_d8:
 .text
 	.align 4
 	.no_dead_strip System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
@@ -29354,7 +29554,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_U
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29402,7 +29602,7 @@ bl _p_345
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_d5:
+Lme_d9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
@@ -29413,7 +29613,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29435,7 +29635,7 @@ bl _p_342
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_d6:
+Lme_da:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
@@ -29449,7 +29649,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3344]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29468,7 +29668,7 @@ ldr x16, [x16, #3312]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3320]
+ldr x0, [x16, #3352]
 .word 0xf9400000
 .word 0xf9002ba0
 .word 0xfd400fa0
@@ -29476,7 +29676,7 @@ ldr x0, [x16, #3320]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3328]
+ldr x0, [x16, #3360]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -29488,7 +29688,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3328]
+ldr x0, [x16, #3360]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -29515,7 +29715,7 @@ bl _p_346
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_d7:
+Lme_db:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
@@ -29529,7 +29729,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3368]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29556,7 +29756,7 @@ ldr x16, [x16, #3336]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3344]
+ldr x1, [x16, #3376]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -29578,7 +29778,7 @@ ldr x1, [x16, #3344]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_d8:
+Lme_dc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
@@ -29590,7 +29790,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3352]
+ldr x16, [x16, #3384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29644,7 +29844,7 @@ ldr x16, [x16, #3352]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_d9:
+Lme_dd:
 .text
 	.align 3
 jit_code_end:
@@ -29762,6 +29962,7 @@ bl System_Nullable_1_bool_Equals_object
 bl System_Nullable_1_bool_Equals_System_Nullable_1_bool
 bl System_Nullable_1_bool_GetHashCode
 bl System_Nullable_1_bool_GetValueOrDefault
+bl System_Nullable_1_bool_GetValueOrDefault_bool
 bl System_Nullable_1_bool_ToString
 bl System_Nullable_1_bool_Box_System_Nullable_1_bool
 bl System_Nullable_1_bool_Unbox_object
@@ -29776,14 +29977,14 @@ bl method_addresses
 bl method_addresses
 bl method_addresses
 bl wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
-bl wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -29797,6 +29998,7 @@ bl System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
 bl System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
 bl System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
 bl System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
+bl System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
 bl System_Nullable_1_UIKit_UIDeviceOrientation_ToString
 bl System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
 bl System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
@@ -29807,11 +30009,12 @@ bl System_Nullable_1_int_Equals_object
 bl System_Nullable_1_int_Equals_System_Nullable_1_int
 bl System_Nullable_1_int_GetHashCode
 bl System_Nullable_1_int_GetValueOrDefault
+bl System_Nullable_1_int_GetValueOrDefault_int
 bl System_Nullable_1_int_ToString
 bl System_Nullable_1_int_Box_System_Nullable_1_int
 bl System_Nullable_1_int_Unbox_object
-bl wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -29823,6 +30026,7 @@ bl System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
 bl System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
 bl System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
 bl System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
+bl System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
 bl System_Nullable_1_CoreImage_CIImageOrientation_ToString
 bl System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
 bl System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
@@ -29880,11 +30084,12 @@ unbox_trampolines:
 
 	.long 86,87,90,91,94,95,101,102
 	.long 103,104,105,106,107,108,109,110
-	.long 136,137,138,139,140,141,142,143
+	.long 111,137,138,139,140,141,142,143
 	.long 144,145,146,147,148,149,150,151
-	.long 152,153,154,155,162,163,164,165
-	.long 166,167,168,169,170,171,174,175
-	.long 176,177,178,179,180
+	.long 152,153,154,155,156,157,158,165
+	.long 166,167,168,169,170,171,172,173
+	.long 174,175,178,179,180,181,182,183
+	.long 184
 unbox_trampolines_end:
 
 	.long 0
@@ -29907,7 +30112,7 @@ bl ut_107
 bl ut_108
 bl ut_109
 bl ut_110
-bl ut_136
+bl ut_111
 bl ut_137
 bl ut_138
 bl ut_139
@@ -29927,9 +30132,9 @@ bl ut_152
 bl ut_153
 bl ut_154
 bl ut_155
-bl ut_162
-bl ut_163
-bl ut_164
+bl ut_156
+bl ut_157
+bl ut_158
 bl ut_165
 bl ut_166
 bl ut_167
@@ -29937,13 +30142,17 @@ bl ut_168
 bl ut_169
 bl ut_170
 bl ut_171
+bl ut_172
+bl ut_173
 bl ut_174
 bl ut_175
-bl ut_176
-bl ut_177
 bl ut_178
 bl ut_179
 bl ut_180
+bl ut_181
+bl ut_182
+bl ut_183
+bl ut_184
 
 	.long 0
 .section __TEXT, __const
@@ -30007,2773 +30216,2773 @@ plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia_get_Value:
 _p_1:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3400]
 br x16
-.word 5317
+.word 5420
 	.no_dead_strip plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly
 plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly:
 _p_2:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3408]
 br x16
-.word 5328
+.word 5431
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3416]
 br x16
-.word 5330
+.word 5433
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3424]
 br x16
-.word 5358
+.word 5461
 	.no_dead_strip plt_Plugin_Media_MediaImplementation__ctor
 plt_Plugin_Media_MediaImplementation__ctor:
 _p_5:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3432]
 br x16
-.word 5366
+.word 5469
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_6:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3440]
 br x16
-.word 5368
+.word 5471
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_7:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3448]
 br x16
-.word 5373
+.word 5476
 	.no_dead_strip plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode
 plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode:
 _p_8:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3456]
 br x16
-.word 5380
+.word 5483
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3464]
 br x16
-.word 5391
+.word 5494
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
 plt_System_Threading_Tasks_Task_FromResult_bool_bool:
 _p_10:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3472]
 br x16
-.word 5426
+.word 5529
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_11:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3480]
 br x16
-.word 5438
+.word 5541
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle
 plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle:
 _p_12:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3488]
 br x16
-.word 5443
+.word 5546
 	.no_dead_strip plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice
 plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice:
 _p_13:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3496]
 br x16
-.word 5445
+.word 5548
 	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
 plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
 _p_14:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3504]
 br x16
-.word 5450
+.word 5553
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_15:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3512]
 br x16
-.word 5455
+.word 5558
 	.no_dead_strip plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string:
 _p_16:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3520]
 br x16
-.word 5463
+.word 5566
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_17:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3528]
 br x16
-.word 5475
+.word 5578
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported
 plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported:
 _p_18:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3536]
 br x16
-.word 5480
+.word 5583
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription
 plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription:
 _p_19:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3544]
 br x16
-.word 5482
+.word 5585
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor:
 _p_20:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3552]
 br x16
-.word 5484
+.word 5587
 	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize
 plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize:
 _p_21:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3560]
 br x16
-.word 5489
+.word 5592
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize:
 _p_22:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3568]
 br x16
-.word 5494
+.word 5597
 	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality
 plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality:
 _p_23:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3576]
 br x16
-.word 5499
+.word 5602
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int:
 _p_24:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3584]
 br x16
-.word 5504
+.word 5607
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_25:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3592]
 br x16
-.word 5509
+.word 5612
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported
 plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported:
 _p_26:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3600]
 br x16
-.word 5511
+.word 5614
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable
 plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable:
 _p_27:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3608]
 br x16
-.word 5513
+.word 5616
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription
 plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription:
 _p_28:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3616]
 br x16
-.word 5515
+.word 5618
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_29:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3624]
 br x16
-.word 5517
+.word 5620
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported
 plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported:
 _p_30:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3632]
 br x16
-.word 5519
+.word 5622
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported
 plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported:
 _p_31:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3640]
 br x16
-.word 5521
+.word 5624
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_32:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3648]
 br x16
-.word 5523
+.word 5626
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory:
 _p_33:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3656]
 br x16
-.word 5543
+.word 5646
 	.no_dead_strip plt_System_IO_Path_IsPathRooted_string
 plt_System_IO_Path_IsPathRooted_string:
 _p_34:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3664]
 br x16
-.word 5548
+.word 5651
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions
 plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions:
 _p_35:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3672]
 br x16
-.word 5553
+.word 5656
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera:
 _p_36:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3680]
 br x16
-.word 5555
+.word 5658
 	.no_dead_strip plt_System_Enum_IsDefined_System_Type_object
 plt_System_Enum_IsDefined_System_Type_object:
 _p_37:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3688]
 br x16
-.word 5560
+.word 5663
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_38:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3696]
 br x16
-.word 5565
+.word 5668
 	.no_dead_strip plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate
 plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate:
 _p_39:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3704]
 br x16
-.word 5597
+.word 5700
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice
 plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice:
 _p_40:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3712]
 br x16
-.word 5599
+.word 5702
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping:
 _p_41:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3720]
 br x16
-.word 5601
+.word 5704
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_42:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3728]
 br x16
-.word 5606
+.word 5709
 	.no_dead_strip plt_System_Nullable_1_bool_GetValueOrDefault
 plt_System_Nullable_1_bool_GetValueOrDefault:
 _p_43:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3736]
 br x16
-.word 5617
+.word 5720
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider:
 _p_44:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3744]
 br x16
-.word 5628
+.word 5731
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality
 plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality:
 _p_45:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3752]
 br x16
-.word 5633
+.word 5736
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality
 plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality:
 _p_46:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3760]
 br x16
-.word 5638
+.word 5741
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength
 plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength:
 _p_47:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3768]
 br x16
-.word 5640
+.word 5743
 	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
 plt_System_TimeSpan_get_TotalSeconds:
 _p_48:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3776]
 br x16
-.word 5645
+.word 5748
 	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
 plt_UIKit_UIWindowLevel_get_Normal:
 _p_49:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3752]
+ldr x16, [x16, #3784]
 br x16
-.word 5650
+.word 5753
 	.no_dead_strip plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
 plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat:
 _p_50:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3760]
+ldr x16, [x16, #3792]
 br x16
-.word 5655
+.word 5758
 	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
 plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
 _p_51:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3800]
 br x16
-.word 5667
+.word 5770
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_52:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3808]
 br x16
-.word 5679
+.word 5782
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_53:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #3816]
 br x16
-.word 5681
+.word 5784
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_54:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #3824]
 br x16
-.word 5683
+.word 5786
 	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
 plt_UIKit_UIDevice_get_UserInterfaceIdiom:
 _p_55:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #3832]
 br x16
-.word 5688
+.word 5791
 	.no_dead_strip plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController
 plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController:
 _p_56:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3808]
+ldr x16, [x16, #3840]
 br x16
-.word 5693
+.word 5796
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
 plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController:
 _p_57:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3816]
+ldr x16, [x16, #3848]
 br x16
-.word 5698
+.word 5801
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Popover
 plt_Plugin_Media_MediaPickerDelegate_get_Popover:
 _p_58:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #3856]
 br x16
-.word 5700
+.word 5803
 	.no_dead_strip plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
 plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController:
 _p_59:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #3864]
 br x16
-.word 5702
+.word 5805
 	.no_dead_strip plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate
 plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate:
 _p_60:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #3872]
 br x16
-.word 5704
+.word 5807
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool
 plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool:
 _p_61:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3848]
+ldr x16, [x16, #3880]
 br x16
-.word 5709
+.word 5812
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_62:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3856]
+ldr x16, [x16, #3888]
 br x16
-.word 5711
+.word 5814
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Task
 plt_Plugin_Media_MediaPickerDelegate_get_Task:
 _p_63:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #3896]
 br x16
-.word 5716
+.word 5819
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 _p_64:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #3904]
 br x16
-.word 5718
+.word 5821
 	.no_dead_strip plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 _p_65:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #3912]
 br x16
-.word 5730
+.word 5833
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_66:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #3920]
 br x16
-.word 5742
+.word 5845
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_67:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3928]
 br x16
-.word 5747
+.word 5850
 	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
 plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
 _p_68:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3936]
 br x16
-.word 5752
+.word 5855
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_69:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3944]
 br x16
-.word 5757
+.word 5860
 	.no_dead_strip plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate
 plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate:
 _p_70:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3952]
 br x16
-.word 5762
+.word 5865
 	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
 plt_UIKit_UIImagePickerController__ctor:
 _p_71:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3960]
 br x16
-.word 5774
+.word 5877
 	.no_dead_strip plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject
 plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject:
 _p_72:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3968]
 br x16
-.word 5779
+.word 5882
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_Delegate
 plt_UIKit_UIImagePickerController_get_Delegate:
 _p_73:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3976]
 br x16
-.word 5784
+.word 5887
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor:
 _p_74:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #3984]
 br x16
-.word 5789
+.word 5892
 	.no_dead_strip plt_UIKit_UIImagePickerControllerDelegate__ctor
 plt_UIKit_UIImagePickerControllerDelegate__ctor:
 _p_75:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #3992]
 br x16
-.word 5800
+.word 5903
 	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
 plt_Foundation_NSNotificationCenter_get_DefaultCenter:
 _p_76:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3968]
+ldr x16, [x16, #4000]
 br x16
-.word 5805
+.word 5908
 	.no_dead_strip plt_UIKit_UIDevice_get_OrientationDidChangeNotification
 plt_UIKit_UIDevice_get_OrientationDidChangeNotification:
 _p_77:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #4008]
 br x16
-.word 5810
+.word 5913
 	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
 plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
 _p_78:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #4016]
 br x16
-.word 5815
+.word 5918
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task:
 _p_79:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #4024]
 br x16
-.word 5820
+.word 5923
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_80:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #4032]
 br x16
-.word 5831
+.word 5934
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_81:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #4040]
 br x16
-.word 5836
+.word 5939
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_82:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4016]
+ldr x16, [x16, #4048]
 br x16
-.word 5841
+.word 5944
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
 _p_83:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4056]
 br x16
-.word 5846
+.word 5949
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications
 plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications:
 _p_84:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #4064]
 br x16
-.word 5858
+.word 5961
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_StatusBarStyle
 plt_Plugin_Media_MediaImplementation_get_StatusBarStyle:
 _p_85:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #4072]
 br x16
-.word 5860
+.word 5963
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action
 plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action:
 _p_86:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4048]
+ldr x16, [x16, #4080]
 br x16
-.word 5862
+.word 5965
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_87:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4088]
 br x16
-.word 5864
+.word 5967
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_88:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4064]
+ldr x16, [x16, #0]
 br x16
-.word 5869
+.word 5972
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
 plt_CoreGraphics_CGRect_get_Height:
 _p_89:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #8]
 br x16
-.word 5874
+.word 5977
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_90:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #16]
 br x16
-.word 5879
+.word 5982
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
 _p_91:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #24]
 br x16
-.word 5884
+.word 5987
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation:
 _p_92:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #32]
 br x16
-.word 5895
+.word 5998
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
 plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
 _p_93:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #40]
 br x16
-.word 5897
+.word 6000
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation:
 _p_94:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #16]
+ldr x16, [x16, #48]
 br x16
-.word 5908
+.word 6011
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
 _p_95:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #56]
 br x16
-.word 5910
+.word 6013
 	.no_dead_strip plt_System_Math_Max_double_double
 plt_System_Math_Max_double_double:
 _p_96:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #64]
 br x16
-.word 5921
+.word 6024
 	.no_dead_strip plt_System_Math_Min_double_double
 plt_System_Math_Min_double_double:
 _p_97:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #72]
 br x16
-.word 5926
+.word 6029
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
 plt_CoreGraphics_CGRect__ctor_double_double_double_double:
 _p_98:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #80]
 br x16
-.word 5931
+.word 6034
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_View
 plt_Plugin_Media_MediaPickerDelegate_get_View:
 _p_99:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #88]
 br x16
-.word 5936
+.word 6039
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
 _p_100:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #96]
 br x16
-.word 5938
+.word 6041
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation:
 _p_101:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #104]
 br x16
-.word 5949
+.word 6052
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation:
 _p_102:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #80]
+ldr x16, [x16, #112]
 br x16
-.word 5951
+.word 6054
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation:
 _p_103:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #120]
 br x16
-.word 5953
+.word 6056
 	.no_dead_strip plt_System_Enum_HasFlag_System_Enum
 plt_System_Enum_HasFlag_System_Enum:
 _p_104:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #128]
 br x16
-.word 5955
+.word 6058
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create:
 _p_105:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #104]
+ldr x16, [x16, #136]
 br x16
-.word 5960
+.word 6063
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
 _p_106:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #144]
 br x16
-.word 5971
+.word 6074
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task:
 _p_107:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #152]
 br x16
-.word 5983
+.word 6086
 	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
 plt_Foundation_NSMutableDictionary__ctor:
 _p_108:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #160]
 br x16
-.word 5994
+.word 6097
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Latitude
 plt_Plugin_Media_Abstractions_Location_get_Latitude:
 _p_109:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #168]
 br x16
-.word 5999
+.word 6102
 	.no_dead_strip plt_Foundation_NSNumber__ctor_double
 plt_Foundation_NSNumber__ctor_double:
 _p_110:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #176]
 br x16
-.word 6004
+.word 6107
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitude
 plt_ImageIO_CGImageProperties_get_GPSLatitude:
 _p_111:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #184]
 br x16
-.word 6009
+.word 6112
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitudeRef
 plt_ImageIO_CGImageProperties_get_GPSLatitudeRef:
 _p_112:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #192]
 br x16
-.word 6014
+.word 6117
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Longitude
 plt_Plugin_Media_Abstractions_Location_get_Longitude:
 _p_113:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #200]
 br x16
-.word 6019
+.word 6122
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitude
 plt_ImageIO_CGImageProperties_get_GPSLongitude:
 _p_114:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #208]
 br x16
-.word 6024
+.word 6127
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitudeRef
 plt_ImageIO_CGImageProperties_get_GPSLongitudeRef:
 _p_115:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #216]
 br x16
-.word 6029
+.word 6132
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Altitude
 plt_Plugin_Media_Abstractions_Location_get_Altitude:
 _p_116:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #224]
 br x16
-.word 6034
+.word 6137
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitude
 plt_ImageIO_CGImageProperties_get_GPSAltitude:
 _p_117:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #232]
 br x16
-.word 6039
+.word 6142
 	.no_dead_strip plt_Foundation_NSNumber__ctor_int
 plt_Foundation_NSNumber__ctor_int:
 _p_118:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #240]
 br x16
-.word 6044
+.word 6147
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitudeRef
 plt_ImageIO_CGImageProperties_get_GPSAltitudeRef:
 _p_119:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #248]
 br x16
-.word 6049
+.word 6152
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Speed
 plt_Plugin_Media_Abstractions_Location_get_Speed:
 _p_120:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #256]
 br x16
-.word 6054
+.word 6157
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeed
 plt_ImageIO_CGImageProperties_get_GPSSpeed:
 _p_121:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #264]
 br x16
-.word 6059
+.word 6162
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeedRef
 plt_ImageIO_CGImageProperties_get_GPSSpeedRef:
 _p_122:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #272]
 br x16
-.word 6064
+.word 6167
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Direction
 plt_Plugin_Media_Abstractions_Location_get_Direction:
 _p_123:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #280]
 br x16
-.word 6069
+.word 6172
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirection
 plt_ImageIO_CGImageProperties_get_GPSImgDirection:
 _p_124:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #288]
 br x16
-.word 6074
+.word 6177
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef
 plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef:
 _p_125:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #296]
 br x16
-.word 6079
+.word 6182
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Timestamp
 plt_Plugin_Media_Abstractions_Location_get_Timestamp:
 _p_126:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #304]
 br x16
-.word 6084
+.word 6187
 	.no_dead_strip plt_System_DateTime_ToString_string
 plt_System_DateTime_ToString_string:
 _p_127:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #312]
 br x16
-.word 6089
+.word 6192
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSTimeStamp
 plt_ImageIO_CGImageProperties_get_GPSTimeStamp:
 _p_128:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #320]
 br x16
-.word 6094
+.word 6197
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDateStamp
 plt_ImageIO_CGImageProperties_get_GPSDateStamp:
 _p_129:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #328]
 br x16
-.word 6099
+.word 6202
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDictionary
 plt_ImageIO_CGImageProperties_get_GPSDictionary:
 _p_130:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #336]
 br x16
-.word 6104
+.word 6207
 	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
 plt_UIKit_UIImage_AsJPEG_System_nfloat:
 _p_131:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #344]
 br x16
-.word 6109
+.word 6212
 	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData
 plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData:
 _p_132:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #352]
 br x16
-.word 6114
+.word 6217
 	.no_dead_strip plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
 plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
 _p_133:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #360]
 br x16
-.word 6119
+.word 6222
 	.no_dead_strip plt_Foundation_NSMutableData__ctor
 plt_Foundation_NSMutableData__ctor:
 _p_134:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #368]
 br x16
-.word 6124
+.word 6227
 	.no_dead_strip plt_MobileCoreServices_UTType_get_JPEG
 plt_MobileCoreServices_UTType_get_JPEG:
 _p_135:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #376]
 br x16
-.word 6129
+.word 6232
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_136:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #384]
 br x16
-.word 6134
+.word 6237
 	.no_dead_strip plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions
 plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions:
 _p_137:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #392]
 br x16
-.word 6139
+.word 6242
 	.no_dead_strip plt_ImageIO_CGMutableImageMetadata__ctor
 plt_ImageIO_CGMutableImageMetadata__ctor:
 _p_138:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #400]
 br x16
-.word 6144
+.word 6247
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions__ctor
 plt_ImageIO_CGImageDestinationOptions__ctor:
 _p_139:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #408]
 br x16
-.word 6149
+.word 6252
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_Orientation
 plt_ImageIO_CGImageProperties_get_Orientation:
 _p_140:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #416]
 br x16
-.word 6154
+.word 6257
 	.no_dead_strip plt_Foundation_DictionaryContainer_get_Dictionary
 plt_Foundation_DictionaryContainer_get_Dictionary:
 _p_141:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #424]
 br x16
-.word 6159
+.word 6262
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIWidth
 plt_ImageIO_CGImageProperties_get_DPIWidth:
 _p_142:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #432]
 br x16
-.word 6164
+.word 6267
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIHeight
 plt_ImageIO_CGImageProperties_get_DPIHeight:
 _p_143:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #440]
 br x16
-.word 6169
+.word 6272
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_ExifDictionary
 plt_ImageIO_CGImageProperties_get_ExifDictionary:
 _p_144:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #448]
 br x16
-.word 6174
+.word 6277
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary:
 _p_145:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #456]
 br x16
-.word 6179
+.word 6282
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif
 plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif:
 _p_146:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #464]
 br x16
-.word 6184
+.word 6287
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFDictionary
 plt_ImageIO_CGImageProperties_get_TIFFDictionary:
 _p_147:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #472]
 br x16
-.word 6189
+.word 6292
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary:
 _p_148:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #480]
 br x16
-.word 6194
+.word 6297
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff
 plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff:
 _p_149:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #488]
 br x16
-.word 6199
+.word 6302
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary:
 _p_150:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #496]
 br x16
-.word 6204
+.word 6307
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps
 plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps:
 _p_151:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #504]
 br x16
-.word 6209
+.word 6312
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_JFIFDictionary
 plt_ImageIO_CGImageProperties_get_JFIFDictionary:
 _p_152:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #512]
 br x16
-.word 6214
+.word 6317
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary:
 _p_153:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #520]
 br x16
-.word 6219
+.word 6322
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif
 plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif:
 _p_154:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #528]
 br x16
-.word 6224
+.word 6327
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_IPTCDictionary
 plt_ImageIO_CGImageProperties_get_IPTCDictionary:
 _p_155:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #536]
 br x16
-.word 6229
+.word 6332
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary:
 _p_156:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #544]
 br x16
-.word 6234
+.word 6337
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc
 plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc:
 _p_157:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #552]
 br x16
-.word 6239
+.word 6342
 	.no_dead_strip plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions
 plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions:
 _p_158:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #560]
 br x16
-.word 6244
+.word 6347
 	.no_dead_strip plt_ImageIO_CGImageDestination_Close
 plt_ImageIO_CGImageDestination_Close:
 _p_159:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #568]
 br x16
-.word 6249
+.word 6352
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_160:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #576]
 br x16
-.word 6254
+.word 6357
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_161:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #584]
 br x16
-.word 6259
+.word 6362
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_162:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #592]
 br x16
-.word 6264
+.word 6367
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
 _p_163:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #600]
 br x16
-.word 6303
+.word 6406
 	.no_dead_strip plt_System_IO_Path_GetExtension_string
 plt_System_IO_Path_GetExtension_string:
 _p_164:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #608]
 br x16
-.word 6315
+.word 6418
 	.no_dead_strip plt_System_IO_Path_GetFileNameWithoutExtension_string
 plt_System_IO_Path_GetFileNameWithoutExtension_string:
 _p_165:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #616]
 br x16
-.word 6320
+.word 6423
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_166:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #624]
 br x16
-.word 6325
+.word 6428
 	.no_dead_strip plt_string_Concat_object__
 plt_string_Concat_object__:
 _p_167:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #632]
 br x16
-.word 6330
+.word 6433
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_168:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #640]
 br x16
-.word 6335
+.word 6438
 	.no_dead_strip plt_System_IO_File_Exists_string
 plt_System_IO_File_Exists_string:
 _p_169:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #648]
 br x16
-.word 6340
+.word 6443
 	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
 plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_170:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #656]
 br x16
-.word 6345
+.word 6448
 	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
 plt_System_IO_Directory_CreateDirectory_string:
 _p_171:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #664]
 br x16
-.word 6350
+.word 6453
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_172:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #672]
 br x16
-.word 6355
+.word 6458
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_173:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #680]
 br x16
-.word 6360
+.word 6463
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_InvariantCulture
 plt_System_Globalization_CultureInfo_get_InvariantCulture:
 _p_174:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #688]
 br x16
-.word 6365
+.word 6468
 	.no_dead_strip plt_System_DateTime_ToString_string_System_IFormatProvider
 plt_System_DateTime_ToString_string_System_IFormatProvider:
 _p_175:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #696]
 br x16
-.word 6370
+.word 6473
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_176:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #704]
 br x16
-.word 6375
+.word 6478
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string
 plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string:
 _p_177:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #712]
 br x16
-.word 6380
+.word 6483
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
 _p_178:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #720]
 br x16
-.word 6382
+.word 6485
 	.no_dead_strip plt_UIKit_UIPopoverControllerDelegate__ctor
 plt_UIKit_UIPopoverControllerDelegate__ctor:
 _p_179:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #728]
 br x16
-.word 6393
+.word 6496
 	.no_dead_strip plt_System_IO_Stream__ctor
 plt_System_IO_Stream__ctor:
 _p_180:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #736]
 br x16
-.word 6398
+.word 6501
 	.no_dead_strip plt_System_nuint_op_Implicit_System_nuint
 plt_System_nuint_op_Implicit_System_nuint:
 _p_181:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #744]
 br x16
-.word 6403
+.word 6506
 	.no_dead_strip plt_intptr_ToInt64
 plt_intptr_ToInt64:
 _p_182:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #752]
 br x16
-.word 6408
+.word 6511
 	.no_dead_strip plt_intptr__ctor_long
 plt_intptr__ctor_long:
 _p_183:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #760]
 br x16
-.word 6413
+.word 6516
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
 plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
 _p_184:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #768]
 br x16
-.word 6418
+.word 6521
 	.no_dead_strip plt_CoreImage_CIContext_Create
 plt_CoreImage_CIContext_Create:
 _p_185:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #776]
 br x16
-.word 6423
+.word 6526
 	.no_dead_strip plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage
 plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage:
 _p_186:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #784]
 br x16
-.word 6428
+.word 6531
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform__ctor
 plt_CoreImage_CILanczosScaleTransform__ctor:
 _p_187:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #792]
 br x16
-.word 6433
+.word 6536
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_Scale_single
 plt_CoreImage_CILanczosScaleTransform_set_Scale_single:
 _p_188:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #800]
 br x16
-.word 6438
+.word 6541
 	.no_dead_strip plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage
 plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage:
 _p_189:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #808]
 br x16
-.word 6443
+.word 6546
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single
 plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single:
 _p_190:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #816]
 br x16
-.word 6448
+.word 6551
 	.no_dead_strip plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation
 plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation:
 _p_191:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #824]
 br x16
-.word 6453
+.word 6556
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_192:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #832]
 br x16
-.word 6458
+.word 6561
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_193:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #840]
 br x16
-.word 6463
+.word 6566
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_double_double
 plt_CoreGraphics_CGSize__ctor_double_double:
 _p_194:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #848]
 br x16
-.word 6468
+.word 6571
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
 plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
 _p_195:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #856]
 br x16
-.word 6473
+.word 6576
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_196:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #864]
 br x16
-.word 6478
+.word 6581
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_197:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #872]
 br x16
-.word 6483
+.word 6586
 	.no_dead_strip plt_System_Drawing_SizeF__ctor_single_single
 plt_System_Drawing_SizeF__ctor_single_single:
 _p_198:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #880]
 br x16
-.word 6488
+.word 6591
 	.no_dead_strip plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF
 plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF:
 _p_199:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #888]
 br x16
-.word 6493
+.word 6596
 	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
 plt_System_Drawing_RectangleF__ctor_single_single_single_single:
 _p_200:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #896]
 br x16
-.word 6498
+.word 6601
 	.no_dead_strip plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF
 plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF:
 _p_201:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #904]
 br x16
-.word 6503
+.word 6606
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_202:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #912]
 br x16
-.word 6508
+.word 6611
 	.no_dead_strip plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect
 plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect:
 _p_203:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #920]
 br x16
-.word 6513
+.word 6616
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_204:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #928]
 br x16
-.word 6518
+.word 6621
 	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor
 plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor:
 _p_205:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #936]
 br x16
-.word 6523
+.word 6626
 	.no_dead_strip plt_Photos_PHFetchOptions__ctor
 plt_Photos_PHFetchOptions__ctor:
 _p_206:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #944]
 br x16
-.word 6525
+.word 6628
 	.no_dead_strip plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions
 plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions:
 _p_207:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #952]
 br x16
-.word 6530
+.word 6633
 	.no_dead_strip plt_Photos_PHImageManager_get_DefaultManager
 plt_Photos_PHImageManager_get_DefaultManager:
 _p_208:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #960]
 br x16
-.word 6535
+.word 6638
 	.no_dead_strip plt_Photos_PHImageRequestOptions__ctor
 plt_Photos_PHImageRequestOptions__ctor:
 _p_209:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #968]
 br x16
-.word 6540
+.word 6643
 	.no_dead_strip plt_Plugin_Media_CrossMedia__c__ctor
 plt_Plugin_Media_CrossMedia__c__ctor:
 _p_210:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #976]
 br x16
-.word 6545
+.word 6648
 	.no_dead_strip plt_Plugin_Media_CrossMedia_CreateMedia
 plt_Plugin_Media_CrossMedia_CreateMedia:
 _p_211:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #984]
 br x16
-.word 6547
+.word 6650
 	.no_dead_strip plt_Plugin_Media_MediaImplementation__c__ctor
 plt_Plugin_Media_MediaImplementation__c__ctor:
 _p_212:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #992]
 br x16
-.word 6549
+.word 6652
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile:
 _p_213:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1000]
 br x16
-.word 6551
+.word 6654
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor:
 _p_214:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1008]
 br x16
-.word 6562
+.word 6665
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaType
 plt_UIKit_UIImagePickerController_get_MediaType:
 _p_215:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1016]
 br x16
-.word 6564
+.word 6667
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
 plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary:
 _p_216:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1024]
 br x16
-.word 6569
+.word 6672
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
 _p_217:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1032]
 br x16
-.word 6571
+.word 6674
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
 _p_218:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1040]
 br x16
-.word 6582
+.word 6685
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
 _p_219:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1048]
 br x16
-.word 6593
+.word 6696
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
 _p_220:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1056]
 br x16
-.word 6605
+.word 6708
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
 plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary:
 _p_221:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1064]
 br x16
-.word 6616
+.word 6719
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_222:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1072]
 br x16
-.word 6618
+.word 6721
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_223:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1080]
 br x16
-.word 6623
+.word 6726
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_224:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1088]
 br x16
-.word 6628
+.word 6731
 	.no_dead_strip plt_System_IO_File_OpenRead_string
 plt_System_IO_File_OpenRead_string:
 _p_225:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1096]
 br x16
-.word 6633
+.word 6736
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor:
 _p_226:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1104]
 br x16
-.word 6638
+.word 6741
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_EditedImage
 plt_UIKit_UIImagePickerController_get_EditedImage:
 _p_227:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1112]
 br x16
-.word 6640
+.word 6743
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_OriginalImage
 plt_UIKit_UIImagePickerController_get_OriginalImage:
 _p_228:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1120]
 br x16
-.word 6645
+.word 6748
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured
 plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured:
 _p_229:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1128]
 br x16
-.word 6650
+.word 6753
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name:
 _p_230:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1136]
 br x16
-.word 6652
+.word 6755
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string
 plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string:
 _p_231:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1144]
 br x16
-.word 6657
+.word 6760
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Height
 plt_CoreGraphics_CGImage_get_Height:
 _p_232:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1152]
 br x16
-.word 6659
+.word 6762
 	.no_dead_strip plt_System_nint_op_Implicit_System_nint
 plt_System_nint_op_Implicit_System_nint:
 _p_233:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1160]
 br x16
-.word 6664
+.word 6767
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Width
 plt_CoreGraphics_CGImage_get_Width:
 _p_234:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1168]
 br x16
-.word 6669
+.word 6772
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize:
 _p_235:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1176]
 br x16
-.word 6674
+.word 6777
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize:
 _p_236:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1184]
 br x16
-.word 6679
+.word 6782
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight:
 _p_237:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1192]
 br x16
-.word 6684
+.word 6787
 	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
 plt_System_Nullable_1_int_get_HasValue:
 _p_238:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1200]
 br x16
-.word 6689
+.word 6792
 	.no_dead_strip plt_System_Math_Max_long_long
 plt_System_Math_Max_long_long:
 _p_239:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1208]
 br x16
-.word 6700
+.word 6803
 	.no_dead_strip plt_System_Nullable_1_int_get_Value
 plt_System_Nullable_1_int_get_Value:
 _p_240:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1216]
 br x16
-.word 6705
+.word 6808
 	.no_dead_strip plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single
 plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single:
 _p_241:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1224]
 br x16
-.word 6716
+.word 6819
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaMetadata
 plt_UIKit_UIImagePickerController_get_MediaMetadata:
 _p_242:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1232]
 br x16
-.word 6718
+.word 6821
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFOrientation
 plt_ImageIO_CGImageProperties_get_TIFFOrientation:
 _p_243:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1240]
 br x16
-.word 6723
+.word 6826
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location:
 _p_244:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1248]
 br x16
-.word 6728
+.word 6831
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location
 plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location:
 _p_245:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1256]
 br x16
-.word 6733
+.word 6836
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_ReferenceUrl
 plt_UIKit_UIImagePickerController_get_ReferenceUrl:
 _p_246:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1264]
 br x16
-.word 6735
+.word 6838
 	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl
 plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl:
 _p_247:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1272]
 br x16
-.word 6740
+.word 6843
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality:
 _p_248:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1280]
 br x16
-.word 6742
+.word 6845
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string
 plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string:
 _p_249:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1288]
 br x16
-.word 6747
+.word 6850
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum:
 _p_250:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1296]
 br x16
-.word 6749
+.word 6852
 	.no_dead_strip plt_AssetsLibrary_ALAssetsLibrary__ctor
 plt_AssetsLibrary_ALAssetsLibrary__ctor:
 _p_251:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1304]
 br x16
-.word 6754
+.word 6857
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter:
 _p_252:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1312]
 br x16
-.word 6759
+.word 6862
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted:
 _p_253:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1320]
 br x16
-.word 6770
+.word 6873
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
 _p_254:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1328]
 br x16
-.word 6781
+.word 6884
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult:
 _p_255:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1336]
 br x16
-.word 6793
+.word 6896
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_256:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1344]
 br x16
-.word 6804
+.word 6907
 	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string
 plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string:
 _p_257:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1352]
 br x16
-.word 6809
+.word 6912
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception:
 _p_258:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1360]
 br x16
-.word 6814
+.word 6917
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
 _p_259:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1368]
 br x16
-.word 6825
+.word 6928
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_260:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1376]
 br x16
-.word 6836
+.word 6939
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor:
 _p_261:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1384]
 br x16
-.word 6847
+.word 6950
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaURL
 plt_UIKit_UIImagePickerController_get_MediaURL:
 _p_262:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1392]
 br x16
-.word 6849
+.word 6952
 	.no_dead_strip plt_System_IO_Path_GetFileName_string
 plt_System_IO_Path_GetFileName_string:
 _p_263:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1400]
 br x16
-.word 6854
+.word 6957
 	.no_dead_strip plt_System_IO_File_Move_string_string
 plt_System_IO_File_Move_string_string:
 _p_264:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1408]
 br x16
-.word 6859
+.word 6962
 	.no_dead_strip plt_Foundation_NSUrl__ctor_string
 plt_Foundation_NSUrl__ctor_string:
 _p_265:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1416]
 br x16
-.word 6864
+.word 6967
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
 _p_266:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1424]
 br x16
-.word 6869
+.word 6972
 	.no_dead_strip plt_CoreImage_CIImage_FromData_Foundation_NSData
 plt_CoreImage_CIImage_FromData_Foundation_NSData:
 _p_267:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1432]
 br x16
-.word 6881
+.word 6984
 	.no_dead_strip plt_CoreImage_CIImage_get_Properties
 plt_CoreImage_CIImage_get_Properties:
 _p_268:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1440]
 br x16
-.word 6886
+.word 6989
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Orientation
 plt_CoreGraphics_CGImageProperties_get_Orientation:
 _p_269:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1448]
 br x16
-.word 6891
+.word 6994
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString
 plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString:
 _p_270:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1456]
 br x16
-.word 6896
+.word 6999
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Exif
 plt_CoreGraphics_CGImageProperties_get_Exif:
 _p_271:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1464]
 br x16
-.word 6918
+.word 7021
 	.no_dead_strip plt_Foundation_NSDictionary__ctor
 plt_Foundation_NSDictionary__ctor:
 _p_272:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1472]
 br x16
-.word 6923
+.word 7026
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Tiff
 plt_CoreGraphics_CGImageProperties_get_Tiff:
 _p_273:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1480]
 br x16
-.word 6928
+.word 7031
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Gps
 plt_CoreGraphics_CGImageProperties_get_Gps:
 _p_274:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1488]
 br x16
-.word 6933
+.word 7036
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Iptc
 plt_CoreGraphics_CGImageProperties_get_Iptc:
 _p_275:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1496]
 br x16
-.word 6938
+.word 7041
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Jfif
 plt_CoreGraphics_CGImageProperties_get_Jfif:
 _p_276:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1504]
 br x16
-.word 6943
+.word 7046
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_277:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1512]
 br x16
-.word 6948
+.word 7051
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_278:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1520]
 br x16
-.word 6953
+.word 7056
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_279:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1528]
 br x16
-.word 7019
+.word 7122
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_280:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1536]
 br x16
-.word 7027
+.word 7130
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_281:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1544]
 br x16
-.word 7046
+.word 7149
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_282:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1552]
 br x16
-.word 7075
+.word 7178
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_283:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1560]
 br x16
-.word 7097
+.word 7200
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_284:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1568]
 br x16
-.word 7119
+.word 7222
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_285:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1576]
 br x16
-.word 7124
+.word 7227
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_286:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1584]
 br x16
-.word 7129
+.word 7232
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_287:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1592]
 br x16
-.word 7134
+.word 7237
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
 _p_288:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1600]
 br x16
-.word 7156
+.word 7259
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
 _p_289:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1608]
 br x16
-.word 7177
+.word 7280
 	.no_dead_strip plt_long_GetHashCode
 plt_long_GetHashCode:
 _p_290:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1616]
 br x16
-.word 7198
+.word 7301
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_291:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1624]
 br x16
-.word 7203
+.word 7306
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_292:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1632]
 br x16
-.word 7225
+.word 7328
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_293:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1640]
 br x16
-.word 7247
+.word 7350
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_294:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1648]
 br x16
-.word 7252
+.word 7355
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_295:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1656]
 br x16
-.word 7257
+.word 7360
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_296:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1664]
 br x16
-.word 7262
+.word 7365
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
 plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
 _p_297:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1672]
 br x16
-.word 7284
+.word 7387
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
 plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation:
 _p_298:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1680]
 br x16
-.word 7306
+.word 7409
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
 plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation:
 _p_299:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1688]
 br x16
-.word 7328
+.word 7431
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_300:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1696]
 br x16
-.word 7378
+.word 7481
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_301:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1704]
 br x16
-.word 7386
+.word 7489
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_302:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1712]
 br x16
-.word 7412
+.word 7515
 	.no_dead_strip plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
 plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow:
 _p_303:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1720]
 br x16
-.word 7435
+.word 7538
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_304:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1728]
 br x16
-.word 7477
+.word 7580
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_305:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1736]
 br x16
-.word 7524
+.word 7627
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_306:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1744]
 br x16
-.word 7532
+.word 7635
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_307:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1752]
 br x16
-.word 7540
+.word 7643
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_308:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1760]
 br x16
-.word 7548
+.word 7651
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_309:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1768]
 br x16
-.word 7553
+.word 7656
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_310:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1776]
 br x16
-.word 7558
+.word 7661
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_311:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1784]
 br x16
-.word 7592
+.word 7695
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
 plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
 _p_312:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1792]
 br x16
-.word 7597
+.word 7700
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
 plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
 _p_313:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1800]
 br x16
-.word 7599
+.word 7702
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_314:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1808]
 br x16
-.word 7623
+.word 7726
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_315:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1816]
 br x16
-.word 7673
+.word 7776
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_316:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1824]
 br x16
-.word 7678
+.word 7781
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_317:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1832]
 br x16
-.word 7683
+.word 7786
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_318:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1840]
 br x16
-.word 7688
+.word 7791
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_319:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1848]
 br x16
-.word 7693
+.word 7796
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_320:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1856]
 br x16
-.word 7701
+.word 7804
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_321:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1864]
 br x16
-.word 7706
+.word 7809
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_322:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1872]
 br x16
-.word 7714
+.word 7817
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_323:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1880]
 br x16
-.word 7719
+.word 7822
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_324:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1888]
 br x16
-.word 7727
+.word 7830
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_325:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1896]
 br x16
-.word 7732
+.word 7835
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action:
 _p_326:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1904]
 br x16
-.word 7769
+.word 7872
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_327:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1912]
 br x16
-.word 7791
+.word 7894
 	.no_dead_strip plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor
 plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor:
 _p_328:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1920]
 br x16
-.word 7804
+.word 7907
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_329:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1928]
 br x16
-.word 7823
+.word 7926
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
 plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
 _p_330:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1936]
 br x16
-.word 7828
+.word 7931
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_331:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1944]
 br x16
-.word 7848
+.word 7951
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_332:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1952]
 br x16
-.word 7872
+.word 7975
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_333:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1960]
 br x16
-.word 7896
+.word 7999
 	.no_dead_strip plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow:
 _p_334:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1968]
 br x16
-.word 7901
+.word 8004
 	.no_dead_strip plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
 plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow:
 _p_335:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1976]
 br x16
-.word 7924
+.word 8027
 	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
 plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool:
 _p_336:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1984]
 br x16
-.word 7947
+.word 8050
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
 plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
 _p_337:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1992]
 br x16
-.word 7970
+.word 8073
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_338:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #2000]
 br x16
-.word 7990
+.word 8093
 	.no_dead_strip plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
 plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
 _p_339:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2008]
 br x16
-.word 7995
+.word 8098
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_340:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2016]
 br x16
-.word 8015
+.word 8118
 	.no_dead_strip plt_System_nfloat_CompareTo_System_nfloat
 plt_System_nfloat_CompareTo_System_nfloat:
 _p_341:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2024]
 br x16
-.word 8020
+.word 8123
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor
 plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor:
 _p_342:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2032]
 br x16
-.word 8025
+.word 8128
 	.no_dead_strip plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor
 plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor:
 _p_343:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2040]
 br x16
-.word 8053
+.word 8156
 	.no_dead_strip plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor
 plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor:
 _p_344:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2048]
 br x16
-.word 8080
+.word 8183
 	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
 plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow:
 _p_345:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2056]
 br x16
-.word 8099
+.word 8202
 	.no_dead_strip plt_System_Collections_Comparer_Compare_object_object
 plt_System_Collections_Comparer_Compare_object_object:
 _p_346:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2064]
 br x16
-.word 8122
+.word 8225
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Plugin_Media_got, 6136
+.lcomm mono_aot_Plugin_Media_got, 6168
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -32881,13 +33090,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 420,6136,347,218,70,391195135,0,48851
-	.long 128,8,8,10,0,26,54128,5264
-	.long 4832,3600,0,4344,4784,3776,0,2640
-	.long 328,0,0,0,0,0,0,0
+	.long 424,6168,347,222,70,391195135,0,49174
+	.long 128,8,8,10,0,26,55536,6352
+	.long 5920,4664,0,5416,5872,4840,0,3672
+	.long 336,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 108,91,113,178,82,17,102,188,163,45,193,165,36,226,109,41
+	.byte 226,104,189,80,135,136,104,212,73,25,129,175,158,176,43,3
 	.globl _mono_aot_module_Plugin_Media_info
 	.align 3
 _mono_aot_module_Plugin_Media_info:
@@ -42211,11 +42420,11 @@ Lfde106_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:ToString"
-	.asciz "System_Nullable_1_bool_ToString"
+	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
+	.asciz "System_Nullable_1_bool_GetValueOrDefault_bool"
 
-	.byte 2,152,1
-	.quad System_Nullable_1_bool_ToString
+	.byte 2,147,1
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 	.quad Lme_6c
 
 	.byte 2,118,16,3
@@ -42223,24 +42432,63 @@ Lfde106_end:
 
 LDIFF_SYM1340=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1340
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM1341=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1341
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1342=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM1342
+Lfde107_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+
+LDIFF_SYM1343=Lme_6c - System_Nullable_1_bool_GetValueOrDefault_bool
+	.long LDIFF_SYM1343
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde107_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:ToString"
+	.asciz "System_Nullable_1_bool_ToString"
+
+	.byte 2,152,1
+	.quad System_Nullable_1_bool_ToString
+	.quad Lme_6d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1344=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1341=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1341
-Lfde107_start:
+LDIFF_SYM1345=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM1345
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM1342=Lme_6c - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM1342
+LDIFF_SYM1346=Lme_6d - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM1346
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde107_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -42250,53 +42498,14 @@ Lfde107_end:
 
 	.byte 2,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_6d
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1343
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1344=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1344
-Lfde108_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-
-LDIFF_SYM1345=Lme_6d - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM1345
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde108_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:Unbox"
-	.asciz "System_Nullable_1_bool_Unbox_object"
-
-	.byte 2,185,1
-	.quad System_Nullable_1_bool_Unbox_object
 	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1346=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1346
-	.byte 1,106,11
-	.asciz "V_0"
-
 LDIFF_SYM1347=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1347
-	.byte 3,141,216,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -42306,14 +42515,53 @@ Lfde109_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+
+LDIFF_SYM1349=Lme_6e - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM1349
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde109_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Unbox"
+	.asciz "System_Nullable_1_bool_Unbox_object"
+
+	.byte 2,185,1
+	.quad System_Nullable_1_bool_Unbox_object
+	.quad Lme_6f
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM1350=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1350
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1351=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1351
+	.byte 3,141,216,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1352=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM1352
+Lfde110_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM1349=Lme_6e - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM1349
+LDIFF_SYM1353=Lme_6f - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM1353
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde109_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -42323,62 +42571,62 @@ Lfde109_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
-	.quad Lme_6f
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1350=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1354=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1355=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1353=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1357=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1354=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1358=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1358
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1355=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1359=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1356=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1360=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1357=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1357
-Lfde110_start:
+LDIFF_SYM1361=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM1361
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
 
-LDIFF_SYM1358=Lme_6f - wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
-	.long LDIFF_SYM1358
+LDIFF_SYM1362=Lme_70 - wrapper_delegate_invoke_System_Func_1_object_invoke_TResult
+	.long LDIFF_SYM1362
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde110_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_144:
@@ -42387,90 +42635,90 @@ LTDIE_144:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1359=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1363=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1360=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1364=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1364
 LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM1361=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1365=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1365
 LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1362=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1366=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1366
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<UIKit.UIWindow,_System.nfloat>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow
-	.quad Lme_74
+	.quad Lme_75
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1363=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1367=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1364=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1368=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1367=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1371=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1368=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1372=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1369=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1373=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1374=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1374
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1371=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM1371
-Lfde111_start:
+LDIFF_SYM1375=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM1375
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow
 
-LDIFF_SYM1372=Lme_74 - wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow
-	.long LDIFF_SYM1372
+LDIFF_SYM1376=Lme_75 - wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResult_T_UIKit_UIWindow
+	.long LDIFF_SYM1376
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde111_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_145:
@@ -42479,177 +42727,85 @@ LTDIE_145:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1373=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1377=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1374=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1378=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1378
 LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM1375=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1379=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1379
 LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1376=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1380=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<UIKit.UIWindow,_bool>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
-	.quad Lme_79
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1377=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1378=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1378
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1379
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1380=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1380
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1381=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1382=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1382
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1383=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1383
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1384=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1384
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1385=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM1385
-Lfde112_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
-
-LDIFF_SYM1386=Lme_79 - wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
-	.long LDIFF_SYM1386
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde112_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_146:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1387=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1387
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1388=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1388
-LTDIE_146_POINTER:
-
-	.byte 13
-LDIFF_SYM1389=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1389
-LTDIE_146_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1390=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1390
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Media.Abstractions.MediaFile>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1391=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1381=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1382=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1393=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1394=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1384=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1395=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1385=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1396=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1386=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1397=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1387=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1387
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1398=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1388=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1399=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1389=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM1389
 Lfde113_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
 
-LDIFF_SYM1400=Lme_7a - wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
-	.long LDIFF_SYM1400
+LDIFF_SYM1390=Lme_7a - wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
+	.long LDIFF_SYM1390
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -42657,29 +42813,29 @@ LDIFF_SYM1400=Lme_7a - wrapper_delegate_invoke_System_Func_2_object_Plugin_Media
 Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_147:
+LTDIE_146:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1401=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1391=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1402=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1402
-LTDIE_147_POINTER:
+LDIFF_SYM1392=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1392
+LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1403=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1403
-LTDIE_147_REFERENCE:
+LDIFF_SYM1393=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1393
+LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1404=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1394=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<Plugin.Media.Abstractions.MediaFile>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult"
@@ -42691,57 +42847,149 @@ LDIFF_SYM1404=LTDIE_147 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1405=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1395=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1406=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1396=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1408=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1398=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1409=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1399=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1410=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1400=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1411=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1401=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1412=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1402=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1402
 Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 
-LDIFF_SYM1413=Lme_7b - wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
-	.long LDIFF_SYM1413
+LDIFF_SYM1403=Lme_7b - wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
+	.long LDIFF_SYM1403
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
 Lfde114_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_147:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1404=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1404
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1405=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1405
+LTDIE_147_POINTER:
+
+	.byte 13
+LDIFF_SYM1406=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1406
+LTDIE_147_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1407=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1407
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Media.Abstractions.MediaFile>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.quad Lme_7c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1408=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1409=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1409
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1410=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1410
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1411=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1411
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1412=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1412
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1413=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1414=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1415=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1415
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1416=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM1416
+Lfde115_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+
+LDIFF_SYM1417=Lme_7c - wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.long LDIFF_SYM1417
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_148:
@@ -42750,85 +42998,85 @@ LTDIE_148:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1414=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1418=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1418
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1415=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1419=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1419
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM1416=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1420=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1420
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1417=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1421=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1421
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Plugin.Media.Abstractions.MediaFile>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-	.quad Lme_7c
+	.quad Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1418=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1422=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1419=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1423=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1420=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1424=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1424
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1421=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1425=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1425
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1422=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1426=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1423=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1427=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1424=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1428=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1425=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM1425
-Lfde115_start:
+LDIFF_SYM1429=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM1429
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 
-LDIFF_SYM1426=Lme_7c - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-	.long LDIFF_SYM1426
+LDIFF_SYM1430=Lme_7d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+	.long LDIFF_SYM1430
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde115_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_149:
@@ -42837,23 +43085,23 @@ LTDIE_149:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1427=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1431=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1428=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1432=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1432
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1429=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1433=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1433
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1430=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1434=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1434
 LTDIE_150:
 
 	.byte 17
@@ -42862,85 +43110,85 @@ LTDIE_150:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1431=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1435=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1435
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM1432=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1436=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1436
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1433=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1437=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Plugin.Media.Abstractions.MediaFile>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_7d
+	.quad Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1434=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1438=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1438
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1435=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1439=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1439
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1440=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1441=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1438=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1442=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1439=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1443=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1440=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1444=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1441=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1445=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1442=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM1442
-Lfde116_start:
+LDIFF_SYM1446=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM1446
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1443=Lme_7d - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1443
+LDIFF_SYM1447=Lme_7e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1447
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde116_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_151:
@@ -42949,85 +43197,85 @@ LTDIE_151:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1444=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1448=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1445=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1449=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1449
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM1446=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1450=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1450
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1447=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1451=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_7e
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1448=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1452=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1449=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1453=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1454=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1451
+LDIFF_SYM1455=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1452=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1456=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1453=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1457=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1454=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1454
+LDIFF_SYM1458=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1455=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM1455
-Lfde117_start:
+LDIFF_SYM1459=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM1459
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1456=Lme_7e - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1456
+LDIFF_SYM1460=Lme_7f - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1460
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde117_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_152:
@@ -43036,182 +43284,90 @@ LTDIE_152:
 	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM1457=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1461=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1461
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM1458=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1462=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1462
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1459=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1463=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1463
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1460=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1464=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1464
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_7f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1461=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1461
-	.byte 1,104,3
-	.asciz "param0"
-
-LDIFF_SYM1462=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1462
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM1463=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1463
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1464=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1464
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM1465=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1465
-	.byte 1,102,11
-	.asciz "V_2"
-
-LDIFF_SYM1466=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1466
-	.byte 1,101,11
-	.asciz "V_3"
-
-LDIFF_SYM1467=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1467
-	.byte 1,100,11
-	.asciz "V_4"
-
-LDIFF_SYM1468=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1468
-	.byte 1,99,11
-	.asciz "V_5"
-
-LDIFF_SYM1469=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1469
-	.byte 3,141,232,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1470=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM1470
-Lfde118_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-
-LDIFF_SYM1471=Lme_7f - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1471
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde118_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_153:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1472=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1472
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1473=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1473
-LTDIE_153_POINTER:
-
-	.byte 13
-LDIFF_SYM1474=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1474
-LTDIE_153_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1475=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1475
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1476=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1476
-	.byte 1,105,3
+LDIFF_SYM1465=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1465
+	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1477=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1466=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1466
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1467=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1467
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1478=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1478
-	.byte 1,104,11
+LDIFF_SYM1468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1468
+	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1479=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1479
-	.byte 1,103,11
+LDIFF_SYM1469=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1469
+	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1480=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1480
-	.byte 1,102,11
+LDIFF_SYM1470=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1470
+	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1481=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1481
-	.byte 1,101,11
+LDIFF_SYM1471=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1471
+	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1482=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1482
-	.byte 1,100,11
+LDIFF_SYM1472=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1472
+	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1483=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1483
-	.byte 1,99,0
+LDIFF_SYM1473=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1473
+	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1484=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1474=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM1474
 Lfde119_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1485=Lme_80 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.long LDIFF_SYM1485
+LDIFF_SYM1475=Lme_80 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1475
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -43219,29 +43375,29 @@ LDIFF_SYM1485=Lme_80 - wrapper_delegate_invoke_System_Func_2_object_System_Threa
 Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_154:
+LTDIE_153:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1486=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1476=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1476
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1487=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1487
-LTDIE_154_POINTER:
+LDIFF_SYM1477=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1477
+LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1488=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1488
-LTDIE_154_REFERENCE:
+LDIFF_SYM1478=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1478
+LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1489=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1479=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1479
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
@@ -43253,57 +43409,149 @@ LDIFF_SYM1489=LTDIE_154 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1490=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1480=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1491=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1481=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1481
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1482=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1482
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1493=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1483=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1494=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1484=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1484
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1495=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1485=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1485
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1496=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1486=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1486
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1497=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1487=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM1487
 Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
-LDIFF_SYM1498=Lme_81 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1498
+LDIFF_SYM1488=Lme_81 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM1488
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
 Lfde120_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_154:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1489=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1489
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1490=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1490
+LTDIE_154_POINTER:
+
+	.byte 13
+LDIFF_SYM1491=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1491
+LTDIE_154_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1492=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1492
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad Lme_82
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1493=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1493
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1494=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1494
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1495=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1495
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1496=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1496
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1497=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1497
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1498=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1498
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1499=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1499
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1500=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1500
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1501=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM1501
+Lfde121_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+
+LDIFF_SYM1502=Lme_82 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1502
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_155:
@@ -43312,113 +43560,113 @@ LTDIE_155:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1499=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1503=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1503
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1500=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1504=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1504
 LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1501=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1505=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1505
 LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1502=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1502
+LDIFF_SYM1506=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1506
 LTDIE_156:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1503=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM1503
+LDIFF_SYM1507=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1504=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1508=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1505=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1509=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1509
 LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1506=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1510=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1510
 LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1507=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1511=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_82
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1508=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1512=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1512
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1509=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1513=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1513
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1510=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1514=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1514
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1511=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1515=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1512=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1516=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1513=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1517=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1517
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1514=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1518=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1515=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM1515
-Lfde121_start:
+LDIFF_SYM1519=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM1519
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1516=Lme_82 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1516
+LDIFF_SYM1520=Lme_83 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1520
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde121_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_157:
@@ -43427,90 +43675,90 @@ LTDIE_157:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1517=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1521=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1518=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1522=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1522
 LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM1519=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1523=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1523
 LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1520=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1524=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1524
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_83
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1521=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1525=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1522=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1526=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1523=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1527=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1527
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1524=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1528
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1525=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1529=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1526=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1530=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1530
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1527=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1531=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1531
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1528=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1532=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1532
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1529=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM1529
-Lfde122_start:
+LDIFF_SYM1533=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM1533
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1530=Lme_83 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1530
+LDIFF_SYM1534=Lme_84 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1534
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde122_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_158:
@@ -43519,90 +43767,90 @@ LTDIE_158:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1531=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1535=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1532=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1532
+LDIFF_SYM1536=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1536
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1533=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1537=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1537
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1534=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1534
+LDIFF_SYM1538=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1538
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_84
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1535=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1535
+LDIFF_SYM1539=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1539
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1536=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1540=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1540
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1537=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1541=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1541
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1538=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1542=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1542
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1539=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1543=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1543
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1540=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1540
+LDIFF_SYM1544=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1544
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1541=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1541
+LDIFF_SYM1545=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1545
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1542=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1546=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1546
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1543=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM1543
-Lfde123_start:
+LDIFF_SYM1547=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM1547
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1544=Lme_84 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1544
+LDIFF_SYM1548=Lme_85 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1548
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde123_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_159:
@@ -43611,90 +43859,90 @@ LTDIE_159:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1545=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1549=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1549
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1546=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1546
+LDIFF_SYM1550=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1550
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1547=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1547
+LDIFF_SYM1551=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1551
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1548=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM1552=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1552
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<Plugin.Media.Abstractions.MediaFile>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_85
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1549=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1549
+LDIFF_SYM1553=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1553
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1550=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1554=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1554
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1551=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1551
+LDIFF_SYM1555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1555
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1552=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1556=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1556
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1553=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1553
+LDIFF_SYM1557=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1557
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1554=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1558=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1558
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1555=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1559=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1556=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1556
+LDIFF_SYM1560=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1560
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1557=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM1557
-Lfde124_start:
+LDIFF_SYM1561=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM1561
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1558=Lme_85 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1558
+LDIFF_SYM1562=Lme_86 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1562
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde124_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_160:
@@ -43703,90 +43951,90 @@ LTDIE_160:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1559=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1563=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1560=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1564=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1564
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1561=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1565=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1565
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1562=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1566=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1566
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<Plugin.Media.Abstractions.MediaFile>,_System.Threading.Tasks.Task`1<Plugin.Media.Abstractions.MediaFile>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-	.quad Lme_86
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1563=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1567=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1567
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1564=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1568=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1568
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1565=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1569
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1566=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1570=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1567=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1567
+LDIFF_SYM1571=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1571
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1568=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1572=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1572
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1569=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1573=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1573
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1570=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1574=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1574
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1571=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM1571
-Lfde125_start:
+LDIFF_SYM1575=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM1575
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 
-LDIFF_SYM1572=Lme_86 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-	.long LDIFF_SYM1572
+LDIFF_SYM1576=Lme_87 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+	.long LDIFF_SYM1576
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde125_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_161:
@@ -43795,85 +44043,85 @@ LTDIE_161:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1573=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1577=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1577
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1574=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1578=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1578
 LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1575=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1579=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1579
 LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1576=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1580=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1580
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSNotification>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.quad Lme_87
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1577=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1581=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1581
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1578=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1582=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1582
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1579=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1583=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1583
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1580=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1584=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1584
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1581=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1585=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1582=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1586=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1583=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1587=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1587
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1584=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM1584
-Lfde126_start:
+LDIFF_SYM1588=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM1588
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 
-LDIFF_SYM1585=Lme_87 - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.long LDIFF_SYM1585
+LDIFF_SYM1589=Lme_88 - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+	.long LDIFF_SYM1589
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde126_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_162:
@@ -43882,69 +44130,69 @@ LTDIE_162:
 	.asciz "System_Nullable`1"
 
 	.byte 32,16
-LDIFF_SYM1586=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1590=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1590
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1587=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1587
+LDIFF_SYM1591=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1591
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM1588=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1592=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1592
 	.byte 2,35,24,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1589=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1593=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1593
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1590=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1594=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1594
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1591=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1595=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1595
 	.byte 2
 	.asciz "System.Nullable`1<UIKit.UIDeviceOrientation>:.ctor"
 	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation"
 
 	.byte 2,94
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
-	.quad Lme_88
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1592=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM1596=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1596
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1593=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1597=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1597
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1594=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM1594
-Lfde127_start:
+LDIFF_SYM1598=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM1598
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
 
-LDIFF_SYM1595=Lme_88 - System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
-	.long LDIFF_SYM1595
+LDIFF_SYM1599=Lme_89 - System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
+	.long LDIFF_SYM1599
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde127_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43954,31 +44202,31 @@ Lfde127_end:
 
 	.byte 2,99
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
-	.quad Lme_89
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1596=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1600=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1600
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1597=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM1597
-Lfde128_start:
+LDIFF_SYM1601=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM1601
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
 
-LDIFF_SYM1598=Lme_89 - System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
-	.long LDIFF_SYM1598
+LDIFF_SYM1602=Lme_8a - System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
+	.long LDIFF_SYM1602
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde128_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43988,51 +44236,12 @@ Lfde128_end:
 
 	.byte 2,104
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-	.quad Lme_8a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1599=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1599
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1600=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM1600
-Lfde129_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-
-LDIFF_SYM1601=Lme_8a - System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-	.long LDIFF_SYM1601
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde129_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<UIKit.UIDeviceOrientation>:Equals"
-	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object"
-
-	.byte 2,113
-	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
 	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1602=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1602
-	.byte 1,105,3
-	.asciz "other"
-
-LDIFF_SYM1603=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1603=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1603
 	.byte 1,106,0
 
@@ -44044,12 +44253,12 @@ Lfde130_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
 
-LDIFF_SYM1605=Lme_8b - System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+LDIFF_SYM1605=Lme_8b - System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
 	.long LDIFF_SYM1605
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde130_end:
 
@@ -44057,10 +44266,10 @@ Lfde130_end:
 
 	.byte 2
 	.asciz "System.Nullable`1<UIKit.UIDeviceOrientation>:Equals"
-	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation"
+	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object"
 
-	.byte 2,123
-	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+	.byte 2,113
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
 	.quad Lme_8c
 
 	.byte 2,118,16,3
@@ -44068,12 +44277,12 @@ Lfde130_end:
 
 LDIFF_SYM1606=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1606
-	.byte 1,106,3
+	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM1607=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1607=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1607
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -44083,14 +44292,53 @@ Lfde131_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+
+LDIFF_SYM1609=Lme_8c - System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object
+	.long LDIFF_SYM1609
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde131_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<UIKit.UIDeviceOrientation>:Equals"
+	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation"
+
+	.byte 2,123
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+	.quad Lme_8d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1610=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1610
+	.byte 1,106,3
+	.asciz "other"
+
+LDIFF_SYM1611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1611
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1612=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM1612
+Lfde132_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
 
-LDIFF_SYM1609=Lme_8c - System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
-	.long LDIFF_SYM1609
+LDIFF_SYM1613=Lme_8d - System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+	.long LDIFF_SYM1613
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde131_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44100,31 +44348,31 @@ Lfde131_end:
 
 	.byte 2,134,1
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
-	.quad Lme_8d
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1610=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1614=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1614
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1611=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM1611
-Lfde132_start:
+LDIFF_SYM1615=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM1615
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
 
-LDIFF_SYM1612=Lme_8d - System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
-	.long LDIFF_SYM1612
+LDIFF_SYM1616=Lme_8e - System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode
+	.long LDIFF_SYM1616
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde132_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44134,31 +44382,70 @@ Lfde132_end:
 
 	.byte 2,142,1
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
-	.quad Lme_8e
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1613=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1617=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1617
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1614=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM1614
-Lfde133_start:
+LDIFF_SYM1618=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM1618
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
 
-LDIFF_SYM1615=Lme_8e - System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
-	.long LDIFF_SYM1615
+LDIFF_SYM1619=Lme_8f - System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
+	.long LDIFF_SYM1619
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde133_end:
+Lfde134_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<UIKit.UIDeviceOrientation>:GetValueOrDefault"
+	.asciz "System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation"
+
+	.byte 2,147,1
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
+	.quad Lme_90
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1620=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1620
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM1621=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1621
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1622=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM1622
+Lfde135_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
+
+LDIFF_SYM1623=Lme_90 - System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrientation
+	.long LDIFF_SYM1623
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44168,31 +44455,31 @@ Lfde133_end:
 
 	.byte 2,152,1
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_ToString
-	.quad Lme_8f
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1616=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1624=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1624
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1617=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM1617
-Lfde134_start:
+LDIFF_SYM1625=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1625
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_ToString
 
-LDIFF_SYM1618=Lme_8f - System_Nullable_1_UIKit_UIDeviceOrientation_ToString
-	.long LDIFF_SYM1618
+LDIFF_SYM1626=Lme_91 - System_Nullable_1_UIKit_UIDeviceOrientation_ToString
+	.long LDIFF_SYM1626
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde134_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44202,31 +44489,31 @@ Lfde134_end:
 
 	.byte 2,177,1
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
-	.quad Lme_90
+	.quad Lme_92
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1627
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1620=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1620
-Lfde135_start:
+LDIFF_SYM1628=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1628
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
 
-LDIFF_SYM1621=Lme_90 - System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
-	.long LDIFF_SYM1621
+LDIFF_SYM1629=Lme_92 - System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDeviceOrientation
+	.long LDIFF_SYM1629
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde135_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44236,36 +44523,36 @@ Lfde135_end:
 
 	.byte 2,185,1
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
-	.quad Lme_91
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1622=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1630=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1630
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1623=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1631=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1631
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1624=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1624
-Lfde136_start:
+LDIFF_SYM1632=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1632
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
 
-LDIFF_SYM1625=Lme_91 - System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
-	.long LDIFF_SYM1625
+LDIFF_SYM1633=Lme_93 - System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
+	.long LDIFF_SYM1633
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde136_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_163:
@@ -44274,69 +44561,69 @@ LTDIE_163:
 	.asciz "System_Nullable`1"
 
 	.byte 24,16
-LDIFF_SYM1626=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1634=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1627=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1635=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1635
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM1628=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1636=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 2,35,20,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1629=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1637=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1637
 LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1630=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1638=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1638
 LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1631=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1639=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 2
 	.asciz "System.Nullable`1<int>:.ctor"
 	.asciz "System_Nullable_1_int__ctor_int"
 
 	.byte 2,94
 	.quad System_Nullable_1_int__ctor_int
-	.quad Lme_92
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1632=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1640=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1640
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1633=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1634=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1634
-Lfde137_start:
+LDIFF_SYM1642=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1642
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int__ctor_int
 
-LDIFF_SYM1635=Lme_92 - System_Nullable_1_int__ctor_int
-	.long LDIFF_SYM1635
+LDIFF_SYM1643=Lme_94 - System_Nullable_1_int__ctor_int
+	.long LDIFF_SYM1643
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde137_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44346,31 +44633,31 @@ Lfde137_end:
 
 	.byte 2,99
 	.quad System_Nullable_1_int_get_HasValue
-	.quad Lme_93
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1636=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1644=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1644
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1637=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1637
-Lfde138_start:
+LDIFF_SYM1645=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1645
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_get_HasValue
 
-LDIFF_SYM1638=Lme_93 - System_Nullable_1_int_get_HasValue
-	.long LDIFF_SYM1638
+LDIFF_SYM1646=Lme_95 - System_Nullable_1_int_get_HasValue
+	.long LDIFF_SYM1646
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde138_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44380,92 +44667,14 @@ Lfde138_end:
 
 	.byte 2,104
 	.quad System_Nullable_1_int_get_Value
-	.quad Lme_94
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1639=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1639
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1640=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1640
-Lfde139_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_int_get_Value
-
-LDIFF_SYM1641=Lme_94 - System_Nullable_1_int_get_Value
-	.long LDIFF_SYM1641
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde139_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<int>:Equals"
-	.asciz "System_Nullable_1_int_Equals_object"
-
-	.byte 2,113
-	.quad System_Nullable_1_int_Equals_object
-	.quad Lme_95
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1642=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1642
-	.byte 1,105,3
-	.asciz "other"
-
-LDIFF_SYM1643=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1644=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1644
-Lfde140_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_int_Equals_object
-
-LDIFF_SYM1645=Lme_95 - System_Nullable_1_int_Equals_object
-	.long LDIFF_SYM1645
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
-	.align 3
-Lfde140_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<int>:Equals"
-	.asciz "System_Nullable_1_int_Equals_System_Nullable_1_int"
-
-	.byte 2,123
-	.quad System_Nullable_1_int_Equals_System_Nullable_1_int
 	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1646=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1646
-	.byte 1,106,3
-	.asciz "other"
-
-LDIFF_SYM1647=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1647=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1647
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -44475,14 +44684,92 @@ Lfde141_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_int_get_Value
+
+LDIFF_SYM1649=Lme_96 - System_Nullable_1_int_get_Value
+	.long LDIFF_SYM1649
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde141_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<int>:Equals"
+	.asciz "System_Nullable_1_int_Equals_object"
+
+	.byte 2,113
+	.quad System_Nullable_1_int_Equals_object
+	.quad Lme_97
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1650=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1650
+	.byte 1,105,3
+	.asciz "other"
+
+LDIFF_SYM1651=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1651
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1652=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1652
+Lfde142_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_int_Equals_object
+
+LDIFF_SYM1653=Lme_97 - System_Nullable_1_int_Equals_object
+	.long LDIFF_SYM1653
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde142_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<int>:Equals"
+	.asciz "System_Nullable_1_int_Equals_System_Nullable_1_int"
+
+	.byte 2,123
+	.quad System_Nullable_1_int_Equals_System_Nullable_1_int
+	.quad Lme_98
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1654=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1654
+	.byte 1,106,3
+	.asciz "other"
+
+LDIFF_SYM1655=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1655
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1656=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1656
+Lfde143_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_int_Equals_System_Nullable_1_int
 
-LDIFF_SYM1649=Lme_96 - System_Nullable_1_int_Equals_System_Nullable_1_int
-	.long LDIFF_SYM1649
+LDIFF_SYM1657=Lme_98 - System_Nullable_1_int_Equals_System_Nullable_1_int
+	.long LDIFF_SYM1657
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde141_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44492,31 +44779,31 @@ Lfde141_end:
 
 	.byte 2,134,1
 	.quad System_Nullable_1_int_GetHashCode
-	.quad Lme_97
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1650=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1658=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1658
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1651=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1651
-Lfde142_start:
+LDIFF_SYM1659=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1659
+Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_GetHashCode
 
-LDIFF_SYM1652=Lme_97 - System_Nullable_1_int_GetHashCode
-	.long LDIFF_SYM1652
+LDIFF_SYM1660=Lme_99 - System_Nullable_1_int_GetHashCode
+	.long LDIFF_SYM1660
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde142_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44526,31 +44813,70 @@ Lfde142_end:
 
 	.byte 2,142,1
 	.quad System_Nullable_1_int_GetValueOrDefault
-	.quad Lme_98
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1653=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1661=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1661
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1654=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1654
-Lfde143_start:
+LDIFF_SYM1662=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1662
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_GetValueOrDefault
 
-LDIFF_SYM1655=Lme_98 - System_Nullable_1_int_GetValueOrDefault
-	.long LDIFF_SYM1655
+LDIFF_SYM1663=Lme_9a - System_Nullable_1_int_GetValueOrDefault
+	.long LDIFF_SYM1663
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde143_end:
+Lfde145_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<int>:GetValueOrDefault"
+	.asciz "System_Nullable_1_int_GetValueOrDefault_int"
+
+	.byte 2,147,1
+	.quad System_Nullable_1_int_GetValueOrDefault_int
+	.quad Lme_9b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1664=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1664
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM1665=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1665
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1666=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1666
+Lfde146_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_int_GetValueOrDefault_int
+
+LDIFF_SYM1667=Lme_9b - System_Nullable_1_int_GetValueOrDefault_int
+	.long LDIFF_SYM1667
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44560,31 +44886,31 @@ Lfde143_end:
 
 	.byte 2,152,1
 	.quad System_Nullable_1_int_ToString
-	.quad Lme_99
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1656=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1668=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1657=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1657
-Lfde144_start:
+LDIFF_SYM1669=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1669
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_ToString
 
-LDIFF_SYM1658=Lme_99 - System_Nullable_1_int_ToString
-	.long LDIFF_SYM1658
+LDIFF_SYM1670=Lme_9c - System_Nullable_1_int_ToString
+	.long LDIFF_SYM1670
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde144_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44594,31 +44920,31 @@ Lfde144_end:
 
 	.byte 2,177,1
 	.quad System_Nullable_1_int_Box_System_Nullable_1_int
-	.quad Lme_9a
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1659=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1671=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1671
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1660=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1660
-Lfde145_start:
+LDIFF_SYM1672=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1672
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_Box_System_Nullable_1_int
 
-LDIFF_SYM1661=Lme_9a - System_Nullable_1_int_Box_System_Nullable_1_int
-	.long LDIFF_SYM1661
+LDIFF_SYM1673=Lme_9d - System_Nullable_1_int_Box_System_Nullable_1_int
+	.long LDIFF_SYM1673
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde145_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44628,215 +44954,215 @@ Lfde145_end:
 
 	.byte 2,185,1
 	.quad System_Nullable_1_int_Unbox_object
-	.quad Lme_9b
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1662=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1674=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1674
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1663=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1675=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1675
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1664=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1664
-Lfde146_start:
+LDIFF_SYM1676=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1676
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_int_Unbox_object
 
-LDIFF_SYM1665=Lme_9b - System_Nullable_1_int_Unbox_object
-	.long LDIFF_SYM1665
+LDIFF_SYM1677=Lme_9e - System_Nullable_1_int_Unbox_object
+	.long LDIFF_SYM1677
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde146_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_164:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1666=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1678=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
-LDIFF_SYM1667=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1679=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1679
 LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM1668=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1680=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1680
 LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1669=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1669
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Foundation.NSUrl>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
-	.quad Lme_9c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1670=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1670
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1671=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1671
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1672=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1672
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1673=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1673
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1674=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1674
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1675=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1675
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1676=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1676
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1677=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1677
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1678=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1678
-Lfde147_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
-
-LDIFF_SYM1679=Lme_9c - wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
-	.long LDIFF_SYM1679
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde147_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_165:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM1680=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1680
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1681=LTDIE_165 - Ldebug_info_start
+LDIFF_SYM1681=LTDIE_164 - Ldebug_info_start
 	.long LDIFF_SYM1681
-LTDIE_165_POINTER:
-
-	.byte 13
-LDIFF_SYM1682=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1682
-LTDIE_165_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1683=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1683
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<Foundation.NSUrl>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
-	.quad Lme_9d
+	.quad Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1684=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1684
+LDIFF_SYM1682=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1685=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM1683=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1686=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1686
+LDIFF_SYM1684=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1684
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1687=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1685=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1685
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1688=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1686=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1686
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1689=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1687=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1687
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1690=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1688=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1688
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1691=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1691
-Lfde148_start:
+LDIFF_SYM1689=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1689
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 
-LDIFF_SYM1692=Lme_9d - wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
-	.long LDIFF_SYM1692
+LDIFF_SYM1690=Lme_9f - wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
+	.long LDIFF_SYM1690
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde148_end:
+Lfde150_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_165:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1691=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1691
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1692=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1692
+LTDIE_165_POINTER:
+
+	.byte 13
+LDIFF_SYM1693=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1693
+LTDIE_165_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1694=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1694
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Foundation.NSUrl>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+	.quad Lme_a0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1695=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1695
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1696=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1696
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1697
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1698=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1698
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1699=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1699
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1700=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1700
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1701=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1702=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1702
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1703=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1703
+Lfde151_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+
+LDIFF_SYM1704=Lme_a0 - wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+	.long LDIFF_SYM1704
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_166:
@@ -44845,113 +45171,113 @@ LTDIE_166:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1693=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1705=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1694=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1706=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1706
 LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM1695=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1707=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1707
 LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1696=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1708=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1708
 LTDIE_167:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1697=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1709=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM1709
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1698=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1710=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1710
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1699=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1711=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1711
 LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM1700=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1712=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1712
 LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1701=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1713=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Foundation.NSUrl>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
-	.quad Lme_9e
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1702=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1714=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1714
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1703=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1715=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1715
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1704=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1716=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1716
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1705=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1717=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1706=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1718=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1718
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1707=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1719=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1719
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1708=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1720=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1709=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1709
-Lfde149_start:
+LDIFF_SYM1721=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1721
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
 
-LDIFF_SYM1710=Lme_9e - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
-	.long LDIFF_SYM1710
+LDIFF_SYM1722=Lme_a1 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
+	.long LDIFF_SYM1722
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde149_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_168:
@@ -44960,90 +45286,90 @@ LTDIE_168:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1711=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1723=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1712=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1724=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1724
 LTDIE_168_POINTER:
 
 	.byte 13
-LDIFF_SYM1713=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1725=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1725
 LTDIE_168_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1714=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM1726=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1726
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Foundation.NSUrl>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_9f
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1715=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1727=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1727
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1716=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1728=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1728
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1729=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1730
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1719=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1731=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1731
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1720=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1732=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1732
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1721=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1733=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1722=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1734=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1723=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1723
-Lfde150_start:
+LDIFF_SYM1735=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1735
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1724=Lme_9f - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1724
+LDIFF_SYM1736=Lme_a2 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1736
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde150_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_169:
@@ -45052,90 +45378,90 @@ LTDIE_169:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1725=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1737=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1726=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1738=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1738
 LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM1727=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1739=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1739
 LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1728=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1740=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<Foundation.NSUrl>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_a0
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1729=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1741=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1730=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1742=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1742
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1731=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1743=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1743
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1732=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1744=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1744
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1733=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1745=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1734=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1746=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1735=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1747=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1747
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1736=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1748=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1748
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1737=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1737
-Lfde151_start:
+LDIFF_SYM1749=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1749
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1738=Lme_a0 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1738
+LDIFF_SYM1750=Lme_a3 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1750
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde151_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45145,62 +45471,62 @@ Lfde151_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.quad Lme_a1
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1739=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1751=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1751
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1752=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1752
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1741=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM1753=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1742=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1754=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1754
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1743=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1755=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1755
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1744=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1756=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1745=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1757=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1746=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1746
-Lfde152_start:
+LDIFF_SYM1758=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1758
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
 
-LDIFF_SYM1747=Lme_a1 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.long LDIFF_SYM1747
+LDIFF_SYM1759=Lme_a4 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
+	.long LDIFF_SYM1759
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde152_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_171:
@@ -45209,8 +45535,8 @@ LTDIE_171:
 	.asciz "CoreImage_CIImageOrientation"
 
 	.byte 4
-LDIFF_SYM1748=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1760=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1760
 	.byte 9
 	.asciz "TopLeft"
 
@@ -45238,87 +45564,87 @@ LDIFF_SYM1748=LDIE_I4 - Ldebug_info_start
 	.byte 8,0,7
 	.asciz "CoreImage_CIImageOrientation"
 
-LDIFF_SYM1749=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1761=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1761
 LTDIE_171_POINTER:
 
 	.byte 13
-LDIFF_SYM1750=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1762=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1762
 LTDIE_171_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1751=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1751
+LDIFF_SYM1763=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1763
 LTDIE_170:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 24,16
-LDIFF_SYM1752=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1764=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1764
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1753=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1765=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM1754=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM1766=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1766
 	.byte 2,35,20,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1755=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1767=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1767
 LTDIE_170_POINTER:
 
 	.byte 13
-LDIFF_SYM1756=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1768=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1768
 LTDIE_170_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1757=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1769=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 2
 	.asciz "System.Nullable`1<CoreImage.CIImageOrientation>:.ctor"
 	.asciz "System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation"
 
 	.byte 2,94
 	.quad System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
-	.quad Lme_a2
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1758=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1758
+LDIFF_SYM1770=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1759=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1771=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1771
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1760=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1760
-Lfde153_start:
+LDIFF_SYM1772=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1772
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
 
-LDIFF_SYM1761=Lme_a2 - System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
-	.long LDIFF_SYM1761
+LDIFF_SYM1773=Lme_a5 - System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
+	.long LDIFF_SYM1773
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde153_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45328,31 +45654,31 @@ Lfde153_end:
 
 	.byte 2,99
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue
-	.quad Lme_a3
+	.quad Lme_a6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1762=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1774=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1774
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1763=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1763
-Lfde154_start:
+LDIFF_SYM1775=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1775
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue
 
-LDIFF_SYM1764=Lme_a3 - System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue
-	.long LDIFF_SYM1764
+LDIFF_SYM1776=Lme_a6 - System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue
+	.long LDIFF_SYM1776
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde154_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45362,31 +45688,31 @@ Lfde154_end:
 
 	.byte 2,104
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_get_Value
-	.quad Lme_a4
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1765=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1777=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1766=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1766
-Lfde155_start:
+LDIFF_SYM1778=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1778
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_get_Value
 
-LDIFF_SYM1767=Lme_a4 - System_Nullable_1_CoreImage_CIImageOrientation_get_Value
-	.long LDIFF_SYM1767
+LDIFF_SYM1779=Lme_a7 - System_Nullable_1_CoreImage_CIImageOrientation_get_Value
+	.long LDIFF_SYM1779
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde155_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45396,36 +45722,36 @@ Lfde155_end:
 
 	.byte 2,113
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
-	.quad Lme_a5
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1768=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1780=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1780
 	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM1769=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1781=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1770=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1770
-Lfde156_start:
+LDIFF_SYM1782=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1782
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
 
-LDIFF_SYM1771=Lme_a5 - System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
-	.long LDIFF_SYM1771
+LDIFF_SYM1783=Lme_a8 - System_Nullable_1_CoreImage_CIImageOrientation_Equals_object
+	.long LDIFF_SYM1783
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde156_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45435,36 +45761,36 @@ Lfde156_end:
 
 	.byte 2,123
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
-	.quad Lme_a6
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1772=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1784=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1784
 	.byte 1,106,3
 	.asciz "other"
 
-LDIFF_SYM1773=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1774=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1774
-Lfde157_start:
+LDIFF_SYM1786=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1786
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
 
-LDIFF_SYM1775=Lme_a6 - System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
-	.long LDIFF_SYM1775
+LDIFF_SYM1787=Lme_a9 - System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
+	.long LDIFF_SYM1787
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde157_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45474,31 +45800,31 @@ Lfde157_end:
 
 	.byte 2,134,1
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
-	.quad Lme_a7
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1776=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1788=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1788
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1777=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1777
-Lfde158_start:
+LDIFF_SYM1789=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1789
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
 
-LDIFF_SYM1778=Lme_a7 - System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
-	.long LDIFF_SYM1778
+LDIFF_SYM1790=Lme_aa - System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode
+	.long LDIFF_SYM1790
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde158_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45508,31 +45834,70 @@ Lfde158_end:
 
 	.byte 2,142,1
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
-	.quad Lme_a8
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1779=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM1791=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1791
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1780=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1780
-Lfde159_start:
+LDIFF_SYM1792=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1792
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
 
-LDIFF_SYM1781=Lme_a8 - System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
-	.long LDIFF_SYM1781
+LDIFF_SYM1793=Lme_ab - System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault
+	.long LDIFF_SYM1793
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde159_end:
+Lfde162_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<CoreImage.CIImageOrientation>:GetValueOrDefault"
+	.asciz "System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation"
+
+	.byte 2,147,1
+	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
+	.quad Lme_ac
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1794=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1794
+	.byte 1,105,3
+	.asciz "defaultValue"
+
+LDIFF_SYM1795=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1795
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1796=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1796
+Lfde163_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
+
+LDIFF_SYM1797=Lme_ac - System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIImageOrientation
+	.long LDIFF_SYM1797
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45542,31 +45907,31 @@ Lfde159_end:
 
 	.byte 2,152,1
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_ToString
-	.quad Lme_a9
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1782=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1782
+LDIFF_SYM1798=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1798
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1783=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1783
-Lfde160_start:
+LDIFF_SYM1799=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1799
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_ToString
 
-LDIFF_SYM1784=Lme_a9 - System_Nullable_1_CoreImage_CIImageOrientation_ToString
-	.long LDIFF_SYM1784
+LDIFF_SYM1800=Lme_ad - System_Nullable_1_CoreImage_CIImageOrientation_ToString
+	.long LDIFF_SYM1800
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde160_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45576,31 +45941,31 @@ Lfde160_end:
 
 	.byte 2,177,1
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
-	.quad Lme_aa
+	.quad Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1785=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1801=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1801
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1786=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1786
-Lfde161_start:
+LDIFF_SYM1802=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1802
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
 
-LDIFF_SYM1787=Lme_aa - System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
-	.long LDIFF_SYM1787
+LDIFF_SYM1803=Lme_ae - System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_CIImageOrientation
+	.long LDIFF_SYM1803
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde161_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45610,36 +45975,36 @@ Lfde161_end:
 
 	.byte 2,185,1
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
-	.quad Lme_ab
+	.quad Lme_af
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1788=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1804=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1804
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1789=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1805=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1805
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1790=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM1790
-Lfde162_start:
+LDIFF_SYM1806=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1806
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
 
-LDIFF_SYM1791=Lme_ab - System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
-	.long LDIFF_SYM1791
+LDIFF_SYM1807=Lme_af - System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
+	.long LDIFF_SYM1807
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde162_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45649,31 +46014,31 @@ Lfde162_end:
 
 	.byte 3,156,43
 	.quad System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
-	.quad Lme_ac
+	.quad Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM1792=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1793=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1793
-Lfde163_start:
+LDIFF_SYM1809=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1809
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
 
-LDIFF_SYM1794=Lme_ac - System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
-	.long LDIFF_SYM1794
+LDIFF_SYM1810=Lme_b0 - System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
+	.long LDIFF_SYM1810
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde163_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_172:
@@ -45684,54 +46049,54 @@ LTDIE_172:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM1795=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1795
+LDIFF_SYM1811=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1811
 LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM1796=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1796
+LDIFF_SYM1812=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1812
 LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1797=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1813=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1813
 	.byte 2
 	.asciz "System.Linq.Enumerable:OrderByDescending<UIKit.UIWindow,_System.nfloat>"
 	.asciz "System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat"
 
 	.byte 4,23
 	.quad System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
-	.quad Lme_ad
+	.quad Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM1798=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM1814=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1814
 	.byte 2,141,16,3
 	.asciz "keySelector"
 
-LDIFF_SYM1799=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1815=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1800=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1800
-Lfde164_start:
+LDIFF_SYM1816=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1816
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
 
-LDIFF_SYM1801=Lme_ad - System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
-	.long LDIFF_SYM1801
+LDIFF_SYM1817=Lme_b1 - System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
+	.long LDIFF_SYM1817
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde164_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_173:
@@ -45740,172 +46105,52 @@ LTDIE_173:
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM1802=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1818=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1818
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM1803=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1819=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1819
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM1804=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1820
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM1805=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1805
+LDIFF_SYM1821=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1821
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM1806=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1822=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1822
 LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM1807=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1823=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1823
 LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1808=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1824=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1824
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<TStateMachine_GSHAREDVT>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_"
 
 	.byte 5,72
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.quad Lme_ae
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1809=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1809
-	.byte 2,141,56,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1810=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1810
-	.byte 1,106,11
-	.asciz "ecs"
-
-LDIFF_SYM1811=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1811
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1812=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1812
-Lfde165_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-
-LDIFF_SYM1813=Lme_ae - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM1813
-	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,150,22,151,21,68,152,20,153,19,68,154,18
-	.align 3
-Lfde165_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_174:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
-
-	.byte 40,16
-LDIFF_SYM1814=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1814
-	.byte 2,35,0,6
-	.asciz "m_coreState"
-
-LDIFF_SYM1815=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1815
-	.byte 2,35,16,6
-	.asciz "m_task"
-
-LDIFF_SYM1816=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1816
-	.byte 2,35,32,0,7
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
-
-LDIFF_SYM1817=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1817
-LTDIE_174_POINTER:
-
-	.byte 13
-LDIFF_SYM1818=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1818
-LTDIE_174_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1819=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1819
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Plugin.Media.Abstractions.MediaFile>:Start<Plugin.Media.MediaPickerDelegate/<GetPictureMediaFile>d__25>"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_"
-
-	.byte 5,203,3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-	.quad Lme_af
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1820=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1820
-	.byte 2,141,24,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1821=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1821
-	.byte 1,106,11
-	.asciz "ecs"
-
-LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1822
-	.byte 3,141,128,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1823=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1823
-Lfde166_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-
-LDIFF_SYM1824=Lme_af - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-	.long LDIFF_SYM1824
-	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
-	.align 3
-Lfde166_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Plugin.Media.Abstractions.MediaFile>:Start<Plugin.Media.MediaPickerDelegate/<GetMovieMediaFile>d__28>"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_"
-
-	.byte 5,203,3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-	.quad Lme_b0
+	.quad Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM1825=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1825
-	.byte 2,141,24,3
+	.byte 2,141,56,3
 	.asciz "stateMachine"
 
 LDIFF_SYM1826=LDIE_I - Ldebug_info_start
@@ -45915,24 +46160,144 @@ LDIFF_SYM1826=LDIE_I - Ldebug_info_start
 
 LDIFF_SYM1827=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1827
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1828=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1828
+Lfde169_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
+
+LDIFF_SYM1829=Lme_b2 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM1829
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,150,22,151,21,68,152,20,153,19,68,154,18
+	.align 3
+Lfde169_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_174:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
+
+	.byte 40,16
+LDIFF_SYM1830=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 2,35,0,6
+	.asciz "m_coreState"
+
+LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 2,35,16,6
+	.asciz "m_task"
+
+LDIFF_SYM1832=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1832
+	.byte 2,35,32,0,7
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
+
+LDIFF_SYM1833=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1833
+LTDIE_174_POINTER:
+
+	.byte 13
+LDIFF_SYM1834=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1834
+LTDIE_174_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1835=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Plugin.Media.Abstractions.MediaFile>:Start<Plugin.Media.MediaPickerDelegate/<GetPictureMediaFile>d__25>"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_"
+
+	.byte 5,203,3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+	.quad Lme_b3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1836=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1836
+	.byte 2,141,24,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1837=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1837
+	.byte 1,106,11
+	.asciz "ecs"
+
+LDIFF_SYM1838=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1838
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1828=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1828
-Lfde167_start:
+LDIFF_SYM1839=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1839
+Lfde170_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+
+LDIFF_SYM1840=Lme_b3 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+	.long LDIFF_SYM1840
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
+	.align 3
+Lfde170_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Plugin.Media.Abstractions.MediaFile>:Start<Plugin.Media.MediaPickerDelegate/<GetMovieMediaFile>d__28>"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_"
+
+	.byte 5,203,3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
+	.quad Lme_b4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1841=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 2,141,24,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1842=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1842
+	.byte 1,106,11
+	.asciz "ecs"
+
+LDIFF_SYM1843=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1843
+	.byte 3,141,128,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1844=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1844
+Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 
-LDIFF_SYM1829=Lme_b0 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-	.long LDIFF_SYM1829
+LDIFF_SYM1845=Lme_b4 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
+	.long LDIFF_SYM1845
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
 	.align 3
-Lfde167_end:
+Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_175:
@@ -45941,85 +46306,85 @@ LTDIE_175:
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM1830=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1830
+LDIFF_SYM1846=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1846
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM1831=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1831
+LDIFF_SYM1847=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1847
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM1832=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1848=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1848
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM1833=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1849=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1849
 LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM1834=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1834
+LDIFF_SYM1850=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1850
 LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1835=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1851=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1851
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_GSHAREDVT,_TStateMachine_GSHAREDVT>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_"
 
 	.byte 5,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.quad Lme_b1
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1836=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM1852=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1852
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1837=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM1853=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1853
 	.byte 3,141,208,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1838=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1838
+LDIFF_SYM1854=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 3,141,216,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1839=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1855=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 3,141,128,1,11
 	.asciz "continuation"
 
-LDIFF_SYM1840=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1856=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1856
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1841=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1841
-Lfde168_start:
+LDIFF_SYM1857=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1857
+Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 
-LDIFF_SYM1842=Lme_b1 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM1842
+LDIFF_SYM1858=Lme_b5 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM1858
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
 	.byte 154,23
 	.align 3
-Lfde168_end:
+Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_176:
@@ -46028,84 +46393,84 @@ LTDIE_176:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM1843=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1859=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1859
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM1844=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1844
+LDIFF_SYM1860=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1860
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM1845=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1861=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1861
 LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM1846=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1862=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1862
 LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1847=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1847
+LDIFF_SYM1863=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Plugin.Media.Abstractions.MediaFile>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Foundation.NSUrl>,_Plugin.Media.MediaPickerDelegate/<GetPictureMediaFile>d__25>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_"
 
 	.byte 5,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-	.quad Lme_b2
+	.quad Lme_b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1848=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM1864=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1864
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1849=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1865=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 3,141,192,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1850=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1866=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 3,141,200,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1851=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1867=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1867
 	.byte 3,141,176,1,11
 	.asciz "continuation"
 
-LDIFF_SYM1852=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1852
+LDIFF_SYM1868=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1868
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM1853=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1869=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1854=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1854
-Lfde169_start:
+LDIFF_SYM1870=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1870
+Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 
-LDIFF_SYM1855=Lme_b2 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-	.long LDIFF_SYM1855
+LDIFF_SYM1871=Lme_b6 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+	.long LDIFF_SYM1871
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23
 	.align 3
-Lfde169_end:
+Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46115,56 +46480,56 @@ Lfde169_end:
 
 	.byte 5,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-	.quad Lme_b3
+	.quad Lme_b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1856=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1872=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1872
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1857=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1873=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 3,141,192,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1858=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1858
+LDIFF_SYM1874=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 3,141,200,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1859=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1859
+LDIFF_SYM1875=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1875
 	.byte 3,141,176,1,11
 	.asciz "continuation"
 
-LDIFF_SYM1860=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1876=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM1861=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1877=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1862=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1862
-Lfde170_start:
+LDIFF_SYM1878=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1878
+Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 
-LDIFF_SYM1863=Lme_b3 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-	.long LDIFF_SYM1863
+LDIFF_SYM1879=Lme_b7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
+	.long LDIFF_SYM1879
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23
 	.align 3
-Lfde170_end:
+Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_177:
@@ -46173,69 +46538,69 @@ LTDIE_177:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1864=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1864
+LDIFF_SYM1880=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1865=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1881=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1866=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1866
+LDIFF_SYM1882=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1867=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1883=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1883
 LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1868=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1884=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1884
 LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1869=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1885=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1885
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 1,239,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_b4
+	.quad Lme_b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1870=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1870
+LDIFF_SYM1886=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1871=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM1887=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1872=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1872
-Lfde171_start:
+LDIFF_SYM1888=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1888
+Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1873=Lme_b4 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1873
+LDIFF_SYM1889=Lme_b8 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1889
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde171_end:
+Lfde175_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_178:
@@ -46244,69 +46609,69 @@ LTDIE_178:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1874=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM1874
+LDIFF_SYM1890=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM1890
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1875=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM1891=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1891
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1876=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1892=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1892
 LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM1877=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1893=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1893
 LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1878=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1878
+LDIFF_SYM1894=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1894
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL"
 
 	.byte 6,104
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
-	.quad Lme_b5
+	.quad Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1879=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1895=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1895
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1880=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1896=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1896
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1881=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1897=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1882=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1882
-Lfde172_start:
+LDIFF_SYM1898=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1898
+Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
 
-LDIFF_SYM1883=Lme_b5 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
-	.long LDIFF_SYM1883
+LDIFF_SYM1899=Lme_b9 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
+	.long LDIFF_SYM1899
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde172_end:
+Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_180:
@@ -46315,28 +46680,28 @@ LTDIE_180:
 	.asciz "System_Linq_OrderedEnumerable`1"
 
 	.byte 24,16
-LDIFF_SYM1884=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1900=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,35,0,6
 	.asciz "_source"
 
-LDIFF_SYM1885=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1901=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1901
 	.byte 2,35,16,0,7
 	.asciz "System_Linq_OrderedEnumerable`1"
 
-LDIFF_SYM1886=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1886
+LDIFF_SYM1902=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1902
 LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM1887=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1887
+LDIFF_SYM1903=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1903
 LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1888=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1904=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1904
 LTDIE_181:
 
 	.byte 17
@@ -46345,117 +46710,117 @@ LTDIE_181:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IComparer`1"
 
-LDIFF_SYM1889=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1905=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1905
 LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM1890=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1906=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1906
 LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1891=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1907=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1907
 LTDIE_179:
 
 	.byte 5
 	.asciz "System_Linq_OrderedEnumerable`2"
 
 	.byte 56,16
-LDIFF_SYM1892=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1908=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,35,0,6
 	.asciz "_parent"
 
-LDIFF_SYM1893=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1909=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1909
 	.byte 2,35,24,6
 	.asciz "_keySelector"
 
-LDIFF_SYM1894=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1910=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1910
 	.byte 2,35,32,6
 	.asciz "_comparer"
 
-LDIFF_SYM1895=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1911=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 2,35,40,6
 	.asciz "_descending"
 
-LDIFF_SYM1896=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1912=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1912
 	.byte 2,35,48,0,7
 	.asciz "System_Linq_OrderedEnumerable`2"
 
-LDIFF_SYM1897=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1913=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1913
 LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1898=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1914=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1914
 LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1899=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1915=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2
 	.asciz "System.Linq.OrderedEnumerable`2<UIKit.UIWindow,_System.nfloat>:.ctor"
 	.asciz "System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow"
 
 	.byte 7,151,3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
-	.quad Lme_b6
+	.quad Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1900=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1916=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 1,101,3
 	.asciz "source"
 
-LDIFF_SYM1901=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1917=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 1,102,3
 	.asciz "keySelector"
 
-LDIFF_SYM1902=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1918=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 1,103,3
 	.asciz "comparer"
 
-LDIFF_SYM1903=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1919=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 3,141,192,0,3
 	.asciz "descending"
 
-LDIFF_SYM1904=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1920=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1920
 	.byte 3,141,200,0,3
 	.asciz "parent"
 
-LDIFF_SYM1905=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1921=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1906=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1906
-Lfde173_start:
+LDIFF_SYM1922=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1922
+Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
 
-LDIFF_SYM1907=Lme_b6 - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
-	.long LDIFF_SYM1907
+LDIFF_SYM1923=Lme_ba - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
+	.long LDIFF_SYM1923
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,68,153,9
 	.align 3
-Lfde173_end:
+Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46465,31 +46830,31 @@ Lfde173_end:
 
 	.byte 1,68
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_b8
+	.quad Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1908=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1924=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1909=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1909
-Lfde174_start:
+LDIFF_SYM1925=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1925
+Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1910=Lme_b8 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1910
+LDIFF_SYM1926=Lme_bc - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1926
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde174_end:
+Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46499,31 +46864,31 @@ Lfde174_end:
 
 	.byte 1,73
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_b9
+	.quad Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1911=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1911
+LDIFF_SYM1927=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1927
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1912=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1912
-Lfde175_start:
+LDIFF_SYM1928=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1928
+Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1913=Lme_b9 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1913
+LDIFF_SYM1929=Lme_bd - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1929
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde175_end:
+Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46533,31 +46898,31 @@ Lfde175_end:
 
 	.byte 1,83
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_ba
+	.quad Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1914=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1930=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1915=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1915
-Lfde176_start:
+LDIFF_SYM1931=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1931
+Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1916=Lme_ba - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1916
+LDIFF_SYM1932=Lme_be - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1932
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde176_end:
+Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46567,36 +46932,36 @@ Lfde176_end:
 
 	.byte 1,88
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_bb
+	.quad Lme_bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1917=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1933=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1933
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1918=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1934=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1919=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1919
-Lfde177_start:
+LDIFF_SYM1935=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1935
+Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1920=Lme_bb - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1920
+LDIFF_SYM1936=Lme_bf - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1936
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde177_end:
+Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46606,36 +46971,36 @@ Lfde177_end:
 
 	.byte 1,93
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_bc
+	.quad Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1921=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1937=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1937
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1938=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1923=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1923
-Lfde178_start:
+LDIFF_SYM1939=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1939
+Lfde182_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1924=Lme_bc - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1924
+LDIFF_SYM1940=Lme_c0 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1940
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde178_end:
+Lfde182_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46645,51 +47010,51 @@ Lfde178_end:
 
 	.byte 1,98
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_bd
+	.quad Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1925=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1941=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1926=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1942=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM1943=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1943
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1944=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1944
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM1929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1945
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1930=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1930
-Lfde179_start:
+LDIFF_SYM1946=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1946
+Lfde183_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1931=Lme_bd - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1931
+LDIFF_SYM1947=Lme_c1 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1947
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde179_end:
+Lfde183_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46699,41 +47064,41 @@ Lfde179_end:
 
 	.byte 1,123
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_be
+	.quad Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1932=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM1948=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1933=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1949=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1949
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1934=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1950=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1935=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1935
-Lfde180_start:
+LDIFF_SYM1951=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1951
+Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1936=Lme_be - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1936
+LDIFF_SYM1952=Lme_c2 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1952
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23
 	.align 3
-Lfde180_end:
+Lfde184_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_182:
@@ -46742,90 +47107,90 @@ LTDIE_182:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1937=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1953=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1938=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1938
+LDIFF_SYM1954=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1954
 LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM1939=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1955=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1955
 LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1940=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1956=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1956
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<UIKit.UIWindow>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow
-	.quad Lme_bf
+	.quad Lme_c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1941=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1957=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1957
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1942=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1958=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1958
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1943=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1959=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1959
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1944=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1960=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1960
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1945=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1961=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1961
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1946=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1962=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1962
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1947=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1963=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1963
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1948=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1964=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1964
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1949=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1949
-Lfde181_start:
+LDIFF_SYM1965=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1965
+Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow
 
-LDIFF_SYM1950=Lme_bf - wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow
-	.long LDIFF_SYM1950
+LDIFF_SYM1966=Lme_c3 - wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UIWindow
+	.long LDIFF_SYM1966
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde181_end:
+Lfde185_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_183:
@@ -46834,85 +47199,85 @@ LTDIE_183:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1951=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1967=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1952=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM1968=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1968
 LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM1953=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1969=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1969
 LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1954=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM1970=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1970
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<UIKit.UIWindow>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow
-	.quad Lme_c0
+	.quad Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1955=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1971=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1971
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1956=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1956
+LDIFF_SYM1972=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1972
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM1973=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1958=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1974=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1959=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1975=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1975
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1960=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1960
+LDIFF_SYM1976=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1976
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1961=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1961
+LDIFF_SYM1977=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1962=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1962
-Lfde182_start:
+LDIFF_SYM1978=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1978
+Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow
 
-LDIFF_SYM1963=Lme_c0 - wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow
-	.long LDIFF_SYM1963
+LDIFF_SYM1979=Lme_c4 - wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWindow
+	.long LDIFF_SYM1979
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde182_end:
+Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_184:
@@ -46921,95 +47286,95 @@ LTDIE_184:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1964=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1964
+LDIFF_SYM1980=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1980
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1965=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1965
+LDIFF_SYM1981=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1981
 LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1966=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1966
+LDIFF_SYM1982=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1982
 LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1967=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM1983=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1983
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<UIKit.UIWindow>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow
-	.quad Lme_c1
+	.quad Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1968=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM1984=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1984
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1969=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1969
+LDIFF_SYM1985=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1985
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1970=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1970
+LDIFF_SYM1986=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1986
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1971=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1971
+LDIFF_SYM1987=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1987
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1972=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1972
+LDIFF_SYM1988=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1988
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1973=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1973
+LDIFF_SYM1989=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1989
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1974=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1974
+LDIFF_SYM1990=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1990
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1975=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1975
+LDIFF_SYM1991=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1976=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM1992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1992
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1977=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1977
-Lfde183_start:
+LDIFF_SYM1993=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1993
+Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow
 
-LDIFF_SYM1978=Lme_c1 - wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow
-	.long LDIFF_SYM1978
+LDIFF_SYM1994=Lme_c5 - wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_UIWindow_UIKit_UIWindow
+	.long LDIFF_SYM1994
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde183_end:
+Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_185:
@@ -47018,64 +47383,64 @@ LTDIE_185:
 	.asciz "System_Linq_EnumerableSorter`1"
 
 	.byte 16,16
-LDIFF_SYM1979=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM1995=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 2,35,0,0,7
 	.asciz "System_Linq_EnumerableSorter`1"
 
-LDIFF_SYM1980=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1980
+LDIFF_SYM1996=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1996
 LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1981=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1981
+LDIFF_SYM1997=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1997
 LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1982=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1982
+LDIFF_SYM1998=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1998
 	.byte 2
 	.asciz "System.Linq.OrderedEnumerable`2<UIKit.UIWindow,_System.nfloat>:GetEnumerableSorter"
 	.asciz "System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow"
 
 	.byte 7,172,3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow
-	.quad Lme_c2
+	.quad Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1983=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1983
+LDIFF_SYM1999=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1999
 	.byte 1,105,3
 	.asciz "next"
 
-LDIFF_SYM1984=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM2000=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 2,141,32,11
 	.asciz "sorter"
 
-LDIFF_SYM1985=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1985
+LDIFF_SYM2001=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1986=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1986
-Lfde184_start:
+LDIFF_SYM2002=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM2002
+Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 
-LDIFF_SYM1987=Lme_c2 - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow
-	.long LDIFF_SYM1987
+LDIFF_SYM2003=Lme_c6 - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter_System_Linq_EnumerableSorter_1_UIKit_UIWindow
+	.long LDIFF_SYM2003
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 	.align 3
-Lfde184_end:
+Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_186:
@@ -47084,64 +47449,64 @@ LTDIE_186:
 	.asciz "System_Linq_CachingComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1988=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1988
+LDIFF_SYM2004=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2,35,0,0,7
 	.asciz "System_Linq_CachingComparer`1"
 
-LDIFF_SYM1989=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1989
+LDIFF_SYM2005=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2005
 LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM1990=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM2006=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2006
 LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1991=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM2007=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2007
 	.byte 2
 	.asciz "System.Linq.OrderedEnumerable`2<UIKit.UIWindow,_System.nfloat>:GetComparer"
 	.asciz "System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow"
 
 	.byte 7,183,3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow
-	.quad Lme_c3
+	.quad Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1992=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM2008=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
 	.byte 1,105,3
 	.asciz "childComparer"
 
-LDIFF_SYM1993=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM2009=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2009
 	.byte 1,106,11
 	.asciz "cmp"
 
-LDIFF_SYM1994=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM2010=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1995=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1995
-Lfde185_start:
+LDIFF_SYM2011=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM2011
+Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow
 
-LDIFF_SYM1996=Lme_c3 - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow
-	.long LDIFF_SYM1996
+LDIFF_SYM2012=Lme_c7 - System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_Linq_CachingComparer_1_UIKit_UIWindow
+	.long LDIFF_SYM2012
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde185_end:
+Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_187:
@@ -47150,54 +47515,54 @@ LTDIE_187:
 	.asciz "System_Collections_Generic_Comparer`1"
 
 	.byte 16,16
-LDIFF_SYM1997=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2013=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2013
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_Comparer`1"
 
-LDIFF_SYM1998=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2014=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2014
 LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM1999=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2015=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2015
 LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2000=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2016=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2016
 	.byte 2
 	.asciz "System.Collections.Generic.Comparer`1<System.nfloat>:get_Default"
 	.asciz "System_Collections_Generic_Comparer_1_System_nfloat_get_Default"
 
 	.byte 8,28
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_get_Default
-	.quad Lme_c4
+	.quad Lme_c8
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM2001=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2017=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2017
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2002=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM2002
-Lfde186_start:
+LDIFF_SYM2018=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM2018
+Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_get_Default
 
-LDIFF_SYM2003=Lme_c4 - System_Collections_Generic_Comparer_1_System_nfloat_get_Default
-	.long LDIFF_SYM2003
+LDIFF_SYM2019=Lme_c8 - System_Collections_Generic_Comparer_1_System_nfloat_get_Default
+	.long LDIFF_SYM2019
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde186_end:
+Lfde190_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47207,36 +47572,36 @@ Lfde186_end:
 
 	.byte 8,53
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
-	.quad Lme_c5
+	.quad Lme_c9
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM2004=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2020=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2020
 	.byte 1,106,11
 	.asciz "u"
 
-LDIFF_SYM2005=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2021=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2021
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2006=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM2006
-Lfde187_start:
+LDIFF_SYM2022=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM2022
+Lfde191_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
 
-LDIFF_SYM2007=Lme_c5 - System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
-	.long LDIFF_SYM2007
+LDIFF_SYM2023=Lme_c9 - System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
+	.long LDIFF_SYM2023
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde187_end:
+Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47246,41 +47611,41 @@ Lfde187_end:
 
 	.byte 8,91
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
-	.quad Lme_c7
+	.quad Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2008=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2024=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2024
 	.byte 3,141,192,0,3
 	.asciz "x"
 
-LDIFF_SYM2009=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2025=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 1,105,3
 	.asciz "y"
 
-LDIFF_SYM2010=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2026=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2011=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM2011
-Lfde188_start:
+LDIFF_SYM2027=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM2027
+Lfde192_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
 
-LDIFF_SYM2012=Lme_c7 - System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
-	.long LDIFF_SYM2012
+LDIFF_SYM2028=Lme_cb - System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
+	.long LDIFF_SYM2028
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,153,8,154,7
 	.align 3
-Lfde188_end:
+Lfde192_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47290,31 +47655,31 @@ Lfde188_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_Comparer_1_System_nfloat__ctor
-	.quad Lme_c8
+	.quad Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2013=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2029=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2014=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM2014
-Lfde189_start:
+LDIFF_SYM2030=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM2030
+Lfde193_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_System_nfloat__ctor
 
-LDIFF_SYM2015=Lme_c8 - System_Collections_Generic_Comparer_1_System_nfloat__ctor
-	.long LDIFF_SYM2015
+LDIFF_SYM2031=Lme_cc - System_Collections_Generic_Comparer_1_System_nfloat__ctor
+	.long LDIFF_SYM2031
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde189_end:
+Lfde193_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_188:
@@ -47323,64 +47688,64 @@ LTDIE_188:
 	.asciz "System_Collections_Generic_GenericComparer`1"
 
 	.byte 16,16
-LDIFF_SYM2016=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2032=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2032
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_GenericComparer`1"
 
-LDIFF_SYM2017=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2033=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2033
 LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM2018=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2034=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2034
 LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2019=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2035=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2035
 	.byte 2
 	.asciz "System.Collections.Generic.GenericComparer`1<System.nfloat>:Compare"
 	.asciz "System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat"
 
 	.byte 8,103
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
-	.quad Lme_c9
+	.quad Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2020=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2036=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 2,141,16,3
 	.asciz "x"
 
-LDIFF_SYM2021=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2037=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM2022=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2038=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2038
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2023=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM2023
-Lfde190_start:
+LDIFF_SYM2039=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM2039
+Lfde194_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
 
-LDIFF_SYM2024=Lme_c9 - System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
-	.long LDIFF_SYM2024
+LDIFF_SYM2040=Lme_cd - System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+	.long LDIFF_SYM2040
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde190_end:
+Lfde194_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47390,36 +47755,36 @@ Lfde190_end:
 
 	.byte 8,113
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
-	.quad Lme_ca
+	.quad Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2025=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2041=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM2026=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2042=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2042
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2027=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM2027
-Lfde191_start:
+LDIFF_SYM2043=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM2043
+Lfde195_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
 
-LDIFF_SYM2028=Lme_ca - System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
-	.long LDIFF_SYM2028
+LDIFF_SYM2044=Lme_ce - System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
+	.long LDIFF_SYM2044
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde191_end:
+Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47429,31 +47794,31 @@ Lfde191_end:
 
 	.byte 8,118
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
-	.quad Lme_cb
+	.quad Lme_cf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2029=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2045=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2045
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2030=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM2030
-Lfde192_start:
+LDIFF_SYM2046=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM2046
+Lfde196_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
 
-LDIFF_SYM2031=Lme_cb - System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
-	.long LDIFF_SYM2031
+LDIFF_SYM2047=Lme_cf - System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
+	.long LDIFF_SYM2047
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde192_end:
+Lfde196_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47463,31 +47828,31 @@ Lfde192_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
-	.quad Lme_cc
+	.quad Lme_d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2032=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2048=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2048
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2033=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM2033
-Lfde193_start:
+LDIFF_SYM2049=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM2049
+Lfde197_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
 
-LDIFF_SYM2034=Lme_cc - System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
-	.long LDIFF_SYM2034
+LDIFF_SYM2050=Lme_d0 - System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
+	.long LDIFF_SYM2050
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde193_end:
+Lfde197_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_189:
@@ -47496,99 +47861,99 @@ LTDIE_189:
 	.asciz "System_Linq_EnumerableSorter`2"
 
 	.byte 56,16
-LDIFF_SYM2035=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2051=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,35,0,6
 	.asciz "_keySelector"
 
-LDIFF_SYM2036=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2052=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
 	.byte 2,35,16,6
 	.asciz "_comparer"
 
-LDIFF_SYM2037=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2053=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2053
 	.byte 2,35,24,6
 	.asciz "_descending"
 
-LDIFF_SYM2038=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2054=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 2,35,48,6
 	.asciz "_next"
 
-LDIFF_SYM2039=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2055=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM2040=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2056=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2056
 	.byte 2,35,40,0,7
 	.asciz "System_Linq_EnumerableSorter`2"
 
-LDIFF_SYM2041=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2041
+LDIFF_SYM2057=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2057
 LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM2042=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2042
+LDIFF_SYM2058=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2058
 LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2043=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2059=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM2059
 	.byte 2
 	.asciz "System.Linq.EnumerableSorter`2<UIKit.UIWindow,_System.nfloat>:.ctor"
 	.asciz "System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow"
 
 	.byte 7,133,6
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
-	.quad Lme_cd
+	.quad Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2044=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2060=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2060
 	.byte 1,102,3
 	.asciz "keySelector"
 
-LDIFF_SYM2045=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2061=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2061
 	.byte 2,141,24,3
 	.asciz "comparer"
 
-LDIFF_SYM2046=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2062=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2062
 	.byte 2,141,32,3
 	.asciz "descending"
 
-LDIFF_SYM2047=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2063=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 2,141,40,3
 	.asciz "next"
 
-LDIFF_SYM2048=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2064=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2049=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM2049
-Lfde194_start:
+LDIFF_SYM2065=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM2065
+Lfde198_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 
-LDIFF_SYM2050=Lme_cd - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
-	.long LDIFF_SYM2050
+LDIFF_SYM2066=Lme_d1 - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
+	.long LDIFF_SYM2066
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12
 	.align 3
-Lfde194_end:
+Lfde198_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47598,46 +47963,46 @@ Lfde194_end:
 
 	.byte 7,143,6
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UIWindow___int
-	.quad Lme_ce
+	.quad Lme_d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2051=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2067=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2067
 	.byte 1,104,3
 	.asciz "elements"
 
-LDIFF_SYM2052=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2068=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 1,105,3
 	.asciz "count"
 
-LDIFF_SYM2053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2069=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM2054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2070=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2055=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM2055
-Lfde195_start:
+LDIFF_SYM2071=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM2071
+Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UIWindow___int
 
-LDIFF_SYM2056=Lme_ce - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UIWindow___int
-	.long LDIFF_SYM2056
+LDIFF_SYM2072=Lme_d2 - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UIWindow___int
+	.long LDIFF_SYM2072
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde195_end:
+Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47647,46 +48012,46 @@ Lfde195_end:
 
 	.byte 7,157,6
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_int
-	.quad Lme_cf
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2057=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2073=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 1,104,3
 	.asciz "index1"
 
-LDIFF_SYM2058=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2074=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2074
 	.byte 1,105,3
 	.asciz "index2"
 
-LDIFF_SYM2059=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2075=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2075
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM2060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2076=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2076
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2061=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM2061
-Lfde196_start:
+LDIFF_SYM2077=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM2077
+Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_int
 
-LDIFF_SYM2062=Lme_cf - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_int
-	.long LDIFF_SYM2062
+LDIFF_SYM2078=Lme_d3 - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_int
+	.long LDIFF_SYM2078
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde196_end:
+Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_190:
@@ -47695,89 +48060,89 @@ LTDIE_190:
 	.asciz "System_Linq_CachingComparer`2"
 
 	.byte 48,16
-LDIFF_SYM2063=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2079=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2079
 	.byte 2,35,0,6
 	.asciz "_keySelector"
 
-LDIFF_SYM2064=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2080=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2080
 	.byte 2,35,16,6
 	.asciz "_comparer"
 
-LDIFF_SYM2065=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2081=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 2,35,24,6
 	.asciz "_descending"
 
-LDIFF_SYM2066=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2082=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2082
 	.byte 2,35,32,6
 	.asciz "_lastKey"
 
-LDIFF_SYM2067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2083=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 2,35,40,0,7
 	.asciz "System_Linq_CachingComparer`2"
 
-LDIFF_SYM2068=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2084=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2084
 LTDIE_190_POINTER:
 
 	.byte 13
-LDIFF_SYM2069=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2085=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2085
 LTDIE_190_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2070=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2086=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2086
 	.byte 2
 	.asciz "System.Linq.CachingComparer`2<UIKit.UIWindow,_System.nfloat>:.ctor"
 	.asciz "System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool"
 
 	.byte 7,207,3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
-	.quad Lme_d0
+	.quad Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2071=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2071
+LDIFF_SYM2087=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 1,103,3
 	.asciz "keySelector"
 
-LDIFF_SYM2072=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2072
+LDIFF_SYM2088=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2088
 	.byte 2,141,24,3
 	.asciz "comparer"
 
-LDIFF_SYM2073=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2089=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2089
 	.byte 2,141,32,3
 	.asciz "descending"
 
-LDIFF_SYM2074=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2090=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2075=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM2075
-Lfde197_start:
+LDIFF_SYM2091=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM2091
+Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
 
-LDIFF_SYM2076=Lme_d0 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
-	.long LDIFF_SYM2076
+LDIFF_SYM2092=Lme_d4 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
+	.long LDIFF_SYM2092
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10
 	.align 3
-Lfde197_end:
+Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47787,51 +48152,51 @@ Lfde197_end:
 
 	.byte 7,216,3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
-	.quad Lme_d1
+	.quad Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2077=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2093=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 1,104,3
 	.asciz "element"
 
-LDIFF_SYM2078=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2094=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 2,141,40,3
 	.asciz "cacheLower"
 
-LDIFF_SYM2079=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2095=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 2,141,48,11
 	.asciz "newKey"
 
-LDIFF_SYM2080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2080
+LDIFF_SYM2096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2096
 	.byte 3,141,208,0,11
 	.asciz "cmp"
 
-LDIFF_SYM2081=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2082=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM2082
-Lfde198_start:
+LDIFF_SYM2098=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM2098
+Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
 
-LDIFF_SYM2083=Lme_d1 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
-	.long LDIFF_SYM2083
+LDIFF_SYM2099=Lme_d5 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
+	.long LDIFF_SYM2099
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12
 	.align 3
-Lfde198_end:
+Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47841,36 +48206,36 @@ Lfde198_end:
 
 	.byte 7,228,3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
-	.quad Lme_d2
+	.quad Lme_d6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2084=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2100=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 1,105,3
 	.asciz "element"
 
-LDIFF_SYM2085=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2101=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2086=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM2086
-Lfde199_start:
+LDIFF_SYM2102=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM2102
+Lfde203_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
 
-LDIFF_SYM2087=Lme_d2 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
-	.long LDIFF_SYM2087
+LDIFF_SYM2103=Lme_d6 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
+	.long LDIFF_SYM2103
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde199_end:
+Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_191:
@@ -47879,79 +48244,79 @@ LTDIE_191:
 	.asciz "System_Linq_CachingComparerWithChild`2"
 
 	.byte 56,16
-LDIFF_SYM2088=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2104=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 2,35,0,6
 	.asciz "_child"
 
-LDIFF_SYM2089=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2105=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 2,35,48,0,7
 	.asciz "System_Linq_CachingComparerWithChild`2"
 
-LDIFF_SYM2090=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2106=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2106
 LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM2091=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2107=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2107
 LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2092=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2108=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 2
 	.asciz "System.Linq.CachingComparerWithChild`2<UIKit.UIWindow,_System.nfloat>:.ctor"
 	.asciz "System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow"
 
 	.byte 7,237,3
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
-	.quad Lme_d3
+	.quad Lme_d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2093=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2109=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 1,102,3
 	.asciz "keySelector"
 
-LDIFF_SYM2094=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2094
+LDIFF_SYM2110=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2110
 	.byte 2,141,24,3
 	.asciz "comparer"
 
-LDIFF_SYM2095=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2111=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 2,141,32,3
 	.asciz "descending"
 
-LDIFF_SYM2096=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2112=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 2,141,40,3
 	.asciz "child"
 
-LDIFF_SYM2097=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2113=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2113
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2098=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM2098
-Lfde200_start:
+LDIFF_SYM2114=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM2114
+Lfde204_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
 
-LDIFF_SYM2099=Lme_d3 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
-	.long LDIFF_SYM2099
+LDIFF_SYM2115=Lme_d7 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
+	.long LDIFF_SYM2115
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10
 	.align 3
-Lfde200_end:
+Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47961,51 +48326,51 @@ Lfde200_end:
 
 	.byte 7,244,3
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
-	.quad Lme_d4
+	.quad Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2100=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2116=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2116
 	.byte 1,104,3
 	.asciz "element"
 
-LDIFF_SYM2101=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2101
+LDIFF_SYM2117=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2117
 	.byte 1,105,3
 	.asciz "cacheLower"
 
-LDIFF_SYM2102=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2118=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2118
 	.byte 1,106,11
 	.asciz "newKey"
 
-LDIFF_SYM2103=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2119=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 3,141,208,0,11
 	.asciz "cmp"
 
-LDIFF_SYM2104=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2120=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2105=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM2105
-Lfde201_start:
+LDIFF_SYM2121=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM2121
+Lfde205_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
 
-LDIFF_SYM2106=Lme_d4 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
-	.long LDIFF_SYM2106
+LDIFF_SYM2122=Lme_d8 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindow_bool
+	.long LDIFF_SYM2122
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,68,154,10
 	.align 3
-Lfde201_end:
+Lfde205_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48015,36 +48380,36 @@ Lfde201_end:
 
 	.byte 7,134,4
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
-	.quad Lme_d5
+	.quad Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2107=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2123=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,105,3
 	.asciz "element"
 
-LDIFF_SYM2108=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2124=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2109=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM2109
-Lfde202_start:
+LDIFF_SYM2125=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM2125
+Lfde206_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
 
-LDIFF_SYM2110=Lme_d5 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
-	.long LDIFF_SYM2110
+LDIFF_SYM2126=Lme_d9 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
+	.long LDIFF_SYM2126
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde202_end:
+Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_192:
@@ -48053,54 +48418,54 @@ LTDIE_192:
 	.asciz "System_Collections_Generic_ObjectComparer`1"
 
 	.byte 16,16
-LDIFF_SYM2111=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2127=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectComparer`1"
 
-LDIFF_SYM2112=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2128=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2128
 LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM2113=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2113
+LDIFF_SYM2129=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2129
 LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2114=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2130=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectComparer`1<System.nfloat>:.ctor"
 	.asciz "System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor"
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
-	.quad Lme_d6
+	.quad Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2115=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2131=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2131
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2116=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM2116
-Lfde203_start:
+LDIFF_SYM2132=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM2132
+Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
 
-LDIFF_SYM2117=Lme_d6 - System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
-	.long LDIFF_SYM2117
+LDIFF_SYM2133=Lme_da - System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
+	.long LDIFF_SYM2133
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde203_end:
+Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48110,41 +48475,41 @@ Lfde203_end:
 
 	.byte 8,150,1
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
-	.quad Lme_d7
+	.quad Lme_db
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2118=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2134=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 2,141,16,3
 	.asciz "x"
 
-LDIFF_SYM2119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2135=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM2120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2136=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2136
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2121=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM2121
-Lfde204_start:
+LDIFF_SYM2137=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM2137
+Lfde208_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
 
-LDIFF_SYM2122=Lme_d7 - System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
-	.long LDIFF_SYM2122
+LDIFF_SYM2138=Lme_db - System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+	.long LDIFF_SYM2138
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde204_end:
+Lfde208_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48154,36 +48519,36 @@ Lfde204_end:
 
 	.byte 8,155,1
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
-	.quad Lme_d8
+	.quad Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2123=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2139=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2139
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM2124=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2140=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2140
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2125=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM2125
-Lfde205_start:
+LDIFF_SYM2141=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM2141
+Lfde209_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
 
-LDIFF_SYM2126=Lme_d8 - System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
-	.long LDIFF_SYM2126
+LDIFF_SYM2142=Lme_dc - System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
+	.long LDIFF_SYM2142
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde205_end:
+Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48193,31 +48558,31 @@ Lfde205_end:
 
 	.byte 8,160,1
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
-	.quad Lme_d9
+	.quad Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2127=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2143=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2128=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM2128
-Lfde206_start:
+LDIFF_SYM2144=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM2144
+Lfde210_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
 
-LDIFF_SYM2129=Lme_d9 - System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
-	.long LDIFF_SYM2129
+LDIFF_SYM2145=Lme_dd - System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
+	.long LDIFF_SYM2145
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde206_end:
+Lfde210_end:
 
 .section __DWARF, __debug_info,regular,debug
 

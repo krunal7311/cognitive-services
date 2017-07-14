@@ -16,6 +16,11 @@ extern void *mono_aot_module_System_ServiceModel_Internals_info;
 extern void *mono_aot_module_Tabs_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
 extern void *mono_aot_module_Plugin_Media_Abstractions_info;
+extern void *mono_aot_module_Newtonsoft_Json_info;
+extern void *mono_aot_module_System_Numerics_info;
+extern void *mono_aot_module_System_Xml_Linq_info;
+extern void *mono_aot_module_Microsoft_CSharp_info;
+extern void *mono_aot_module_Mono_CSharp_info;
 extern void *mono_aot_module_Plugin_Media_info;
 
 void xamarin_register_modules_impl ()
@@ -36,6 +41,11 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Tabs_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
 	mono_aot_register_module (mono_aot_module_Plugin_Media_Abstractions_info);
+	mono_aot_register_module (mono_aot_module_Newtonsoft_Json_info);
+	mono_aot_register_module (mono_aot_module_System_Numerics_info);
+	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
+	mono_aot_register_module (mono_aot_module_Microsoft_CSharp_info);
+	mono_aot_register_module (mono_aot_module_Mono_CSharp_info);
 	mono_aot_register_module (mono_aot_module_Plugin_Media_info);
 
 }

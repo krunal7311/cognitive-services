@@ -22,7 +22,11 @@
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.0/mtouch-symbols.list" \
 	--dsym=no \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" \
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll" \
 	-r \
@@ -31,6 +35,10 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
@@ -311,6 +319,8 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" \
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll" \
 	-r \
