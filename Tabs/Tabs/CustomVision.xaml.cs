@@ -47,7 +47,8 @@ namespace Tabs
             });
 
             await MakePredictionRequest(file);
-        }
+
+		}
         static byte[] GetImageAsByteArray(MediaFile file)
         {
             var stream = file.GetStream();
@@ -78,19 +79,25 @@ namespace Tabs
 					var Tag = from p in rss["Predictions"] select (string)p["Tag"];
 
 					//Truncate values to labels in XAML
-					foreach (var item in Tag)
-					{
-						TagLabel.Text += item + ": \n";
-					}
+			//		foreach (var item in Tag)
+			//		{
+			//			TagLabel.Text += item + ": \n";
+			//		}
 
-					foreach (var item in Probability)
+                    foreach (var item in Probability)
 					{
-						PredictionLabel.Text += item + "\n";
+                        double check = double.Parse(item);
+                        if (check > 0.5)
+                            PredictionLabel.Text = "Burj Khalifa";
+                        else
+                        {
+                            PredictionLabel.Text = "Not Burj Khalifa";
+                        }
 					}
+					file.Dispose();
 
-                }
+				}
             }
-			file.Dispose();
 
 		}
 		}
