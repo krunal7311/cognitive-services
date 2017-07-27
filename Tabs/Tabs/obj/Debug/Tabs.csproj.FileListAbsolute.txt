@@ -27,3 +27,20 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Newtonsoft.Json.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Newtonsoft.Json.xml
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.csprojResolveAssemblyReference.cache
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.csproj.CoreCompileInputs.cache
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.App.xaml.g.cs
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.TabsPage.xaml.g.cs
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.AzureTable.xaml.g.cs
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.CustomVision.xaml.g.cs
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.dll
+/Volumes/Krunal/downloads/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/bin/Debug/Tabs.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/bin/Debug/Tabs.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.csproj.CoreCompileInputs.cache
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.App.xaml.g.cs
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.TabsPage.xaml.g.cs
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.AzureTable.xaml.g.cs
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.CustomVision.xaml.g.cs
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.pdb

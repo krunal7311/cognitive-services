@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:38 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Wed Jul  5 10:56:13 EDT 2017)"
 	.asciz "Xamarin.Forms.Platform.dll"
 	.asciz ""
 
@@ -128,7 +128,7 @@ Xamarin_Forms_Platform_Loader_Load:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #200]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -164,7 +164,7 @@ Xamarin_Forms_Platform__BoxViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -209,7 +209,7 @@ Xamarin_Forms_Platform__EntryRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -254,7 +254,7 @@ Xamarin_Forms_Platform__EditorRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -299,7 +299,7 @@ Xamarin_Forms_Platform__LabelRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -344,7 +344,7 @@ Xamarin_Forms_Platform__ImageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -389,7 +389,7 @@ Xamarin_Forms_Platform__ButtonRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -434,7 +434,7 @@ Xamarin_Forms_Platform__TableViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -479,7 +479,7 @@ Xamarin_Forms_Platform__ListViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -524,7 +524,7 @@ Xamarin_Forms_Platform__SliderRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -569,7 +569,7 @@ Xamarin_Forms_Platform__WebViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -614,7 +614,7 @@ Xamarin_Forms_Platform__SearchBarRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -659,7 +659,7 @@ Xamarin_Forms_Platform__SwitchRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -704,7 +704,7 @@ Xamarin_Forms_Platform__DatePickerRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -749,7 +749,7 @@ Xamarin_Forms_Platform__TimePickerRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -794,7 +794,7 @@ Xamarin_Forms_Platform__PickerRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -839,7 +839,7 @@ Xamarin_Forms_Platform__StepperRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -884,7 +884,7 @@ Xamarin_Forms_Platform__ProgressBarRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -929,7 +929,7 @@ Xamarin_Forms_Platform__ScrollViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -974,7 +974,7 @@ Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1019,7 +1019,7 @@ Xamarin_Forms_Platform__FrameRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1064,7 +1064,7 @@ Xamarin_Forms_Platform__NavigationMenuRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1109,7 +1109,7 @@ Xamarin_Forms_Platform__OpenGLViewRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1154,7 +1154,7 @@ Xamarin_Forms_Platform__TabbedPageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1199,7 +1199,7 @@ Xamarin_Forms_Platform__NavigationPageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1244,7 +1244,7 @@ Xamarin_Forms_Platform__CarouselPageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1289,7 +1289,7 @@ Xamarin_Forms_Platform__PageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1334,7 +1334,7 @@ Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor:
 
 adrp x16, mono_aot_Xamarin_Forms_Platform_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Platform_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1432,7 +1432,7 @@ mono_aot_Xamarin_Forms_Platform_plt:
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Xamarin_Forms_Platform_got, 440
+.lcomm mono_aot_Xamarin_Forms_Platform_got, 432
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -1455,7 +1455,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "7EB92CF2-73DD-4084-8CE1-DE85306A408F"
+	.asciz "A9DE687B-1270-4B8C-A298-4CD2B3FE5E43"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1532,13 +1532,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 54,440,1,29,70,391195135,0,2347
-	.long 128,8,8,10,0,26,3272,912
+	.long 53,432,1,29,70,391195135,0,2370
+	.long 128,8,8,10,0,25,3288,912
 	.long 728,208,0,608,672,520,0,200
 	.long 56,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 65,44,88,214,120,229,151,189,107,230,181,172,132,99,146,201
+	.byte 6,115,219,129,238,126,206,82,207,213,123,104,52,0,71,62
 	.globl _mono_aot_module_Xamarin_Forms_Platform_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Platform_info:

@@ -13,14 +13,16 @@ extern void *mono_aot_module_Xamarin_Forms_Platform_info;
 extern void *mono_aot_module_System_Net_Http_info;
 extern void *mono_aot_module_System_Runtime_Serialization_info;
 extern void *mono_aot_module_System_ServiceModel_Internals_info;
-extern void *mono_aot_module_Tabs_info;
-extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
-extern void *mono_aot_module_Plugin_Media_Abstractions_info;
+extern void *mono_aot_module_Microsoft_WindowsAzure_Mobile_Ext_info;
+extern void *mono_aot_module_Microsoft_WindowsAzure_Mobile_info;
 extern void *mono_aot_module_Newtonsoft_Json_info;
 extern void *mono_aot_module_System_Numerics_info;
 extern void *mono_aot_module_System_Xml_Linq_info;
 extern void *mono_aot_module_Microsoft_CSharp_info;
-extern void *mono_aot_module_Mono_CSharp_info;
+extern void *mono_aot_module_System_Net_Http_Primitives_info;
+extern void *mono_aot_module_Tabs_info;
+extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
+extern void *mono_aot_module_Plugin_Media_Abstractions_info;
 extern void *mono_aot_module_Plugin_Media_info;
 
 void xamarin_register_modules_impl ()
@@ -38,14 +40,16 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_Net_Http_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_Serialization_info);
 	mono_aot_register_module (mono_aot_module_System_ServiceModel_Internals_info);
-	mono_aot_register_module (mono_aot_module_Tabs_info);
-	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
-	mono_aot_register_module (mono_aot_module_Plugin_Media_Abstractions_info);
+	mono_aot_register_module (mono_aot_module_Microsoft_WindowsAzure_Mobile_Ext_info);
+	mono_aot_register_module (mono_aot_module_Microsoft_WindowsAzure_Mobile_info);
 	mono_aot_register_module (mono_aot_module_Newtonsoft_Json_info);
 	mono_aot_register_module (mono_aot_module_System_Numerics_info);
 	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_CSharp_info);
-	mono_aot_register_module (mono_aot_module_Mono_CSharp_info);
+	mono_aot_register_module (mono_aot_module_System_Net_Http_Primitives_info);
+	mono_aot_register_module (mono_aot_module_Tabs_info);
+	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
+	mono_aot_register_module (mono_aot_module_Plugin_Media_Abstractions_info);
 	mono_aot_register_module (mono_aot_module_Plugin_Media_info);
 
 }
@@ -55,12 +59,14 @@ void xamarin_register_assemblies_impl ()
 	guint32 exception_gchandle = 0;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Microsoft.WindowsAzure.Mobile.Ext.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Plugin.Media.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
 
-void xamarin_create_classes();
+extern "C" void xamarin_create_classes();
 void xamarin_setup_impl ()
 {
 	xamarin_create_classes();
@@ -78,7 +84,7 @@ void xamarin_setup_impl ()
 int main (int argc, char **argv)
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	int rv = xamarin_main (argc, argv, false);
+	int rv = xamarin_main (argc, argv, XamarinLaunchModeApp);
 	[pool drain];
 	return rv;
 }

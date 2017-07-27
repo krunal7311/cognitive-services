@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:38 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Wed Jul  5 10:56:13 EDT 2017)"
 	.asciz "Plugin.Media.dll"
 	.asciz ""
 
@@ -128,7 +128,7 @@ Plugin_Media_CrossMedia_get_IsSupported:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #200]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -147,7 +147,7 @@ ldr x16, [x16, #208]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
@@ -208,7 +208,7 @@ Plugin_Media_CrossMedia_get_Current:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -227,7 +227,7 @@ ldr x16, [x16, #224]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
@@ -282,7 +282,7 @@ Plugin_Media_CrossMedia_CreateMedia:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -301,7 +301,7 @@ ldr x16, [x16, #232]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #240]
+ldr x0, [x16, #232]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
@@ -339,7 +339,7 @@ Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -358,12 +358,12 @@ ldr x16, [x16, #248]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #256]
+ldr x0, [x16, #248]
 .word 0xf9001fa0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #256]
 .word 0xd2801101
 .word 0xd2801101
 bl _p_4
@@ -403,7 +403,7 @@ Plugin_Media_CrossMedia__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -442,12 +442,12 @@ Lme_4:
 	.no_dead_strip Plugin_Media_CrossMedia__cctor
 Plugin_Media_CrossMedia__cctor:
 .loc 1 1 0
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -466,41 +466,47 @@ ldr x16, [x16, #280]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #288]
+ldr x0, [x16, #280]
 .word 0xf9400000
-.word 0xf9002ba0
+.word 0xf90023a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000800
+.word 0x540008a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf9402ba1
-.word 0xf90027a1
+.word 0xf94023a1
 .word 0xf9001001
-.word 0xf90023a0
-.word 0x91008000
-bl _p_7
-.word 0xf94023a0
-.word 0xf94027a1
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #304]
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #296]
 .word 0xf9001401
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9002001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #320]
+ldr x1, [x16, #312]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -512,38 +518,38 @@ ldr x1, [x16, #320]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #328]
+ldr x0, [x16, #320]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_4
 .word 0xf9401fa1
 .word 0xf9001ba0
 .word 0xd2800022
-bl _p_8
+bl _p_7
 .word 0xf9400bb1
-.word 0xf9412a31
+.word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9000001
 .word 0xf9400bb1
-.word 0xf9414e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb1
-.word 0xf9415e31
+.word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_5:
 .text
@@ -556,7 +562,7 @@ Plugin_Media_MediaImplementation_get_StatusBarStyle:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -575,7 +581,7 @@ ldr x16, [x16, #336]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #344]
+ldr x0, [x16, #336]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -607,7 +613,7 @@ Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -627,7 +633,7 @@ ldr x16, [x16, #352]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #344]
+ldr x0, [x16, #336]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9407631
@@ -653,7 +659,7 @@ Plugin_Media_MediaImplementation_Initialize:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -673,9 +679,9 @@ ldr x16, [x16, #360]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #368]
+ldr x15, [x16, #360]
 .word 0xd2800020
-bl _p_10
+bl _p_9
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9407e31
@@ -714,7 +720,7 @@ Plugin_Media_MediaImplementation__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -743,7 +749,7 @@ ldr x16, [x16, #376]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_11
+bl _p_10
 .word 0xf90063a0
 .word 0xf9402bb1
 .word 0xf940ae31
@@ -752,7 +758,7 @@ bl _p_11
 .word 0xf94063a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410830
+.word 0xf9410c30
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402bb1
@@ -760,7 +766,7 @@ bl _p_11
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
-bl _p_12
+bl _p_11
 .word 0xf9402bb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -772,7 +778,7 @@ bl _p_12
 .word 0xaa1a03e0
 .word 0xd2800020
 .word 0xd2800020
-bl _p_13
+bl _p_12
 .word 0x53001c00
 .word 0xf90057a0
 .word 0xf9402bb1
@@ -781,7 +787,7 @@ bl _p_13
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
-bl _p_13
+bl _p_12
 .word 0x53001c00
 .word 0xf9005ba0
 .word 0xf9402bb1
@@ -798,7 +804,7 @@ bl _p_13
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-bl _p_14
+bl _p_13
 .word 0xf90053a0
 .word 0xf9402bb1
 .word 0xf9418a31
@@ -819,14 +825,14 @@ bl _p_14
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #384]
+ldr x0, [x16, #376]
 .word 0xd2800001
-bl _p_15
+bl _p_14
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xd2800000
 .word 0xd2800000
-bl _p_14
+bl _p_13
 .word 0xf90053a0
 .word 0xf9402bb1
 .word 0xf941f631
@@ -844,9 +850,9 @@ bl _p_14
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #384]
+ldr x0, [x16, #376]
 .word 0xd2800001
-bl _p_15
+bl _p_14
 .word 0xaa0003f3
 .word 0xaa1503e0
 .word 0xaa1303e0
@@ -855,10 +861,10 @@ bl _p_15
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #392]
+ldr x15, [x16, #384]
 .word 0xaa1503e0
 .word 0xaa1303e1
-bl _p_16
+bl _p_15
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf9426e31
@@ -870,8 +876,8 @@ bl _p_16
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #400]
-.word 0x928010f0
+ldr x15, [x16, #392]
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -905,8 +911,8 @@ ldr x15, [x16, #400]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #408]
-.word 0x928001f0
+ldr x15, [x16, #400]
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -927,8 +933,8 @@ ldr x15, [x16, #408]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #416]
-bl _p_17
+ldr x1, [x16, #408]
+bl _p_16
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf9402bb1
@@ -973,9 +979,9 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #424]
+ldr x1, [x16, #416]
 .word 0xaa1803e0
-bl _p_17
+bl _p_16
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf9402bb1
@@ -1017,7 +1023,7 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #432]
+ldr x15, [x16, #424]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -1061,7 +1067,7 @@ ldr x15, [x16, #432]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #440]
+ldr x15, [x16, #432]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -1112,7 +1118,7 @@ Plugin_Media_MediaImplementation_get_IsCameraAvailable:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1160,7 +1166,7 @@ Plugin_Media_MediaImplementation_get_IsTakePhotoSupported:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1208,7 +1214,7 @@ Plugin_Media_MediaImplementation_get_IsPickPhotoSupported:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #456]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1256,7 +1262,7 @@ Plugin_Media_MediaImplementation_get_IsTakeVideoSupported:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1304,7 +1310,7 @@ Plugin_Media_MediaImplementation_get_IsPickVideoSupported:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1357,7 +1363,7 @@ Plugin_Media_MediaImplementation_PickPhotoAsync_Plugin_Media_Abstractions_PickMe
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -1376,7 +1382,7 @@ ldr x16, [x16, #488]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_18
+bl _p_17
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf9402bb1
@@ -1389,9 +1395,9 @@ bl _p_18
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1401,7 +1407,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_19
+bl _p_18
 .word 0xf9402bb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -1413,12 +1419,12 @@ bl _p_19
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #488]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
 .word 0xf9003ba0
-bl _p_20
+bl _p_19
 .word 0xf9402bb1
 .word 0xf9412a31
 .word 0xb4000051
@@ -1440,7 +1446,7 @@ bl _p_20
 .word 0xaa1503e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_21
+bl _p_20
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf9402bb1
@@ -1455,7 +1461,7 @@ bl _p_21
 .word 0xaa1503e0
 .word 0xaa1403e1
 .word 0xf94002be
-bl _p_22
+bl _p_21
 .word 0xf9402bb1
 .word 0xf941be31
 .word 0xb4000051
@@ -1475,7 +1481,7 @@ bl _p_22
 .word 0xaa1503e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_23
+bl _p_22
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf9402bb1
@@ -1490,7 +1496,7 @@ bl _p_23
 .word 0xaa1503e0
 .word 0xaa1403e1
 .word 0xf94002be
-bl _p_24
+bl _p_23
 .word 0xf9402bb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -1505,12 +1511,12 @@ bl _p_24
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #424]
+ldr x2, [x16, #416]
 .word 0xaa1603e0
 .word 0xaa1903e0
 .word 0xd2800001
 .word 0xaa1603e3
-bl _p_25
+bl _p_24
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9429a31
@@ -1551,7 +1557,7 @@ Plugin_Media_MediaImplementation_TakePhotoAsync_Plugin_Media_Abstractions_StoreC
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1569,7 +1575,7 @@ ldr x16, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_26
+bl _p_25
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -1582,9 +1588,9 @@ bl _p_26
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1594,7 +1600,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_27
+bl _p_26
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -1607,9 +1613,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1619,7 +1625,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_28
+bl _p_27
 .word 0xf94013b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -1632,7 +1638,7 @@ bl _p_28
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e1
-bl _p_29
+bl _p_28
 .word 0xf94013b1
 .word 0xf9417231
 .word 0xb4000051
@@ -1646,12 +1652,12 @@ bl _p_29
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #424]
+ldr x2, [x16, #416]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xd2800021
 .word 0xaa1a03e3
-bl _p_25
+bl _p_24
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941be31
@@ -1688,7 +1694,7 @@ Plugin_Media_MediaImplementation_PickVideoAsync:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1706,7 +1712,7 @@ ldr x16, [x16, #512]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_30
+bl _p_29
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -1719,9 +1725,9 @@ bl _p_30
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1731,7 +1737,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_19
+bl _p_18
 .word 0xf9400fb1
 .word 0xf940d631
 .word 0xb4000051
@@ -1745,12 +1751,12 @@ bl _p_19
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #416]
+ldr x2, [x16, #408]
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
 .word 0xd2800003
-bl _p_25
+bl _p_24
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9412231
@@ -1788,7 +1794,7 @@ Plugin_Media_MediaImplementation_TakeVideoAsync_Plugin_Media_Abstractions_StoreV
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1806,7 +1812,7 @@ ldr x16, [x16, #520]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_31
+bl _p_30
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -1819,9 +1825,9 @@ bl _p_31
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1831,7 +1837,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_27
+bl _p_26
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -1844,9 +1850,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1856,7 +1862,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_28
+bl _p_27
 .word 0xf94013b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -1869,7 +1875,7 @@ bl _p_28
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e1
-bl _p_29
+bl _p_28
 .word 0xf94013b1
 .word 0xf9417231
 .word 0xb4000051
@@ -1883,12 +1889,12 @@ bl _p_29
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #416]
+ldr x2, [x16, #408]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xd2800021
 .word 0xaa1a03e3
-bl _p_25
+bl _p_24
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf941be31
@@ -1926,7 +1932,7 @@ Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMe
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1954,11 +1960,11 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2803c81
 .word 0xd2803c81
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -1969,7 +1975,7 @@ bl _p_3
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_33
+bl _p_32
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940da31
@@ -1984,14 +1990,14 @@ bl _p_33
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_33
+bl _p_32
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
-bl _p_34
+bl _p_33
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -2010,7 +2016,7 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2803e81
 .word 0xd2803e81
-bl _p_32
+bl _p_31
 .word 0xf90023a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
@@ -2018,12 +2024,12 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2803c81
 .word 0xd2803c81
-bl _p_32
+bl _p_31
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2801200
+.word 0xd2801120
 .word 0xf2a04000
-.word 0xd2801200
+.word 0xd2801120
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_3
@@ -2058,7 +2064,7 @@ Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_S
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2077,7 +2083,7 @@ ldr x16, [x16, #536]
 .word 0xf9400fa0
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_35
+bl _p_34
 .word 0xf94013b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -2089,12 +2095,12 @@ bl _p_35
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #536]
 .word 0xf90027a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_36
+bl _p_35
 .word 0x93407c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -2104,7 +2110,7 @@ bl _p_36
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #552]
+ldr x0, [x16, #544]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -2112,7 +2118,7 @@ bl _p_4
 .word 0xf94027a0
 .word 0xf9402ba2
 .word 0xb9001022
-bl _p_37
+bl _p_36
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -2131,11 +2137,11 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2804901
 .word 0xd2804901
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2801200
+.word 0xd2801120
 .word 0xf2a04000
-.word 0xd2801200
+.word 0xd2801120
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -2171,7 +2177,7 @@ Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegat
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -2205,11 +2211,11 @@ ldr x16, [x16, #560]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #568]
-bl _p_38
+ldr x0, [x16, #560]
+bl _p_37
 .word 0xf94087a1
 .word 0xf90083a0
-bl _p_39
+bl _p_38
 .word 0xf94033b1
 .word 0xf940d631
 .word 0xb4000051
@@ -2226,9 +2232,9 @@ bl _p_39
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #384]
+ldr x0, [x16, #376]
 .word 0xd2800021
-bl _p_15
+bl _p_14
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xf9007ba0
@@ -2244,7 +2250,7 @@ bl _p_15
 .word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9424c50
+.word 0xf9425050
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9416231
@@ -2259,7 +2265,7 @@ bl _p_15
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0xf9424850
+.word 0xf9424c50
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9419e31
@@ -2282,7 +2288,7 @@ bl _p_15
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_36
+bl _p_35
 .word 0x93407c00
 .word 0xf9007fa0
 .word 0xf94033b1
@@ -2290,7 +2296,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407fa0
-bl _p_40
+bl _p_39
 .word 0xf9007ba0
 .word 0xf94033b1
 .word 0xf9421a31
@@ -2299,7 +2305,7 @@ bl _p_40
 .word 0xf9407ba1
 .word 0xaa1603e0
 .word 0xf94002c2
-.word 0xf9425c50
+.word 0xf9426050
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9423e31
@@ -2335,7 +2341,7 @@ bl _p_40
 .word 0xf9402fa0
 .word 0x910243a1
 .word 0xf9005fa1
-bl _p_41
+bl _p_40
 .word 0xf9405fbe
 .word 0xf90003c0
 .word 0xf94033b1
@@ -2365,8 +2371,8 @@ bl _p_41
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #576]
-bl _p_42
+ldr x15, [x16, #568]
+bl _p_41
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf94033b1
@@ -2384,8 +2390,8 @@ bl _p_42
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #576]
-bl _p_43
+ldr x15, [x16, #568]
+bl _p_42
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf94033b1
@@ -2398,7 +2404,7 @@ bl _p_43
 .word 0xb980c3a1
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9426450
+.word 0xf9426850
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf943c231
@@ -2411,7 +2417,7 @@ bl _p_43
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_44
+bl _p_43
 .word 0xf9007ba0
 .word 0xf94033b1
 .word 0xf943f631
@@ -2426,7 +2432,7 @@ bl _p_44
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_44
+bl _p_43
 .word 0xf90087a0
 .word 0xf94033b1
 .word 0xf9443231
@@ -2466,7 +2472,7 @@ bl _p_44
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #584]
+ldr x1, [x16, #576]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xf9006bbf
@@ -2491,7 +2497,7 @@ ldr x1, [x16, #584]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #584]
+ldr x1, [x16, #576]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xf90077bf
@@ -2499,7 +2505,7 @@ ldr x1, [x16, #584]
 .word 0xf9406fa0
 .word 0xf9406fa2
 .word 0xf9400042
-.word 0xf9425850
+.word 0xf9425c50
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9454e31
@@ -2517,8 +2523,8 @@ ldr x1, [x16, #584]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #424]
-bl _p_17
+ldr x1, [x16, #416]
+bl _p_16
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf94033b1
@@ -2536,7 +2542,7 @@ bl _p_17
 .word 0xaa1603e0
 .word 0xd2800001
 .word 0xf94002c2
-.word 0xf9426050
+.word 0xf9426450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf945de31
@@ -2555,8 +2561,8 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #416]
-bl _p_17
+ldr x1, [x16, #408]
+bl _p_16
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf94033b1
@@ -2578,7 +2584,7 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #592]
+ldr x1, [x16, #584]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000e61
@@ -2593,7 +2599,7 @@ ldr x1, [x16, #592]
 .word 0xaa1603e0
 .word 0xd2800021
 .word 0xf94002c2
-.word 0xf9426050
+.word 0xf9426450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf946ba31
@@ -2607,7 +2613,7 @@ ldr x1, [x16, #592]
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_45
+bl _p_44
 .word 0x93407c00
 .word 0xf90083a0
 .word 0xf94033b1
@@ -2615,7 +2621,7 @@ bl _p_45
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
-bl _p_46
+bl _p_45
 .word 0xf9007fa0
 .word 0xf94033b1
 .word 0xf9471231
@@ -2624,7 +2630,7 @@ bl _p_46
 .word 0xf9407fa1
 .word 0xaa1603e0
 .word 0xf94002c2
-.word 0xf9424050
+.word 0xf9424450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9473631
@@ -2640,7 +2646,7 @@ bl _p_46
 .word 0xf9005fa0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_47
+bl _p_46
 .word 0xf9405fbe
 .word 0xf90003c0
 .word 0xf94033b1
@@ -2652,7 +2658,7 @@ bl _p_47
 .word 0xf94047a0
 .word 0xf90053a0
 .word 0x910283a0
-bl _p_48
+bl _p_47
 .word 0xfd008ba0
 .word 0xf94033b1
 .word 0xf947a631
@@ -2661,7 +2667,7 @@ bl _p_48
 .word 0xfd408ba0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9424430
+.word 0xf9424830
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf947ca31
@@ -2696,9 +2702,9 @@ bl _p_48
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_15:
 .text
@@ -2706,7 +2712,7 @@ Lme_15:
 	.no_dead_strip Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 .loc 1 1 0
-.word 0xa9b27bfd
+.word 0xa9b37bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -2719,7 +2725,7 @@ Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSour
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -2744,7 +2750,7 @@ ldr x16, [x16, #600]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_11
+bl _p_10
 .word 0xf9005ba0
 .word 0xf9403bb1
 .word 0xf940aa31
@@ -2753,7 +2759,7 @@ bl _p_11
 .word 0xf9405ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf9403bb1
@@ -2780,11 +2786,11 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd28054c1
 .word 0xd28054c1
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -2795,14 +2801,14 @@ bl _p_3
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd005fa0
 .word 0xf9403bb1
 .word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_49
+bl _p_48
 .word 0xfd0063a0
 .word 0xf9403bb1
 .word 0xf9418e31
@@ -2826,7 +2832,7 @@ bl _p_49
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -2844,12 +2850,12 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
-.word 0xb5001cf6
+.word 0xb5001e36
 .word 0xf9403bb1
 .word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_11
+bl _p_10
 .word 0xf90057a0
 .word 0xf9403bb1
 .word 0xf9424a31
@@ -2858,7 +2864,7 @@ bl _p_11
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410030
+.word 0xf9410430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -2869,54 +2875,60 @@ bl _p_11
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #600]
 .word 0xf9400000
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xaa1a03e2
 .word 0xaa0103f9
 .word 0xaa0003f8
-.word 0xb500065a
+.word 0xb50006fa
 .word 0xaa1903e0
 .word 0xaa1803e0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #608]
 .word 0xf9400000
-.word 0xf9005ba0
+.word 0xf90053a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54004760
+.word 0x54004a40
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #616]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf9405ba1
-.word 0xf90057a1
+.word 0xf94053a1
 .word 0xf9001001
-.word 0xf90053a0
-.word 0x91008000
-bl _p_7
-.word 0xf94053a0
-.word 0xf94057a1
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #632]
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #624]
 .word 0xf9001401
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #640]
+ldr x1, [x16, #632]
 .word 0xf9002001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #648]
+ldr x1, [x16, #640]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -2929,7 +2941,7 @@ ldr x1, [x16, #648]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #608]
+ldr x1, [x16, #600]
 .word 0xf9000022
 .word 0xaa0003f8
 .word 0xaa1903e0
@@ -2937,67 +2949,73 @@ ldr x1, [x16, #608]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #656]
+ldr x15, [x16, #648]
 .word 0xaa1903e0
 .word 0xaa1803e1
-bl _p_50
+bl _p_49
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf9439631
+.word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #656]
 .word 0xf9400000
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0xaa1703e2
 .word 0xaa0103f9
 .word 0xaa0003f8
-.word 0xb5000657
+.word 0xb50006f7
 .word 0xaa1903e0
 .word 0xaa1803e0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #608]
 .word 0xf9400000
-.word 0xf9005ba0
+.word 0xf90053a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54003e40
+.word 0x54004080
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #664]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf9405ba1
-.word 0xf90057a1
+.word 0xf94053a1
 .word 0xf9001001
-.word 0xf90053a0
-.word 0x91008000
-bl _p_7
-.word 0xf94053a0
-.word 0xf94057a1
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #680]
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #672]
 .word 0xf9001401
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #688]
+ldr x1, [x16, #680]
 .word 0xf9002001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #688]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -3010,7 +3028,7 @@ ldr x1, [x16, #696]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #664]
+ldr x1, [x16, #656]
 .word 0xf9000022
 .word 0xaa0003f8
 .word 0xaa1903e0
@@ -3018,27 +3036,27 @@ ldr x1, [x16, #664]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #704]
+ldr x15, [x16, #696]
 .word 0xaa1903e0
 .word 0xaa1803e1
-bl _p_51
+bl _p_50
 .word 0xf90057a0
 .word 0xf9403bb1
-.word 0xf944ba31
+.word 0xf944e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
 .word 0xf90053a0
 .word 0xaa0003f5
 .word 0xf9403bb1
-.word 0xf944d631
+.word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003e1
 .word 0xb5000240
 .word 0xf9403bb1
-.word 0xf944f231
+.word 0xf9451a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3047,47 +3065,47 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2805d01
 .word 0xd2805d01
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
 .word 0xf9403bb1
-.word 0xf9453631
+.word 0xf9455e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf9455e31
+.word 0xf9458631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003f6
 .word 0xf9403bb1
-.word 0xf9457631
+.word 0xf9459e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000011
 .word 0xf9403bb1
-.word 0xf9458a31
+.word 0xf945b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9415c30
+.word 0xf9416030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf945b231
+.word 0xf945da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -3097,62 +3115,61 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf945da31
+.word 0xf9460231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9415c30
+.word 0xf9416030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf9460231
+.word 0xf9462a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xb5fffba0
 .word 0xf9403bb1
-.word 0xf9461a31
+.word 0xf9464231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9402fa0
-.word 0xf90067a0
+.word 0xf9005ba0
 .word 0xf94037a0
-.word 0xf9006ba0
+.word 0xf90067a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #712]
-bl _p_38
-.word 0xf94067a2
-.word 0xf9406ba3
-.word 0xf9005ba0
+ldr x0, [x16, #704]
+bl _p_37
+.word 0xf9405ba2
+.word 0xf94067a3
+.word 0xf90057a0
 .word 0xaa1603e1
-bl _p_52
+bl _p_51
 .word 0xf9403bb1
-.word 0xf9466231
+.word 0xf9468a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
+.word 0xf94057a0
 .word 0xaa0003f4
 .word 0xf9403bb1
-.word 0xf9467a31
+.word 0xf946a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540029a0
+.word 0x54002b40
 .word 0x91006000
 .word 0xaa1403e1
-.word 0xf90057a1
 .word 0xd2800001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #720]
+ldr x2, [x16, #712]
 .word 0xc85f7c10
 .word 0xeb01021f
 .word 0x54000061
@@ -3161,16 +3178,25 @@ ldr x2, [x16, #720]
 .word 0xd50330bf
 .word 0xaa1003e1
 .word 0xf90053a1
-bl _p_7
-.word 0xf94057a0
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf9403bb1
-.word 0xf946de31
+.word 0xf9472231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xb4000240
 .word 0xf9403bb1
-.word 0xf946f631
+.word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3179,16 +3205,16 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd28066c1
 .word 0xd28066c1
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
 .word 0xf9403bb1
-.word 0xf9473a31
+.word 0xf9477e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -3196,31 +3222,31 @@ bl _p_3
 .word 0xf94033a2
 .word 0xf94037a3
 .word 0xaa1403e0
-bl _p_53
+bl _p_52
 .word 0xf9005ba0
 .word 0xf9403bb1
-.word 0xf9476631
+.word 0xf947aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
 .word 0xaa0003f3
 .word 0xf9403bb1
-.word 0xf9477e31
+.word 0xf947c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf90057a0
 .word 0xf9403bb1
-.word 0xf9479631
+.word 0xf947da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_54
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf947ba31
+.word 0xf947fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -3229,13 +3255,48 @@ bl _p_55
 .word 0xeb1e001f
 .word 0x54000ae1
 .word 0xf9403bb1
-.word 0xf947de31
+.word 0xf9482231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xb5000a20
 .word 0xf9403bb1
-.word 0xf947f631
+.word 0xf9483a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xaa1303e0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #720]
+bl _p_37
+.word 0xf9005ba0
+.word 0xaa1303e1
+bl _p_55
+.word 0xf9403bb1
+.word 0xf9486e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba1
+.word 0xaa1403e0
+.word 0xf940029e
+bl _p_56
+.word 0xf9403bb1
+.word 0xf9488e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403bb1
+.word 0xf9489e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf940029e
+bl _p_57
+.word 0xf90057a0
+.word 0xf9403bb1
+.word 0xf948c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -3244,61 +3305,26 @@ bl _p_55
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #728]
-bl _p_38
-.word 0xf9005ba0
-.word 0xaa1303e1
-bl _p_56
-.word 0xf9403bb1
-.word 0xf9482a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405ba1
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_57
-.word 0xf9403bb1
-.word 0xf9484a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403bb1
-.word 0xf9485a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf940029e
-bl _p_58
-.word 0xf90057a0
-.word 0xf9403bb1
-.word 0xf9487e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1303e0
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #736]
-bl _p_38
+bl _p_37
 .word 0xf90053a0
 .word 0xaa1403e1
 .word 0xaa1303e2
-bl _p_59
+bl _p_58
 .word 0xf9403bb1
-.word 0xf948b631
+.word 0xf948fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
 .word 0xf94057a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_60
+bl _p_59
 .word 0xf9403bb1
-.word 0xf948da31
+.word 0xf9491e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf948ea31
+.word 0xf9492e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -3306,13 +3332,13 @@ bl _p_60
 .word 0xaa1403e0
 .word 0xd2800001
 .word 0xf940029e
-bl _p_61
+bl _p_60
 .word 0xf9403bb1
-.word 0xf9491231
+.word 0xf9495631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9492231
+.word 0xf9496631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000045
@@ -3321,13 +3347,13 @@ bl _p_61
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9494631
+.word 0xf9498a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf90057a0
 .word 0xf9403bb1
-.word 0xf9495e31
+.word 0xf949a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a3
@@ -3337,17 +3363,17 @@ bl _p_54
 .word 0xd2800121
 .word 0xd2800002
 .word 0xf940007e
-bl _p_62
+bl _p_61
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf9499631
+.word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0x34000200
 .word 0xf9403bb1
-.word 0xf949ae31
+.word 0xf949f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -3355,10 +3381,10 @@ bl _p_62
 .word 0xaa1303e0
 .word 0xd28000c1
 .word 0xf9400262
-.word 0xf9417c50
+.word 0xf9418050
 .word 0xd63f0200
 .word 0xf9403bb1
-.word 0xf949da31
+.word 0xf94a1e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fb1
@@ -3366,7 +3392,7 @@ bl _p_62
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf949fa31
+.word 0xf94a3e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -3378,10 +3404,10 @@ bl _p_62
 .word 0xd2800022
 .word 0xd2800003
 .word 0xf94002c4
-.word 0xf941e490
+.word 0xf941e890
 .word 0xd63f0200
 .word 0xf9403bb1
-.word 0xf94a3631
+.word 0xf94a7a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fb1
@@ -3389,53 +3415,60 @@ bl _p_62
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94a5631
+.word 0xf94a9a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_63
+bl _p_62
 .word 0xf9005ba0
 .word 0xf9403bb1
-.word 0xf94a7a31
+.word 0xf94abe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xf9006fa0
+.word 0xf90067a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000920
+.word 0x540009e0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #736]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf9406fa1
-.word 0xf9006ba1
-.word 0xf9001001
-.word 0xf90067a0
-.word 0x91008000
-bl _p_7
+.word 0xaa0003e1
 .word 0xf9405ba0
-.word 0xf94067a1
-.word 0xf9406ba2
+.word 0xf94067a2
+.word 0xf9001022
+.word 0x91008023
+.word 0xd349fc63
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0063
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #752]
+ldr x4, [x16, #16]
+.word 0x8b040063
+.word 0xd280003e
+.word 0x3900007e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #744]
 .word 0xf9001422
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #760]
+ldr x2, [x16, #752]
 .word 0xf9002022
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #768]
+ldr x2, [x16, #760]
 .word 0xf9401443
 .word 0xf9000c23
 .word 0xf9401042
@@ -3445,23 +3478,23 @@ ldr x2, [x16, #768]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0xf940001e
-bl _p_64
+bl _p_63
 .word 0xf90057a0
 .word 0xf9403bb1
-.word 0xf94b3631
+.word 0xf94b9231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #784]
-bl _p_65
+ldr x15, [x16, #776]
+bl _p_64
 .word 0xf90053a0
 .word 0xf9403bb1
-.word 0xf94b5e31
+.word 0xf94bba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fb1
@@ -3469,12 +3502,12 @@ bl _p_65
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94b7e31
+.word 0xf94bda31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf9403bb1
-.word 0xf94b9231
+.word 0xf94bee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -3482,14 +3515,14 @@ bl _p_65
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8ce7bfd
+.word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801f20
+bl _p_8
+.word 0xd2801e80
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_16:
 .text
@@ -3504,7 +3537,7 @@ Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_Cam
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3565,9 +3598,9 @@ ldr x16, [x16, #792]
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -3593,7 +3626,7 @@ Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuali
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3691,7 +3724,7 @@ Plugin_Media_MediaImplementation_CheckCameraUsageDescription:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3708,7 +3741,7 @@ ldr x16, [x16, #808]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_66
+bl _p_65
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9407231
@@ -3717,7 +3750,7 @@ bl _p_66
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -3730,7 +3763,7 @@ bl _p_66
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940ca31
@@ -3743,7 +3776,7 @@ bl _p_54
 .word 0xd2800141
 .word 0xd2800002
 .word 0xf940007e
-bl _p_62
+bl _p_61
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -3760,16 +3793,16 @@ bl _p_62
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9002ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf9402ba1
 .word 0xf90027a0
-bl _p_67
+bl _p_66
 .word 0xf94013b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -3777,7 +3810,7 @@ bl _p_67
 .word 0xf94027a1
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -3796,11 +3829,11 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd2807801
 .word 0xd2807801
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2802540
+.word 0xd2802480
 .word 0xf2a04000
-.word 0xd2802540
+.word 0xd2802480
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3834,7 +3867,7 @@ Plugin_Media_MediaImplementation_CheckPhotoUsageDescription:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3851,7 +3884,7 @@ ldr x16, [x16, #832]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_66
+bl _p_65
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9407231
@@ -3860,7 +3893,7 @@ bl _p_66
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -3873,7 +3906,7 @@ bl _p_66
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940ca31
@@ -3886,7 +3919,7 @@ bl _p_54
 .word 0xd2800141
 .word 0xd2800002
 .word 0xf940007e
-bl _p_62
+bl _p_61
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -3903,16 +3936,16 @@ bl _p_62
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #832]
 .word 0xf9002ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf9402ba1
 .word 0xf90027a0
-bl _p_67
+bl _p_66
 .word 0xf94013b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -3920,7 +3953,7 @@ bl _p_67
 .word 0xf94027a1
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -3939,11 +3972,11 @@ add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #0]
 .word 0xd280a1a1
 .word 0xd280a1a1
-bl _p_32
+bl _p_31
 .word 0xaa0003e1
-.word 0xd2802540
+.word 0xd2802480
 .word 0xf2a04000
-.word 0xd2802540
+.word 0xd2802480
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3978,7 +4011,7 @@ Plugin_Media_MediaImplementation__GetMediaAsyncb__32_2_System_Threading_Tasks_Ta
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4005,7 +4038,7 @@ ldr x16, [x16, #848]
 .word 0xf9400b21
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_69
+bl _p_68
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -4034,9 +4067,9 @@ bl _p_69
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #856]
+ldr x15, [x16, #848]
 .word 0xd2800001
-bl _p_70
+bl _p_69
 .word 0xf94013b1
 .word 0xf9411231
 .word 0xb4000051
@@ -4064,9 +4097,9 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801f20
+.word 0xd2801e80
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_1b:
 .text
@@ -4082,7 +4115,7 @@ Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4100,7 +4133,7 @@ ldr x16, [x16, #864]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_71
+bl _p_70
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -4112,7 +4145,7 @@ bl _p_71
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_72
+bl _p_71
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -4142,7 +4175,7 @@ Plugin_Media_MediaPickerController_get_Delegate:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4159,7 +4192,7 @@ ldr x16, [x16, #872]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_73
+bl _p_72
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9406e31
@@ -4196,7 +4229,7 @@ Plugin_Media_MediaPickerController_set_Delegate_Foundation_NSObject:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4221,7 +4254,7 @@ ldr x16, [x16, #880]
 .word 0xf9400fa0
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_72
+bl _p_71
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -4235,9 +4268,9 @@ bl _p_72
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -4263,7 +4296,7 @@ Plugin_Media_MediaPickerController_GetResultAsync:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4282,7 +4315,7 @@ ldr x16, [x16, #888]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9425430
+.word 0xf9425830
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xf94013b1
@@ -4297,14 +4330,14 @@ ldr x16, [x16, #888]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #896]
+ldr x1, [x16, #888]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000361
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_63
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940ce31
@@ -4327,9 +4360,9 @@ bl _p_63
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_1f:
 .text
@@ -4337,7 +4370,7 @@ Lme_1f:
 	.no_dead_strip Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
 Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 .loc 1 1 0
-.word 0xa9b77bfd
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90157b4
 .word 0xa9025fb6
@@ -4349,7 +4382,7 @@ Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePicke
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -4369,51 +4402,69 @@ ldr x16, [x16, #904]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #912]
+ldr x0, [x16, #904]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf90037a0
-bl _p_74
+.word 0xf90033a0
+bl _p_73
 .word 0xf94027b1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94037a0
-.word 0xf90033a0
-.word 0xf90022e0
-.word 0x910102e0
-bl _p_7
 .word 0xf94033a0
-.word 0xf94027b1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703e0
-bl _p_75
+.word 0xf90022e0
+.word 0x910102e1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94027b1
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+bl _p_74
 .word 0xf94027b1
-.word 0xf940f231
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xf9001ef8
 .word 0x9100e2e0
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf94027b1
-.word 0xf9411631
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf9401fa0
 .word 0xf90032e0
 .word 0xf94027b1
-.word 0xf9413231
+.word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -4429,14 +4480,14 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #496]
+ldr x0, [x16, #488]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
 .word 0xf90033a0
-bl _p_20
+bl _p_19
 .word 0xf94027b1
-.word 0xf9418a31
+.word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
@@ -4445,81 +4496,100 @@ bl _p_20
 .word 0xaa1403e0
 .word 0xf90026b4
 .word 0x910122a0
-bl _p_7
-.word 0xf94027b1
-.word 0xf941b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xb4000ab8
-.word 0xf94027b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_54
-.word 0xf90047a0
-.word 0xf94027b1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940f830
-.word 0xd63f0200
-.word 0xf94027b1
-.word 0xf9420a31
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf94027b1
 .word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1703e0
-bl _p_76
-.word 0xf90043a0
+.word 0xaa1803e0
+.word 0xb4000c98
 .word 0xf94027b1
-.word 0xf9423631
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_77
+bl _p_53
+.word 0xf9003fa0
+.word 0xf94027b1
+.word 0xf9424a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9410030
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9427e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+bl _p_75
 .word 0xf9003ba0
 .word 0xf94027b1
-.word 0xf9424e31
+.word 0xf9429a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_76
+.word 0xf90037a0
+.word 0xf94027b1
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xeb1f02ff
 .word 0x10000011
-.word 0x540007e0
+.word 0x540009c0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_4
+.word 0xaa0003e2
+.word 0xf94037a1
+.word 0xf9403ba3
+.word 0xf9001057
+.word 0x91008040
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x4, [x16, #16]
+.word 0x8b040000
+.word 0xd280003e
+.word 0x3900001e
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #920]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_4
-.word 0xf9001017
-.word 0xf9003fa0
-.word 0x91008000
-bl _p_7
-.word 0xf9403ba1
-.word 0xf9403fa2
-.word 0xf94043a3
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #928]
 .word 0xf9001440
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9002040
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #944]
+ldr x0, [x16, #936]
 .word 0xf9401404
 .word 0xf9000c44
 .word 0xf9401000
@@ -4528,39 +4598,47 @@ ldr x0, [x16, #944]
 .word 0x3901805f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_78
-.word 0xf90037a0
+bl _p_77
+.word 0xf90033a0
 .word 0xf94027b1
-.word 0xf942f631
+.word 0xf9437a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94037a0
-.word 0xf90033a0
-.word 0xf9001ae0
-.word 0x9100c2e0
-bl _p_7
 .word 0xf94033a0
+.word 0xf9001ae0
+.word 0x9100c2e1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9432e31
+.word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9433e31
+.word 0xf943de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
 .word 0xa9425fb6
 .word 0xf9401bb8
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_20:
 .text
@@ -4574,7 +4652,7 @@ Plugin_Media_MediaPickerDelegate_get_Popover:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4616,14 +4694,14 @@ Lme_21:
 	.no_dead_strip Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
 Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController:
 .loc 1 1 0
-.word 0xa9bb7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4639,23 +4717,31 @@ ldr x16, [x16, #960]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf90023a1
-.word 0xf9001401
-.word 0x9100a000
-bl _p_7
-.word 0xf94023a0
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9001420
+.word 0x9100a021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf9408231
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9409231
+.word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
 Lme_22:
@@ -4670,7 +4756,7 @@ Plugin_Media_MediaPickerDelegate_get_View:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4690,7 +4776,7 @@ ldr x16, [x16, #968]
 .word 0xf9401c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9413c30
+.word 0xf9414030
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -4726,7 +4812,7 @@ Plugin_Media_MediaPickerDelegate_get_Task:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4746,7 +4832,7 @@ ldr x16, [x16, #976]
 .word 0xf9402001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_79
+bl _p_78
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9407a31
@@ -4775,7 +4861,7 @@ Lme_24:
 	.no_dead_strip Plugin_Media_MediaPickerDelegate_FinishedPickingMedia_UIKit_UIImagePickerController_Foundation_NSDictionary
 Plugin_Media_MediaPickerDelegate_FinishedPickingMedia_UIKit_UIImagePickerController_Foundation_NSDictionary:
 .loc 1 1 0
-.word 0xa9a57bfd
+.word 0xa9aa7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
@@ -4783,7 +4869,7 @@ Plugin_Media_MediaPickerDelegate_FinishedPickingMedia_UIKit_UIImagePickerControl
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4792,7 +4878,7 @@ ldr x16, [x16, #984]
 .word 0xd2800b01
 .word 0xd2800001
 .word 0xd2800b02
-bl _p_80
+bl _p_79
 .word 0x910363a0
 .word 0xd2800000
 .word 0xf9006fa0
@@ -4811,83 +4897,133 @@ bl _p_80
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x9103e3a0
-.word 0xf9400ba1
-.word 0xf900d3a1
-.word 0xf90093a1
-.word 0x9100a000
-bl _p_7
-.word 0xf940d3a0
+.word 0x9103e3a1
+.word 0xf9400ba0
+.word 0xf90093a0
+.word 0x9100a021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94017b1
-.word 0xf940b631
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9103e3a1
+.word 0xf9400fa0
+.word 0xf9009fa0
+.word 0x91010021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017b1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9103e3a1
+.word 0xf94013a0
+.word 0xf90097a0
+.word 0x9100c021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017b1
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103e3a0
-.word 0xf9400fa1
-.word 0xf900cfa1
-.word 0xf9009fa1
-.word 0x91010000
-bl _p_7
-.word 0xf940cfa0
-.word 0xf94017b1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9103e3a0
-.word 0xf94013a1
-.word 0xf900cba1
-.word 0xf90097a1
-.word 0x9100c000
-bl _p_7
-.word 0xf940cba0
-.word 0xf94017b1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9103e3a0
-.word 0xf900c7a0
+.word 0xf900aba0
 .word 0x9102e3a0
 .word 0xaa0003e8
-bl _p_81
+bl _p_80
 .word 0xf94017b1
-.word 0xf9413231
+.word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940c7a0
+.word 0xf940aba0
 .word 0x9102e3a1
-.word 0x91002001
-.word 0xaa0103e0
-.word 0xf9405fa2
-.word 0xf900c3a2
-.word 0xf9000022
-.word 0xf900bfa0
-bl _p_7
-.word 0xf940bfa0
-.word 0xf940c3a1
+.word 0x91002002
+.word 0xaa0203e0
+.word 0xf9405fa1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
 .word 0x91002000
 .word 0xf94063a1
-.word 0xf900bba1
 .word 0xf9000001
-.word 0xf900b7a0
-bl _p_7
-.word 0xf940b7a0
-.word 0xf940bba1
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
 .word 0x91002000
 .word 0xf94067a1
-.word 0xf900b3a1
 .word 0xf9000001
-.word 0xf900afa0
-bl _p_7
-.word 0xf940afa0
-.word 0xf940b3a1
-.word 0x91002000
-.word 0xf9406ba1
-.word 0xf900aba1
-.word 0xf9000001
-bl _p_7
-.word 0xf940aba0
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9406ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94017b1
-.word 0xf941c631
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103e3a0
@@ -4897,14 +5033,14 @@ bl _p_7
 .word 0xf2bffffe
 .word 0xb900fbbe
 .word 0xf94017b1
-.word 0xf941ee31
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103e3a1
 .word 0x910183a0
 .word 0xd2800b02
 .word 0xd2800b02
-bl _p_82
+bl _p_81
 .word 0x910183a0
 .word 0x91002000
 .word 0x910103a1
@@ -4927,7 +5063,7 @@ bl _p_82
 .word 0xf9402fa0
 .word 0xf9007ba0
 .word 0xf94017b1
-.word 0xf9426631
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910363a0
@@ -4935,22 +5071,22 @@ bl _p_82
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #992]
-bl _p_83
+ldr x15, [x16, #984]
+bl _p_82
 .word 0xf94017b1
-.word 0xf9428e31
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9429e31
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf942ae31
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8db7bfd
+.word 0xa8d67bfd
 .word 0xd65f03c0
 
 Lme_25:
@@ -4967,7 +5103,7 @@ Plugin_Media_MediaPickerDelegate_Canceled_UIKit_UIImagePickerController:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4985,7 +5121,7 @@ ldr x16, [x16, #1000]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_84
+bl _p_83
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -4994,7 +5130,7 @@ bl _p_84
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9409e31
@@ -5003,7 +5139,7 @@ bl _p_54
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_54
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940c231
@@ -5015,13 +5151,13 @@ bl _p_55
 .word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_11
+bl _p_10
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_85
+bl _p_84
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9410a31
@@ -5033,7 +5169,7 @@ bl _p_85
 .word 0xaa0303e0
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf9411470
+.word 0xf9411870
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9413a31
@@ -5053,34 +5189,43 @@ bl _p_85
 .word 0xaa1903e0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000600
+.word 0x54000700
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1000]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_4
+.word 0xaa0003e2
+.word 0xf94023a1
+.word 0xf9001059
+.word 0x91008040
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_4
-.word 0xf9001019
-.word 0xf90027a0
-.word 0x91008000
-bl _p_7
-.word 0xf94023a1
-.word 0xf94027a2
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1016]
 .word 0xf9001440
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0xf9002040
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1024]
 .word 0xf9401403
 .word 0xf9000c43
 .word 0xf9401000
@@ -5088,26 +5233,26 @@ ldr x0, [x16, #1032]
 .word 0xd2800000
 .word 0x3901805f
 .word 0xaa1903e0
-bl _p_86
-.word 0xf94013b1
-.word 0xf9420231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9421231
-.word 0xb4000051
-.word 0xd63f0220
+bl _p_85
 .word 0xf94013b1
 .word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9423231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_26:
 .text
@@ -5124,7 +5269,7 @@ Plugin_Media_MediaPickerDelegate_DisplayPopover_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5165,7 +5310,7 @@ ldr x16, [x16, #1040]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_58
+bl _p_57
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf940da31
@@ -5182,7 +5327,7 @@ bl _p_58
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_87
+bl _p_86
 .word 0xf900e3a0
 .word 0xf9401bb1
 .word 0xf9411e31
@@ -5193,7 +5338,7 @@ bl _p_87
 .word 0xf900c7a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf940c7be
 .word 0xfd0003c0
@@ -5219,7 +5364,7 @@ bl _p_87
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9104e3a0
-bl _p_88
+bl _p_87
 .word 0xfd00dfa0
 .word 0xf9401bb1
 .word 0xf941b231
@@ -5231,7 +5376,7 @@ bl _p_88
 .word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_87
+bl _p_86
 .word 0xf900dba0
 .word 0xf9401bb1
 .word 0xf941e231
@@ -5242,7 +5387,7 @@ bl _p_87
 .word 0xf900c7a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf940c7be
 .word 0xfd0003c0
@@ -5268,7 +5413,7 @@ bl _p_87
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9104e3a0
-bl _p_89
+bl _p_88
 .word 0xfd00d7a0
 .word 0xf9401bb1
 .word 0xf9427631
@@ -5282,7 +5427,7 @@ bl _p_89
 .word 0xd63f0220
 .word 0xd2803200
 .word 0xd2803200
-bl _p_90
+bl _p_89
 .word 0xfd00d3a0
 .word 0xf9401bb1
 .word 0xf942ae31
@@ -5296,7 +5441,7 @@ bl _p_90
 .word 0xd63f0220
 .word 0xd2802580
 .word 0xd2802580
-bl _p_90
+bl _p_89
 .word 0xfd00cfa0
 .word 0xf9401bb1
 .word 0xf942e631
@@ -5316,8 +5461,8 @@ bl _p_90
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_91
+ldr x15, [x16, #1040]
+bl _p_90
 .word 0x53001c00
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5330,7 +5475,7 @@ bl _p_91
 .word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf900eba0
 .word 0xf9401bb1
 .word 0xf9436a31
@@ -5339,7 +5484,7 @@ bl _p_54
 .word 0xf940eba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf900e7a0
 .word 0xf9401bb1
@@ -5347,7 +5492,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940e7a0
-bl _p_92
+bl _p_91
 .word 0x53001c00
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5361,7 +5506,7 @@ bl _p_92
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_54
+bl _p_53
 .word 0xf900e7a0
 .word 0xf9401bb1
 .word 0xf943e631
@@ -5370,7 +5515,7 @@ bl _p_54
 .word 0xf940e7a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5386,8 +5531,8 @@ bl _p_54
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_93
+ldr x15, [x16, #1040]
+bl _p_92
 .word 0x910363a0
 .word 0x910263a0
 .word 0xf9406fa0
@@ -5418,7 +5563,7 @@ bl _p_93
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9418030
+.word 0xf9418430
 .word 0xd63f0200
 .word 0xf900e7a0
 .word 0xf9401bb1
@@ -5426,7 +5571,7 @@ bl _p_93
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940e7a0
-bl _p_94
+bl _p_93
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf944e631
@@ -5441,8 +5586,8 @@ bl _p_94
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_93
+ldr x15, [x16, #1040]
+bl _p_92
 .word 0x910323a0
 .word 0x910223a0
 .word 0xf94067a0
@@ -5493,8 +5638,8 @@ bl _p_93
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_95
+ldr x15, [x16, #1040]
+bl _p_94
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf945ee31
@@ -5520,8 +5665,8 @@ bl _p_95
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_91
+ldr x15, [x16, #1040]
+bl _p_90
 .word 0x53001c00
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5562,8 +5707,8 @@ bl _p_91
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_95
+ldr x15, [x16, #1040]
+bl _p_94
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf946fa31
@@ -5589,8 +5734,8 @@ bl _p_95
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_91
+ldr x15, [x16, #1040]
+bl _p_90
 .word 0x53001c00
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5623,7 +5768,7 @@ bl _p_91
 .word 0xd63f0220
 .word 0xfd40f7a0
 .word 0xfd40fba1
-bl _p_96
+bl _p_95
 .word 0xfd00f3a0
 .word 0xf9401bb1
 .word 0xf947e631
@@ -5661,7 +5806,7 @@ bl _p_96
 .word 0xd63f0220
 .word 0xfd40d3a0
 .word 0xfd40d7a1
-bl _p_97
+bl _p_96
 .word 0xfd00efa0
 .word 0xf9401bb1
 .word 0xf9487e31
@@ -5704,7 +5849,7 @@ bl _p_97
 .word 0xd63f0220
 .word 0xfd40f7a0
 .word 0xfd40fba1
-bl _p_97
+bl _p_96
 .word 0xfd00f3a0
 .word 0xf9401bb1
 .word 0xf9492a31
@@ -5742,7 +5887,7 @@ bl _p_97
 .word 0xd63f0220
 .word 0xfd40d3a0
 .word 0xfd40d7a1
-bl _p_96
+bl _p_95
 .word 0xfd00efa0
 .word 0xf9401bb1
 .word 0xf949c231
@@ -5778,7 +5923,7 @@ bl _p_96
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_58
+bl _p_57
 .word 0xf900e7a0
 .word 0xf9401bb1
 .word 0xf94a5231
@@ -5787,7 +5932,7 @@ bl _p_58
 .word 0xf940e7a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf900cba0
@@ -5803,7 +5948,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_58
+bl _p_57
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf94ab631
@@ -5814,7 +5959,7 @@ bl _p_58
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf940f850
+.word 0xf9410050
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf94ae231
@@ -5830,7 +5975,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_58
+bl _p_57
 .word 0xf900e7a0
 .word 0xf9401bb1
 .word 0xf94b2231
@@ -5863,7 +6008,7 @@ bl _p_58
 .word 0xf9005fa0
 .word 0xf90063a0
 .word 0x9102a3a0
-bl _p_98
+bl _p_97
 .word 0x9102a3a0
 .word 0x910123a0
 .word 0xf94057a0
@@ -5880,7 +6025,7 @@ bl _p_98
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_99
+bl _p_98
 .word 0xf900cba0
 .word 0xf9401bb1
 .word 0xf94bea31
@@ -5899,7 +6044,7 @@ bl _p_99
 .word 0xd2800002
 .word 0xd2800023
 .word 0xf9400084
-.word 0xf940f490
+.word 0xf940f890
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf94c3631
@@ -5922,9 +6067,9 @@ bl _p_99
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801f20
+.word 0xd2801e80
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_27:
 .text
@@ -5938,7 +6083,7 @@ Plugin_Media_MediaPickerDelegate_get_IsCaptured:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5994,7 +6139,7 @@ Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Ac
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6012,7 +6157,7 @@ ldr x16, [x16, #1064]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9401f00
-.word 0xb5000520
+.word 0xb5000600
 .word 0xf94017b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -6033,51 +6178,59 @@ ldr x16, [x16, #1064]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #912]
+ldr x0, [x16, #904]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf90027a0
-bl _p_74
+.word 0xf90023a0
+bl _p_73
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
-.word 0xf90023a0
-.word 0xf9002300
-.word 0x91010300
-bl _p_7
 .word 0xf94023a0
+.word 0xf9002300
+.word 0x91010301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94017b1
-.word 0xf9410a31
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000079
 .word 0xf94017b1
-.word 0xf9411e31
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_58
+bl _p_57
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9413e31
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xb4000940
 .word 0xf94017b1
-.word 0xf9415631
+.word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_58
+bl _p_57
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9417631
+.word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a2
@@ -6085,47 +6238,47 @@ bl _p_58
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf940f850
+.word 0xf9410050
 .word 0xd63f0200
 .word 0xf94017b1
-.word 0xf941a231
+.word 0xf941be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf941b231
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_58
+bl _p_57
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf941d231
+.word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_69
+bl _p_68
 .word 0xf94017b1
-.word 0xf941f231
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9420231
+.word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xd2800001
-bl _p_57
+bl _p_56
 .word 0xf94017b1
-.word 0xf9422631
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9423631
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -6133,16 +6286,16 @@ bl _p_57
 .word 0xf9400f50
 .word 0xd63f0200
 .word 0xf94017b1
-.word 0xf9425631
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9426631
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94017b1
-.word 0xf9427a31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -6152,30 +6305,30 @@ bl _p_57
 .word 0xd2800021
 .word 0xaa1a03e2
 .word 0xf9400323
-.word 0xf9420470
+.word 0xf9420870
 .word 0xd63f0200
 .word 0xf94017b1
-.word 0xf942ae31
+.word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf942be31
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_69
+bl _p_68
 .word 0xf94017b1
-.word 0xf942de31
+.word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf942ee31
+.word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf942fe31
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -6197,7 +6350,7 @@ Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6220,7 +6373,7 @@ ldr x16, [x16, #1072]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9408a31
@@ -6229,7 +6382,7 @@ bl _p_54
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -6239,7 +6392,7 @@ bl _p_54
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_76
+bl _p_75
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf940d631
@@ -6250,7 +6403,7 @@ bl _p_76
 .word 0xf9401b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9410231
@@ -6264,7 +6417,7 @@ bl _p_76
 .word 0xf9401b41
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_69
+bl _p_68
 .word 0xf9400fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -6301,7 +6454,7 @@ Plugin_Media_MediaPickerDelegate_DidRotate_Foundation_NSNotification:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -6325,7 +6478,7 @@ ldr x16, [x16, #1080]
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xaa0003f7
 .word 0xf9401bb1
@@ -6340,7 +6493,7 @@ ldr x16, [x16, #1080]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1088]
+ldr x1, [x16, #1080]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002801
@@ -6353,7 +6506,7 @@ ldr x1, [x16, #1088]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94002e1
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6361,7 +6514,7 @@ ldr x1, [x16, #1088]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_92
+bl _p_91
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6376,7 +6529,7 @@ bl _p_92
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_58
+bl _p_57
 .word 0xf9004ba0
 .word 0xf9401bb1
 .word 0xf9415e31
@@ -6405,8 +6558,8 @@ bl _p_58
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_91
+ldr x15, [x16, #1040]
+bl _p_90
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6427,8 +6580,8 @@ bl _p_91
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_100
+ldr x15, [x16, #1040]
+bl _p_99
 .word 0xf9004fa0
 .word 0xf9401bb1
 .word 0xf9422631
@@ -6437,7 +6590,7 @@ bl _p_100
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9401bb1
@@ -6446,7 +6599,7 @@ bl _p_100
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf94053a1
-bl _p_101
+bl _p_100
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6468,7 +6621,7 @@ bl _p_101
 .word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf9004fa0
 .word 0xf9401bb1
 .word 0xf942c631
@@ -6481,7 +6634,7 @@ bl _p_54
 .word 0xd28000c1
 .word 0xd2800002
 .word 0xf940007e
-bl _p_62
+bl _p_61
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6498,7 +6651,7 @@ bl _p_62
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6507,7 +6660,7 @@ bl _p_62
 .word 0xd63f0220
 .word 0xf9404fa1
 .word 0xaa1903e0
-bl _p_102
+bl _p_101
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6529,7 +6682,7 @@ bl _p_102
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6538,7 +6691,7 @@ bl _p_102
 .word 0xd63f0220
 .word 0xf9404fa1
 .word 0xaa1903e0
-bl _p_103
+bl _p_102
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6581,7 +6734,7 @@ bl _p_103
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6597,8 +6750,8 @@ bl _p_103
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_93
+ldr x15, [x16, #1040]
+bl _p_92
 .word 0x9101a3a0
 .word 0x910123a0
 .word 0xf94037a0
@@ -6623,8 +6776,8 @@ bl _p_93
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_91
+ldr x15, [x16, #1040]
+bl _p_90
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9401bb1
@@ -6646,7 +6799,7 @@ bl _p_91
 .word 0xd2800020
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_61
+bl _p_60
 .word 0xf9401bb1
 .word 0xf9458231
 .word 0xb4000051
@@ -6664,12 +6817,12 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801f20
+.word 0xd2801e80
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801d40
+bl _p_8
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_2b:
 .text
@@ -6686,7 +6839,7 @@ Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1088]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -6734,7 +6887,7 @@ ldr x16, [x16, #1096]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1104]
+ldr x0, [x16, #1096]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -6816,7 +6969,7 @@ ldr x0, [x16, #1104]
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0xf941cc50
+.word 0xf941d050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -6859,7 +7012,7 @@ Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -6880,7 +7033,7 @@ ldr x16, [x16, #1112]
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941d030
+.word 0xf941d430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -6940,7 +7093,7 @@ ldr x16, [x16, #1112]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1120]
+ldr x0, [x16, #1112]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -7020,7 +7173,7 @@ ldr x0, [x16, #1120]
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941f430
+.word 0xf941f830
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf94023b1
@@ -7030,7 +7183,7 @@ ldr x0, [x16, #1120]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -7041,14 +7194,14 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xf9000838
-bl _p_104
+bl _p_103
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94023b1
@@ -7081,14 +7234,14 @@ Lme_2d:
 	.no_dead_strip Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
 Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary:
 .loc 1 1 0
-.word 0xa9aa7bfd
+.word 0xa9ae7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7097,7 +7250,7 @@ ldr x16, [x16, #1136]
 .word 0xd2800901
 .word 0xd2800001
 .word 0xd2800902
-bl _p_80
+bl _p_79
 .word 0x9102c3a0
 .word 0xd2800000
 .word 0xf9005ba0
@@ -7115,68 +7268,104 @@ bl _p_80
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x910323a0
-.word 0xf9400ba1
-.word 0xf900aba1
-.word 0xf9007ba1
-.word 0x9100a000
-bl _p_7
-.word 0xf940aba0
-.word 0xf94013b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910323a0
-.word 0xf9400fa1
-.word 0xf900a7a1
-.word 0xf90077a1
-.word 0x91008000
-bl _p_7
-.word 0xf940a7a0
-.word 0xf94013b1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910323a0
-.word 0xf900a3a0
+.word 0x910323a1
+.word 0xf9400ba0
+.word 0xf9007ba0
+.word 0x9100a021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-.word 0x910263a0
-.word 0xaa0003e8
-bl _p_105
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf9410a31
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a3a0
+.word 0x910323a1
+.word 0xf9400fa0
+.word 0xf90077a0
+.word 0x91008021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910323a0
+.word 0xf9008fa0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1136]
+.word 0x910263a0
+.word 0xaa0003e8
+bl _p_104
+.word 0xf94013b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9408fa0
 .word 0x910263a1
-.word 0x91002001
-.word 0xaa0103e0
-.word 0xf9404fa2
-.word 0xf9009fa2
-.word 0xf9000022
-.word 0xf9009ba0
-bl _p_7
-.word 0xf9409ba0
-.word 0xf9409fa1
+.word 0x91002002
+.word 0xaa0203e0
+.word 0xf9404fa1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
 .word 0x91002000
 .word 0xf94053a1
-.word 0xf90097a1
 .word 0xf9000001
-.word 0xf90093a0
-bl _p_7
-.word 0xf94093a0
-.word 0xf94097a1
-.word 0x91002000
-.word 0xf94057a1
-.word 0xf9008fa1
-.word 0xf9000001
-bl _p_7
-.word 0xf9408fa0
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf94057a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a0
@@ -7186,14 +7375,14 @@ bl _p_7
 .word 0xf2bffffe
 .word 0xb900cbbe
 .word 0xf94013b1
-.word 0xf941a631
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a1
 .word 0x910143a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_82
+bl _p_81
 .word 0x910143a0
 .word 0x91002000
 .word 0x9100e3a1
@@ -7212,7 +7401,7 @@ bl _p_82
 .word 0xf94027a0
 .word 0xf90063a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102c3a0
@@ -7220,14 +7409,14 @@ bl _p_82
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1152]
-bl _p_106
+ldr x15, [x16, #1144]
+bl _p_105
 .word 0xf94013b1
-.word 0xf9423631
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9424631
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a0
@@ -7235,11 +7424,11 @@ bl _p_106
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_107
+ldr x15, [x16, #1136]
+bl _p_106
 .word 0xf9008ba0
 .word 0xf94013b1
-.word 0xf9427231
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
@@ -7247,16 +7436,16 @@ bl _p_107
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408ba0
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8d67bfd
+.word 0xa8d27bfd
 .word 0xd65f03c0
 
 Lme_2e:
@@ -7276,7 +7465,7 @@ Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_M
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1152]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7298,10 +7487,10 @@ ldr x16, [x16, #1160]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1168]
-bl _p_38
+ldr x0, [x16, #1160]
+bl _p_37
 .word 0xf9006ba0
-bl _p_108
+bl _p_107
 .word 0xf9402bb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -7323,10 +7512,10 @@ bl _p_108
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1168]
-bl _p_38
+ldr x0, [x16, #1160]
+bl _p_37
 .word 0xf90067a0
-bl _p_108
+bl _p_107
 .word 0xf9402bb1
 .word 0xf940fa31
 .word 0xb4000051
@@ -7338,7 +7527,7 @@ bl _p_108
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_109
+bl _p_108
 .word 0xfd0063a0
 .word 0xf9402bb1
 .word 0xf9412e31
@@ -7347,16 +7536,16 @@ bl _p_109
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xfd4063a0
 .word 0xf90057a0
-bl _p_110
+bl _p_109
 .word 0xf9402bb1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_111
+bl _p_110
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf9417231
@@ -7378,7 +7567,7 @@ bl _p_111
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_109
+bl _p_108
 .word 0xfd0053a0
 .word 0xf9402bb1
 .word 0xf941ca31
@@ -7397,7 +7586,7 @@ bl _p_109
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1184]
+ldr x0, [x16, #1176]
 .word 0xaa0003f4
 .word 0x14000007
 .word 0xaa1603e0
@@ -7405,7 +7594,7 @@ ldr x0, [x16, #1184]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1192]
+ldr x0, [x16, #1184]
 .word 0xaa0003f4
 .word 0xaa1603e0
 .word 0xaa1503e0
@@ -7413,16 +7602,16 @@ ldr x0, [x16, #1192]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf9005ba0
 .word 0xaa1403e1
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_112
+bl _p_111
 .word 0xf9005fa0
 .word 0xf9402bb1
 .word 0xf9426e31
@@ -7442,7 +7631,7 @@ bl _p_112
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_113
+bl _p_112
 .word 0xfd0077a0
 .word 0xf9402bb1
 .word 0xf942be31
@@ -7451,16 +7640,16 @@ bl _p_113
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xfd4077a0
 .word 0xf9004fa0
-bl _p_110
+bl _p_109
 .word 0xf9402bb1
 .word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_114
+bl _p_113
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9430231
@@ -7480,7 +7669,7 @@ bl _p_114
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_113
+bl _p_112
 .word 0xfd006fa0
 .word 0xf9402bb1
 .word 0xf9435231
@@ -7496,7 +7685,7 @@ bl _p_113
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xaa0003f4
 .word 0x14000007
 .word 0xaa1603e0
@@ -7504,7 +7693,7 @@ ldr x0, [x16, #1200]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1208]
+ldr x0, [x16, #1200]
 .word 0xaa0003f4
 .word 0xaa1603e0
 .word 0xaa1503e0
@@ -7512,16 +7701,16 @@ ldr x0, [x16, #1208]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf900bba0
 .word 0xaa1403e1
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf943d231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_115
+bl _p_114
 .word 0xf900bfa0
 .word 0xf9402bb1
 .word 0xf943ea31
@@ -7541,7 +7730,7 @@ bl _p_115
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_116
+bl _p_115
 .word 0xfd00b7a0
 .word 0xf9402bb1
 .word 0xf9443a31
@@ -7550,16 +7739,16 @@ bl _p_116
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xfd40b7a0
 .word 0xf900afa0
-bl _p_110
+bl _p_109
 .word 0xf9402bb1
 .word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_117
+bl _p_116
 .word 0xf900b3a0
 .word 0xf9402bb1
 .word 0xf9447e31
@@ -7580,16 +7769,16 @@ bl _p_117
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xf900a7a0
 .word 0xd2800001
-bl _p_118
+bl _p_117
 .word 0xf9402bb1
 .word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_119
+bl _p_118
 .word 0xf900aba0
 .word 0xf9402bb1
 .word 0xf944f231
@@ -7609,7 +7798,7 @@ bl _p_119
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_120
+bl _p_119
 .word 0xfd00a3a0
 .word 0xf9402bb1
 .word 0xf9454231
@@ -7618,16 +7807,16 @@ bl _p_120
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xfd40a3a0
 .word 0xf9009ba0
-bl _p_110
+bl _p_109
 .word 0xf9402bb1
 .word 0xf9456e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_121
+bl _p_120
 .word 0xf9009fa0
 .word 0xf9402bb1
 .word 0xf9458631
@@ -7647,21 +7836,21 @@ bl _p_121
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1208]
 .word 0xf90097a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf94097a1
 .word 0xf9008fa0
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf945ee31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_122
+bl _p_121
 .word 0xf90093a0
 .word 0xf9402bb1
 .word 0xf9460631
@@ -7681,7 +7870,7 @@ bl _p_122
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_123
+bl _p_122
 .word 0xfd008ba0
 .word 0xf9402bb1
 .word 0xf9465631
@@ -7690,16 +7879,16 @@ bl _p_123
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1176]
-bl _p_38
+ldr x0, [x16, #1168]
+bl _p_37
 .word 0xfd408ba0
 .word 0xf90083a0
-bl _p_110
+bl _p_109
 .word 0xf9402bb1
 .word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_124
+bl _p_123
 .word 0xf90087a0
 .word 0xf9402bb1
 .word 0xf9469a31
@@ -7719,21 +7908,21 @@ bl _p_124
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1216]
 .word 0xf9007fa0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf9407fa1
 .word 0xf90067a0
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9470231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_125
+bl _p_124
 .word 0xf9006ba0
 .word 0xf9402bb1
 .word 0xf9471a31
@@ -7755,7 +7944,7 @@ bl _p_125
 .word 0xf90043a0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_125
 .word 0xf94043be
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -7770,8 +7959,8 @@ bl _p_126
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1232]
-bl _p_127
+ldr x1, [x16, #1224]
+bl _p_126
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf947ae31
@@ -7780,16 +7969,16 @@ bl _p_127
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf9407ba1
 .word 0xf9005ba0
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf947da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_128
+bl _p_127
 .word 0xf9005fa0
 .word 0xf9402bb1
 .word 0xf947f231
@@ -7811,7 +8000,7 @@ bl _p_128
 .word 0xf90043a0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_125
 .word 0xf94043be
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -7826,8 +8015,8 @@ bl _p_126
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1240]
-bl _p_127
+ldr x1, [x16, #1232]
+bl _p_126
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf9488631
@@ -7836,16 +8025,16 @@ bl _p_127
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf94057a1
 .word 0xf9004fa0
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf948b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_129
+bl _p_128
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf948ca31
@@ -7864,7 +8053,7 @@ bl _p_129
 .word 0xaa1603f3
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_130
+bl _p_129
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf9491631
@@ -7875,7 +8064,7 @@ bl _p_130
 .word 0xaa1603e0
 .word 0xaa1803e2
 .word 0xf94002c3
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9494231
@@ -7922,7 +8111,7 @@ Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foun
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -7957,7 +8146,7 @@ ldr x16, [x16, #1248]
 .word 0xfd40efa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_131
+bl _p_130
 .word 0xf900e7a0
 .word 0xf94037b1
 .word 0xf940d631
@@ -7966,11 +8155,11 @@ bl _p_131
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1256]
-bl _p_38
+ldr x0, [x16, #1248]
+bl _p_37
 .word 0xf940e7a1
 .word 0xf900e3a0
-bl _p_132
+bl _p_131
 .word 0xf94037b1
 .word 0xf9410231
 .word 0xb4000051
@@ -7982,7 +8171,7 @@ bl _p_132
 .word 0xd2800001
 .word 0xd2800002
 .word 0xd2800003
-bl _p_133
+bl _p_132
 .word 0xf900dfa0
 .word 0xf94037b1
 .word 0xf9413631
@@ -7997,10 +8186,10 @@ bl _p_133
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1264]
-bl _p_38
+ldr x0, [x16, #1256]
+bl _p_37
 .word 0xf900dba0
-bl _p_134
+bl _p_133
 .word 0xf94037b1
 .word 0xf9417631
 .word 0xb4000051
@@ -8013,14 +8202,14 @@ bl _p_134
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf900cfa0
-bl _p_135
+bl _p_134
 .word 0xf900d7a0
 .word 0xf94037b1
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940d7a0
-bl _p_136
+bl _p_135
 .word 0xf900d3a0
 .word 0xf94037b1
 .word 0xf941ca31
@@ -8032,7 +8221,7 @@ bl _p_136
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_137
+bl _p_136
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf941fa31
@@ -8041,10 +8230,10 @@ bl _p_137
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1272]
-bl _p_38
+ldr x0, [x16, #1264]
+bl _p_37
 .word 0xf900cba0
-bl _p_138
+bl _p_137
 .word 0xf94037b1
 .word 0xf9422231
 .word 0xb4000051
@@ -8054,12 +8243,12 @@ bl _p_138
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1272]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf900c7a0
-bl _p_139
+bl _p_138
 .word 0xf94037b1
 .word 0xf9425a31
 .word 0xb4000051
@@ -8067,7 +8256,7 @@ bl _p_139
 .word 0xf940c7a0
 .word 0xaa0003f4
 .word 0xaa1903e0
-bl _p_140
+bl _p_139
 .word 0xf900c3a0
 .word 0xf94037b1
 .word 0xf9427e31
@@ -8076,7 +8265,7 @@ bl _p_140
 .word 0xf940c3a1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8091,20 +8280,20 @@ bl _p_68
 .word 0xaa1403e0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_141
+bl _p_140
 .word 0xf900c3a0
 .word 0xf94037b1
 .word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_140
+bl _p_139
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf942f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_140
+bl _p_139
 .word 0xf900c7a0
 .word 0xf94037b1
 .word 0xf9431231
@@ -8113,7 +8302,7 @@ bl _p_140
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8125,7 +8314,7 @@ bl _p_140
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9436631
@@ -8133,7 +8322,7 @@ bl _p_140
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_142
+bl _p_141
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf9438631
@@ -8142,7 +8331,7 @@ bl _p_142
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8155,20 +8344,20 @@ bl _p_68
 .word 0xaa1403e0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_141
+bl _p_140
 .word 0xf900c3a0
 .word 0xf94037b1
 .word 0xf943de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_142
+bl _p_141
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_142
+bl _p_141
 .word 0xf900c7a0
 .word 0xf94037b1
 .word 0xf9441231
@@ -8177,7 +8366,7 @@ bl _p_142
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8189,7 +8378,7 @@ bl _p_142
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9446631
@@ -8197,7 +8386,7 @@ bl _p_142
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_143
+bl _p_142
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf9448631
@@ -8206,7 +8395,7 @@ bl _p_143
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8219,20 +8408,20 @@ bl _p_68
 .word 0xaa1403e0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_141
+bl _p_140
 .word 0xf900c3a0
 .word 0xf94037b1
 .word 0xf944de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_143
+bl _p_142
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf944f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_143
+bl _p_142
 .word 0xf900c7a0
 .word 0xf94037b1
 .word 0xf9451231
@@ -8241,7 +8430,7 @@ bl _p_143
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8253,7 +8442,7 @@ bl _p_143
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9456631
@@ -8261,7 +8450,7 @@ bl _p_143
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_144
+bl _p_143
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf9458631
@@ -8270,7 +8459,7 @@ bl _p_144
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8282,7 +8471,7 @@ bl _p_68
 .word 0xf90093ba
 .word 0xf90097b4
 .word 0xaa1903e0
-bl _p_144
+bl _p_143
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf945da31
@@ -8291,7 +8480,7 @@ bl _p_144
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9009ba0
 .word 0xf94037b1
@@ -8311,7 +8500,7 @@ bl _p_144
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9009fbf
@@ -8321,13 +8510,13 @@ ldr x1, [x16, #1288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf940bfa1
 .word 0xf900bba0
-bl _p_145
+bl _p_144
 .word 0xf94037b1
 .word 0xf9468231
 .word 0xb4000051
@@ -8336,7 +8525,7 @@ bl _p_145
 .word 0xf94097a0
 .word 0xf94097a2
 .word 0xf940005e
-bl _p_146
+bl _p_145
 .word 0xf94037b1
 .word 0xf946a631
 .word 0xb4000051
@@ -8344,7 +8533,7 @@ bl _p_146
 .word 0xf94093ba
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_147
+bl _p_146
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf946ca31
@@ -8353,7 +8542,7 @@ bl _p_147
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8365,7 +8554,7 @@ bl _p_68
 .word 0xf90083ba
 .word 0xf90087b4
 .word 0xaa1903e0
-bl _p_147
+bl _p_146
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf9471e31
@@ -8374,7 +8563,7 @@ bl _p_147
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9008ba0
 .word 0xf94037b1
@@ -8394,7 +8583,7 @@ bl _p_147
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9008fbf
@@ -8404,13 +8593,13 @@ ldr x1, [x16, #1288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1304]
+ldr x0, [x16, #1296]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf940bfa1
 .word 0xf900bba0
-bl _p_148
+bl _p_147
 .word 0xf94037b1
 .word 0xf947c631
 .word 0xb4000051
@@ -8419,7 +8608,7 @@ bl _p_148
 .word 0xf94087a0
 .word 0xf94087a2
 .word 0xf940005e
-bl _p_149
+bl _p_148
 .word 0xf94037b1
 .word 0xf947ea31
 .word 0xb4000051
@@ -8427,7 +8616,7 @@ bl _p_149
 .word 0xf94083ba
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_130
+bl _p_129
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf9480e31
@@ -8436,7 +8625,7 @@ bl _p_130
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8448,7 +8637,7 @@ bl _p_68
 .word 0xf90073ba
 .word 0xf90077b4
 .word 0xaa1903e0
-bl _p_130
+bl _p_129
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf9486231
@@ -8457,7 +8646,7 @@ bl _p_130
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9007ba0
 .word 0xf94037b1
@@ -8477,7 +8666,7 @@ bl _p_130
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9007fbf
@@ -8487,13 +8676,13 @@ ldr x1, [x16, #1288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1312]
+ldr x0, [x16, #1304]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf940bfa1
 .word 0xf900bba0
-bl _p_150
+bl _p_149
 .word 0xf94037b1
 .word 0xf9490a31
 .word 0xb4000051
@@ -8502,7 +8691,7 @@ bl _p_150
 .word 0xf94077a0
 .word 0xf94077a2
 .word 0xf940005e
-bl _p_151
+bl _p_150
 .word 0xf94037b1
 .word 0xf9492e31
 .word 0xb4000051
@@ -8510,7 +8699,7 @@ bl _p_151
 .word 0xf94073ba
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_152
+bl _p_151
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf9495231
@@ -8519,7 +8708,7 @@ bl _p_152
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8531,7 +8720,7 @@ bl _p_68
 .word 0xf90063ba
 .word 0xf90067b4
 .word 0xaa1903e0
-bl _p_152
+bl _p_151
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf949a631
@@ -8540,7 +8729,7 @@ bl _p_152
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94037b1
@@ -8560,7 +8749,7 @@ bl _p_152
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9006fbf
@@ -8570,13 +8759,13 @@ ldr x1, [x16, #1288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1320]
+ldr x0, [x16, #1312]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf940bfa1
 .word 0xf900bba0
-bl _p_153
+bl _p_152
 .word 0xf94037b1
 .word 0xf94a4e31
 .word 0xb4000051
@@ -8585,7 +8774,7 @@ bl _p_153
 .word 0xf94067a0
 .word 0xf94067a2
 .word 0xf940005e
-bl _p_154
+bl _p_153
 .word 0xf94037b1
 .word 0xf94a7231
 .word 0xb4000051
@@ -8593,7 +8782,7 @@ bl _p_154
 .word 0xf94063ba
 .word 0xaa1a03e0
 .word 0xaa1903e0
-bl _p_155
+bl _p_154
 .word 0xf900bfa0
 .word 0xf94037b1
 .word 0xf94a9631
@@ -8602,7 +8791,7 @@ bl _p_155
 .word 0xf940bfa1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8614,7 +8803,7 @@ bl _p_68
 .word 0xf90053ba
 .word 0xf90057b4
 .word 0xaa1903e0
-bl _p_155
+bl _p_154
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf94aea31
@@ -8623,7 +8812,7 @@ bl _p_155
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf94037b1
@@ -8643,7 +8832,7 @@ bl _p_155
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9005fbf
@@ -8653,13 +8842,13 @@ ldr x1, [x16, #1288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf940bfa1
 .word 0xf900bba0
-bl _p_156
+bl _p_155
 .word 0xf94037b1
 .word 0xf94b9231
 .word 0xb4000051
@@ -8668,7 +8857,7 @@ bl _p_156
 .word 0xf94057a0
 .word 0xf94057a2
 .word 0xf940005e
-bl _p_157
+bl _p_156
 .word 0xf94037b1
 .word 0xf94bb631
 .word 0xb4000051
@@ -8687,7 +8876,7 @@ bl _p_157
 .word 0xaa1503e2
 .word 0xaa1403e3
 .word 0xf940009e
-bl _p_158
+bl _p_157
 .word 0xf94037b1
 .word 0xf94c0231
 .word 0xb4000051
@@ -8695,7 +8884,7 @@ bl _p_158
 .word 0xf940bfa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_158
 .word 0x53001c00
 .word 0xf900bba0
 .word 0xf94037b1
@@ -8716,7 +8905,7 @@ bl _p_159
 .word 0xaa1603e0
 .word 0xd2800022
 .word 0xf94002c3
-.word 0xf9410470
+.word 0xf9410870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf94037b1
@@ -8742,16 +8931,16 @@ bl _p_159
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1336]
+ldr x0, [x16, #1328]
 .word 0xf94043a1
-bl _p_160
+bl _p_159
 .word 0xf900bba0
 .word 0xf94037b1
 .word 0xf94ce631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940bba0
-bl _p_161
+bl _p_160
 .word 0xf94037b1
 .word 0xf94cfe31
 .word 0xb4000051
@@ -8760,7 +8949,7 @@ bl _p_161
 .word 0xf94d0e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf900b3a0
 .word 0xf940b3a0
 .word 0xb4000060
@@ -8823,14 +9012,14 @@ Lme_30:
 	.no_dead_strip Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
 Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary:
 .loc 1 1 0
-.word 0xa9aa7bfd
+.word 0xa9ae7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8839,7 +9028,7 @@ ldr x16, [x16, #1344]
 .word 0xd2800901
 .word 0xd2800001
 .word 0xd2800902
-bl _p_80
+bl _p_79
 .word 0x9102c3a0
 .word 0xd2800000
 .word 0xf9005ba0
@@ -8857,68 +9046,104 @@ bl _p_80
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x910323a0
-.word 0xf9400ba1
-.word 0xf900aba1
-.word 0xf9007ba1
-.word 0x9100a000
-bl _p_7
-.word 0xf940aba0
-.word 0xf94013b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910323a0
-.word 0xf9400fa1
-.word 0xf900a7a1
-.word 0xf90077a1
-.word 0x91008000
-bl _p_7
-.word 0xf940a7a0
-.word 0xf94013b1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910323a0
-.word 0xf900a3a0
+.word 0x910323a1
+.word 0xf9400ba0
+.word 0xf9007ba0
+.word 0x9100a021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-.word 0x910263a0
-.word 0xaa0003e8
-bl _p_105
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf9410a31
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a3a0
+.word 0x910323a1
+.word 0xf9400fa0
+.word 0xf90077a0
+.word 0x91008021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910323a0
+.word 0xf9008fa0
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1136]
+.word 0x910263a0
+.word 0xaa0003e8
+bl _p_104
+.word 0xf94013b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9408fa0
 .word 0x910263a1
-.word 0x91002001
-.word 0xaa0103e0
-.word 0xf9404fa2
-.word 0xf9009fa2
-.word 0xf9000022
-.word 0xf9009ba0
-bl _p_7
-.word 0xf9409ba0
-.word 0xf9409fa1
+.word 0x91002002
+.word 0xaa0203e0
+.word 0xf9404fa1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
 .word 0x91002000
 .word 0xf94053a1
-.word 0xf90097a1
 .word 0xf9000001
-.word 0xf90093a0
-bl _p_7
-.word 0xf94093a0
-.word 0xf94097a1
-.word 0x91002000
-.word 0xf94057a1
-.word 0xf9008fa1
-.word 0xf9000001
-bl _p_7
-.word 0xf9408fa0
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf94057a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a0
@@ -8928,14 +9153,14 @@ bl _p_7
 .word 0xf2bffffe
 .word 0xb900cbbe
 .word 0xf94013b1
-.word 0xf941a631
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a1
 .word 0x910143a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_82
+bl _p_81
 .word 0x910143a0
 .word 0x91002000
 .word 0x9100e3a1
@@ -8954,7 +9179,7 @@ bl _p_82
 .word 0xf94027a0
 .word 0xf90063a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102c3a0
@@ -8962,14 +9187,14 @@ bl _p_82
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1352]
-bl _p_163
+ldr x15, [x16, #1344]
+bl _p_162
 .word 0xf94013b1
-.word 0xf9423631
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9424631
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a0
@@ -8977,11 +9202,11 @@ bl _p_163
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_107
+ldr x15, [x16, #1136]
+bl _p_106
 .word 0xf9008ba0
 .word 0xf94013b1
-.word 0xf9427231
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
@@ -8989,16 +9214,16 @@ bl _p_107
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408ba0
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8d67bfd
+.word 0xa8d27bfd
 .word 0xd65f03c0
 
 Lme_31:
@@ -9019,7 +9244,7 @@ Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -9043,8 +9268,8 @@ ldr x16, [x16, #1360]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #424]
-bl _p_17
+ldr x1, [x16, #416]
+bl _p_16
 .word 0xf90053a0
 .word 0x53001c00
 .word 0xf94033b1
@@ -9058,7 +9283,7 @@ bl _p_17
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
-bl _p_164
+bl _p_163
 .word 0xf9004fa0
 .word 0xf94033b1
 .word 0xf940da31
@@ -9074,9 +9299,9 @@ bl _p_164
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1368]
+ldr x1, [x16, #1360]
 .word 0xf9400021
-bl _p_17
+bl _p_16
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf94033b1
@@ -9098,7 +9323,7 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1376]
+ldr x0, [x16, #1368]
 .word 0xf90047a0
 .word 0x14000009
 .word 0xf94033b1
@@ -9108,7 +9333,7 @@ ldr x0, [x16, #1376]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1376]
 .word 0xf90047a0
 .word 0xf94047a0
 .word 0xf90043a0
@@ -9121,7 +9346,7 @@ ldr x0, [x16, #1384]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
-bl _p_165
+bl _p_164
 .word 0xf9004fa0
 .word 0xf94033b1
 .word 0xf941ca31
@@ -9135,7 +9360,7 @@ bl _p_165
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xf94043a1
-bl _p_166
+bl _p_165
 .word 0xf9004ba0
 .word 0xf94033b1
 .word 0xf9420231
@@ -9161,9 +9386,9 @@ bl _p_166
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1384]
 .word 0xd2800081
-bl _p_15
+bl _p_14
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xf90063a0
@@ -9184,7 +9409,7 @@ bl _p_15
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #1400]
+ldr x2, [x16, #1392]
 .word 0xaa1a03e0
 .word 0xd2800021
 .word 0xf9400343
@@ -9207,7 +9432,7 @@ ldr x2, [x16, #1400]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1408]
+ldr x0, [x16, #1400]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -9233,7 +9458,7 @@ bl _p_4
 .word 0xf9408070
 .word 0xd63f0200
 .word 0xf9404fa0
-bl _p_167
+bl _p_166
 .word 0xf9004ba0
 .word 0xf94033b1
 .word 0xf9437e31
@@ -9252,14 +9477,14 @@ bl _p_167
 .word 0xf9402ba0
 .word 0xaa1503e1
 .word 0xaa1503e1
-bl _p_168
+bl _p_167
 .word 0xf9004fa0
 .word 0xf94033b1
 .word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_169
+bl _p_168
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf94033b1
@@ -9275,7 +9500,7 @@ bl _p_169
 .word 0xf9402ba0
 .word 0xaa1503e1
 .word 0xaa1503e1
-bl _p_168
+bl _p_167
 .word 0xf9004ba0
 .word 0xf94033b1
 .word 0xf9442631
@@ -9318,7 +9543,7 @@ Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -9339,7 +9564,7 @@ ldr x16, [x16, #1416]
 .word 0xd63f0220
 .word 0xd28000a0
 .word 0xd28000a0
-bl _p_170
+bl _p_169
 .word 0xf9003fa0
 .word 0xf9401bb1
 .word 0xf9408e31
@@ -9348,7 +9573,7 @@ bl _p_170
 .word 0xf9403fa0
 .word 0xaa1903e1
 .word 0xaa1903e1
-bl _p_168
+bl _p_167
 .word 0xf9003ba0
 .word 0xf9401bb1
 .word 0xf940b231
@@ -9363,7 +9588,7 @@ bl _p_168
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xaa0003e1
-bl _p_171
+bl _p_170
 .word 0xf9401bb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -9374,7 +9599,7 @@ bl _p_171
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_172
+bl _p_171
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -9389,7 +9614,7 @@ bl _p_172
 .word 0xd63f0220
 .word 0x910123a0
 .word 0xf9002fa0
-bl _p_173
+bl _p_172
 .word 0xf9402fbe
 .word 0xf90003c0
 .word 0xf9401bb1
@@ -9409,9 +9634,9 @@ bl _p_173
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1416]
 .word 0xf9003fa0
-bl _p_174
+bl _p_173
 .word 0xf90043a0
 .word 0xf9401bb1
 .word 0xf941aa31
@@ -9420,7 +9645,7 @@ bl _p_174
 .word 0xf9403ba0
 .word 0xf9403fa1
 .word 0xf94043a2
-bl _p_175
+bl _p_174
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf941ce31
@@ -9436,9 +9661,9 @@ bl _p_175
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #424]
+ldr x1, [x16, #416]
 .word 0xaa1803e0
-bl _p_17
+bl _p_16
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -9454,14 +9679,14 @@ bl _p_17
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1432]
+ldr x0, [x16, #1424]
 .word 0xaa1703e1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #1384]
+ldr x2, [x16, #1376]
 .word 0xaa1703e1
-bl _p_176
+bl _p_175
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9426631
@@ -9481,14 +9706,14 @@ bl _p_176
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xaa1703e1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #1376]
+ldr x2, [x16, #1368]
 .word 0xaa1703e1
-bl _p_176
+bl _p_175
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf942ca31
@@ -9511,7 +9736,7 @@ bl _p_176
 .word 0xaa1803e0
 .word 0xaa1903e1
 .word 0xaa1a03e2
-bl _p_177
+bl _p_176
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9432631
@@ -9519,7 +9744,7 @@ bl _p_177
 .word 0xd63f0220
 .word 0xf94037a1
 .word 0xaa1903e0
-bl _p_168
+bl _p_167
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9434631
@@ -9557,7 +9782,7 @@ Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrien
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9647,7 +9872,7 @@ Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9894,7 +10119,7 @@ Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientati
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1456]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -9936,7 +10161,7 @@ ldr x16, [x16, #1464]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1472]
+ldr x0, [x16, #1464]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -10013,9 +10238,9 @@ ldr x0, [x16, #1472]
 .word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10041,7 +10266,7 @@ Plugin_Media_MediaPickerDelegate__Canceledb__10_0:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10063,7 +10288,7 @@ ldr x16, [x16, #1480]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_178
+bl _p_177
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -10086,7 +10311,7 @@ Lme_37:
 	.no_dead_strip Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
 Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController:
 .loc 1 1 0
-.word 0xa9bb7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb8
 .word 0xaa0003f8
@@ -10095,7 +10320,7 @@ Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_U
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1480]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10113,7 +10338,7 @@ ldr x16, [x16, #1488]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_179
+bl _p_178
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -10124,33 +10349,49 @@ bl _p_179
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9400fa0
-.word 0xf90027a0
 .word 0xf9001700
-.word 0x9100a300
-bl _p_7
-.word 0xf94027a0
+.word 0x9100a301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94017b1
-.word 0xf940b631
+.word 0xf940d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf94013a0
-.word 0xf90023a0
 .word 0xf9001b00
-.word 0x9100c300
-bl _p_7
-.word 0xf94023a0
+.word 0x9100c301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94017b1
-.word 0xf940e231
+.word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf940f231
+.word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb8
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
 Lme_38:
@@ -10166,7 +10407,7 @@ Plugin_Media_MediaPickerPopoverDelegate_ShouldDismiss_UIKit_UIPopoverController:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10214,7 +10455,7 @@ Plugin_Media_MediaPickerPopoverDelegate_DidDismiss_UIKit_UIPopoverController:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10236,7 +10477,7 @@ ldr x16, [x16, #1504]
 .word 0xf9401b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9408a31
@@ -10261,7 +10502,7 @@ Lme_3a:
 	.no_dead_strip Plugin_Media_NSDataStream__ctor_Foundation_NSData
 Plugin_Media_NSDataStream__ctor_Foundation_NSData:
 .loc 1 1 0
-.word 0xa9bb7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
 .word 0xaa0003f9
@@ -10269,7 +10510,7 @@ Plugin_Media_NSDataStream__ctor_Foundation_NSData:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10287,7 +10528,7 @@ ldr x16, [x16, #1512]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_180
+bl _p_179
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -10298,22 +10539,30 @@ bl _p_180
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9400fa0
-.word 0xf90023a0
 .word 0xf9001720
-.word 0x9100a320
-bl _p_7
-.word 0xf94023a0
+.word 0x9100a321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf94013b1
-.word 0xf940b231
+.word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf940c231
+.word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb9
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
 Lme_3b:
@@ -10330,7 +10579,7 @@ Plugin_Media_NSDataStream_Dispose_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10357,7 +10606,7 @@ ldr x16, [x16, #1520]
 .word 0xf9401741
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_69
+bl _p_68
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -10398,7 +10647,7 @@ Plugin_Media_NSDataStream_Flush:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10438,7 +10687,7 @@ Plugin_Media_NSDataStream_Read_byte___int_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -10468,7 +10717,7 @@ ldr x16, [x16, #1536]
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -10512,7 +10761,7 @@ ldr x16, [x16, #1536]
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9401fb1
@@ -10536,7 +10785,7 @@ ldr x16, [x16, #1536]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_181
+bl _p_180
 .word 0xfd004ba0
 .word 0xf9401fb1
 .word 0xf941c231
@@ -10544,7 +10793,7 @@ bl _p_181
 .word 0xd63f0220
 .word 0xfd4047a0
 .word 0xfd404ba1
-bl _p_97
+bl _p_96
 .word 0xfd0043a0
 .word 0xf9401fb1
 .word 0xf941e231
@@ -10562,7 +10811,7 @@ bl _p_97
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410030
+.word 0xf9410430
 .word 0xd63f0200
 .word 0xf9003fa0
 .word 0xf9401fb1
@@ -10576,7 +10825,7 @@ bl _p_97
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910143a0
-bl _p_182
+bl _p_181
 .word 0xf9003ba0
 .word 0xf9401fb1
 .word 0xf9426231
@@ -10589,7 +10838,7 @@ bl _p_182
 .word 0x8b010001
 .word 0xf9002fbf
 .word 0x910163a0
-bl _p_183
+bl _p_182
 .word 0xf9402fa0
 .word 0xf90037a0
 .word 0xf9401fb1
@@ -10600,7 +10849,7 @@ bl _p_183
 .word 0xf94013a1
 .word 0xb9802ba2
 .word 0xaa1603e3
-bl _p_184
+bl _p_183
 .word 0xf9401fb1
 .word 0xf942be31
 .word 0xb4000051
@@ -10653,7 +10902,7 @@ Plugin_Media_NSDataStream_Seek_long_System_IO_SeekOrigin:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10669,9 +10918,9 @@ ldr x16, [x16, #1544]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10696,7 +10945,7 @@ Plugin_Media_NSDataStream_SetLength_long:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10712,9 +10961,9 @@ ldr x16, [x16, #1552]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10741,7 +10990,7 @@ Plugin_Media_NSDataStream_Write_byte___int_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -10757,9 +11006,9 @@ ldr x16, [x16, #1560]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10783,7 +11032,7 @@ Plugin_Media_NSDataStream_get_CanRead:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10829,7 +11078,7 @@ Plugin_Media_NSDataStream_get_CanSeek:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10875,7 +11124,7 @@ Plugin_Media_NSDataStream_get_CanWrite:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10921,7 +11170,7 @@ Plugin_Media_NSDataStream_get_Length:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10941,7 +11190,7 @@ ldr x16, [x16, #1592]
 .word 0xf9401401
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -10981,7 +11230,7 @@ Plugin_Media_NSDataStream_get_Position:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11031,7 +11280,7 @@ Plugin_Media_NSDataStream_set_Position_long:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11072,7 +11321,7 @@ Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11126,7 +11375,7 @@ ldr x16, [x16, #1616]
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_185
+bl _p_184
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf9411631
@@ -11145,7 +11394,7 @@ bl _p_185
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9008fa0
 .word 0xf9402bb1
@@ -11153,7 +11402,7 @@ bl _p_185
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408fa0
-bl _p_186
+bl _p_185
 .word 0xf9008ba0
 .word 0xf9402bb1
 .word 0xf9418231
@@ -11168,10 +11417,10 @@ bl _p_186
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1624]
-bl _p_38
+ldr x0, [x16, #1616]
+bl _p_37
 .word 0xf90087a0
-bl _p_187
+bl _p_186
 .word 0xf9402bb1
 .word 0xf941c231
 .word 0xb4000051
@@ -11184,7 +11433,7 @@ bl _p_187
 .word 0xbd404ba0
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_188
+bl _p_187
 .word 0xf9402bb1
 .word 0xf941f631
 .word 0xb4000051
@@ -11197,7 +11446,7 @@ bl _p_188
 .word 0xaa1903e1
 .word 0xaa1503e0
 .word 0xf94002be
-bl _p_189
+bl _p_188
 .word 0xf9402bb1
 .word 0xf9422a31
 .word 0xb4000051
@@ -11212,7 +11461,7 @@ bl _p_189
 .word 0x9e6703c0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_190
+bl _p_189
 .word 0xf9402bb1
 .word 0xf9426631
 .word 0xb4000051
@@ -11220,7 +11469,7 @@ bl _p_190
 .word 0xf9407ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf90077a0
 .word 0xf9402bb1
@@ -11244,7 +11493,7 @@ bl _p_190
 .word 0xf9004ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9404bbe
 .word 0xfd0003c0
@@ -11264,7 +11513,7 @@ bl _p_190
 .word 0xfd403fa2
 .word 0xfd4043a3
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402bb1
@@ -11283,7 +11532,7 @@ bl _p_190
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf90063a0
 .word 0xf9402bb1
@@ -11293,7 +11542,7 @@ bl _p_190
 .word 0xf9405fa0
 .word 0xf94063a1
 .word 0xfd4067a0
-bl _p_191
+bl _p_190
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf943ae31
@@ -11328,7 +11577,7 @@ bl _p_191
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #440]
+ldr x15, [x16, #432]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -11392,7 +11641,7 @@ Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single_s
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11423,7 +11672,7 @@ ldr x16, [x16, #1632]
 .word 0xf9006fa0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9406fbe
 .word 0xfd0003c0
@@ -11450,7 +11699,7 @@ ldr x16, [x16, #1632]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102c3a0
-bl _p_192
+bl _p_191
 .word 0xfd008ba0
 .word 0xf94017b1
 .word 0xf9411e31
@@ -11476,7 +11725,7 @@ bl _p_192
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102c3a0
-bl _p_193
+bl _p_192
 .word 0xfd0083a0
 .word 0xf94017b1
 .word 0xf9418631
@@ -11496,7 +11745,7 @@ bl _p_193
 .word 0xd63f0220
 .word 0xfd4077a0
 .word 0xfd407ba1
-bl _p_96
+bl _p_95
 .word 0xfd0073a0
 .word 0xf94017b1
 .word 0xf941d631
@@ -11537,7 +11786,7 @@ bl _p_96
 .word 0xfd4063a0
 .word 0xfd007fa0
 .word 0x9102c3a0
-bl _p_192
+bl _p_191
 .word 0xfd0083a0
 .word 0xf94017b1
 .word 0xf9427a31
@@ -11558,7 +11807,7 @@ bl _p_192
 .word 0xfd4063a0
 .word 0xfd0077a0
 .word 0x9102c3a0
-bl _p_193
+bl _p_192
 .word 0xfd007ba0
 .word 0xf94017b1
 .word 0xf942ce31
@@ -11583,7 +11832,7 @@ bl _p_193
 .word 0xf9004ba0
 .word 0xf9004fa0
 .word 0x910243a0
-bl _p_194
+bl _p_193
 .word 0x910243a0
 .word 0x910183a0
 .word 0xf9404ba0
@@ -11597,7 +11846,7 @@ bl _p_194
 .word 0x910183a0
 .word 0xfd4033a0
 .word 0xfd4037a1
-bl _p_195
+bl _p_194
 .word 0xf94017b1
 .word 0xf9436631
 .word 0xb4000051
@@ -11620,7 +11869,7 @@ bl _p_195
 .word 0x9101c3a0
 .word 0x9e6703e0
 .word 0x9e6703e1
-bl _p_98
+bl _p_97
 .word 0x9101c3a0
 .word 0x910103a0
 .word 0xf9403ba0
@@ -11642,7 +11891,7 @@ bl _p_98
 .word 0xfd402ba2
 .word 0xfd402fa3
 .word 0xf9400341
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9441e31
@@ -11652,13 +11901,13 @@ bl _p_98
 .word 0xf9442e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_196
+bl _p_195
 .word 0xf9008fa0
 .word 0xf94017b1
 .word 0xf9444631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_197
+bl _p_196
 .word 0xf94017b1
 .word 0xf9445a31
 .word 0xb4000051
@@ -11695,7 +11944,7 @@ Plugin_Media_UIImageExtensions_ResizeImage_UIKit_UIImage_single_single:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11717,7 +11966,7 @@ ldr x16, [x16, #1640]
 .word 0xd2800000
 .word 0xf9004fa0
 .word 0x910263a0
-bl _p_198
+bl _p_197
 .word 0x910263a0
 .word 0x910143a0
 .word 0xf9404fa0
@@ -11731,7 +11980,7 @@ bl _p_198
 .word 0x910143a0
 .word 0xbd4053a0
 .word 0xbd4057a1
-bl _p_199
+bl _p_198
 .word 0xf94053be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -11742,7 +11991,7 @@ bl _p_199
 .word 0x910223a0
 .word 0xfd4047a0
 .word 0xfd404ba1
-bl _p_195
+bl _p_194
 .word 0xf94017b1
 .word 0xf940ea31
 .word 0xb4000051
@@ -11764,7 +12013,7 @@ bl _p_195
 .word 0xf9003fa0
 .word 0xf90043a0
 .word 0x9101e3a0
-bl _p_200
+bl _p_199
 .word 0x9101e3a0
 .word 0x910103a0
 .word 0xf9403fa0
@@ -11782,7 +12031,7 @@ bl _p_200
 .word 0xbd4047a1
 .word 0xbd404ba2
 .word 0xbd404fa3
-bl _p_201
+bl _p_200
 .word 0xf94053be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -11800,7 +12049,7 @@ bl _p_201
 .word 0xfd4037a2
 .word 0xfd403ba3
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf941d631
@@ -11810,13 +12059,13 @@ bl _p_201
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_196
+bl _p_195
 .word 0xf9005ba0
 .word 0xf94017b1
 .word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_197
+bl _p_196
 .word 0xf94017b1
 .word 0xf9421231
 .word 0xb4000051
@@ -11856,7 +12105,7 @@ Plugin_Media_UIImageExtensions_CropImage_UIKit_UIImage_int_int_int_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -11891,7 +12140,7 @@ ldr x16, [x16, #1648]
 .word 0xf9008ba0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9408bbe
 .word 0xfd0003c0
@@ -11918,7 +12167,7 @@ ldr x16, [x16, #1648]
 .word 0xd2800000
 .word 0xf9005fa0
 .word 0x9102e3a0
-bl _p_198
+bl _p_197
 .word 0x9102e3a0
 .word 0x910203a0
 .word 0xf9405fa0
@@ -11932,7 +12181,7 @@ bl _p_198
 .word 0x910203a0
 .word 0xbd4083a0
 .word 0xbd4087a1
-bl _p_199
+bl _p_198
 .word 0xf9408bbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -11943,7 +12192,7 @@ bl _p_199
 .word 0x9102a3a0
 .word 0xfd4057a0
 .word 0xfd405ba1
-bl _p_195
+bl _p_194
 .word 0xf9401fb1
 .word 0xf9419a31
 .word 0xb4000051
@@ -11952,7 +12201,7 @@ bl _p_195
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_202
+bl _p_201
 .word 0xf900aba0
 .word 0xf9401fb1
 .word 0xf941c231
@@ -11967,7 +12216,7 @@ bl _p_202
 .word 0x1e220322
 .word 0xaa1a03e1
 .word 0x1e220343
-bl _p_200
+bl _p_199
 .word 0xf9401fb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -11985,7 +12234,7 @@ bl _p_200
 .word 0xbd4077a1
 .word 0xbd407ba2
 .word 0xbd407fa3
-bl _p_201
+bl _p_200
 .word 0xf9408bbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -12003,7 +12252,7 @@ bl _p_201
 .word 0xfd404fa2
 .word 0xfd4053a3
 .word 0xf940003e
-bl _p_203
+bl _p_202
 .word 0xf9401fb1
 .word 0xf9428a31
 .word 0xb4000051
@@ -12016,7 +12265,7 @@ bl _p_203
 .word 0xf90097a0
 .word 0xb9802ba0
 .word 0x4b0003e0
-bl _p_90
+bl _p_89
 .word 0xfd009ba0
 .word 0xf9401fb1
 .word 0xf942c231
@@ -12024,21 +12273,21 @@ bl _p_90
 .word 0xd63f0220
 .word 0xb98033a0
 .word 0x4b0003e0
-bl _p_90
+bl _p_89
 .word 0xfd009fa0
 .word 0xf9401fb1
 .word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910403a0
-bl _p_192
+bl _p_191
 .word 0xfd00a3a0
 .word 0xf9401fb1
 .word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910403a0
-bl _p_193
+bl _p_192
 .word 0xfd00a7a0
 .word 0xf9401fb1
 .word 0xf9431a31
@@ -12049,7 +12298,7 @@ bl _p_193
 .word 0xfd409fa1
 .word 0xfd40a3a2
 .word 0xfd40a7a3
-bl _p_204
+bl _p_203
 .word 0xf9401fb1
 .word 0xf9434231
 .word 0xb4000051
@@ -12076,7 +12325,7 @@ bl _p_204
 .word 0xfd4033a2
 .word 0xfd4037a3
 .word 0xf94002c1
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf943b231
@@ -12086,13 +12335,13 @@ bl _p_204
 .word 0xf943c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_196
+bl _p_195
 .word 0xf90093a0
 .word 0xf9401fb1
 .word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_197
+bl _p_196
 .word 0xf9401fb1
 .word 0xf943ee31
 .word 0xb4000051
@@ -12132,7 +12381,7 @@ Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -12154,12 +12403,12 @@ ldr x16, [x16, #1656]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1664]
+ldr x0, [x16, #1656]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
 .word 0xf9004fa0
-bl _p_205
+bl _p_204
 .word 0xf9402bb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -12181,9 +12430,9 @@ bl _p_205
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1672]
+ldr x0, [x16, #1664]
 .word 0xd2800021
-bl _p_15
+bl _p_14
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xf90047a0
@@ -12198,17 +12447,17 @@ bl _p_15
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1680]
-bl _p_38
+ldr x0, [x16, #1672]
+bl _p_37
 .word 0xf9004ba0
-bl _p_206
+bl _p_205
 .word 0xf9402bb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf9404ba1
-bl _p_207
+bl _p_206
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf9415e31
@@ -12217,7 +12466,7 @@ bl _p_207
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xaa0003f5
 .word 0xf9402bb1
@@ -12234,7 +12483,7 @@ bl _p_207
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1688]
+ldr x1, [x16, #1680]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800014
@@ -12244,8 +12493,8 @@ ldr x1, [x16, #1688]
 .word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_208
-.word 0xf9004fa0
+bl _p_207
+.word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -12253,49 +12502,34 @@ bl _p_208
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1696]
-bl _p_38
-.word 0xf9005fa0
-bl _p_209
+ldr x0, [x16, #1688]
+bl _p_37
+.word 0xf9005ba0
+bl _p_208
 .word 0xf9402bb1
 .word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405fa0
+.word 0xf9405ba0
 .word 0xaa0003f3
 .word 0xaa1303e0
-.word 0xf9005ba0
+.word 0xf90057a0
 .word 0xaa1303e0
 .word 0xd2800020
 .word 0xaa1303e0
 .word 0xd2800021
 .word 0xf9400262
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
+.word 0xf94057a0
 .word 0xf90037a0
 .word 0xf94037a0
-.word 0xf90057a0
-.word 0xf94037a2
-.word 0xd2800020
-.word 0xaa0203e0
-.word 0xd2800021
-.word 0xf9400042
-.word 0xf940f050
-.word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9428a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a0
-.word 0xf9003ba0
-.word 0xf9403ba0
 .word 0xf90053a0
-.word 0xf9403ba2
+.word 0xf94037a2
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
@@ -12303,10 +12537,25 @@ bl _p_209
 .word 0xf940f450
 .word 0xd63f0200
 .word 0xf9402bb1
-.word 0xf942c631
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf9004fa0
+.word 0xf9403ba2
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf9400042
+.word 0xf940f850
+.word 0xd63f0200
+.word 0xf9402bb1
+.word 0xf942c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
 .word 0xaa0003f7
 .word 0xaa1403e0
 .word 0xaa1703e0
@@ -12314,35 +12563,44 @@ bl _p_209
 .word 0xaa1903e0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000880
+.word 0x54000980
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1696]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_4
+.word 0xaa0003e3
+.word 0xf94047a2
+.word 0xf9404ba4
+.word 0xf9001079
+.word 0x91008060
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #1704]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_4
-.word 0xf9001019
-.word 0xf9004ba0
-.word 0x91008000
-bl _p_7
-.word 0xf94047a2
-.word 0xf9404ba3
-.word 0xf9404fa4
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1712]
 .word 0xf9001460
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1720]
+ldr x0, [x16, #1712]
 .word 0xf9002060
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1728]
+ldr x0, [x16, #1720]
 .word 0xf9401401
 .word 0xf9000c61
 .word 0xf9401000
@@ -12352,15 +12610,15 @@ ldr x0, [x16, #1728]
 .word 0xaa0403e0
 .word 0xaa1403e1
 .word 0xf9400084
-.word 0xf940e890
+.word 0xf940ec90
 .word 0xd63f0200
 .word 0x93407c00
 .word 0xf9402bb1
-.word 0xf9438a31
+.word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9439a31
+.word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -12371,12 +12629,12 @@ ldr x0, [x16, #1728]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf943c631
+.word 0xf943e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xf9402bb1
-.word 0xf943da31
+.word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -12386,9 +12644,9 @@ ldr x0, [x16, #1728]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_4c:
 .text
@@ -12401,7 +12659,7 @@ Plugin_Media_CrossMedia__c__cctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -12420,12 +12678,12 @@ ldr x16, [x16, #1736]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1744]
+ldr x0, [x16, #1736]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
 .word 0xf9001ba0
-bl _p_210
+bl _p_209
 .word 0xf9400bb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -12434,7 +12692,7 @@ bl _p_210
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #288]
+ldr x0, [x16, #280]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940a231
@@ -12460,7 +12718,7 @@ Plugin_Media_CrossMedia__c__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12505,7 +12763,7 @@ Plugin_Media_CrossMedia__c___cctorb__8_0:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12521,7 +12779,7 @@ ldr x16, [x16, #1760]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_211
+bl _p_210
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9406a31
@@ -12555,7 +12813,7 @@ Plugin_Media_MediaImplementation__c__cctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -12574,12 +12832,12 @@ ldr x16, [x16, #1768]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1776]
+ldr x0, [x16, #1768]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
 .word 0xf9001ba0
-bl _p_212
+bl _p_211
 .word 0xf9400bb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -12588,7 +12846,7 @@ bl _p_212
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #608]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940a231
@@ -12614,7 +12872,7 @@ Plugin_Media_MediaImplementation__c__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12660,7 +12918,7 @@ Plugin_Media_MediaImplementation__c__GetMediaAsyncb__32_0_UIKit_UIWindow:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12679,7 +12937,7 @@ ldr x16, [x16, #1792]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd0023a0
 .word 0xf94013b1
@@ -12717,7 +12975,7 @@ Plugin_Media_MediaImplementation__c__GetMediaAsyncb__32_1_UIKit_UIWindow:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12736,7 +12994,7 @@ ldr x16, [x16, #1800]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -12752,14 +13010,14 @@ ldr x16, [x16, #1800]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_49
+bl _p_48
 .word 0xfd002ba0
 .word 0xf94013b1
 .word 0xf940da31
@@ -12819,7 +13077,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12865,7 +13123,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__FinishedPickingMediab__0:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12888,7 +13146,7 @@ ldr x16, [x16, #1816]
 .word 0xf9400b41
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_213
+bl _p_212
 .word 0x53001c00
 .word 0xf9400fb1
 .word 0xf9408a31
@@ -12924,7 +13182,7 @@ LDIFF_SYM3=ut_end - ut_86
 	.no_dead_strip Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_MoveNext
 Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_MoveNext:
 .loc 1 1 0
-.word 0xa9ae7bfd
+.word 0xa9af7bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -12934,7 +13192,7 @@ Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_MoveNext:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12976,7 +13234,7 @@ ldr x16, [x16, #1824]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0x3400235a
+.word 0x3400271a
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -12989,7 +13247,7 @@ ldr x16, [x16, #1824]
 .word 0xd2800020
 .word 0xd280003e
 .word 0x6b1e035f
-.word 0x54003c60
+.word 0x540042c0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -13003,25 +13261,33 @@ ldr x16, [x16, #1824]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1832]
+ldr x0, [x16, #1824]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_4
-.word 0xf9008ba0
-bl _p_214
+.word 0xf90083a0
+bl _p_213
 .word 0xf9402fb1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94087a0
-.word 0xf9408ba1
-.word 0xf90083a1
-.word 0xf9001c01
-.word 0x9100e000
-bl _p_7
 .word 0xf94083a0
+.word 0xf94087a1
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9418631
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13029,40 +13295,50 @@ bl _p_7
 .word 0xaa1903e1
 .word 0xf9000c19
 .word 0x91006000
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf9402fb1
-.word 0xf941ae31
+.word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_84
+bl _p_83
 .word 0xf9402fb1
-.word 0xf941ca31
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf941da31
+.word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401800
 .word 0xf9007fa0
-bl _p_215
+bl _p_214
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf941fe31
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba1
 .word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xaa0003f4
 .word 0xf9402fb1
-.word 0xf9422a31
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb4000174
@@ -13073,23 +13349,23 @@ bl _p_215
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1840]
+ldr x1, [x16, #1832]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x540057e1
+.word 0x54005de1
 .word 0xaa1403e0
 .word 0xaa1403e0
-bl _p_136
+bl _p_135
 .word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf9427631
+.word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xf9007fa0
 .word 0xaa0003f8
 .word 0xf9402fb1
-.word 0xf9429231
+.word 0xf942d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407fa0
@@ -13097,12 +13373,12 @@ bl _p_136
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #424]
-bl _p_17
+ldr x1, [x16, #416]
+bl _p_16
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf942c231
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
@@ -13112,68 +13388,76 @@ bl _p_17
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf942ea31
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #416]
+ldr x1, [x16, #408]
 .word 0xaa1803e0
-bl _p_17
+bl _p_16
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf9431a31
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
-.word 0x35001be0
+.word 0x35001e80
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9434231
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140001ac
+.word 0x140001d6
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9436631
+.word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xf9401c21
-.word 0xf90083a1
-.word 0xf9002401
-.word 0x91012000
-bl _p_7
-.word 0xf94083a0
+.word 0xf9402ba0
+.word 0xf9401c00
+.word 0xf9002420
+.word 0x91012021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9439631
+.word 0xf943f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402400
 .word 0xf9400800
 .word 0xf9402fb1
-.word 0xf943b231
+.word 0xf9440e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9402ba0
 .word 0xf9401801
 .word 0xaa1903e0
-bl _p_216
+bl _p_215
 .word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf943da31
+.word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407fa1
@@ -13181,11 +13465,11 @@ bl _p_216
 .word 0xf9005ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_217
+bl _p_216
 .word 0xf9405bbe
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf9440a31
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910263a0
@@ -13193,29 +13477,29 @@ bl _p_217
 .word 0xf9404fa0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf9442a31
+.word 0xf9448631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1848]
-bl _p_218
+ldr x15, [x16, #1840]
+bl _p_217
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf9445631
+.word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
-.word 0x35000c00
+.word 0x35000ce0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9447e31
+.word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13226,7 +13510,7 @@ bl _p_218
 .word 0xd280001a
 .word 0xb900001f
 .word 0xf9402fb1
-.word 0xf944aa31
+.word 0xf9450631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13235,15 +13519,23 @@ bl _p_218
 .word 0xf94053a1
 .word 0xf90047a1
 .word 0x910223a1
-.word 0x91014001
-.word 0xaa0103e0
-.word 0xf94047a2
-.word 0xf9007ba2
-.word 0xf9000022
-bl _p_7
-.word 0xf9407ba0
+.word 0x91014002
+.word 0xaa0203e1
+.word 0xf94047a0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf944ee31
+.word 0xf9456631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13253,23 +13545,23 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1856]
-bl _p_219
+ldr x15, [x16, #1848]
+bl _p_218
 .word 0xf9402fb1
-.word 0xf9451e31
+.word 0xf9459631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9452e31
+.word 0xf945a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140001f2
+.word 0x14000214
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9455231
+.word 0xf945ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13282,14 +13574,14 @@ bl _p_219
 .word 0xf94043a0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf9458631
+.word 0xf945fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91014000
 .word 0xf900001f
 .word 0xf9402fb1
-.word 0xf945a231
+.word 0xf9461a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13311,85 +13603,101 @@ bl _p_219
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf945fa31
+.word 0xf9467231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1848]
-bl _p_220
-.word 0xf90083a0
+ldr x15, [x16, #1840]
+bl _p_219
+.word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf9462231
+.word 0xf9469a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a0
+.word 0xf9407fa0
 .word 0x910283a1
 .word 0xf90053bf
-.word 0xf9007fa0
+.word 0xf9007ba0
 .word 0xaa0003f7
 .word 0xf9402fb1
-.word 0xf9464631
+.word 0xf946be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407fa1
-.word 0xf9402ba0
-.word 0xf9402400
-.word 0xaa0103e2
-.word 0xf9007ba2
-.word 0xf9000801
-.word 0x91004000
-bl _p_7
 .word 0xf9407ba0
+.word 0xf9402ba1
+.word 0xf9402421
+.word 0xaa0003e2
+.word 0xf9000820
+.word 0x91004021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9467a31
+.word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900241f
 .word 0xf9402fb1
-.word 0xf9469631
+.word 0xf9472a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140000e5
+.word 0x140000fa
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946ba31
+.word 0xf9474e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
 .word 0xf9402ba1
-.word 0xf9401c21
-.word 0xf90083a1
-.word 0xf9002401
-.word 0x91012000
-bl _p_7
-.word 0xf94083a0
+.word 0xf9402ba0
+.word 0xf9401c00
+.word 0xf9002420
+.word 0x91012021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf946ea31
+.word 0xf9479a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402400
 .word 0xf9400800
 .word 0xf9402fb1
-.word 0xf9470631
+.word 0xf947b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9402ba0
 .word 0xf9401801
 .word 0xaa1903e0
-bl _p_221
+bl _p_220
 .word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf9472e31
+.word 0xf947de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407fa1
@@ -13397,11 +13705,11 @@ bl _p_221
 .word 0xf9005ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_217
+bl _p_216
 .word 0xf9405bbe
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf9475e31
+.word 0xf9480e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910243a0
@@ -13409,29 +13717,29 @@ bl _p_217
 .word 0xf9404ba0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf9477e31
+.word 0xf9482e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1848]
-bl _p_218
+ldr x15, [x16, #1840]
+bl _p_217
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf947aa31
+.word 0xf9485a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
-.word 0x35000c20
+.word 0x35000d00
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf947d231
+.word 0xf9488231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13443,7 +13751,7 @@ bl _p_218
 .word 0xaa0203fa
 .word 0xb9000001
 .word 0xf9402fb1
-.word 0xf9480231
+.word 0xf948b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13452,15 +13760,23 @@ bl _p_218
 .word 0xf94053a1
 .word 0xf9003fa1
 .word 0x9101e3a1
-.word 0x91014001
-.word 0xaa0103e0
-.word 0xf9403fa2
-.word 0xf9007ba2
-.word 0xf9000022
-bl _p_7
-.word 0xf9407ba0
+.word 0x91014002
+.word 0xaa0203e1
+.word 0xf9403fa0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9484631
+.word 0xf9491231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13470,23 +13786,23 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1856]
-bl _p_219
+ldr x15, [x16, #1848]
+bl _p_218
 .word 0xf9402fb1
-.word 0xf9487631
+.word 0xf9494231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9488631
+.word 0xf9495231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400011c
+.word 0x14000129
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf948aa31
+.word 0xf9497631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13499,14 +13815,14 @@ bl _p_219
 .word 0xf9403ba0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf948de31
+.word 0xf949aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91014000
 .word 0xf900001f
 .word 0xf9402fb1
-.word 0xf948fa31
+.word 0xf949c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13528,47 +13844,55 @@ bl _p_219
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9495231
+.word 0xf94a1e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1848]
-bl _p_220
-.word 0xf90083a0
+ldr x15, [x16, #1840]
+bl _p_219
+.word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf9497a31
+.word 0xf94a4631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a0
+.word 0xf9407fa0
 .word 0x910283a1
 .word 0xf90053bf
-.word 0xf9007fa0
+.word 0xf9007ba0
 .word 0xaa0003f7
 .word 0xf9402fb1
-.word 0xf9499e31
+.word 0xf94a6a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407fa1
-.word 0xf9402ba0
-.word 0xf9402400
-.word 0xaa0103e2
-.word 0xf9007ba2
-.word 0xf9000801
-.word 0x91004000
-bl _p_7
 .word 0xf9407ba0
+.word 0xf9402ba1
+.word 0xf9402421
+.word 0xaa0003e2
+.word 0xf9000820
+.word 0x91004021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf949d231
+.word 0xf94aba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900241f
 .word 0xf9402fb1
-.word 0xf949ee31
+.word 0xf94ad631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400000f
@@ -13577,12 +13901,12 @@ bl _p_7
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94a1231
+.word 0xf94afa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -13591,22 +13915,22 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94a4a31
+.word 0xf94b3231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_54
+bl _p_53
 .word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf94a6231
+.word 0xf94b4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_55
+bl _p_54
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf94a8631
+.word 0xf94b6e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
@@ -13616,19 +13940,19 @@ bl _p_55
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94aae31
+.word 0xf94b9631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_11
+bl _p_10
 .word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf94ac631
+.word 0xf94bae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_85
+bl _p_84
 .word 0xf9007ba0
 .word 0xf9402fb1
-.word 0xf94ade31
+.word 0xf94bc631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba1
@@ -13637,10 +13961,10 @@ bl _p_85
 .word 0xaa0303e0
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf9411470
+.word 0xf9411870
 .word 0xd63f0200
 .word 0xf9402fb1
-.word 0xf94b0e31
+.word 0xf94bf631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -13648,7 +13972,7 @@ bl _p_85
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94b2e31
+.word 0xf94c1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -13657,40 +13981,47 @@ bl _p_85
 .word 0xf9007fa0
 .word 0xf9402ba0
 .word 0xf9401c00
-.word 0xf90087a0
+.word 0xf9007ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54000f80
+.word 0x54001040
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1008]
+ldr x0, [x16, #1000]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf94087a1
-.word 0xf9007ba1
-.word 0xf9001001
-.word 0xf90083a0
-.word 0x91008000
-bl _p_7
+.word 0xaa0003e2
 .word 0xf9407ba0
 .word 0xf9407fa1
-.word 0xf94083a2
+.word 0xf9001040
+.word 0x91008043
+.word 0xd349fc63
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0063
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x4, [x16, #16]
+.word 0x8b040063
+.word 0xd280003e
+.word 0x3900007e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #1856]
 .word 0xf9001440
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1864]
 .word 0xf9002040
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1880]
+ldr x0, [x16, #1872]
 .word 0xf9401403
 .word 0xf9000c43
 .word 0xf9401000
@@ -13698,13 +14029,13 @@ ldr x0, [x16, #1880]
 .word 0xd2800000
 .word 0x3901805f
 .word 0xaa1903e0
-bl _p_86
+bl _p_85
 .word 0xf9402fb1
-.word 0xf94bee31
+.word 0xf94cee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94bfe31
+.word 0xf94cfe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000025
@@ -13712,7 +14043,7 @@ bl _p_86
 .word 0xf94063a0
 .word 0xf90057a0
 .word 0xf9402fb1
-.word 0xf94c1e31
+.word 0xf94d1e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13722,22 +14053,22 @@ bl _p_86
 .word 0xf2bffffe
 .word 0xb900001e
 .word 0xf9402fb1
-.word 0xf94c4631
+.word 0xf94d4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91002000
 .word 0xf94057a1
-bl _p_222
+bl _p_221
 .word 0xf9402fb1
-.word 0xf94c6631
+.word 0xf94d6631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94c7631
+.word 0xf94d7631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf90073a0
 .word 0xf94073a0
 .word 0xb4000060
@@ -13749,7 +14080,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94cb231
+.word 0xf94db231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13759,14 +14090,14 @@ bl _p_3
 .word 0xf2bffffe
 .word 0xb900001e
 .word 0xf9402fb1
-.word 0xf94cda31
+.word 0xf94dda31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91002000
-bl _p_223
+bl _p_222
 .word 0xf9402fb1
-.word 0xf94cf631
+.word 0xf94df631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -13774,11 +14105,11 @@ bl _p_223
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94d1631
+.word 0xf94e1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94d2631
+.word 0xf94e2631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -13786,14 +14117,14 @@ bl _p_223
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8d27bfd
+.word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801d40
+bl _p_8
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_56:
 .text
@@ -13812,7 +14143,7 @@ Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_SetStateMachine_Syste
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13831,7 +14162,7 @@ ldr x16, [x16, #1888]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_224
+bl _p_223
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -13860,7 +14191,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13905,7 +14236,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__GetPictureMediaFileb__0:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13923,7 +14254,7 @@ ldr x16, [x16, #1904]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400800
-bl _p_225
+bl _p_224
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9407231
@@ -13956,7 +14287,7 @@ b Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
 	.no_dead_strip Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
 Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
 .loc 1 1 0
-.word 0xd2805610
+.word 0xd2805410
 .word 0x910003f1
 .word 0xcb100231
 .word 0x9100023f
@@ -13970,7 +14301,7 @@ Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1904]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -14033,7 +14364,7 @@ ldr x16, [x16, #1912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb980b3a0
-.word 0x3400ac80
+.word 0x3400af20
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -14047,45 +14378,53 @@ ldr x16, [x16, #1912]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1920]
+ldr x0, [x16, #1912]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf9013ba0
-bl _p_226
+.word 0xf90133a0
+bl _p_225
 .word 0xf9402fb1
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94137a0
-.word 0xf9413ba1
-.word 0xf90133a1
-.word 0xf9001801
-.word 0x9100c000
-bl _p_7
 .word 0xf94133a0
+.word 0xf94137a1
+.word 0xf9001820
+.word 0x9100c021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf941b631
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf9012fa0
-bl _p_227
+bl _p_226
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf941da31
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xaa0003f8
 .word 0xf9402fb1
-.word 0xf9420631
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb4000178
@@ -14096,10 +14435,10 @@ bl _p_227
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1928]
+ldr x1, [x16, #1920]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x5400d961
+.word 0x5400dd81
 .word 0xaa1803e0
 .word 0xaa1803f7
 .word 0xaa1803e0
@@ -14108,27 +14447,27 @@ ldr x1, [x16, #1928]
 .word 0xb5000538
 .word 0xaa1603e0
 .word 0xf9402fb1
-.word 0xf9425e31
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf9012fa0
-bl _p_228
+bl _p_227
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9428231
+.word 0xf9429e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900dfa0
 .word 0xf9402fb1
-.word 0xf942ae31
+.word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dfa0
@@ -14141,16 +14480,16 @@ bl _p_228
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1928]
+ldr x1, [x16, #1920]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x5400d3e1
+.word 0x5400d801
 .word 0xf940dfa0
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xf90067b6
 .word 0xf9402fb1
-.word 0xf9430231
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -14159,16 +14498,16 @@ ldr x1, [x16, #1928]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #424]
+ldr x0, [x16, #416]
 .word 0xf9012fa0
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_33
+bl _p_32
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9434631
+.word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14186,11 +14525,11 @@ bl _p_33
 .word 0xf9012fa0
 .word 0xaa1403e0
 .word 0xf9405fa0
-bl _p_229
+bl _p_228
 .word 0x53001c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9439e31
+.word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14202,7 +14541,7 @@ bl _p_229
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf900aba1
 .word 0xaa0003f4
 .word 0x14000009
@@ -14211,57 +14550,65 @@ ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xf900aba1
 .word 0xaa0003f4
 .word 0xaa1603e0
 .word 0xf940aba0
-.word 0xf9014ba0
+.word 0xf90147a0
 .word 0xaa1403e0
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_230
-.word 0xf9014fa0
+bl _p_229
+.word 0xf9014ba0
 .word 0xf9402fb1
-.word 0xf9442631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9414ba0
-.word 0xf9414fa2
-.word 0xaa1403e1
-bl _p_231
-.word 0xf90147a0
-.word 0xf9402fb1
-.word 0xf9444a31
+.word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94147a0
+.word 0xf9414ba2
+.word 0xaa1403e1
+bl _p_230
 .word 0xf90143a0
-.word 0xf9000ac0
-.word 0x910042c0
-bl _p_7
-.word 0xf94143a0
 .word 0xf9402fb1
-.word 0xf9447231
+.word 0xf9446631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94143a0
+.word 0xf9000ac0
+.word 0x910042c1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf9402fb1
+.word 0xf944aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9013fa0
 .word 0xf9402fb1
-.word 0xf9449a31
+.word 0xf944d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9413fa0
 .word 0xf9006ba0
 .word 0xf9402fb1
-.word 0xf944b231
+.word 0xf944ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001e
@@ -14269,78 +14616,78 @@ bl _p_7
 .word 0x9e6703c0
 .word 0xbd00dba0
 .word 0xf9402fb1
-.word 0xf944d231
+.word 0xf9450a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9013ba0
 .word 0xf9402fb1
-.word 0xf944fa31
+.word 0xf9453231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9413ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_232
+bl _p_231
 .word 0xf90137a0
 .word 0xf9402fb1
-.word 0xf9451e31
+.word 0xf9455631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94137a0
-bl _p_233
+bl _p_232
 .word 0x1e204000
 .word 0xf9402fb1
-.word 0xf9453a31
+.word 0xf9457231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9454a31
+.word 0xf9458231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90133a0
 .word 0xf9402fb1
-.word 0xf9457231
+.word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94133a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_234
+bl _p_233
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf9459631
+.word 0xf945ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa0
-bl _p_233
+bl _p_232
 .word 0x1e204000
 .word 0xf9402fb1
-.word 0xf945b231
+.word 0xf945ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf945c231
+.word 0xf945fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_235
+bl _p_234
 .word 0x93407c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf945ee31
+.word 0xf9462631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14353,25 +14700,25 @@ bl _p_235
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9462231
+.word 0xf9465a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_235
+bl _p_234
 .word 0x93407c00
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf9464e31
+.word 0xf9468631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa0
 .word 0xf9012ba0
 .word 0xaa0003fa
 .word 0xf9402fb1
-.word 0xf9466a31
+.word 0xf946a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14384,7 +14731,7 @@ bl _p_235
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -14393,7 +14740,7 @@ ldr x0, [x16, #1944]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946be31
+.word 0xf946f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004e
@@ -14402,7 +14749,7 @@ ldr x0, [x16, #1944]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946e231
+.word 0xf9471a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001e
@@ -14410,7 +14757,7 @@ ldr x0, [x16, #1944]
 .word 0x9e6703c0
 .word 0xbd00dba0
 .word 0xf9402fb1
-.word 0xf9470231
+.word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400003d
@@ -14419,7 +14766,7 @@ ldr x0, [x16, #1944]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9472631
+.word 0xf9475e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001e
@@ -14427,7 +14774,7 @@ ldr x0, [x16, #1944]
 .word 0x9e6703c0
 .word 0xbd00dba0
 .word 0xf9402fb1
-.word 0xf9474631
+.word 0xf9477e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400002c
@@ -14436,7 +14783,7 @@ ldr x0, [x16, #1944]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9476a31
+.word 0xf947a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001e
@@ -14444,7 +14791,7 @@ ldr x0, [x16, #1944]
 .word 0x9e6703c0
 .word 0xbd00dba0
 .word 0xf9402fb1
-.word 0xf9478a31
+.word 0xf947c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001b
@@ -14453,18 +14800,18 @@ ldr x0, [x16, #1944]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf947ae31
+.word 0xf947e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_236
+bl _p_235
 .word 0x93407c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf947da31
+.word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14479,18 +14826,18 @@ bl _p_236
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9481631
+.word 0xf9484e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_235
+bl _p_234
 .word 0x93407c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9484231
+.word 0xf9487a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14503,7 +14850,7 @@ bl _p_235
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9487631
+.word 0xf948ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -14512,11 +14859,11 @@ bl _p_235
 .word 0xf900a3a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_237
+bl _p_236
 .word 0xf940a3be
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf948aa31
+.word 0xf948e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910263a0
@@ -14524,19 +14871,19 @@ bl _p_237
 .word 0xf9404fa0
 .word 0xf90057a0
 .word 0xf9402fb1
-.word 0xf948ca31
+.word 0xf9490231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102a3a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-bl _p_238
+ldr x15, [x16, #1944]
+bl _p_237
 .word 0x53001c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf948f631
+.word 0xf9492e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14546,68 +14893,68 @@ bl _p_238
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9491e31
+.word 0xf9495631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90147a0
 .word 0xf9402fb1
-.word 0xf9494631
+.word 0xf9497e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94147a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_234
+bl _p_233
 .word 0xf9013ba0
 .word 0xf9402fb1
-.word 0xf9496a31
+.word 0xf949a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9497a31
+.word 0xf949b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90143a0
 .word 0xf9402fb1
-.word 0xf949a231
+.word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94143a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_232
+bl _p_231
 .word 0xf9013fa0
 .word 0xf9402fb1
-.word 0xf949c631
+.word 0xf949fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf949d631
+.word 0xf94a0e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9413ba0
 .word 0xf9413fa1
-bl _p_239
+bl _p_238
 .word 0xf90137a0
 .word 0xf9402fb1
-.word 0xf949f631
+.word 0xf94a2e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94137a0
 .word 0xf90133a0
 .word 0xaa0003f9
 .word 0xf9402fb1
-.word 0xf94a1231
+.word 0xf94a4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94133a0
@@ -14618,11 +14965,11 @@ bl _p_239
 .word 0xf900a3a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_237
+bl _p_236
 .word 0xf940a3be
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf94a4e31
+.word 0xf94a8631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910243a0
@@ -14633,12 +14980,12 @@ bl _p_237
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-bl _p_240
+ldr x15, [x16, #1944]
+bl _p_239
 .word 0x93407c00
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf94a8a31
+.word 0xf94ac231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14651,7 +14998,7 @@ bl _p_240
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94abe31
+.word 0xf94af631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -14660,11 +15007,11 @@ bl _p_240
 .word 0xf900a3a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_237
+bl _p_236
 .word 0xf940a3be
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf94af231
+.word 0xf94b2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910223a0
@@ -14672,19 +15019,19 @@ bl _p_237
 .word 0xf94047a0
 .word 0xf90057a0
 .word 0xf9402fb1
-.word 0xf94b1231
+.word 0xf94b4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102a3a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-bl _p_240
+ldr x15, [x16, #1944]
+bl _p_239
 .word 0x93407c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94b3e31
+.word 0xf94b7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14698,7 +15045,7 @@ bl _p_240
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94b7631
+.word 0xf94bae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xbd40dba0
@@ -14712,15 +15059,15 @@ bl _p_240
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94bae31
+.word 0xf94be631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a0
 .word 0xbd40dba0
-bl _p_241
+bl _p_240
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94bce31
+.word 0xf94c0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14730,7 +15077,7 @@ bl _p_241
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94bf631
+.word 0xf94c2e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
@@ -14738,31 +15085,31 @@ bl _p_241
 .word 0xf940e3a0
 .word 0xf9007fa0
 .word 0xf9402fb1
-.word 0xf94c1631
+.word 0xf94c4e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1960]
+ldr x0, [x16, #1952]
 .word 0xf9407fa1
-bl _p_160
+bl _p_159
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94c3e31
+.word 0xf94c7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
+bl _p_160
+.word 0xf9402fb1
+.word 0xf94c8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94c9e31
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_161
-.word 0xf9402fb1
-.word 0xf94c5631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf94c6631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_162
 .word 0xf90117a0
 .word 0xf94117a0
 .word 0xb4000060
@@ -14774,7 +15121,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94ca231
+.word 0xf94cda31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf90073bf
@@ -14783,7 +15130,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94cc631
+.word 0xf94cfe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -14797,27 +15144,27 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94cfe31
+.word 0xf94d3631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf9012fa0
-bl _p_242
+bl _p_241
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94d2231
+.word 0xf94d5a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf9402fb1
-.word 0xf94d4e31
+.word 0xf94d8631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940bfa0
@@ -14833,7 +15180,7 @@ bl _p_242
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf900c3bf
@@ -14841,7 +15188,7 @@ ldr x1, [x16, #1288]
 .word 0xf940c3a0
 .word 0xf90073a0
 .word 0xf9402fb1
-.word 0xf94daa31
+.word 0xf94de231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
@@ -14851,26 +15198,26 @@ ldr x1, [x16, #1288]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94dd231
+.word 0xf94e0a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
 .word 0xf90133a0
-bl _p_140
+bl _p_139
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf94df231
+.word 0xf94e2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa1
 .word 0xf94133a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0x53001c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94e1e31
+.word 0xf94e5631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -14880,18 +15227,18 @@ bl _p_68
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94e4631
+.word 0xf94e7e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1168]
-bl _p_38
+ldr x0, [x16, #1160]
+bl _p_37
 .word 0xf90137a0
-bl _p_108
+bl _p_107
 .word 0xf9402fb1
-.word 0xf94e6e31
+.word 0xf94ea631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94137a0
@@ -14905,18 +15252,18 @@ bl _p_108
 .word 0xf940a850
 .word 0xd63f0200
 .word 0xf9402fb1
-.word 0xf94ea631
+.word 0xf94ede31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1168]
-bl _p_38
+ldr x0, [x16, #1160]
+bl _p_37
 .word 0xf90133a0
-bl _p_108
+bl _p_107
 .word 0xf9402fb1
-.word 0xf94ece31
+.word 0xf94f0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94133a0
@@ -14925,21 +15272,21 @@ bl _p_108
 .word 0xf900cfa0
 .word 0xf94073a0
 .word 0xf9012fa0
-bl _p_147
+bl _p_146
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf94efe31
+.word 0xf94f3631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900d3a0
 .word 0xf9402fb1
-.word 0xf94f2a31
+.word 0xf94f6231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940d3a0
@@ -14955,7 +15302,7 @@ bl _p_147
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf900d7bf
@@ -14967,34 +15314,34 @@ ldr x1, [x16, #1288]
 .word 0xf940a850
 .word 0xd63f0200
 .word 0xf9402fb1
-.word 0xf94f9631
+.word 0xf94fce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94087a0
 .word 0xf9013fa0
 .word 0xf94073a0
 .word 0xf90147a0
-bl _p_140
+bl _p_139
 .word 0xf90143a0
 .word 0xf9402fb1
-.word 0xf94fbe31
+.word 0xf94ff631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94143a1
 .word 0xf94147a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90137a0
 .word 0xf9402fb1
-.word 0xf94fea31
+.word 0xf9502231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_243
+bl _p_242
 .word 0xf9013ba0
 .word 0xf9402fb1
-.word 0xf9500231
+.word 0xf9503a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94137a1
@@ -15005,7 +15352,7 @@ bl _p_243
 .word 0xf940ac70
 .word 0xd63f0200
 .word 0xf9402fb1
-.word 0xf9502e31
+.word 0xf9506631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940cba0
@@ -15014,10 +15361,10 @@ bl _p_243
 .word 0xf9012ba0
 .word 0xf940dba0
 .word 0xf90133a0
-bl _p_147
+bl _p_146
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf9505e31
+.word 0xf9509631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa1
@@ -15025,10 +15372,10 @@ bl _p_147
 .word 0xf94087a2
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9402fb1
-.word 0xf9508a31
+.word 0xf950c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -15038,23 +15385,23 @@ bl _p_147
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf950b231
+.word 0xf950ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_244
+bl _p_243
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf950da31
+.word 0xf9511231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
 .word 0xf90083a0
 .word 0xf9402fb1
-.word 0xf950f231
+.word 0xf9512a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
@@ -15064,7 +15411,7 @@ bl _p_244
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9511a31
+.word 0xf9515231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94083a0
@@ -15074,21 +15421,21 @@ bl _p_244
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9514231
+.word 0xf9517a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
 .word 0xf94083a1
-bl _p_245
+bl _p_244
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9516231
+.word 0xf9519a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
 .word 0xf90073a0
 .word 0xf9402fb1
-.word 0xf9517a31
+.word 0xf951b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000037
@@ -15097,27 +15444,27 @@ bl _p_245
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9519e31
+.word 0xf951d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf9012fa0
-bl _p_246
+bl _p_245
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf951c231
+.word 0xf951fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900afa0
 .word 0xf9402fb1
-.word 0xf951ee31
+.word 0xf9522631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940afa0
@@ -15133,16 +15480,16 @@ bl _p_246
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1968]
+ldr x1, [x16, #1960]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf900b3bf
 .word 0x14000001
 .word 0xf940b3a0
-bl _p_247
+bl _p_246
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9524e31
+.word 0xf9528631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -15152,7 +15499,7 @@ bl _p_247
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9527631
+.word 0xf952ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
@@ -15160,31 +15507,31 @@ bl _p_247
 .word 0xf940e7a0
 .word 0xf9008ba0
 .word 0xf9402fb1
-.word 0xf9529631
+.word 0xf952ce31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1976]
+ldr x0, [x16, #1968]
 .word 0xf9408ba1
-bl _p_160
+bl _p_159
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf952be31
+.word 0xf952f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
+bl _p_160
+.word 0xf9402fb1
+.word 0xf9530e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9531e31
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_161
-.word 0xf9402fb1
-.word 0xf952d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf952e631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_162
 .word 0xf9011ba0
 .word 0xf9411ba0
 .word 0xb4000060
@@ -15196,18 +15543,18 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9532231
+.word 0xf9535a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_248
+bl _p_247
 .word 0x93407c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9534e31
+.word 0xf9538631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -15218,12 +15565,12 @@ bl _p_248
 .word 0x1e211800
 .word 0xbd00eba0
 .word 0xf9402fb1
-.word 0xf9537a31
+.word 0xf953b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3903c3bf
 .word 0xf9402fb1
-.word 0xf9538e31
+.word 0xf953c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
@@ -15233,7 +15580,7 @@ bl _p_248
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf953b631
+.word 0xf953ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -15243,11 +15590,11 @@ bl _p_248
 .word 0xf9402ba3
 .word 0xf9401863
 .word 0xf9400863
-bl _p_249
+bl _p_248
 .word 0xf9012ba0
 .word 0x53001c00
 .word 0xf9402fb1
-.word 0xf953ee31
+.word 0xf9542631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
@@ -15257,7 +15604,7 @@ bl _p_249
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9541631
+.word 0xf9544e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3943c3a0
@@ -15267,26 +15614,26 @@ bl _p_249
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9543e31
+.word 0xf9547631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a0
 .word 0xf9012fa0
 .word 0xbd40eba0
 .word 0x1e22c000
-.word 0xfd0153a0
+.word 0xfd014fa0
 .word 0xf9402fb1
-.word 0xf9546231
+.word 0xf9549a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa1
-.word 0xfd4153a0
+.word 0xfd414fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_131
+bl _p_130
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9548a31
+.word 0xf954c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba3
@@ -15297,11 +15644,11 @@ bl _p_131
 .word 0xaa0303e0
 .word 0xd2800022
 .word 0xf9400063
-.word 0xf9410470
+.word 0xf9410870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9402fb1
-.word 0xf954c631
+.word 0xf954fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -15309,14 +15656,14 @@ bl _p_131
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf954e631
+.word 0xf9551e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf9001c1f
 .word 0xf9402fb1
-.word 0xf9550231
+.word 0xf9553a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
@@ -15324,33 +15671,33 @@ bl _p_131
 .word 0xd2800021
 .word 0xd280003e
 .word 0xeb1e001f
-.word 0x54000aa0
+.word 0x54000b80
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9553a31
+.word 0xf9557231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf9012fa0
-bl _p_246
+bl _p_245
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9555e31
+.word 0xf9559631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba1
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900b7a0
 .word 0xf9402fb1
-.word 0xf9558a31
+.word 0xf955c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940b7a0
@@ -15363,14 +15710,14 @@ bl _p_246
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1968]
+ldr x1, [x16, #1960]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54003d01
+.word 0x54004041
 .word 0xf940b7a0
 .word 0xf9008fa0
 .word 0xf9402fb1
-.word 0xf955d631
+.word 0xf9560e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba1
@@ -15387,50 +15734,37 @@ ldr x1, [x16, #1968]
 .word 0xf9408fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf9562a31
+.word 0xf9566231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
 .word 0xf9412fa1
 .word 0xf900bba1
 .word 0xf900aba0
-.word 0xf940bba0
-.word 0xf940aba1
-.word 0xf9012ba1
-.word 0xf9001c01
-.word 0x9100e000
-bl _p_7
-.word 0xf9412ba0
+.word 0xf940bba1
+.word 0xf940aba0
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9566631
+.word 0xf956ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000116
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9568a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405fa0
-.word 0xf9402401
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_250
-.word 0x53001c00
-.word 0xf9012ba0
-.word 0xf9402fb1
-.word 0xf956b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9412ba0
-.word 0x34002020
+.word 0x14000124
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -15439,33 +15773,54 @@ bl _p_250
 .word 0xf956de31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf9405fa0
+.word 0xf9402401
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_249
+.word 0x53001c00
+.word 0xf9012ba0
+.word 0xf9402fb1
+.word 0xf9570a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9412ba0
+.word 0x340021e0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf956fe31
+.word 0xf9573231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9575231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb980b3a0
-.word 0x34000ea0
+.word 0x34000f80
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9572631
+.word 0xf9577a31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1984]
-bl _p_38
+ldr x0, [x16, #1976]
+bl _p_37
 .word 0xf90133a0
-bl _p_251
+bl _p_250
 .word 0xf9402fb1
-.word 0xf9574e31
+.word 0xf957a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94133a3
@@ -15473,11 +15828,11 @@ bl _p_251
 .word 0xf94073a2
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf940f070
+.word 0xf940f470
 .word 0xd63f0200
 .word 0xf9012fa0
 .word 0xf9402fb1
-.word 0xf9577e31
+.word 0xf957d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412fa1
@@ -15485,11 +15840,11 @@ bl _p_251
 .word 0xf900a3a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_252
+bl _p_251
 .word 0xf940a3be
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf957ae31
+.word 0xf9580231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
@@ -15497,29 +15852,29 @@ bl _p_252
 .word 0xf94043a0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf957ce31
+.word 0xf9582231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
-bl _p_253
+ldr x15, [x16, #1984]
+bl _p_252
 .word 0x53001c00
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf957fa31
+.word 0xf9584e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
-.word 0x35000b80
+.word 0x35000c60
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9582231
+.word 0xf9587631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15530,7 +15885,7 @@ bl _p_253
 .word 0xb900b3a2
 .word 0xb9000001
 .word 0xf9402fb1
-.word 0xf9584e31
+.word 0xf958a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15539,15 +15894,23 @@ bl _p_253
 .word 0xf94053a1
 .word 0xf9003fa1
 .word 0x9101e3a1
-.word 0x91010001
-.word 0xaa0103e0
-.word 0xf9403fa2
-.word 0xf9012ba2
-.word 0xf9000022
-bl _p_7
-.word 0xf9412ba0
+.word 0x91010002
+.word 0xaa0203e1
+.word 0xf9403fa0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9589231
+.word 0xf9590231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15557,23 +15920,23 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2000]
-bl _p_254
+ldr x15, [x16, #1992]
+bl _p_253
 .word 0xf9402fb1
-.word 0xf958c231
+.word 0xf9593231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf958d231
+.word 0xf9594231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000108
+.word 0x14000114
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf958f631
+.word 0xf9596631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15586,14 +15949,14 @@ bl _p_254
 .word 0xf9403ba0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf9592a31
+.word 0xf9599a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91010000
 .word 0xf900001f
 .word 0xf9402fb1
-.word 0xf9594631
+.word 0xf959b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15611,26 +15974,26 @@ bl _p_254
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9598e31
+.word 0xf959fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
-bl _p_255
-.word 0xf90137a0
+ldr x15, [x16, #1984]
+bl _p_254
+.word 0xf90133a0
 .word 0xf9402fb1
-.word 0xf959b631
+.word 0xf95a2631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94137a0
+.word 0xf94133a0
 .word 0x910283a1
 .word 0xf90053bf
 .word 0xf90093a0
 .word 0xf9402fb1
-.word 0xf959d631
+.word 0xf95a4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15638,22 +16001,30 @@ bl _p_255
 .word 0xf94093a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
-.word 0xf90133a0
+.word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf95a0631
+.word 0xf95a7631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9412fa0
-.word 0xf94133a1
-.word 0xf9012ba1
-.word 0xf9001c01
-.word 0x9100e000
-bl _p_7
 .word 0xf9412ba0
+.word 0xf9412fa1
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf95a3231
+.word 0xf95abe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
@@ -15661,31 +16032,31 @@ bl _p_7
 .word 0xf940eba0
 .word 0xf90097a0
 .word 0xf9402fb1
-.word 0xf95a5231
+.word 0xf95ade31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf94097a1
-bl _p_256
+bl _p_255
 .word 0xf9012ba0
 .word 0xf9402fb1
-.word 0xf95a7a31
+.word 0xf95b0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
+bl _p_160
+.word 0xf9402fb1
+.word 0xf95b1e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf95b2e31
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_161
-.word 0xf9402fb1
-.word 0xf95a9231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf95aa231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_162
 .word 0xf9011fa0
 .word 0xf9411fa0
 .word 0xb4000060
@@ -15697,7 +16068,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf95ade31
+.word 0xf95b6a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -15706,39 +16077,45 @@ bl _p_3
 .word 0xf9012fa0
 .word 0xf9402ba0
 .word 0xf9401800
-.word 0xf90143a0
+.word 0xf9013ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54001260
+.word 0x54001300
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2016]
+ldr x0, [x16, #2008]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf94143a1
-.word 0xf9013fa1
+.word 0xf9413ba1
 .word 0xf9001001
-.word 0xf9013ba0
-.word 0x91008000
-bl _p_7
-.word 0xf9413ba0
-.word 0xf9413fa1
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2024]
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2016]
 .word 0xf9001401
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2032]
+ldr x1, [x16, #2024]
 .word 0xf9002001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2040]
+ldr x1, [x16, #2032]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15752,68 +16129,27 @@ ldr x1, [x16, #2040]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2048]
-bl _p_38
+ldr x0, [x16, #2040]
+bl _p_37
 .word 0xf9412fa1
 .word 0xf94133a2
 .word 0xf94137a3
 .word 0xf9012ba0
-bl _p_257
+bl _p_256
 .word 0xf9402fb1
-.word 0xf95bc631
+.word 0xf95c6631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9412ba0
 .word 0xf90063a0
 .word 0xf9402fb1
-.word 0xf95bde31
+.word 0xf95c7e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000028
 .word 0xf900efa0
 .word 0xf940efa0
 .word 0xf9009ba0
-.word 0xf9402fb1
-.word 0xf95bfe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900001e
-.word 0xf9402fb1
-.word 0xf95c2631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0x91002000
-.word 0xf9409ba1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_258
-.word 0xf9402fb1
-.word 0xf95c5231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf95c6231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_162
-.word 0xf90123a0
-.word 0xf94123a0
-.word 0xb4000060
-.word 0xf94123a0
-bl _p_3
-.word 0x1400001e
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
 .word 0xf9402fb1
 .word 0xf95c9e31
 .word 0xb4000051
@@ -15830,14 +16166,55 @@ bl _p_3
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91002000
+.word 0xf9409ba1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x15, [x16, #1136]
+bl _p_257
+.word 0xf9402fb1
+.word 0xf95cf231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf95d0231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_161
+.word 0xf90123a0
+.word 0xf94123a0
+.word 0xb4000060
+.word 0xf94123a0
+bl _p_3
+.word 0x1400001e
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf95d3e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900001e
+.word 0xf9402fb1
+.word 0xf95d6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x91002000
 .word 0xf94063a1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_259
+ldr x15, [x16, #1136]
+bl _p_258
 .word 0xf9402fb1
-.word 0xf95cf231
+.word 0xf95d9231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -15845,11 +16222,11 @@ bl _p_259
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf95d1231
+.word 0xf95db231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf95d2231
+.word 0xf95dc231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -15858,17 +16235,17 @@ bl _p_259
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa9407bfd
-.word 0xd2805610
+.word 0xd2805410
 .word 0x910003f1
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801d40
+bl _p_8
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_5a:
 .text
@@ -15887,7 +16264,7 @@ Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_SetStateMachine_Syste
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15909,8 +16286,8 @@ ldr x16, [x16, #2056]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_260
+ldr x15, [x16, #1136]
+bl _p_259
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -15939,7 +16316,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15984,7 +16361,7 @@ Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__GetMovieMediaFileb__0:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2064]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16002,7 +16379,7 @@ ldr x16, [x16, #2072]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400800
-bl _p_225
+bl _p_224
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9407231
@@ -16035,7 +16412,7 @@ b Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
 	.no_dead_strip Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
 Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
 .loc 1 1 0
-.word 0xa9a87bfd
+.word 0xa9a97bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -16045,7 +16422,7 @@ Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -16090,7 +16467,7 @@ ldr x16, [x16, #2080]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98093a0
-.word 0x340028c0
+.word 0x34002ba0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -16104,45 +16481,53 @@ ldr x16, [x16, #2080]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2088]
+ldr x0, [x16, #2080]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
-.word 0xf900b3a0
-bl _p_261
+.word 0xf900aba0
+bl _p_260
 .word 0xf9402fb1
 .word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940afa0
-.word 0xf940b3a1
-.word 0xf900aba1
-.word 0xf9001801
-.word 0x9100c000
-bl _p_7
 .word 0xf940aba0
+.word 0xf940afa1
+.word 0xf9001820
+.word 0x9100c021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf9415e31
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf900a7a0
-bl _p_262
+bl _p_261
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9418231
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a1
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90067a0
 .word 0xf9402fb1
-.word 0xf941ae31
+.word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a0
@@ -16155,14 +16540,14 @@ bl _p_262
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1968]
+ldr x1, [x16, #1960]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54005781
+.word 0x54005be1
 .word 0xf94067a0
 .word 0xf90057a0
 .word 0xf9402fb1
-.word 0xf941fa31
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16171,16 +16556,16 @@ ldr x1, [x16, #1968]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #408]
 .word 0xf900a7a0
 .word 0xf9404fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_33
+bl _p_32
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9423e31
+.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
@@ -16197,11 +16582,11 @@ bl _p_33
 .word 0xaa1903e0
 .word 0xaa1303e0
 .word 0xf9404fa0
-bl _p_229
+bl _p_228
 .word 0x53001c00
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9429231
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
@@ -16211,7 +16596,7 @@ bl _p_229
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xaa0003f3
 .word 0x14000008
 .word 0xaa1a03e0
@@ -16219,7 +16604,7 @@ ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xaa0003f3
 .word 0xaa1a03e0
@@ -16229,10 +16614,10 @@ ldr x0, [x16, #1368]
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_230
+bl _p_229
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9430631
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
@@ -16248,18 +16633,18 @@ bl _p_230
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf900a7a0
 .word 0xf9402fb1
-.word 0xf9435631
+.word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a7a0
-bl _p_263
+bl _p_262
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9437231
+.word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
@@ -16270,50 +16655,58 @@ bl _p_263
 .word 0xf94073a2
 .word 0xaa1903e0
 .word 0xaa1303e1
-bl _p_231
-.word 0xf900aba0
+bl _p_230
+.word 0xf900a7a0
 .word 0xf9402fb1
-.word 0xf943aa31
+.word 0xf943c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940aba0
-.word 0xf900a7a0
-.word 0xf9000b40
-.word 0x91004340
-bl _p_7
 .word 0xf940a7a0
+.word 0xf9000b40
+.word 0x91004341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf943d231
+.word 0xf9440a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf943fa31
+.word 0xf9443231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
 .word 0xf9402ba1
 .word 0xf9401821
 .word 0xf9400821
-bl _p_264
+bl _p_263
 .word 0xf9402fb1
-.word 0xf9441e31
+.word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9442e31
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf9001c1f
 .word 0xf9402fb1
-.word 0xf9444a31
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
@@ -16321,33 +16714,33 @@ bl _p_264
 .word 0xd2800021
 .word 0xd280003e
 .word 0xeb1e001f
-.word 0x540009e0
+.word 0x54000b00
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9448231
+.word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401000
 .word 0xf900a7a0
-bl _p_246
+bl _p_245
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf944a631
+.word 0xf944de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a1
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90077a0
 .word 0xf9402fb1
-.word 0xf944d231
+.word 0xf9450a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
@@ -16360,14 +16753,14 @@ bl _p_246
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #1968]
+ldr x1, [x16, #1960]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54003e61
+.word 0x540041e1
 .word 0xf94077a0
 .word 0xaa0003f7
 .word 0xf9402fb1
-.word 0xf9451e31
+.word 0xf9455631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16382,11 +16775,11 @@ ldr x1, [x16, #1968]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94002e1
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9456a31
+.word 0xf945a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
@@ -16395,39 +16788,49 @@ ldr x1, [x16, #1968]
 .word 0xaa1903e0
 .word 0xf9001f19
 .word 0x9100e300
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf9402fb1
-.word 0xf9459631
+.word 0xf945f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400012b
+.word 0x14000139
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf945ba31
+.word 0xf9461631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9402401
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_250
+bl _p_249
 .word 0x53001c00
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf945e631
+.word 0xf9464231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
-.word 0x340022c0
+.word 0x34002480
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9460e31
+.word 0xf9466a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -16435,28 +16838,28 @@ bl _p_250
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9462e31
+.word 0xf9468a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98093a0
-.word 0x34001060
+.word 0x34001140
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9465631
+.word 0xf946b231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1984]
-bl _p_38
+ldr x0, [x16, #1976]
+bl _p_37
 .word 0xf900afa0
-bl _p_251
+bl _p_250
 .word 0xf9402fb1
-.word 0xf9467e31
+.word 0xf946da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16466,24 +16869,24 @@ bl _p_251
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2096]
-bl _p_38
+ldr x0, [x16, #2088]
+bl _p_37
 .word 0xf940b3a1
 .word 0xf900aba0
-bl _p_265
+bl _p_264
 .word 0xf9402fb1
-.word 0xf946ba31
+.word 0xf9471631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940aba1
 .word 0xf940afa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf900a7a0
 .word 0xf9402fb1
-.word 0xf946e631
+.word 0xf9474231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a7a1
@@ -16491,11 +16894,11 @@ bl _p_265
 .word 0xf90063a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_252
+bl _p_251
 .word 0xf94063be
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf9471631
+.word 0xf9477231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
@@ -16503,29 +16906,29 @@ bl _p_252
 .word 0xf94043a0
 .word 0xf90047a0
 .word 0xf9402fb1
-.word 0xf9473631
+.word 0xf9479231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910223a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
-bl _p_253
+ldr x15, [x16, #1984]
+bl _p_252
 .word 0x53001c00
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9476231
+.word 0xf947be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
-.word 0x35000c20
+.word 0x35000d00
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9478a31
+.word 0xf947e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16536,7 +16939,7 @@ bl _p_253
 .word 0xb90093bf
 .word 0xb900001f
 .word 0xf9402fb1
-.word 0xf947b631
+.word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16545,15 +16948,23 @@ bl _p_253
 .word 0xf94047a1
 .word 0xf9003fa1
 .word 0x9101e3a1
-.word 0x91010001
-.word 0xaa0103e0
-.word 0xf9403fa2
-.word 0xf900a3a2
-.word 0xf9000022
-bl _p_7
-.word 0xf940a3a0
+.word 0x91010002
+.word 0xaa0203e1
+.word 0xf9403fa0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf947fa31
+.word 0xf9487231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16563,23 +16974,23 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2104]
-bl _p_266
+ldr x15, [x16, #2096]
+bl _p_265
 .word 0xf9402fb1
-.word 0xf9482a31
+.word 0xf948a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9483a31
+.word 0xf948b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400010f
+.word 0x1400011b
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9485e31
+.word 0xf948d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16592,14 +17003,14 @@ bl _p_266
 .word 0xf9403ba0
 .word 0xf90047a0
 .word 0xf9402fb1
-.word 0xf9489231
+.word 0xf9490a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x91010000
 .word 0xf900001f
 .word 0xf9402fb1
-.word 0xf948ae31
+.word 0xf9492631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16622,51 +17033,59 @@ bl _p_266
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9490a31
+.word 0xf9498231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910223a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
-bl _p_255
-.word 0xf900b3a0
+ldr x15, [x16, #1984]
+bl _p_254
+.word 0xf900afa0
 .word 0xf9402fb1
-.word 0xf9493231
+.word 0xf949aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940b3a0
+.word 0xf940afa0
 .word 0x910223a1
 .word 0xf90047bf
-.word 0xf900afa0
+.word 0xf900aba0
 .word 0xaa0003f6
 .word 0xf9402fb1
-.word 0xf9495631
+.word 0xf949ce31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940afa1
+.word 0xf940aba1
 .word 0xf9402ba0
 .word 0xf900a7a0
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
-.word 0xf900aba0
+.word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf9498a31
+.word 0xf94a0231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a7a0
-.word 0xf940aba1
-.word 0xf900a3a1
-.word 0xf9001c01
-.word 0x9100e000
-bl _p_7
 .word 0xf940a3a0
+.word 0xf940a7a1
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0xf9402fb1
-.word 0xf949b631
+.word 0xf94a4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
@@ -16674,31 +17093,31 @@ bl _p_7
 .word 0xf9407ba0
 .word 0xf9005ba0
 .word 0xf9402fb1
-.word 0xf949d631
+.word 0xf94a6a31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9405ba1
-bl _p_256
+bl _p_255
 .word 0xf900a3a0
 .word 0xf9402fb1
-.word 0xf949fe31
+.word 0xf94a9231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
+bl _p_160
+.word 0xf9402fb1
+.word 0xf94aaa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94aba31
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_161
-.word 0xf9402fb1
-.word 0xf94a1631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf94a2631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_162
 .word 0xf90097a0
 .word 0xf94097a0
 .word 0xb4000060
@@ -16710,7 +17129,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94a6231
+.word 0xf94af631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16719,39 +17138,45 @@ bl _p_3
 .word 0xf900a7a0
 .word 0xf9402ba0
 .word 0xf9401800
-.word 0xf900bba0
+.word 0xf900b3a0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540011e0
+.word 0x54001280
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2016]
+ldr x0, [x16, #2008]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_4
-.word 0xf940bba1
-.word 0xf900b7a1
+.word 0xf940b3a1
 .word 0xf9001001
-.word 0xf900b3a0
-.word 0x91008000
-bl _p_7
-.word 0xf940b3a0
-.word 0xf940b7a1
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #2104]
 .word 0xf9001401
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2120]
+ldr x1, [x16, #2112]
 .word 0xf9002001
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2128]
+ldr x1, [x16, #2120]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -16765,21 +17190,21 @@ ldr x1, [x16, #2128]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2048]
-bl _p_38
+ldr x0, [x16, #2040]
+bl _p_37
 .word 0xf940a7a1
 .word 0xf940aba2
 .word 0xf940afa3
 .word 0xf900a3a0
-bl _p_257
+bl _p_256
 .word 0xf9402fb1
-.word 0xf94b4a31
+.word 0xf94bf231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a3a0
 .word 0xf90053a0
 .word 0xf9402fb1
-.word 0xf94b6231
+.word 0xf94c0a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000028
@@ -16787,7 +17212,7 @@ bl _p_257
 .word 0xf9407fa0
 .word 0xf9005fa0
 .word 0xf9402fb1
-.word 0xf94b8231
+.word 0xf94c2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16797,7 +17222,7 @@ bl _p_257
 .word 0xf2bffffe
 .word 0xb900001e
 .word 0xf9402fb1
-.word 0xf94baa31
+.word 0xf94c5231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16806,17 +17231,17 @@ bl _p_257
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_258
+ldr x15, [x16, #1136]
+bl _p_257
 .word 0xf9402fb1
-.word 0xf94bd631
+.word 0xf94c7e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94be631
+.word 0xf94c8e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf9009ba0
 .word 0xf9409ba0
 .word 0xb4000060
@@ -16828,7 +17253,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94c2231
+.word 0xf94cca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16838,7 +17263,7 @@ bl _p_3
 .word 0xf2bffffe
 .word 0xb900001e
 .word 0xf9402fb1
-.word 0xf94c4a31
+.word 0xf94cf231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -16847,10 +17272,10 @@ bl _p_3
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_259
+ldr x15, [x16, #1136]
+bl _p_258
 .word 0xf9402fb1
-.word 0xf94c7631
+.word 0xf94d1e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
@@ -16858,11 +17283,11 @@ bl _p_259
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94c9631
+.word 0xf94d3e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94ca631
+.word 0xf94d4e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -16870,14 +17295,14 @@ bl _p_259
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8d87bfd
+.word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801200
+.word 0xd2801120
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801d40
+bl _p_8
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_5e:
 .text
@@ -16896,7 +17321,7 @@ Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_SetStateMachine_System_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2128]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16918,8 +17343,8 @@ ldr x16, [x16, #2136]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
-bl _p_260
+ldr x15, [x16, #1136]
+bl _p_259
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -16948,7 +17373,7 @@ Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2136]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17001,7 +17426,7 @@ Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__GetPhotoLibraryMetadatab__0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -17028,7 +17453,7 @@ ldr x16, [x16, #2152]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_267
+bl _p_266
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf940b631
@@ -17062,7 +17487,7 @@ bl _p_267
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_268
+bl _p_267
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9413e31
@@ -17071,7 +17496,7 @@ bl _p_268
 .word 0xf940bba0
 .word 0xaa0003f8
 .word 0xaa1803e0
-.word 0xb4005078
+.word 0xb4005198
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -17085,15 +17510,15 @@ bl _p_268
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1168]
-bl _p_38
+ldr x0, [x16, #1160]
+bl _p_37
 .word 0xf900f3a0
-bl _p_108
+bl _p_107
 .word 0xf9403bb1
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_140
+bl _p_139
 .word 0xf900efa0
 .word 0xf9403bb1
 .word 0xf941b631
@@ -17111,7 +17536,7 @@ bl _p_140
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900eba0
 .word 0xf9403bb1
 .word 0xf941fe31
@@ -17122,7 +17547,7 @@ bl _p_268
 .word 0xf90067a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_269
+bl _p_268
 .word 0xf94067be
 .word 0xf90003c0
 .word 0xf9403bb1
@@ -17137,8 +17562,8 @@ bl _p_269
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2160]
-bl _p_270
+ldr x15, [x16, #2152]
+bl _p_269
 .word 0xf900e7a0
 .word 0xf9403bb1
 .word 0xf9426631
@@ -17147,11 +17572,11 @@ bl _p_270
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #824]
-bl _p_38
+ldr x0, [x16, #816]
+bl _p_37
 .word 0xf940e7a1
 .word 0xf900dfa0
-bl _p_67
+bl _p_66
 .word 0xf9403bb1
 .word 0xf9429231
 .word 0xb4000051
@@ -17161,13 +17586,13 @@ bl _p_67
 .word 0xf940e3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_144
+bl _p_143
 .word 0xf900d7a0
 .word 0xf9403bb1
 .word 0xf942d631
@@ -17186,7 +17611,7 @@ bl _p_144
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900cfa0
 .word 0xf9403bb1
 .word 0xf9432231
@@ -17195,7 +17620,7 @@ bl _p_268
 .word 0xf940cfa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_271
+bl _p_270
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9434631
@@ -17229,7 +17654,7 @@ bl _p_271
 .word 0xaa1503e0
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_141
+bl _p_140
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf943ce31
@@ -17255,10 +17680,10 @@ bl _p_141
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2168]
-bl _p_38
+ldr x0, [x16, #2160]
+bl _p_37
 .word 0xf900bba0
-bl _p_272
+bl _p_271
 .word 0xf9403bb1
 .word 0xf9443a31
 .word 0xb4000051
@@ -17274,13 +17699,13 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9447e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_147
+bl _p_146
 .word 0xf900cfa0
 .word 0xf9403bb1
 .word 0xf9449631
@@ -17298,7 +17723,7 @@ bl _p_147
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900cba0
 .word 0xf9403bb1
 .word 0xf944de31
@@ -17307,7 +17732,7 @@ bl _p_268
 .word 0xf940cba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_273
+bl _p_272
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9450231
@@ -17339,7 +17764,7 @@ bl _p_273
 .word 0xaa1503e0
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_141
+bl _p_140
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9458231
@@ -17365,10 +17790,10 @@ bl _p_141
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2168]
-bl _p_38
+ldr x0, [x16, #2160]
+bl _p_37
 .word 0xf900bba0
-bl _p_272
+bl _p_271
 .word 0xf9403bb1
 .word 0xf945ee31
 .word 0xb4000051
@@ -17384,13 +17809,13 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9463231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_130
+bl _p_129
 .word 0xf900cfa0
 .word 0xf9403bb1
 .word 0xf9464a31
@@ -17408,7 +17833,7 @@ bl _p_130
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900cba0
 .word 0xf9403bb1
 .word 0xf9469231
@@ -17417,7 +17842,7 @@ bl _p_268
 .word 0xf940cba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_274
+bl _p_273
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf946b631
@@ -17449,7 +17874,7 @@ bl _p_274
 .word 0xaa1503e0
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_141
+bl _p_140
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9473631
@@ -17475,10 +17900,10 @@ bl _p_141
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2168]
-bl _p_38
+ldr x0, [x16, #2160]
+bl _p_37
 .word 0xf900bba0
-bl _p_272
+bl _p_271
 .word 0xf9403bb1
 .word 0xf947a231
 .word 0xb4000051
@@ -17494,13 +17919,13 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf947e631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_155
+bl _p_154
 .word 0xf900cfa0
 .word 0xf9403bb1
 .word 0xf947fe31
@@ -17518,7 +17943,7 @@ bl _p_155
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900cba0
 .word 0xf9403bb1
 .word 0xf9484631
@@ -17527,7 +17952,7 @@ bl _p_268
 .word 0xf940cba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_275
+bl _p_274
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf9486a31
@@ -17559,7 +17984,7 @@ bl _p_275
 .word 0xaa1503e0
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_141
+bl _p_140
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf948ea31
@@ -17585,10 +18010,10 @@ bl _p_141
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2168]
-bl _p_38
+ldr x0, [x16, #2160]
+bl _p_37
 .word 0xf900bba0
-bl _p_272
+bl _p_271
 .word 0xf9403bb1
 .word 0xf9495631
 .word 0xb4000051
@@ -17604,13 +18029,13 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9499a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_152
+bl _p_151
 .word 0xf900cfa0
 .word 0xf9403bb1
 .word 0xf949b231
@@ -17627,7 +18052,7 @@ bl _p_152
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_268
+bl _p_267
 .word 0xf900cba0
 .word 0xf9403bb1
 .word 0xf949f631
@@ -17636,7 +18061,7 @@ bl _p_268
 .word 0xf940cba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_276
+bl _p_275
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf94a1a31
@@ -17668,7 +18093,7 @@ bl _p_276
 .word 0xaa1503e0
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_141
+bl _p_140
 .word 0xf900bba0
 .word 0xf9403bb1
 .word 0xf94a9a31
@@ -17694,10 +18119,10 @@ bl _p_141
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2168]
-bl _p_38
+ldr x0, [x16, #2160]
+bl _p_37
 .word 0xf900bba0
-bl _p_272
+bl _p_271
 .word 0xf9403bb1
 .word 0xf94b0631
 .word 0xb4000051
@@ -17713,7 +18138,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf94b4a31
@@ -17721,28 +18146,38 @@ bl _p_272
 .word 0xd63f0220
 .word 0xf9000b13
 .word 0x91004300
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94b7631
+.word 0xf94b9a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000013
 .word 0xf900a7a0
 .word 0xf940a7a0
-bl _p_277
+bl _p_276
 .word 0xf9403bb1
-.word 0xf94b9631
+.word 0xf94bba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94ba631
+.word 0xf94bca31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf900b7a0
 .word 0xf940b7a0
 .word 0xb4000060
@@ -17754,12 +18189,12 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94be231
+.word 0xf94c0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000001
 .word 0xf9403bb1
-.word 0xf94bf631
+.word 0xf94c1a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -17785,7 +18220,7 @@ wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_IMedia_invoke_TR
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -17802,10 +18237,10 @@ ldr x16, [x16, #2176]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -17900,25 +18335,25 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_63:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Array.cs"
-.loc 2 78 0 prologue_end
-.word 0xa9b77bfd
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/corlib/System/Array.cs"
+.loc 2 71 0 prologue_end
+.word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9002baf
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17935,19 +18370,19 @@ ldr x16, [x16, #2192]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xf90043a0
+.word 0xf90037a0
 .word 0x910103a0
 .word 0xd2800000
 .word 0xf90023a0
 .word 0xf90027a0
 .word 0x910103a0
-.word 0xf9003fa0
+.word 0xf90033a0
 .word 0xf9402ba0
-bl _p_279
+bl _p_278
 .word 0xaa0003ef
-.word 0xf9403fa0
-.word 0xf94043a1
-bl _p_280
+.word 0xf94033a0
+.word 0xf94037a1
+bl _p_279
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -17959,31 +18394,35 @@ bl _p_280
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_279
+bl _p_278
 .word 0xd2800401
 .word 0xd2800401
 bl _p_4
 .word 0x9100c3a1
-.word 0xf90033a0
-.word 0x91004001
-.word 0xaa0103e0
+.word 0x91004003
+.word 0xaa0303e1
 .word 0xf9401ba2
-.word 0xf9003ba2
-.word 0xf9000022
-.word 0xf90037a0
-bl _p_7
-.word 0xf94033a0
-.word 0xf94037a1
-.word 0xf9403ba2
+.word 0xf9000062
+.word 0xd349fc23
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0063
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x4, [x16, #16]
+.word 0x8b040063
+.word 0xd280003e
+.word 0x3900007e
 .word 0x91002021
 .word 0xf9401fa2
 .word 0xf9000022
 .word 0xf9400fb1
-.word 0xf9411631
+.word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8c77bfd
 .word 0xd65f03c0
 
 Lme_64:
@@ -17995,7 +18434,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Nullable.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/corlib/System/Nullable.cs"
 .loc 3 94 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -18005,7 +18444,7 @@ System_Nullable_1_bool__ctor_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18063,7 +18502,7 @@ System_Nullable_1_bool_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18106,7 +18545,7 @@ System_Nullable_1_bool_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18130,13 +18569,13 @@ ldr x16, [x16, #2216]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294ea40
-.word 0xd294ea40
-bl _p_281
+.word 0xd29448a0
+.word 0xd29448a0
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -18175,7 +18614,7 @@ System_Nullable_1_bool_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -18220,7 +18659,7 @@ ldr x16, [x16, #2224]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2232]
+ldr x1, [x16, #2224]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -18244,21 +18683,21 @@ ldr x1, [x16, #2232]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #576]
+ldr x15, [x16, #568]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
-bl _p_282
+bl _p_281
 .word 0xf9402bbe
 .word 0xf90003c0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #576]
+ldr x15, [x16, #568]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
-bl _p_283
+bl _p_282
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -18294,7 +18733,7 @@ System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18359,7 +18798,7 @@ ldr x16, [x16, #2240]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2248]
+ldr x0, [x16, #2240]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_4
@@ -18367,7 +18806,7 @@ bl _p_4
 .word 0xf9402fa0
 .word 0xf94033a2
 .word 0x39004022
-bl _p_284
+bl _p_283
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -18401,7 +18840,7 @@ System_Nullable_1_bool_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2248]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18436,7 +18875,7 @@ ldr x16, [x16, #2256]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_285
+bl _p_284
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -18469,7 +18908,7 @@ System_Nullable_1_bool_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18513,7 +18952,7 @@ System_Nullable_1_bool_GetValueOrDefault_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18562,7 +19001,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2272]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18589,7 +19028,7 @@ ldr x16, [x16, #2280]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_286
+bl _p_285
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -18605,7 +19044,7 @@ bl _p_286
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -18632,7 +19071,7 @@ System_Nullable_1_bool_Box_System_Nullable_1_bool:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2280]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18682,7 +19121,7 @@ ldr x16, [x16, #2288]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2248]
+ldr x0, [x16, #2240]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_4
@@ -18713,7 +19152,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18773,7 +19212,7 @@ ldr x16, [x16, #2296]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2232]
+ldr x1, [x16, #2224]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004a1
@@ -18787,8 +19226,8 @@ ldr x1, [x16, #2232]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #576]
-bl _p_287
+ldr x15, [x16, #568]
+bl _p_286
 .word 0x910143a0
 .word 0x910103a0
 .word 0x398143a0
@@ -18814,9 +19253,9 @@ bl _p_287
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_6f:
 .text
@@ -18833,7 +19272,7 @@ wrapper_delegate_invoke_System_Func_1_object_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2296]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -18850,10 +19289,10 @@ ldr x16, [x16, #2304]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -18948,9 +19387,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_70:
 .text
@@ -18968,7 +19407,7 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_System_nfloat_invoke_TResul
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2304]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -18986,10 +19425,10 @@ ldr x16, [x16, #2312]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -19088,9 +19527,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_75:
 .text
@@ -19108,7 +19547,7 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2312]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19125,10 +19564,10 @@ ldr x16, [x16, #2320]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -19231,9 +19670,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_7a:
 .text
@@ -19250,7 +19689,7 @@ wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2320]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19267,10 +19706,10 @@ ldr x16, [x16, #2328]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -19365,9 +19804,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_7b:
 .text
@@ -19375,6 +19814,147 @@ Lme_7b:
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object:
 .word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2328]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2176]
+.word 0xb9400000
+.word 0x34000140
+bl _p_277
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801ba0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_7c:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -19394,26 +19974,25 @@ ldr x16, [x16, #2336]
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xd2800013
 .word 0xf9402bb1
-.word 0xf9405e31
+.word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
 .word 0xf90037a0
-.word 0xf94037a1
+.word 0xb4000073
 .word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
 bl _p_3
-.word 0xf9403ba0
+.word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0x9101a320
@@ -19441,7 +20020,7 @@ bl _p_3
 .word 0xaa1403e0
 .word 0xaa1a03e1
 .word 0xd63f0040
-.word 0x14000036
+.word 0x14000030
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -19453,7 +20032,7 @@ bl _p_3
 .word 0xf9400b21
 .word 0xaa1a03e0
 .word 0xd63f0020
-.word 0x1400002a
+.word 0x14000024
 .word 0xaa1603e0
 .word 0xb9801ac0
 .word 0xaa0003f7
@@ -19464,7 +20043,7 @@ bl _p_3
 .word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000549
+.word 0x54000489
 .word 0xd37df000
 .word 0x8b0002c0
 .word 0x91008000
@@ -19474,29 +20053,23 @@ bl _p_3
 .word 0xaa1a03e0
 .word 0xaa0203e0
 .word 0xaa1a03e1
-.word 0xf90047a2
+.word 0xf9003ba2
 .word 0xf9400c50
 .word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
+.word 0xf9403ba0
 .word 0xf9402bb1
-.word 0xf941ae31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
 .word 0xaa1803e0
 .word 0x11000700
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0xaa1703e1
 .word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
+.word 0x54fffc4b
 .word 0xf9402bb1
-.word 0xf941ea31
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -19504,18 +20077,18 @@ bl _p_3
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
-Lme_7c:
+Lme_7d:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
-.word 0xa9b87bfd
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -19535,140 +20108,6 @@ ldr x16, [x16, #2344]
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
-
-Lme_7d:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2352]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
 .word 0xd2800013
 .word 0xf9402bb1
 .word 0xf9405e31
@@ -19677,10 +20116,10 @@ ldr x16, [x16, #2352]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -19781,9 +20220,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_7e:
 .text
@@ -19801,7 +20240,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2352]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19817,10 +20256,10 @@ ldr x16, [x16, #2360]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -19915,9 +20354,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_7f:
 .text
@@ -19936,7 +20375,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2360]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19953,10 +20392,10 @@ ldr x16, [x16, #2368]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -20062,9 +20501,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_80:
 .text
@@ -20081,7 +20520,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2368]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20098,10 +20537,10 @@ ldr x16, [x16, #2376]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -20196,9 +20635,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_81:
 .text
@@ -20216,7 +20655,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2376]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20233,10 +20672,10 @@ ldr x16, [x16, #2384]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -20337,9 +20776,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_82:
 .text
@@ -20357,7 +20796,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2384]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20373,10 +20812,10 @@ ldr x16, [x16, #2392]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -20471,15 +20910,156 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_83:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2392]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2176]
+.word 0xb9400000
+.word 0x34000140
+bl _p_277
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801ba0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_84:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20508,10 +21088,10 @@ ldr x16, [x16, #2400]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -20612,15 +21192,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
-Lme_84:
+Lme_85:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20649,10 +21229,10 @@ ldr x16, [x16, #2408]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -20753,15 +21333,15 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
-Lme_85:
+Lme_86:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -20790,10 +21370,10 @@ ldr x16, [x16, #2416]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -20894,16 +21474,16 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
-Lme_86:
+Lme_87:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
-.word 0xa9b77bfd
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -20923,147 +21503,6 @@ ldr x16, [x16, #2424]
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_3
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
-
-Lme_87:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2432]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
 .word 0xf9402bb1
 .word 0xf9405a31
 .word 0xb4000051
@@ -21071,10 +21510,10 @@ ldr x16, [x16, #2432]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -21169,9 +21608,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_88:
 .text
@@ -21191,7 +21630,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21249,7 +21688,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21292,7 +21731,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2448]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21316,13 +21755,13 @@ ldr x16, [x16, #2456]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294ea40
-.word 0xd294ea40
-bl _p_281
+.word 0xd29448a0
+.word 0xd29448a0
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -21361,7 +21800,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2456]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -21406,7 +21845,7 @@ ldr x16, [x16, #2464]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2472]
+ldr x1, [x16, #2464]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -21430,23 +21869,23 @@ ldr x1, [x16, #2472]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
+ldr x15, [x16, #1040]
 .word 0x910123a0
 .word 0xf9002fa0
 .word 0xaa1a03e0
-bl _p_288
+bl _p_287
 .word 0xf9402fbe
 .word 0xf90003c0
 .word 0xf90007c1
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
+ldr x15, [x16, #1040]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
 .word 0xf9402ba2
-bl _p_289
+bl _p_288
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -21483,7 +21922,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDev
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2472]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21548,7 +21987,7 @@ ldr x16, [x16, #2480]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2488]
+ldr x0, [x16, #2480]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -21562,7 +22001,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2488]
+ldr x0, [x16, #2480]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -21607,7 +22046,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2488]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21642,7 +22081,7 @@ ldr x16, [x16, #2496]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_290
+bl _p_289
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -21675,7 +22114,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21719,7 +22158,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault_UIKit_UIDeviceOrie
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21768,7 +22207,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21799,7 +22238,7 @@ ldr x16, [x16, #2520]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2488]
+ldr x0, [x16, #2480]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -21825,7 +22264,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf9410231
@@ -21853,7 +22292,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_Box_System_Nullable_1_UIKit_UIDevice
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21903,7 +22342,7 @@ ldr x16, [x16, #2528]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2488]
+ldr x0, [x16, #2480]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -21934,7 +22373,7 @@ System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2528]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21994,7 +22433,7 @@ ldr x16, [x16, #2536]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2544]
+ldr x1, [x16, #2536]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -22008,8 +22447,8 @@ ldr x1, [x16, #2544]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_93
+ldr x15, [x16, #1040]
+bl _p_92
 .word 0x910183a0
 .word 0x910103a0
 .word 0xf94033a0
@@ -22036,9 +22475,9 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_93:
 .text
@@ -22058,7 +22497,7 @@ System_Nullable_1_int__ctor_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22116,7 +22555,7 @@ System_Nullable_1_int_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22159,7 +22598,7 @@ System_Nullable_1_int_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22183,13 +22622,13 @@ ldr x16, [x16, #2568]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294ea40
-.word 0xd294ea40
-bl _p_281
+.word 0xd29448a0
+.word 0xd29448a0
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -22228,7 +22667,7 @@ System_Nullable_1_int_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2568]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -22273,7 +22712,7 @@ ldr x16, [x16, #2576]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2584]
+ldr x1, [x16, #2576]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -22297,21 +22736,21 @@ ldr x1, [x16, #2584]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
+ldr x15, [x16, #1944]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
-bl _p_291
+bl _p_290
 .word 0xf9402bbe
 .word 0xf90003c0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
+ldr x15, [x16, #1944]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
-bl _p_292
+bl _p_291
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -22347,7 +22786,7 @@ System_Nullable_1_int_Equals_System_Nullable_1_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2584]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -22410,7 +22849,7 @@ ldr x16, [x16, #2592]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1408]
+ldr x0, [x16, #1400]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -22418,7 +22857,7 @@ bl _p_4
 .word 0xf9402fa0
 .word 0xf94033a2
 .word 0xb9001022
-bl _p_293
+bl _p_292
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -22452,7 +22891,7 @@ System_Nullable_1_int_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2592]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22487,7 +22926,7 @@ ldr x16, [x16, #2600]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_294
+bl _p_293
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -22520,7 +22959,7 @@ System_Nullable_1_int_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2600]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22564,7 +23003,7 @@ System_Nullable_1_int_GetValueOrDefault_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2608]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22613,7 +23052,7 @@ System_Nullable_1_int_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22640,7 +23079,7 @@ ldr x16, [x16, #2624]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_295
+bl _p_294
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -22656,7 +23095,7 @@ bl _p_295
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -22683,7 +23122,7 @@ System_Nullable_1_int_Box_System_Nullable_1_int:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2624]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22729,7 +23168,7 @@ ldr x16, [x16, #2632]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1408]
+ldr x0, [x16, #1400]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -22760,7 +23199,7 @@ System_Nullable_1_int_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2632]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -22814,7 +23253,7 @@ ldr x16, [x16, #2640]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2584]
+ldr x1, [x16, #2576]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -22827,8 +23266,8 @@ ldr x1, [x16, #2584]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1952]
-bl _p_296
+ldr x15, [x16, #1944]
+bl _p_295
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -22850,9 +23289,9 @@ bl _p_296
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_9e:
 .text
@@ -22869,7 +23308,7 @@ wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2640]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -22886,10 +23325,10 @@ ldr x16, [x16, #2648]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -22984,9 +23423,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_9f:
 .text
@@ -23004,7 +23443,7 @@ wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_o
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23021,10 +23460,10 @@ ldr x16, [x16, #2656]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -23125,9 +23564,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_a0:
 .text
@@ -23145,7 +23584,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2656]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23161,10 +23600,10 @@ ldr x16, [x16, #2664]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -23259,15 +23698,156 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_a1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
 wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2664]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2176]
+.word 0xb9400000
+.word 0x34000140
+bl _p_277
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_3
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801ba0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_a2:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -23296,10 +23876,10 @@ ldr x16, [x16, #2672]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -23400,150 +23980,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
-
-Lme_a2:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2680]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_3
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_a3:
 .text
@@ -23560,7 +23999,7 @@ wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2680]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23577,10 +24016,10 @@ ldr x16, [x16, #2688]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -23675,9 +24114,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_a4:
 .text
@@ -23697,7 +24136,7 @@ System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientatio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23755,7 +24194,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_get_HasValue:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2696]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23798,7 +24237,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_get_Value:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23822,13 +24261,13 @@ ldr x16, [x16, #2712]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294ea40
-.word 0xd294ea40
-bl _p_281
+.word 0xd29448a0
+.word 0xd29448a0
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
-.word 0xd2801d60
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -23867,7 +24306,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2712]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -23912,7 +24351,7 @@ ldr x16, [x16, #2720]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2728]
+ldr x1, [x16, #2720]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -23936,21 +24375,21 @@ ldr x1, [x16, #2728]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2160]
+ldr x15, [x16, #2152]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
-bl _p_297
+bl _p_296
 .word 0xf9402bbe
 .word 0xf90003c0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2160]
+ldr x15, [x16, #2152]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
-bl _p_298
+bl _p_297
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -23986,7 +24425,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImag
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2728]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24049,7 +24488,7 @@ ldr x16, [x16, #2736]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2736]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24063,7 +24502,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2736]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24108,7 +24547,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24143,7 +24582,7 @@ ldr x16, [x16, #2752]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_294
+bl _p_293
 .word 0x93407c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -24176,7 +24615,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24220,7 +24659,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_GetValueOrDefault_CoreImage_CIIma
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2760]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24269,7 +24708,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_ToString:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2768]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24300,7 +24739,7 @@ ldr x16, [x16, #2776]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2736]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24326,7 +24765,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf9410231
@@ -24353,7 +24792,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Box_System_Nullable_1_CoreImage_C
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2776]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24399,7 +24838,7 @@ ldr x16, [x16, #2784]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2736]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_4
@@ -24430,7 +24869,7 @@ System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2784]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24484,7 +24923,7 @@ ldr x16, [x16, #2792]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #2584]
+ldr x1, [x16, #2576]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -24497,8 +24936,8 @@ ldr x1, [x16, #2584]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2160]
-bl _p_299
+ldr x15, [x16, #2152]
+bl _p_298
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -24520,16 +24959,16 @@ bl _p_299
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_af:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL
 System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs"
 .loc 4 5532 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -24538,7 +24977,7 @@ System_Threading_Tasks_Task_FromResult_TResult_BOOL_TResult_BOOL:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24557,18 +24996,18 @@ ldr x16, [x16, #2800]
 .word 0x394043a0
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_300
+bl _p_299
 .word 0x3980b410
 .word 0xb5000050
-bl _p_301
-.word 0xf9401ba0
 bl _p_300
+.word 0xf9401ba0
+bl _p_299
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_4
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_302
+bl _p_301
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xf9402ba1
@@ -24592,7 +25031,7 @@ Lme_b0:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
 System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderBy.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderBy.cs"
 .loc 5 23 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -24601,7 +25040,7 @@ System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Col
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24627,7 +25066,7 @@ ldr x16, [x16, #2808]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2808]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -24637,7 +25076,7 @@ bl _p_4
 .word 0xd2800003
 .word 0xd2800024
 .word 0xd2800005
-bl _p_303
+bl _p_302
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -24660,7 +25099,7 @@ b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSH
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 6 72 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -24673,12 +25112,12 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAR
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2816]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
 .word 0xf9402fa0
-bl _p_304
+bl _p_303
 .word 0xaa0003f9
 .word 0xb9800320
 .word 0x91003c10
@@ -24730,8 +25169,8 @@ bl _p_304
 .word 0xeb1e02ff
 .word 0x54000360
 .word 0xf9402fa0
+bl _p_304
 bl _p_305
-bl _p_306
 .word 0xb9802b21
 .word 0xaa1803e2
 .word 0x8b010301
@@ -24742,7 +25181,7 @@ bl _p_306
 .word 0xf9400f20
 .word 0xf9401320
 .word 0xf9402fa0
-bl _p_307
+bl _p_306
 .word 0xaa0003e2
 .word 0xf94057a0
 .word 0xf9405ba1
@@ -24770,15 +25209,15 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28065c0
-.word 0xf2a00040
-.word 0xd28065c0
-.word 0xf2a00040
-bl _p_281
+.word 0xd29d3800
+.word 0xf2a00020
+.word 0xd29d3800
+.word 0xf2a00020
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -24802,7 +25241,7 @@ bl _p_3
 .word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_308
+bl _p_307
 .loc 6 83 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -24813,7 +25252,7 @@ bl _p_308
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910183a0
-bl _p_309
+bl _p_308
 .loc 6 84 0
 .word 0xf94023b1
 .word 0xf9425e31
@@ -24823,10 +25262,10 @@ bl _p_309
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2824]
 .word 0xf90053a0
 .word 0xf9402fa0
-bl _p_307
+bl _p_306
 .word 0xaa0003e2
 .word 0xf94053a1
 .word 0xd2800000
@@ -24834,7 +25273,7 @@ bl _p_307
 .word 0xaa1a03e0
 .word 0xd2800003
 .word 0xd2800004
-bl _p_310
+bl _p_309
 .loc 6 85 0
 .word 0xf94023b1
 .word 0xf942aa31
@@ -24849,7 +25288,7 @@ bl _p_310
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910183a0
-bl _p_311
+bl _p_310
 .loc 6 89 0
 .word 0xf94023b1
 .word 0xf942de31
@@ -24895,7 +25334,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2832]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24923,7 +25362,7 @@ ldr x16, [x16, #2840]
 .word 0xd2800901
 .word 0xaa1a03e1
 .word 0xd2800902
-bl _p_82
+bl _p_81
 .word 0x14000015
 .word 0xf94017b1
 .word 0xf9400231
@@ -24933,15 +25372,15 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28065c0
-.word 0xf2a00040
-.word 0xd28065c0
-.word 0xf2a00040
-bl _p_281
+.word 0xd29d3800
+.word 0xf2a00020
+.word 0xd29d3800
+.word 0xf2a00020
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -24965,7 +25404,7 @@ bl _p_3
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_308
+bl _p_307
 .loc 6 470 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -24976,7 +25415,7 @@ bl _p_308
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
-bl _p_309
+bl _p_308
 .loc 6 471 0
 .word 0xf94013b1
 .word 0xf9416631
@@ -24984,7 +25423,7 @@ bl _p_309
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_312
+bl _p_311
 .loc 6 472 0
 .word 0xf94013b1
 .word 0xf9418231
@@ -24999,7 +25438,7 @@ bl _p_312
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
-bl _p_311
+bl _p_310
 .loc 6 476 0
 .word 0xf94013b1
 .word 0xf941b631
@@ -25043,7 +25482,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -25071,7 +25510,7 @@ ldr x16, [x16, #2848]
 .word 0xd2800901
 .word 0xaa1a03e1
 .word 0xd2800902
-bl _p_82
+bl _p_81
 .word 0x14000015
 .word 0xf94017b1
 .word 0xf9400231
@@ -25081,15 +25520,15 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28065c0
-.word 0xf2a00040
-.word 0xd28065c0
-.word 0xf2a00040
-bl _p_281
+.word 0xd29d3800
+.word 0xf2a00020
+.word 0xd29d3800
+.word 0xf2a00020
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
-.word 0xd2801220
+.word 0xd2801140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -25113,7 +25552,7 @@ bl _p_3
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_308
+bl _p_307
 .loc 6 470 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -25124,7 +25563,7 @@ bl _p_308
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
-bl _p_309
+bl _p_308
 .loc 6 471 0
 .word 0xf94013b1
 .word 0xf9416631
@@ -25132,7 +25571,7 @@ bl _p_309
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_313
+bl _p_312
 .loc 6 472 0
 .word 0xf94013b1
 .word 0xf9418231
@@ -25147,7 +25586,7 @@ bl _p_313
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
-bl _p_311
+bl _p_310
 .loc 6 476 0
 .word 0xf94013b1
 .word 0xf941b631
@@ -25196,12 +25635,12 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2848]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
 .word 0xf9403fa0
-bl _p_314
+bl _p_313
 .word 0xaa0003f7
 .word 0xb98002e0
 .word 0x91003c10
@@ -25241,7 +25680,7 @@ bl _p_314
 .word 0xaa1803e0
 .word 0x91002300
 .word 0xf90067a0
-bl _p_315
+bl _p_314
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -25260,7 +25699,7 @@ bl _p_315
 .word 0xaa1403e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_316
+bl _p_315
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf9414231
@@ -25274,7 +25713,7 @@ bl _p_316
 .word 0x910203a2
 .word 0xaa1303e0
 .word 0xaa1a03e1
-bl _p_317
+bl _p_316
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf9417a31
@@ -25300,7 +25739,7 @@ bl _p_317
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_315
+bl _p_314
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -25321,7 +25760,7 @@ bl _p_315
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_316
+bl _p_315
 .word 0xf9007fa0
 .word 0xf94033b1
 .word 0xf9422a31
@@ -25330,7 +25769,7 @@ bl _p_316
 .word 0xf9407fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_318
+bl _p_317
 .word 0x93407c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -25340,17 +25779,17 @@ bl _p_318
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2856]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf90077a0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2864]
 .word 0xf9007ba0
 .word 0xf9403fa0
-bl _p_319
+bl _p_318
 .word 0xaa0003e2
 .word 0xf94077a0
 .word 0xf9407ba1
@@ -25358,7 +25797,7 @@ bl _p_319
 .word 0xd2800003
 .word 0xd2800003
 .word 0xd2800004
-bl _p_310
+bl _p_309
 .word 0xf90073a0
 .word 0xf94033b1
 .word 0xf942b631
@@ -25376,7 +25815,7 @@ bl _p_310
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xf9406fa1
-bl _p_166
+bl _p_165
 .word 0xf90067a0
 .word 0xf94033b1
 .word 0xf942fe31
@@ -25387,7 +25826,7 @@ bl _p_166
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_320
+bl _p_319
 .loc 6 174 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -25415,8 +25854,8 @@ bl _p_320
 .word 0xeb1e033f
 .word 0x54000380
 .word 0xf9403fa0
-bl _p_321
-bl _p_306
+bl _p_320
+bl _p_305
 .word 0xb9802ae1
 .word 0xaa1603e2
 .word 0x8b0102c1
@@ -25427,7 +25866,7 @@ bl _p_306
 .word 0xf9400ee0
 .word 0xf94012e0
 .word 0xf9403fa0
-bl _p_319
+bl _p_318
 .word 0xaa0003e2
 .word 0xf94067a0
 .word 0xf9406ba1
@@ -25453,7 +25892,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xf94047a0
 .word 0xf9404ba1
 .word 0xd2800003
-bl _p_322
+bl _p_321
 .loc 6 177 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -25469,10 +25908,10 @@ bl _p_322
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2880]
+ldr x0, [x16, #2872]
 .word 0xf90067a0
 .word 0xf9403fa0
-bl _p_323
+bl _p_322
 .word 0xaa0003e2
 .word 0xf94063a0
 .word 0xf94067a1
@@ -25482,7 +25921,7 @@ bl _p_323
 .word 0xd2800003
 .word 0xf9000095
 .word 0xd2800003
-bl _p_310
+bl _p_309
 .loc 6 178 0
 .word 0xf94033b1
 .word 0xf9449631
@@ -25500,13 +25939,13 @@ bl _p_310
 .word 0xf94063a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_324
+bl _p_323
 .loc 6 182 0
 .word 0xf94033b1
 .word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf9005fa0
 .word 0xf9405fa0
 .word 0xb4000060
@@ -25556,7 +25995,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2880]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -25583,7 +26022,7 @@ ldr x16, [x16, #2888]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_315
+bl _p_314
 .word 0x53001c00
 .word 0xf90073a0
 .word 0xf9402bb1
@@ -25603,9 +26042,9 @@ bl _p_315
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
+ldr x15, [x16, #1136]
 .word 0xaa1803e0
-bl _p_107
+bl _p_106
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940fa31
@@ -25619,7 +26058,7 @@ bl _p_107
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_317
+bl _p_316
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413231
@@ -25649,9 +26088,9 @@ bl _p_317
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
+ldr x15, [x16, #1136]
 .word 0xaa1803e0
-bl _p_107
+bl _p_106
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf941a631
@@ -25670,11 +26109,11 @@ bl _p_107
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_82
+bl _p_81
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2896]
+ldr x0, [x16, #2888]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
@@ -25685,12 +26124,12 @@ bl _p_4
 .word 0xd2803fc2
 .word 0xd2800902
 .word 0xd2803fc3
-bl _p_325
+bl _p_324
 .word 0xf94073a1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_322
+bl _p_321
 .loc 6 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -25705,9 +26144,9 @@ bl _p_322
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
+ldr x15, [x16, #1984]
 .word 0xaa1703e1
-bl _p_326
+bl _p_325
 .loc 6 560 0
 .word 0xf9402bb1
 .word 0xf9427231
@@ -25725,13 +26164,13 @@ bl _p_326
 .word 0xf94073a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_324
+bl _p_323
 .loc 6 564 0
 .word 0xf9402bb1
 .word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf9006fa0
 .word 0xf9406fa0
 .word 0xb4000060
@@ -25780,7 +26219,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractio
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2896]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -25807,7 +26246,7 @@ ldr x16, [x16, #2904]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_315
+bl _p_314
 .word 0x53001c00
 .word 0xf90073a0
 .word 0xf9402bb1
@@ -25827,9 +26266,9 @@ bl _p_315
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
+ldr x15, [x16, #1136]
 .word 0xaa1803e0
-bl _p_107
+bl _p_106
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940fa31
@@ -25843,7 +26282,7 @@ bl _p_107
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_317
+bl _p_316
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413231
@@ -25873,9 +26312,9 @@ bl _p_317
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1144]
+ldr x15, [x16, #1136]
 .word 0xaa1803e0
-bl _p_107
+bl _p_106
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf941a631
@@ -25894,11 +26333,11 @@ bl _p_107
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_82
+bl _p_81
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2912]
+ldr x0, [x16, #2904]
 .word 0xd2800b01
 .word 0xd2800b01
 bl _p_4
@@ -25909,12 +26348,12 @@ bl _p_4
 .word 0xd2803fc2
 .word 0xd2800902
 .word 0xd2803fc3
-bl _p_325
+bl _p_324
 .word 0xf94073a1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_322
+bl _p_321
 .loc 6 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -25929,9 +26368,9 @@ bl _p_322
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #1992]
+ldr x15, [x16, #1984]
 .word 0xaa1703e1
-bl _p_326
+bl _p_325
 .loc 6 560 0
 .word 0xf9402bb1
 .word 0xf9427231
@@ -25949,13 +26388,13 @@ bl _p_326
 .word 0xf94073a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_324
+bl _p_323
 .loc 6 564 0
 .word 0xf9402bb1
 .word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_162
+bl _p_161
 .word 0xf9006fa0
 .word 0xf9406fa0
 .word 0xb4000060
@@ -25992,8 +26431,8 @@ b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-.loc 2 239 0 prologue_end
-.word 0xa9bb7bfd
+.loc 2 215 0 prologue_end
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
 .word 0xf9001faf
@@ -26002,7 +26441,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26020,15 +26459,22 @@ ldr x16, [x16, #2920]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf9400fa0
-.word 0xf90023a0
 .word 0xf9000320
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_7
-.word 0xf94023a0
-.loc 2 240 0
+.word 0xaa1903e1
+.word 0xd349ff21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 216 0
 .word 0xf94013b1
-.word 0xf9408e31
+.word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -26037,18 +26483,18 @@ bl _p_7
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb9000b3e
-.loc 2 241 0
+.loc 2 217 0
 .word 0xf94013b1
-.word 0xf940b631
+.word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf940c631
+.word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb9
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
 Lme_b8:
@@ -26056,7 +26502,7 @@ Lme_b8:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
 System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
 .loc 7 104 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -26065,7 +26511,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26096,7 +26542,7 @@ ldr x16, [x16, #2928]
 .word 0xd2800002
 .word 0x9100e3a3
 .word 0xf9401fa3
-bl _p_327
+bl _p_326
 .loc 7 106 0
 .word 0xf94013b1
 .word 0xf940a631
@@ -26123,7 +26569,7 @@ Lme_b9:
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
 System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
 .loc 8 407 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
@@ -26140,7 +26586,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collec
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2928]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -26158,7 +26604,7 @@ ldr x16, [x16, #2936]
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa1503e0
-bl _p_328
+bl _p_327
 .loc 8 409 0
 .word 0xf9402fb1
 .word 0xf9409231
@@ -26174,11 +26620,11 @@ bl _p_328
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2944]
-.word 0xd2805ba1
-.word 0xd2805ba1
-bl _p_32
-bl _p_329
+ldr x0, [x16, #2936]
+.word 0xd28175c1
+.word 0xd28175c1
+bl _p_31
+bl _p_328
 .word 0xf9003ba0
 .word 0xf9402fb1
 .word 0xf940da31
@@ -26201,11 +26647,11 @@ bl _p_3
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2944]
-.word 0xd2806561
-.word 0xd2806561
-bl _p_32
-bl _p_329
+ldr x0, [x16, #2936]
+.word 0xd2817c41
+.word 0xd2817c41
+bl _p_31
+bl _p_328
 .word 0xf9003ba0
 .word 0xf9402fb1
 .word 0xf9413a31
@@ -26222,32 +26668,60 @@ bl _p_3
 .word 0xaa1603e0
 .word 0xf9000ab6
 .word 0x910042a0
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .loc 8 420 0
 .word 0xf9402fb1
-.word 0xf9417631
+.word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf9402ba0
-.word 0xf9003ba0
 .word 0xf9000ea0
-.word 0x910062a0
-bl _p_7
-.word 0xf9403ba0
+.word 0x910062a1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 421 0
 .word 0xf9402fb1
-.word 0xf941a231
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa1703e0
 .word 0xf90012b7
 .word 0x910082a0
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .loc 8 422 0
 .word 0xf9402fb1
-.word 0xf941c631
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -26263,11 +26737,11 @@ bl _p_7
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2952]
-bl _p_330
+ldr x15, [x16, #2944]
+bl _p_329
 .word 0xf9003ba0
 .word 0xf9402fb1
-.word 0xf9421231
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -26276,10 +26750,20 @@ bl _p_330
 .word 0xaa1903e0
 .word 0xf9001679
 .word 0x9100a260
-bl _p_7
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
 .loc 8 423 0
 .word 0xf9402fb1
-.word 0xf9423e31
+.word 0xf942c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -26287,11 +26771,11 @@ bl _p_7
 .word 0x3900c2a0
 .loc 8 424 0
 .word 0xf9402fb1
-.word 0xf9425a31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9426a31
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -26307,14 +26791,14 @@ Lme_ba:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
 System_Array_InternalArray__ICollection_get_Count:
-.loc 2 68 0 prologue_end
+.loc 2 61 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26351,14 +26835,14 @@ Lme_bc:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
 System_Array_InternalArray__ICollection_get_IsReadOnly:
-.loc 2 73 0 prologue_end
+.loc 2 66 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26389,14 +26873,14 @@ Lme_bd:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
 System_Array_InternalArray__ICollection_Clear:
-.loc 2 83 0 prologue_end
+.loc 2 76 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26412,13 +26896,13 @@ ldr x16, [x16, #2976]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a5a00
-.word 0xd29a5a00
-bl _p_281
+.word 0xd299b860
+.word 0xd299b860
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26435,7 +26919,55 @@ Lme_be:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
-.loc 2 88 0 prologue_end
+.loc 2 81 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9001faf
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2976]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd299be60
+.word 0xd299be60
+bl _p_280
+.word 0xaa0003e1
+.word 0xd2801e60
+.word 0xf2a04000
+.word 0xd2801e60
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_3
+.word 0xf94013b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_bf:
+.text
+	.align 4
+	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
+.loc 2 86 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -26460,61 +26992,13 @@ ldr x16, [x16, #2984]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a6000
-.word 0xd29a6000
-bl _p_281
+.word 0xd299be60
+.word 0xd299be60
+bl _p_280
 .word 0xaa0003e1
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
-.word 0xd2801f00
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.word 0xf94013b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_bf:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
-.loc 2 93 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001faf
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2992]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29a6000
-.word 0xd29a6000
-bl _p_281
-.word 0xaa0003e1
-.word 0xd2801f00
-.word 0xf2a04000
-.word 0xd2801f00
+.word 0xd2801e60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26531,7 +27015,7 @@ Lme_c0:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
-.loc 2 98 0 prologue_end
+.loc 2 91 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -26542,7 +27026,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #2992]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26574,28 +27058,28 @@ ldr x16, [x16, #3000]
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 2 99 0
+.loc 2 92 0
 .word 0xf9401bb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a6780
-.word 0xd29a6780
-bl _p_281
-bl _p_331
+.word 0xd299c5e0
+.word 0xd299c5e0
+bl _p_280
+bl _p_330
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28020a0
+.word 0xd2802000
 .word 0xf2a04000
-.word 0xd28020a0
+.word 0xd2802000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
-.loc 2 101 0
+.loc 2 94 0
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
@@ -26609,14 +27093,14 @@ bl _p_3
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f9
-.loc 2 102 0
+.loc 2 95 0
 .word 0xf9401bb1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
 .word 0x14000048
-.loc 2 104 0
+.loc 2 97 0
 .word 0xf9401bb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -26625,28 +27109,28 @@ bl _p_3
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_332
+bl _p_331
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
 .word 0x91008000
 .word 0xf9400000
 .word 0xf9002ba0
-.loc 2 105 0
+.loc 2 98 0
 .word 0xf9401bb1
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
 .word 0xb50001c0
-.loc 2 106 0
+.loc 2 99 0
 .word 0xf9401bb1
 .word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xb5000440
-.loc 2 107 0
+.loc 2 100 0
 .word 0xf9401bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -26654,7 +27138,7 @@ bl _p_332
 .word 0xd2800020
 .word 0xd2800020
 .word 0x14000038
-.loc 2 113 0
+.loc 2 106 0
 .word 0xf9401bb1
 .word 0xf941d631
 .word 0xb4000051
@@ -26674,7 +27158,7 @@ bl _p_332
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x34000100
-.loc 2 114 0
+.loc 2 107 0
 .word 0xf9401bb1
 .word 0xf9422231
 .word 0xb4000051
@@ -26682,7 +27166,7 @@ bl _p_332
 .word 0xd2800020
 .word 0xd2800020
 .word 0x1400001e
-.loc 2 102 0
+.loc 2 95 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -26706,7 +27190,7 @@ bl _p_332
 .word 0xaa1903e0
 .word 0x6b19031f
 .word 0x54fff5cb
-.loc 2 118 0
+.loc 2 111 0
 .word 0xf9401bb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -26728,309 +27212,77 @@ Lme_c1:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
-.loc 2 123 0 prologue_end
-.word 0xa9b17bfd
+.loc 2 116 0 prologue_end
+.word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90157b4
-.word 0xf90013b6
-.word 0xa902e7b8
-.word 0xf9001fba
-.word 0xf9006baf
+.word 0xa9015bb5
+.word 0xf90013b8
+.word 0xf9002faf
 .word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xf90023a2
+.word 0xf90017a1
+.word 0xf9001ba2
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3008]
-.word 0xf90027b0
+ldr x16, [x16, #3000]
+.word 0xf9001fb0
 .word 0xf9400a11
-.word 0xf9002bb1
-.word 0xf94027b1
-.word 0xf9404e31
+.word 0xf90023b1
+.word 0xf9401fb1
+.word 0xf9404631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
+.word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9406e31
+.word 0xf9401fb1
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb50001f9
-.loc 2 124 0
-.word 0xf94027b1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2873740
-.word 0xd2873740
-bl _p_281
-.word 0xaa0003e1
-.word 0xd2801220
-.word 0xf2a04000
-.word 0xd2801220
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 2 128 0
-.word 0xf94027b1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xf9002bb8
 .word 0xaa1803e0
-.word 0xf9400300
-.word 0x3940b000
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ad
-.loc 2 129 0
-.word 0xf94027b1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29a6780
-.word 0xd29a6780
-bl _p_281
-bl _p_331
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a1
-.word 0xd28020a0
-.word 0xf2a04000
-.word 0xd28020a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 2 130 0
-.word 0xf94027b1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb98043a0
-.word 0xf90033a0
-.word 0xaa1803f6
 .word 0xd2800000
-.word 0xf9400b15
-.word 0xeb1f02bf
+.word 0xf9400b16
+.word 0xeb1f02df
 .word 0x54000060
-.word 0xb98002b4
+.word 0xb98006d5
 .word 0x14000002
-.word 0xb9801ad4
-.word 0xf94027b1
-.word 0xf9418a31
+.word 0xd2800015
+.word 0xf9401fb1
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
-.word 0xb140000
+.word 0xf94017a0
+.word 0xf90033a0
+.word 0xb98033a0
 .word 0xf90037a0
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf9400b20
-.word 0xf9003ba0
-.word 0xeb1f001f
-.word 0x54000080
-.word 0xf9403ba0
-.word 0xb980041a
-.word 0x14000002
-.word 0xd280001a
-.word 0xf94027b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9003fb9
-.word 0xd2800000
-.word 0xf9403fa0
-.word 0xf9400800
-.word 0xf90043a0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf94043a0
-.word 0xb9800000
-.word 0xf90047a0
-.word 0x14000004
-.word 0xf9403fa0
-.word 0xb9801800
-.word 0xf90047a0
-.word 0xf94047a0
-.word 0xf90047a0
-.word 0xf94027b1
-.word 0xf9421e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-.word 0xb000341
-.word 0xf94037a0
-.word 0x6b01001f
-.word 0x540001ed
-.loc 2 131 0
-.word 0xf94027b1
-.word 0xf9424231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29a7280
-.word 0xd29a7280
-bl _p_281
-.word 0xaa0003e1
-.word 0xd2801200
-.word 0xf2a04000
-.word 0xd2801200
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 2 134 0
-.word 0xf94027b1
-.word 0xf9427a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400320
-.word 0x3940b000
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf9429a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
-.word 0xd2800021
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x540002ad
-.loc 2 135 0
-.word 0xf94027b1
-.word 0xf942be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29a6780
-.word 0xd29a6780
-bl _p_281
-bl _p_331
-.word 0xf90073a0
-.word 0xf94027b1
-.word 0xf942e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a1
-.word 0xd28020a0
-.word 0xf2a04000
-.word 0xd28020a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_3
-.loc 2 136 0
-.word 0xf94027b1
-.word 0xf9430e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb98043a0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x5400034a
-.loc 2 137 0
-.word 0xf94027b1
-.word 0xf9432e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2820880
-.word 0xd2820880
-bl _p_281
-.word 0xf90073a0
-.word 0xd29a8ae0
-.word 0xd29a8ae0
-bl _p_281
-bl _p_331
-.word 0xf90077a0
-.word 0xf94027b1
-.word 0xf9436231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a1
-.word 0xf94077a2
-.word 0xd2801240
-.word 0xf2a04000
-.word 0xd2801240
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_3
-.loc 2 140 0
-.word 0xf94027b1
-.word 0xf9439231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9004bb8
 .word 0xaa1803e0
-.word 0xd2800000
-.word 0xf9400b00
-.word 0xf9004fa0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf9404fa0
-.word 0xb9800400
-.word 0xf90053a0
-.word 0x14000002
-.word 0xf90053bf
-.word 0xf94053a0
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf943da31
+.word 0xb9801b00
+.word 0xf9003ba0
+.word 0xf9401fb1
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf90057b9
-.word 0xb98043a0
-.word 0xf9005ba0
-.word 0xf9005fb8
-.word 0xd2800000
-.word 0xf9405fa0
-.word 0xf9400800
-.word 0xf90063a0
-.word 0xeb1f001f
-.word 0x540000a0
-.word 0xf94063a0
-.word 0xb9800000
-.word 0xf90067a0
-.word 0x14000004
-.word 0xf9405fa0
-.word 0xb9801800
-.word 0xf90067a0
-.word 0xf94067a0
-.word 0xf90067a0
-.word 0xf94027b1
-.word 0xf9443631
+.word 0xf94033a2
+.word 0xf94037a3
+.word 0xf9403ba4
+.word 0xf9402ba0
+.word 0xaa1503e1
+bl _p_332
+.loc 2 117 0
+.word 0xf9401fb1
+.word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404ba0
-.word 0xf94053a1
-.word 0xf94057a2
-.word 0xf9405ba3
-.word 0xf94067a4
-bl _p_333
-.loc 2 141 0
-.word 0xf94027b1
-.word 0xf9445e31
+.word 0xf9401fb1
+.word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9446e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94157b4
-.word 0xf94013b6
-.word 0xa942e7b8
-.word 0xf9401fba
+.word 0xa9415bb5
+.word 0xf94013b8
 .word 0x910003bf
-.word 0xa8cf7bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
 
 Lme_c2:
@@ -27049,7 +27301,7 @@ wrapper_delegate_invoke_System_Predicate_1_UIKit_UIWindow_invoke_bool_T_UIKit_UI
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3008]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27066,10 +27318,10 @@ ldr x16, [x16, #3016]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -27172,9 +27424,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_c3:
 .text
@@ -27192,7 +27444,7 @@ wrapper_delegate_invoke_System_Action_1_UIKit_UIWindow_invoke_void_T_UIKit_UIWin
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3016]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27208,10 +27460,10 @@ ldr x16, [x16, #3024]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -27306,9 +27558,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_c4:
 .text
@@ -27327,7 +27579,7 @@ wrapper_delegate_invoke_System_Comparison_1_UIKit_UIWindow_invoke_int_T_T_UIKit_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3024]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27344,10 +27596,10 @@ ldr x16, [x16, #3032]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 .word 0xb9400000
 .word 0x34000140
-bl _p_278
+bl _p_277
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -27456,9 +27708,9 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_c5:
 .text
@@ -27474,7 +27726,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetEnumerableSorter
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3032]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27505,7 +27757,7 @@ ldr x16, [x16, #3040]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3040]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -27514,7 +27766,7 @@ bl _p_4
 .word 0xf9402fa3
 .word 0xf94033a4
 .word 0xf90023a0
-bl _p_334
+bl _p_333
 .word 0xf94017b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -27584,7 +27836,7 @@ System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat_GetComparer_System_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3048]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -27616,7 +27868,7 @@ ldr x16, [x16, #3056]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3064]
+ldr x0, [x16, #3056]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_4
@@ -27625,7 +27877,7 @@ bl _p_4
 .word 0xf94037a3
 .word 0xf9002ba0
 .word 0xaa1a03e4
-bl _p_335
+bl _p_334
 .word 0xf9401bb1
 .word 0xf940d231
 .word 0xb4000051
@@ -27645,7 +27897,7 @@ bl _p_335
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3072]
+ldr x0, [x16, #3064]
 .word 0xd2800601
 .word 0xd2800601
 bl _p_4
@@ -27653,7 +27905,7 @@ bl _p_4
 .word 0xf94033a2
 .word 0xf94037a3
 .word 0xf9002ba0
-bl _p_336
+bl _p_335
 .word 0xf9401bb1
 .word 0xf9413e31
 .word 0xb4000051
@@ -27702,7 +27954,7 @@ Lme_c7:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_System_nfloat_get_Default
 System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
 .loc 9 28 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -27710,7 +27962,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27730,7 +27982,7 @@ ldr x16, [x16, #3080]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3088]
+ldr x0, [x16, #3080]
 .word 0xf9400000
 .word 0xaa0003fa
 .loc 9 29 0
@@ -27748,8 +28000,8 @@ ldr x0, [x16, #3088]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #2952]
-bl _p_337
+ldr x15, [x16, #2944]
+bl _p_336
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf940b631
@@ -27768,7 +28020,7 @@ bl _p_337
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3088]
+ldr x0, [x16, #3080]
 .word 0xf9001ba0
 .word 0xd50330bf
 .word 0xf9401ba0
@@ -27808,7 +28060,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3088]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -27829,7 +28081,7 @@ ldr x16, [x16, #3096]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x24, [x16, #3104]
+ldr x24, [x16, #3096]
 .word 0xb4000178
 .word 0xf9400300
 .word 0xf9400000
@@ -27838,7 +28090,7 @@ ldr x24, [x16, #3104]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3112]
+ldr x1, [x16, #3104]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001e01
@@ -27852,12 +28104,12 @@ ldr x1, [x16, #3112]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3120]
+ldr x2, [x16, #3112]
 .word 0xaa1803e0
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -27875,10 +28127,10 @@ ldr x2, [x16, #3120]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3128]
+ldr x0, [x16, #3120]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
-bl _p_338
+bl _p_337
 .word 0xaa0003f4
 .word 0xf94027b1
 .word 0xf9413631
@@ -27892,7 +28144,7 @@ bl _p_338
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3136]
+ldr x1, [x16, #3128]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540017e1
@@ -27907,7 +28159,7 @@ ldr x1, [x16, #3136]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -27920,7 +28172,7 @@ ldr x1, [x16, #3136]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940a030
+.word 0xf940a430
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94027b1
@@ -27931,7 +28183,7 @@ ldr x1, [x16, #3136]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3144]
+ldr x1, [x16, #3136]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90033a0
@@ -27949,7 +28201,7 @@ ldr x1, [x16, #3144]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940a830
+.word 0xf940ac30
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0xf94027b1
@@ -27971,7 +28223,7 @@ ldr x1, [x16, #3144]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3112]
+ldr x1, [x16, #3104]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000e81
@@ -27985,15 +28237,15 @@ ldr x1, [x16, #3112]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3152]
+ldr x0, [x16, #3144]
 .word 0xf9003fa0
 .word 0xd2800020
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3160]
+ldr x0, [x16, #3152]
 .word 0xd2800021
-bl _p_15
+bl _p_14
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xf9003ba0
@@ -28010,7 +28262,7 @@ bl _p_15
 .word 0xf9403fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940b050
+.word 0xf940b450
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94027b1
@@ -28022,7 +28274,7 @@ bl _p_15
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0xf9400042
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -28040,10 +28292,10 @@ bl _p_15
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3168]
+ldr x0, [x16, #3160]
 .word 0xaa1903e1
 .word 0xaa1903e1
-bl _p_338
+bl _p_337
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf943a231
@@ -28057,7 +28309,7 @@ bl _p_338
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3136]
+ldr x1, [x16, #3128]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000481
@@ -28076,12 +28328,12 @@ ldr x1, [x16, #3136]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3176]
+ldr x0, [x16, #3168]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_4
 .word 0xf90033a0
-bl _p_339
+bl _p_338
 .word 0xf94027b1
 .word 0xf9442a31
 .word 0xb4000051
@@ -28098,12 +28350,12 @@ bl _p_339
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
-.word 0xd2801c80
+bl _p_8
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_c9:
 .text
@@ -28122,7 +28374,7 @@ System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3176]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -28184,7 +28436,7 @@ ldr x16, [x16, #3184]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3192]
+ldr x1, [x16, #3184]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800016
@@ -28201,7 +28453,7 @@ ldr x1, [x16, #3192]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3192]
+ldr x1, [x16, #3184]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800014
@@ -28223,7 +28475,7 @@ ldr x1, [x16, #3192]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3192]
+ldr x2, [x16, #3184]
 .word 0xeb02001f
 .word 0x10000011
 .word 0x54000741
@@ -28240,7 +28492,7 @@ ldr x2, [x16, #3192]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x2, [x16, #3192]
+ldr x2, [x16, #3184]
 .word 0xeb02001f
 .word 0x10000011
 .word 0x54000541
@@ -28269,7 +28521,7 @@ ldr x2, [x16, #3192]
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
-bl _p_340
+bl _p_339
 .loc 9 95 0
 .word 0xf94027b1
 .word 0xf9426a31
@@ -28287,9 +28539,9 @@ bl _p_340
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801d40
+.word 0xd2801c60
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_cb:
 .text
@@ -28302,7 +28554,7 @@ System_Collections_Generic_Comparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3192]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28337,7 +28589,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3200]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -28368,7 +28620,7 @@ ldr x16, [x16, #3208]
 .word 0xd63f0220
 .word 0x910063a0
 .word 0xfd4013a0
-bl _p_341
+bl _p_340
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -28430,7 +28682,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3208]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28457,7 +28709,7 @@ ldr x16, [x16, #3216]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3224]
+ldr x1, [x16, #3216]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -28491,7 +28743,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28556,7 +28808,7 @@ System_Collections_Generic_GenericComparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3232]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28565,7 +28817,7 @@ ldr x16, [x16, #3240]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_342
+bl _p_341
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -28584,7 +28836,7 @@ Lme_d0:
 	.no_dead_strip System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow:
 .loc 8 773 0 prologue_end
-.word 0xa9b97bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb6
 .word 0xaa0003f6
@@ -28595,7 +28847,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3240]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -28613,7 +28865,7 @@ ldr x16, [x16, #3248]
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
-bl _p_343
+bl _p_342
 .loc 8 775 0
 .word 0xf9401fb1
 .word 0xf9408231
@@ -28621,26 +28873,42 @@ bl _p_343
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9400fa0
-.word 0xf90033a0
 .word 0xf9000ac0
-.word 0x910042c0
-bl _p_7
-.word 0xf94033a0
+.word 0x910042c1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 776 0
 .word 0xf9401fb1
-.word 0xf940ae31
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf94013a0
-.word 0xf9002fa0
 .word 0xf9000ec0
-.word 0x910062c0
-bl _p_7
-.word 0xf9402fa0
+.word 0x910062c1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 777 0
 .word 0xf9401fb1
-.word 0xf940da31
+.word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -28648,28 +28916,36 @@ bl _p_7
 .word 0x3900c2c0
 .loc 8 778 0
 .word 0xf9401fb1
-.word 0xf940f631
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9401ba0
-.word 0xf9002ba0
 .word 0xf90012c0
-.word 0x910082c0
-bl _p_7
-.word 0xf9402ba0
+.word 0x910082c1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 779 0
 .word 0xf9401fb1
-.word 0xf9412231
+.word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9413231
+.word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb6
 .word 0x910003bf
-.word 0xa8c77bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
 Lme_d1:
@@ -28688,7 +28964,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_ComputeKeys_UIKit_UI
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3248]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28710,24 +28986,32 @@ ldr x16, [x16, #3256]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3264]
+ldr x0, [x16, #3256]
 .word 0xaa1a03e1
-bl _p_15
-.word 0xf9002ba0
+bl _p_14
 .word 0xf9001700
-.word 0x9100a300
-bl _p_7
-.word 0xf9402ba0
+.word 0x9100a301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 784 0
 .word 0xf9401bb1
-.word 0xf940a631
+.word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
 .word 0x14000032
 .loc 8 786 0
 .word 0xf9401bb1
-.word 0xf940be31
+.word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28754,7 +29038,7 @@ bl _p_7
 .word 0xfd002fa0
 .word 0xf94033a0
 .word 0xf9401bb1
-.word 0xf9412a31
+.word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -28770,7 +29054,7 @@ bl _p_7
 .word 0xfd000000
 .loc 8 784 0
 .word 0xf9401bb1
-.word 0xf9416631
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -28781,7 +29065,7 @@ bl _p_7
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9419231
+.word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -28790,7 +29074,7 @@ bl _p_7
 .word 0x54fff88b
 .loc 8 789 0
 .word 0xf9401bb1
-.word 0xf941b231
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28798,7 +29082,7 @@ bl _p_7
 .word 0xb40001e0
 .loc 8 791 0
 .word 0xf9401bb1
-.word 0xf941ce31
+.word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28817,11 +29101,11 @@ bl _p_7
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9421631
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9422631
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -28829,9 +29113,9 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_d2:
 .text
@@ -28849,7 +29133,7 @@ System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat_CompareAnyKeys_int_i
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3264]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28897,8 +29181,8 @@ ldr x16, [x16, #3272]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3280]
-.word 0x928011f0
+ldr x15, [x16, #3272]
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28988,9 +29272,9 @@ ldr x15, [x16, #3280]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801c80
+.word 0xd2801ba0
 .word 0xaa1103e1
-bl _p_9
+bl _p_8
 
 Lme_d3:
 .text
@@ -28998,7 +29282,7 @@ Lme_d3:
 	.no_dead_strip System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
 System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool:
 .loc 8 463 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb7
 .word 0xaa0003f7
@@ -29008,7 +29292,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_U
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3280]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29026,7 +29310,7 @@ ldr x16, [x16, #3288]
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
-bl _p_344
+bl _p_343
 .loc 8 465 0
 .word 0xf9401bb1
 .word 0xf9407e31
@@ -29034,26 +29318,42 @@ bl _p_344
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf9400fa0
-.word 0xf9002fa0
 .word 0xf9000ae0
-.word 0x910042e0
-bl _p_7
-.word 0xf9402fa0
+.word 0x910042e1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 466 0
 .word 0xf9401bb1
-.word 0xf940aa31
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf94013a0
-.word 0xf9002ba0
 .word 0xf9000ee0
-.word 0x910062e0
-bl _p_7
-.word 0xf9402ba0
+.word 0x910062e1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 467 0
 .word 0xf9401bb1
-.word 0xf940d631
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -29061,16 +29361,16 @@ bl _p_7
 .word 0x390082e0
 .loc 8 468 0
 .word 0xf9401bb1
-.word 0xf940f231
+.word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9410231
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb7
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
 Lme_d4:
@@ -29089,7 +29389,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_Compare_UIKit_UIWindo
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3288]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29141,8 +29441,8 @@ ldr x16, [x16, #3296]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3280]
-.word 0x928011f0
+ldr x15, [x16, #3272]
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29165,8 +29465,8 @@ ldr x15, [x16, #3280]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3280]
-.word 0x928011f0
+ldr x15, [x16, #3272]
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29235,7 +29535,7 @@ System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWi
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29287,7 +29587,7 @@ Lme_d6:
 	.no_dead_strip System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
 System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow:
 .loc 8 493 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb6
 .word 0xaa0003f6
@@ -29298,7 +29598,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3304]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29319,7 +29619,7 @@ ldr x16, [x16, #3312]
 .word 0xf94013a2
 .word 0x3940a3a3
 .word 0xaa1603e0
-bl _p_336
+bl _p_335
 .loc 8 495 0
 .word 0xf9401fb1
 .word 0xf9408e31
@@ -29327,23 +29627,31 @@ bl _p_336
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9401ba0
-.word 0xf9002ba0
 .word 0xf9001ac0
-.word 0x9100c2c0
-bl _p_7
-.word 0xf9402ba0
+.word 0x9100c2c1
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .loc 8 496 0
 .word 0xf9401fb1
-.word 0xf940ba31
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf940ca31
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb6
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
 Lme_d7:
@@ -29363,7 +29671,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_Compare_UIKi
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3312]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29416,8 +29724,8 @@ ldr x16, [x16, #3320]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3280]
-.word 0x928011f0
+ldr x15, [x16, #3272]
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29440,8 +29748,8 @@ ldr x15, [x16, #3280]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x15, [x16, #3280]
-.word 0x928011f0
+ldr x15, [x16, #3272]
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29554,7 +29862,7 @@ System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat_SetElement_U
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3320]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29574,7 +29882,7 @@ ldr x16, [x16, #3328]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e1
-bl _p_345
+bl _p_344
 .loc 8 519 0
 .word 0xf94013b1
 .word 0xf9407e31
@@ -29613,7 +29921,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29622,7 +29930,7 @@ ldr x16, [x16, #3336]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_342
+bl _p_341
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -29649,7 +29957,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3336]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29668,7 +29976,7 @@ ldr x16, [x16, #3344]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3352]
+ldr x0, [x16, #3344]
 .word 0xf9400000
 .word 0xf9002ba0
 .word 0xfd400fa0
@@ -29676,7 +29984,7 @@ ldr x0, [x16, #3352]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3360]
+ldr x0, [x16, #3352]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -29688,7 +29996,7 @@ bl _p_4
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #3360]
+ldr x0, [x16, #3352]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_4
@@ -29699,7 +30007,7 @@ bl _p_4
 .word 0xfd000840
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_346
+bl _p_345
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -29729,7 +30037,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3360]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29756,7 +30064,7 @@ ldr x16, [x16, #3368]
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x1, [x16, #3376]
+ldr x1, [x16, #3368]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -29790,7 +30098,7 @@ System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode:
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30160,52 +30468,50 @@ bl ut_184
 unwind_info:
 
 	.byte 0,13,12,31,0,68,14,64,157,8,158,7,68,13,29,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
-	.byte 154,7,13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,96,157,12,158,11,68,13,29,34,12
+	.byte 154,7,13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,34,12
 	.byte 31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18,154
 	.byte 17,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68
 	.byte 153,8,154,7,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,16,12,31,0,68,14,80,157,10,158,9
 	.byte 68,13,29,68,154,8,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,32,12,31,0,68,14,160,2,157
-	.byte 36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,152,30,153,29,68,154,28,34,12,31,0,68,14,224,1
-	.byte 157,28,158,27,68,13,29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19,16,12,31,0,68
-	.byte 14,48,157,6,158,5,68,13,29,68,154,4,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,16,12,31
-	.byte 0,68,14,64,157,8,158,7,68,13,29,68,153,6,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16
-	.byte 149,15,68,150,14,151,13,68,152,12,13,12,31,0,68,14,80,157,10,158,9,68,13,29,14,12,31,0,68,14,176,3
-	.byte 157,54,158,53,68,13,29,22,12,31,0,68,14,128,4,157,64,158,63,68,13,29,68,151,62,152,61,68,153,60,21,12
-	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,22,12,31,0,68,14,176,1,157,22,158,21
-	.byte 68,13,29,68,151,20,152,19,68,153,18,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151
-	.byte 10,152,9,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,14
-	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29,32,12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,147,46
-	.byte 148,45,68,149,44,150,43,68,151,42,152,41,68,154,40,32,12,31,0,68,14,224,3,157,60,158,59,68,13,29,68,147
-	.byte 58,148,57,68,149,56,150,55,68,151,54,68,153,53,154,52,32,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68
-	.byte 147,24,148,23,68,149,22,150,21,68,151,20,68,153,19,154,18,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.byte 68,151,16,152,15,68,153,14,154,13,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,152,7,68,153,6
-	.byte 16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,19,12,31,0,68,14,176,1,157,22,158,21,68,13,29
-	.byte 68,150,20,151,19,32,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,148,34,149,33,68,150,32,151,31,68,152
-	.byte 30,153,29,68,154,28,17,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,154,34,14,12,31,0,68,14,192,1
-	.byte 157,24,158,23,68,13,29,22,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,150,42,68,153,41,154,40,32,12
-	.byte 31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16,34
-	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
-	.byte 154,27,34,12,31,0,84,14,176,5,157,86,158,85,68,13,29,68,147,84,148,83,68,149,82,150,81,68,151,80,152,79
-	.byte 68,153,78,154,77,34,12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,147,46,148,45,68,149,44,150,43,68,151
-	.byte 42,152,41,68,153,40,154,39,32,12,31,0,68,14,240,3,157,62,158,61,68,13,29,68,147,60,148,59,68,149,58,150
-	.byte 57,68,151,56,152,55,68,153,54,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,23,12,31,0,68,14,112,157
-	.byte 14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154
-	.byte 12,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68
-	.byte 153,10,154,9,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,13,12,31,0,68,14,112,157,14,158
-	.byte 13,68,13,29,27,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,150,22,151,21,68,152,20,153,19,68,154,18
-	.byte 17,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22,34,12,31,0,68,14,128,2,157,32,158,31,68,13
-	.byte 29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154,23,29,12,31,0,68,14,240,1,157,30,158
-	.byte 29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,30,12,31,0,68,14,128,1,157,16,158,15,68
-	.byte 13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,68,153,9,21,12,31,0,68,14,112,157,14,158,13,68,13,29
-	.byte 68,152,12,153,11,68,154,10,30,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68
-	.byte 152,25,153,24,68,154,23,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,32,12,31,0,68,14
-	.byte 128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,28,12,31,0,68
-	.byte 14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,153,8,154,7,18,12,31,0,68,14,80,157
-	.byte 10,158,9,68,13,29,68,152,8,153,7,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,23,12,31,0
-	.byte 68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,16,12,31,0,68,14,96,157,12,158,11,68
-	.byte 13,29,68,151,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,16,12,31,0
-	.byte 68,14,96,157,12,158,11,68,13,29,68,150,10,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151
-	.byte 13,68,152,12,153,11,68,154,10,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.byte 36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,152,30,153,29,68,154,28,16,12,31,0,68,14,48,157
+	.byte 6,158,5,68,13,29,68,154,4,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,16,12,31,0,68,14
+	.byte 64,157,8,158,7,68,13,29,68,153,6,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68
+	.byte 150,12,151,11,68,152,10,14,12,31,0,68,14,224,2,157,44,158,43,68,13,29,22,12,31,0,68,14,128,4,157,64
+	.byte 158,63,68,13,29,68,151,62,152,61,68,153,60,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
+	.byte 68,154,6,22,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18,23,12,31,0,68,14
+	.byte 112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,27,12,31,0,68,14,128,1,157,16,158,15,68,13
+	.byte 29,68,149,14,150,13,68,151,12,152,11,68,153,10,14,12,31,0,68,14,160,2,157,36,158,35,68,13,29,32,12,31
+	.byte 0,68,14,128,3,157,48,158,47,68,13,29,68,147,46,148,45,68,149,44,150,43,68,151,42,152,41,68,154,40,32,12
+	.byte 31,0,68,14,224,3,157,60,158,59,68,13,29,68,147,58,148,57,68,149,56,150,55,68,151,54,68,153,53,154,52,32
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,68,153,19,154,18
+	.byte 24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13,21,12,31,0,68,14,80
+	.byte 157,10,158,9,68,13,29,68,151,8,152,7,68,153,6,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 19,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,32,12,31,0,68,14,160,2,157,36,158,35
+	.byte 68,13,29,68,148,34,149,33,68,150,32,151,31,68,152,30,153,29,68,154,28,17,12,31,0,68,14,160,2,157,36,158
+	.byte 35,68,13,29,68,154,34,14,12,31,0,68,14,192,1,157,24,158,23,68,13,29,22,12,31,0,68,14,224,2,157,44
+	.byte 158,43,68,13,29,68,150,42,68,153,41,154,40,32,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148
+	.byte 21,68,149,20,150,19,68,151,18,152,17,68,153,16,34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32
+	.byte 148,31,68,149,30,150,29,68,151,28,152,27,68,153,26,154,25,34,12,31,0,84,14,160,5,157,84,158,83,68,13,29
+	.byte 68,147,82,148,81,68,149,80,150,79,68,151,78,152,77,68,153,76,154,75,34,12,31,0,68,14,240,2,157,46,158,45
+	.byte 68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38,154,37,32,12,31,0,68,14,240,3,157
+	.byte 62,158,61,68,13,29,68,147,60,148,59,68,149,58,150,57,68,151,56,152,55,68,153,54,13,12,31,0,68,14,112,157
+	.byte 14,158,13,68,13,29,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,16,12
+	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,13,12,31,0,68,14,96,157,12,158,11,68,13,29,34,12,31
+	.byte 0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
+	.byte 17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,27,12,31,0,68,14,192,1,157,24,158,23,68,13
+	.byte 29,68,150,22,151,21,68,152,20,153,19,68,154,18,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
+	.byte 34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153
+	.byte 24,154,23,29,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152
+	.byte 23,30,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,68,153,9
+	.byte 21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16
+	.byte 158,15,68,13,29,68,149,14,150,13,68,152,12,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
+	.byte 32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154
+	.byte 8,28,12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,153,8,154,7,18,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68
+	.byte 150,8,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,16,12,31,0,68,14
+	.byte 80,157,10,158,9,68,13,29,68,151,8,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68
+	.byte 152,12,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,68,154,10,18,12
+	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 
 .text
 	.align 4
@@ -30216,2773 +30522,2765 @@ plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia_get_Value:
 _p_1:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3392]
 br x16
-.word 5420
+.word 5430
 	.no_dead_strip plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly
 plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly:
 _p_2:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3400]
 br x16
-.word 5431
+.word 5441
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3408]
 br x16
-.word 5433
+.word 5443
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3416]
 br x16
-.word 5461
+.word 5471
 	.no_dead_strip plt_Plugin_Media_MediaImplementation__ctor
 plt_Plugin_Media_MediaImplementation__ctor:
 _p_5:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3424]
 br x16
-.word 5469
+.word 5479
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_6:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #3432]
+br x16
+.word 5481
+	.no_dead_strip plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode
+plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode:
+_p_7:
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 5471
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
-_p_7:
+.word 5486
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_8:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 5476
-	.no_dead_strip plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode
-plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode:
-_p_8:
+.word 5497
+	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
+plt_System_Threading_Tasks_Task_FromResult_bool_bool:
+_p_9:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 5483
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_9:
+.word 5532
+	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
+plt_UIKit_UIApplication_get_SharedApplication:
+_p_10:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 5494
-	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
-plt_System_Threading_Tasks_Task_FromResult_bool_bool:
-_p_10:
+.word 5544
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle
+plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle:
+_p_11:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 5529
-	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
-plt_UIKit_UIApplication_get_SharedApplication:
-_p_11:
+.word 5549
+	.no_dead_strip plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice
+plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice:
+_p_12:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 5541
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle
-plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle:
-_p_12:
+.word 5551
+	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
+plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
+_p_13:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 5546
-	.no_dead_strip plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice
-plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice:
-_p_13:
+.word 5556
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+_p_14:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 5548
-	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
-plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
-_p_14:
+.word 5561
+	.no_dead_strip plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string
+plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string:
+_p_15:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 5553
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
-_p_15:
+.word 5569
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
+_p_16:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 5558
-	.no_dead_strip plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string
-plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string:
-_p_16:
+.word 5581
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported
+plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported:
+_p_17:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 5566
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
-_p_17:
+.word 5586
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription
+plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription:
+_p_18:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 5578
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported
-plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported:
-_p_18:
+.word 5588
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor:
+_p_19:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 5583
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription
-plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription:
-_p_19:
+.word 5590
+	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize
+plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize:
+_p_20:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 5585
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor:
-_p_20:
+.word 5595
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize:
+_p_21:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 5587
-	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize
-plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize:
-_p_21:
+.word 5600
+	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality
+plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality:
+_p_22:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 5592
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize:
-_p_22:
+.word 5605
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int:
+_p_23:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 5597
-	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality
-plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality:
-_p_23:
+.word 5610
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
+plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
+_p_24:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 5602
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int:
-_p_24:
+.word 5615
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported
+plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported:
+_p_25:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 5607
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
-plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
-_p_25:
+.word 5617
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable
+plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable:
+_p_26:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 5612
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported
-plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported:
-_p_26:
+.word 5619
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription
+plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription:
+_p_27:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 5614
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable
-plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable:
-_p_27:
+.word 5621
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions
+plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions:
+_p_28:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 5616
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription
-plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription:
-_p_28:
+.word 5623
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported
+plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported:
+_p_29:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 5618
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions
-plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions:
-_p_29:
+.word 5625
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported
+plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported:
+_p_30:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 5620
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported
-plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported:
-_p_30:
+.word 5627
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
+_p_31:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 5622
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported
-plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported:
-_p_31:
+.word 5629
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory
+plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory:
+_p_32:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 5624
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr
-plt__jit_icall_mono_helper_ldstr:
-_p_32:
+.word 5649
+	.no_dead_strip plt_System_IO_Path_IsPathRooted_string
+plt_System_IO_Path_IsPathRooted_string:
+_p_33:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 5626
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory
-plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory:
-_p_33:
+.word 5654
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions
+plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions:
+_p_34:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 5646
-	.no_dead_strip plt_System_IO_Path_IsPathRooted_string
-plt_System_IO_Path_IsPathRooted_string:
-_p_34:
+.word 5659
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera:
+_p_35:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 5651
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions
-plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions:
-_p_35:
+.word 5661
+	.no_dead_strip plt_System_Enum_IsDefined_System_Type_object
+plt_System_Enum_IsDefined_System_Type_object:
+_p_36:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 5656
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera:
-_p_36:
+.word 5666
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
+_p_37:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 5658
-	.no_dead_strip plt_System_Enum_IsDefined_System_Type_object
-plt_System_Enum_IsDefined_System_Type_object:
-_p_37:
+.word 5671
+	.no_dead_strip plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate
+plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate:
+_p_38:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 5663
-	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
-plt__jit_icall_ves_icall_object_new_specific:
-_p_38:
+.word 5703
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice
+plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice:
+_p_39:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 5668
-	.no_dead_strip plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate
-plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate:
-_p_39:
+.word 5705
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping:
+_p_40:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 5700
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice
-plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice:
-_p_40:
+.word 5707
+	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
+plt_System_Nullable_1_bool_get_HasValue:
+_p_41:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 5702
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping:
-_p_41:
+.word 5712
+	.no_dead_strip plt_System_Nullable_1_bool_GetValueOrDefault
+plt_System_Nullable_1_bool_GetValueOrDefault:
+_p_42:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 5704
-	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
-plt_System_Nullable_1_bool_get_HasValue:
-_p_42:
+.word 5723
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider:
+_p_43:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 5709
-	.no_dead_strip plt_System_Nullable_1_bool_GetValueOrDefault
-plt_System_Nullable_1_bool_GetValueOrDefault:
-_p_43:
+.word 5734
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality
+plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality:
+_p_44:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 5720
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider:
-_p_44:
+.word 5739
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality
+plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality:
+_p_45:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 5731
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality
-plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality:
-_p_45:
+.word 5744
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength
+plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength:
+_p_46:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 5736
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality
-plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality:
-_p_46:
+.word 5746
+	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
+plt_System_TimeSpan_get_TotalSeconds:
+_p_47:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 5741
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength
-plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength:
-_p_47:
+.word 5751
+	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
+plt_UIKit_UIWindowLevel_get_Normal:
+_p_48:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 5743
-	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
-plt_System_TimeSpan_get_TotalSeconds:
-_p_48:
+.word 5756
+	.no_dead_strip plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
+plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat:
+_p_49:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 5748
-	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
-plt_UIKit_UIWindowLevel_get_Normal:
-_p_49:
+.word 5761
+	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
+plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
+_p_50:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 5753
-	.no_dead_strip plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
-plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat:
-_p_50:
+.word 5773
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
+plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions:
+_p_51:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 5758
-	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
-plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
-_p_51:
+.word 5785
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
+plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
+_p_52:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 5770
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
-plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions:
-_p_52:
+.word 5787
+	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
+plt_UIKit_UIDevice_get_CurrentDevice:
+_p_53:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 5782
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
-plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
-_p_53:
+.word 5789
+	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
+plt_UIKit_UIDevice_get_UserInterfaceIdiom:
+_p_54:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 5784
-	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
-plt_UIKit_UIDevice_get_CurrentDevice:
-_p_54:
+.word 5794
+	.no_dead_strip plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController
+plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController:
+_p_55:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 5786
-	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
-plt_UIKit_UIDevice_get_UserInterfaceIdiom:
-_p_55:
+.word 5799
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
+plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController:
+_p_56:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 5791
-	.no_dead_strip plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController
-plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController:
-_p_56:
+.word 5804
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Popover
+plt_Plugin_Media_MediaPickerDelegate_get_Popover:
+_p_57:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 5796
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
-plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController:
-_p_57:
+.word 5806
+	.no_dead_strip plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
+plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController:
+_p_58:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 5801
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Popover
-plt_Plugin_Media_MediaPickerDelegate_get_Popover:
-_p_58:
+.word 5808
+	.no_dead_strip plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate
+plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate:
+_p_59:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 5803
-	.no_dead_strip plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
-plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController:
-_p_59:
+.word 5810
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool
+plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool:
+_p_60:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 5805
-	.no_dead_strip plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate
-plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate:
-_p_60:
+.word 5815
+	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
+plt_UIKit_UIDevice_CheckSystemVersion_int_int:
+_p_61:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 5807
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool
-plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool:
-_p_61:
+.word 5817
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Task
+plt_Plugin_Media_MediaPickerDelegate_get_Task:
+_p_62:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 5812
-	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
-plt_UIKit_UIDevice_CheckSystemVersion_int_int:
-_p_62:
+.word 5822
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
+_p_63:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 5814
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Task
-plt_Plugin_Media_MediaPickerDelegate_get_Task:
-_p_63:
+.word 5824
+	.no_dead_strip plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
+plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
+_p_64:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 5819
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
-_p_64:
+.word 5836
+	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
+plt_Foundation_NSBundle_get_MainBundle:
+_p_65:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 5821
-	.no_dead_strip plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
-plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
-_p_65:
+.word 5848
+	.no_dead_strip plt_Foundation_NSString__ctor_string
+plt_Foundation_NSString__ctor_string:
+_p_66:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 5833
-	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
-plt_Foundation_NSBundle_get_MainBundle:
-_p_66:
+.word 5853
+	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
+plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
+_p_67:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 5845
-	.no_dead_strip plt_Foundation_NSString__ctor_string
-plt_Foundation_NSString__ctor_string:
-_p_67:
+.word 5858
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_68:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 5850
-	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
-plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
-_p_68:
+.word 5863
+	.no_dead_strip plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate
+plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate:
+_p_69:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 5855
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_69:
+.word 5868
+	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
+plt_UIKit_UIImagePickerController__ctor:
+_p_70:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 5860
-	.no_dead_strip plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate
-plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate:
-_p_70:
+.word 5880
+	.no_dead_strip plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject
+plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject:
+_p_71:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 5865
-	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
-plt_UIKit_UIImagePickerController__ctor:
-_p_71:
+.word 5885
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_Delegate
+plt_UIKit_UIImagePickerController_get_Delegate:
+_p_72:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 5877
-	.no_dead_strip plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject
-plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject:
-_p_72:
+.word 5890
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor:
+_p_73:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 5882
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_Delegate
-plt_UIKit_UIImagePickerController_get_Delegate:
-_p_73:
+.word 5895
+	.no_dead_strip plt_UIKit_UIImagePickerControllerDelegate__ctor
+plt_UIKit_UIImagePickerControllerDelegate__ctor:
+_p_74:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 5887
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor:
-_p_74:
+.word 5906
+	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
+plt_Foundation_NSNotificationCenter_get_DefaultCenter:
+_p_75:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 5892
-	.no_dead_strip plt_UIKit_UIImagePickerControllerDelegate__ctor
-plt_UIKit_UIImagePickerControllerDelegate__ctor:
-_p_75:
+.word 5911
+	.no_dead_strip plt_UIKit_UIDevice_get_OrientationDidChangeNotification
+plt_UIKit_UIDevice_get_OrientationDidChangeNotification:
+_p_76:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 5903
-	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
-plt_Foundation_NSNotificationCenter_get_DefaultCenter:
-_p_76:
+.word 5916
+	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
+plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
+_p_77:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 5908
-	.no_dead_strip plt_UIKit_UIDevice_get_OrientationDidChangeNotification
-plt_UIKit_UIDevice_get_OrientationDidChangeNotification:
-_p_77:
+.word 5921
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task
+plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task:
+_p_78:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 5913
-	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
-plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
-_p_78:
+.word 5926
+	.no_dead_strip plt_string_memset_byte__int_int
+plt_string_memset_byte__int_int:
+_p_79:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 5918
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task
-plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task:
-_p_79:
+.word 5937
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
+_p_80:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 5923
-	.no_dead_strip plt_string_memset_byte__int_int
-plt_string_memset_byte__int_int:
-_p_80:
+.word 5942
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
+_p_81:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 5934
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
-_p_81:
+.word 5947
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
+_p_82:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 5939
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
-_p_82:
+.word 5952
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications
+plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications:
+_p_83:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 5944
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
-_p_83:
+.word 5964
+	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_StatusBarStyle
+plt_Plugin_Media_MediaImplementation_get_StatusBarStyle:
+_p_84:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 5949
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications
-plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications:
-_p_84:
+.word 5966
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action
+plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action:
+_p_85:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 5961
-	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_StatusBarStyle
-plt_Plugin_Media_MediaImplementation_get_StatusBarStyle:
-_p_85:
+.word 5968
+	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
+plt_UIKit_UIScreen_get_MainScreen:
+_p_86:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 5963
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action
-plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action:
-_p_86:
+.word 5970
+	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
+plt_CoreGraphics_CGRect_get_Width:
+_p_87:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 5965
-	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
-plt_UIKit_UIScreen_get_MainScreen:
-_p_87:
+.word 5975
+	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
+plt_CoreGraphics_CGRect_get_Height:
+_p_88:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 5967
-	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
-plt_CoreGraphics_CGRect_get_Width:
-_p_88:
+.word 5980
+	.no_dead_strip plt_System_nfloat_op_Implicit_int
+plt_System_nfloat_op_Implicit_int:
+_p_89:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 5972
-	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
-plt_CoreGraphics_CGRect_get_Height:
-_p_89:
+.word 5985
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
+plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
+_p_90:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 5977
-	.no_dead_strip plt_System_nfloat_op_Implicit_int
-plt_System_nfloat_op_Implicit_int:
-_p_90:
+.word 5990
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation
+plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation:
+_p_91:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 5982
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
-plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
-_p_91:
+.word 6001
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
+plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
+_p_92:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 5987
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation
-plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation:
-_p_92:
+.word 6003
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation
+plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation:
+_p_93:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 5998
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
-plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
-_p_93:
+.word 6014
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
+plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
+_p_94:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 6000
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation
-plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation:
-_p_94:
+.word 6016
+	.no_dead_strip plt_System_Math_Max_double_double
+plt_System_Math_Max_double_double:
+_p_95:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 6011
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
-plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
-_p_95:
+.word 6027
+	.no_dead_strip plt_System_Math_Min_double_double
+plt_System_Math_Min_double_double:
+_p_96:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 6013
-	.no_dead_strip plt_System_Math_Max_double_double
-plt_System_Math_Max_double_double:
-_p_96:
+.word 6032
+	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
+plt_CoreGraphics_CGRect__ctor_double_double_double_double:
+_p_97:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 6024
-	.no_dead_strip plt_System_Math_Min_double_double
-plt_System_Math_Min_double_double:
-_p_97:
+.word 6037
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_View
+plt_Plugin_Media_MediaPickerDelegate_get_View:
+_p_98:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 6029
-	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
-plt_CoreGraphics_CGRect__ctor_double_double_double_double:
-_p_98:
+.word 6042
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
+plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
+_p_99:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 6034
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_View
-plt_Plugin_Media_MediaPickerDelegate_get_View:
-_p_99:
+.word 6044
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation
+plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation:
+_p_100:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 6039
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
-plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
-_p_100:
+.word 6055
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation
+plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation:
+_p_101:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 6041
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation
-plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation:
-_p_101:
+.word 6057
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation
+plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation:
+_p_102:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 6052
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation
-plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation:
-_p_102:
+.word 6059
+	.no_dead_strip plt_System_Enum_HasFlag_System_Enum
+plt_System_Enum_HasFlag_System_Enum:
+_p_103:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 6054
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation
-plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation:
-_p_103:
+.word 6061
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create:
+_p_104:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 6056
-	.no_dead_strip plt_System_Enum_HasFlag_System_Enum
-plt_System_Enum_HasFlag_System_Enum:
-_p_104:
+.word 6066
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
+_p_105:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 6058
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create:
-_p_105:
+.word 6077
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task:
+_p_106:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 6063
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
-_p_106:
+.word 6089
+	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
+plt_Foundation_NSMutableDictionary__ctor:
+_p_107:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 6074
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task:
-_p_107:
+.word 6100
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Latitude
+plt_Plugin_Media_Abstractions_Location_get_Latitude:
+_p_108:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 6086
-	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
-plt_Foundation_NSMutableDictionary__ctor:
-_p_108:
+.word 6105
+	.no_dead_strip plt_Foundation_NSNumber__ctor_double
+plt_Foundation_NSNumber__ctor_double:
+_p_109:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 6097
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Latitude
-plt_Plugin_Media_Abstractions_Location_get_Latitude:
-_p_109:
+.word 6110
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitude
+plt_ImageIO_CGImageProperties_get_GPSLatitude:
+_p_110:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 6102
-	.no_dead_strip plt_Foundation_NSNumber__ctor_double
-plt_Foundation_NSNumber__ctor_double:
-_p_110:
+.word 6115
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitudeRef
+plt_ImageIO_CGImageProperties_get_GPSLatitudeRef:
+_p_111:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 6107
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitude
-plt_ImageIO_CGImageProperties_get_GPSLatitude:
-_p_111:
+.word 6120
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Longitude
+plt_Plugin_Media_Abstractions_Location_get_Longitude:
+_p_112:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 6112
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitudeRef
-plt_ImageIO_CGImageProperties_get_GPSLatitudeRef:
-_p_112:
+.word 6125
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitude
+plt_ImageIO_CGImageProperties_get_GPSLongitude:
+_p_113:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 6117
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Longitude
-plt_Plugin_Media_Abstractions_Location_get_Longitude:
-_p_113:
+.word 6130
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitudeRef
+plt_ImageIO_CGImageProperties_get_GPSLongitudeRef:
+_p_114:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 6122
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitude
-plt_ImageIO_CGImageProperties_get_GPSLongitude:
-_p_114:
+.word 6135
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Altitude
+plt_Plugin_Media_Abstractions_Location_get_Altitude:
+_p_115:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 6127
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitudeRef
-plt_ImageIO_CGImageProperties_get_GPSLongitudeRef:
-_p_115:
+.word 6140
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitude
+plt_ImageIO_CGImageProperties_get_GPSAltitude:
+_p_116:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 6132
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Altitude
-plt_Plugin_Media_Abstractions_Location_get_Altitude:
-_p_116:
+.word 6145
+	.no_dead_strip plt_Foundation_NSNumber__ctor_int
+plt_Foundation_NSNumber__ctor_int:
+_p_117:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 6137
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitude
-plt_ImageIO_CGImageProperties_get_GPSAltitude:
-_p_117:
+.word 6150
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitudeRef
+plt_ImageIO_CGImageProperties_get_GPSAltitudeRef:
+_p_118:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 6142
-	.no_dead_strip plt_Foundation_NSNumber__ctor_int
-plt_Foundation_NSNumber__ctor_int:
-_p_118:
+.word 6155
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Speed
+plt_Plugin_Media_Abstractions_Location_get_Speed:
+_p_119:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 6147
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitudeRef
-plt_ImageIO_CGImageProperties_get_GPSAltitudeRef:
-_p_119:
+.word 6160
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeed
+plt_ImageIO_CGImageProperties_get_GPSSpeed:
+_p_120:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 6152
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Speed
-plt_Plugin_Media_Abstractions_Location_get_Speed:
-_p_120:
+.word 6165
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeedRef
+plt_ImageIO_CGImageProperties_get_GPSSpeedRef:
+_p_121:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 6157
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeed
-plt_ImageIO_CGImageProperties_get_GPSSpeed:
-_p_121:
+.word 6170
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Direction
+plt_Plugin_Media_Abstractions_Location_get_Direction:
+_p_122:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 6162
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeedRef
-plt_ImageIO_CGImageProperties_get_GPSSpeedRef:
-_p_122:
+.word 6175
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirection
+plt_ImageIO_CGImageProperties_get_GPSImgDirection:
+_p_123:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 6167
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Direction
-plt_Plugin_Media_Abstractions_Location_get_Direction:
-_p_123:
+.word 6180
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef
+plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef:
+_p_124:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 6172
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirection
-plt_ImageIO_CGImageProperties_get_GPSImgDirection:
-_p_124:
+.word 6185
+	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Timestamp
+plt_Plugin_Media_Abstractions_Location_get_Timestamp:
+_p_125:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 6177
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef
-plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef:
-_p_125:
+.word 6190
+	.no_dead_strip plt_System_DateTime_ToString_string
+plt_System_DateTime_ToString_string:
+_p_126:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 6182
-	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Timestamp
-plt_Plugin_Media_Abstractions_Location_get_Timestamp:
-_p_126:
+.word 6195
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSTimeStamp
+plt_ImageIO_CGImageProperties_get_GPSTimeStamp:
+_p_127:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 6187
-	.no_dead_strip plt_System_DateTime_ToString_string
-plt_System_DateTime_ToString_string:
-_p_127:
+.word 6200
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDateStamp
+plt_ImageIO_CGImageProperties_get_GPSDateStamp:
+_p_128:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 6192
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSTimeStamp
-plt_ImageIO_CGImageProperties_get_GPSTimeStamp:
-_p_128:
+.word 6205
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDictionary
+plt_ImageIO_CGImageProperties_get_GPSDictionary:
+_p_129:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 6197
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDateStamp
-plt_ImageIO_CGImageProperties_get_GPSDateStamp:
-_p_129:
+.word 6210
+	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
+plt_UIKit_UIImage_AsJPEG_System_nfloat:
+_p_130:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 6202
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDictionary
-plt_ImageIO_CGImageProperties_get_GPSDictionary:
-_p_130:
+.word 6215
+	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData
+plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData:
+_p_131:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 6207
-	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
-plt_UIKit_UIImage_AsJPEG_System_nfloat:
-_p_131:
+.word 6220
+	.no_dead_strip plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
+plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
+_p_132:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 6212
-	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData
-plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData:
-_p_132:
+.word 6225
+	.no_dead_strip plt_Foundation_NSMutableData__ctor
+plt_Foundation_NSMutableData__ctor:
+_p_133:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 6217
-	.no_dead_strip plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
-plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
-_p_133:
+.word 6230
+	.no_dead_strip plt_MobileCoreServices_UTType_get_JPEG
+plt_MobileCoreServices_UTType_get_JPEG:
+_p_134:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 6222
-	.no_dead_strip plt_Foundation_NSMutableData__ctor
-plt_Foundation_NSMutableData__ctor:
-_p_134:
+.word 6235
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_135:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 6227
-	.no_dead_strip plt_MobileCoreServices_UTType_get_JPEG
-plt_MobileCoreServices_UTType_get_JPEG:
-_p_135:
+.word 6240
+	.no_dead_strip plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions
+plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions:
+_p_136:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 6232
-	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
-plt_Foundation_NSString_op_Implicit_Foundation_NSString:
-_p_136:
+.word 6245
+	.no_dead_strip plt_ImageIO_CGMutableImageMetadata__ctor
+plt_ImageIO_CGMutableImageMetadata__ctor:
+_p_137:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 6237
-	.no_dead_strip plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions
-plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions:
-_p_137:
+.word 6250
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions__ctor
+plt_ImageIO_CGImageDestinationOptions__ctor:
+_p_138:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 6242
-	.no_dead_strip plt_ImageIO_CGMutableImageMetadata__ctor
-plt_ImageIO_CGMutableImageMetadata__ctor:
-_p_138:
+.word 6255
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_Orientation
+plt_ImageIO_CGImageProperties_get_Orientation:
+_p_139:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 6247
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions__ctor
-plt_ImageIO_CGImageDestinationOptions__ctor:
-_p_139:
+.word 6260
+	.no_dead_strip plt_Foundation_DictionaryContainer_get_Dictionary
+plt_Foundation_DictionaryContainer_get_Dictionary:
+_p_140:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 6252
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_Orientation
-plt_ImageIO_CGImageProperties_get_Orientation:
-_p_140:
+.word 6265
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIWidth
+plt_ImageIO_CGImageProperties_get_DPIWidth:
+_p_141:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 6257
-	.no_dead_strip plt_Foundation_DictionaryContainer_get_Dictionary
-plt_Foundation_DictionaryContainer_get_Dictionary:
-_p_141:
+.word 6270
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIHeight
+plt_ImageIO_CGImageProperties_get_DPIHeight:
+_p_142:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 6262
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIWidth
-plt_ImageIO_CGImageProperties_get_DPIWidth:
-_p_142:
+.word 6275
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_ExifDictionary
+plt_ImageIO_CGImageProperties_get_ExifDictionary:
+_p_143:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 6267
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIHeight
-plt_ImageIO_CGImageProperties_get_DPIHeight:
-_p_143:
+.word 6280
+	.no_dead_strip plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary
+plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary:
+_p_144:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 6272
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_ExifDictionary
-plt_ImageIO_CGImageProperties_get_ExifDictionary:
-_p_144:
+.word 6285
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif
+plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif:
+_p_145:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 6277
-	.no_dead_strip plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary
-plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary:
-_p_145:
+.word 6290
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFDictionary
+plt_ImageIO_CGImageProperties_get_TIFFDictionary:
+_p_146:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 6282
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif
-plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif:
-_p_146:
+.word 6295
+	.no_dead_strip plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary
+plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary:
+_p_147:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 6287
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFDictionary
-plt_ImageIO_CGImageProperties_get_TIFFDictionary:
-_p_147:
+.word 6300
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff
+plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff:
+_p_148:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 6292
-	.no_dead_strip plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary
-plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary:
-_p_148:
+.word 6305
+	.no_dead_strip plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary
+plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary:
+_p_149:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 6297
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff
-plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff:
-_p_149:
+.word 6310
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps
+plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps:
+_p_150:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 6302
-	.no_dead_strip plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary
-plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary:
-_p_150:
+.word 6315
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_JFIFDictionary
+plt_ImageIO_CGImageProperties_get_JFIFDictionary:
+_p_151:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 6307
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps
-plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps:
-_p_151:
+.word 6320
+	.no_dead_strip plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary
+plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary:
+_p_152:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 6312
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_JFIFDictionary
-plt_ImageIO_CGImageProperties_get_JFIFDictionary:
-_p_152:
+.word 6325
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif
+plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif:
+_p_153:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 6317
-	.no_dead_strip plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary
-plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary:
-_p_153:
+.word 6330
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_IPTCDictionary
+plt_ImageIO_CGImageProperties_get_IPTCDictionary:
+_p_154:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 6322
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif
-plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif:
-_p_154:
+.word 6335
+	.no_dead_strip plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary
+plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary:
+_p_155:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 6327
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_IPTCDictionary
-plt_ImageIO_CGImageProperties_get_IPTCDictionary:
-_p_155:
+.word 6340
+	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc
+plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc:
+_p_156:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 6332
-	.no_dead_strip plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary
-plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary:
-_p_156:
+.word 6345
+	.no_dead_strip plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions
+plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions:
+_p_157:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 6337
-	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc
-plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc:
-_p_157:
+.word 6350
+	.no_dead_strip plt_ImageIO_CGImageDestination_Close
+plt_ImageIO_CGImageDestination_Close:
+_p_158:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 6342
-	.no_dead_strip plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions
-plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions:
-_p_158:
+.word 6355
+	.no_dead_strip plt_string_Format_string_object
+plt_string_Format_string_object:
+_p_159:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 6347
-	.no_dead_strip plt_ImageIO_CGImageDestination_Close
-plt_ImageIO_CGImageDestination_Close:
-_p_159:
+.word 6360
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
+_p_160:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 6352
-	.no_dead_strip plt_string_Format_string_object
-plt_string_Format_string_object:
-_p_160:
+.word 6365
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_161:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 6357
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
-_p_161:
+.word 6370
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
+_p_162:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 6362
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_162:
+.word 6409
+	.no_dead_strip plt_System_IO_Path_GetExtension_string
+plt_System_IO_Path_GetExtension_string:
+_p_163:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 6367
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
-_p_163:
+.word 6421
+	.no_dead_strip plt_System_IO_Path_GetFileNameWithoutExtension_string
+plt_System_IO_Path_GetFileNameWithoutExtension_string:
+_p_164:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 6406
-	.no_dead_strip plt_System_IO_Path_GetExtension_string
-plt_System_IO_Path_GetExtension_string:
-_p_164:
+.word 6426
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
+_p_165:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 6418
-	.no_dead_strip plt_System_IO_Path_GetFileNameWithoutExtension_string
-plt_System_IO_Path_GetFileNameWithoutExtension_string:
-_p_165:
+.word 6431
+	.no_dead_strip plt_string_Concat_object__
+plt_string_Concat_object__:
+_p_166:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 6423
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_166:
+.word 6436
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
+_p_167:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 6428
-	.no_dead_strip plt_string_Concat_object__
-plt_string_Concat_object__:
-_p_167:
+.word 6441
+	.no_dead_strip plt_System_IO_File_Exists_string
+plt_System_IO_File_Exists_string:
+_p_168:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 6433
-	.no_dead_strip plt_System_IO_Path_Combine_string_string
-plt_System_IO_Path_Combine_string_string:
-_p_168:
+.word 6446
+	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
+plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
+_p_169:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 6438
-	.no_dead_strip plt_System_IO_File_Exists_string
-plt_System_IO_File_Exists_string:
-_p_169:
+.word 6451
+	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
+plt_System_IO_Directory_CreateDirectory_string:
+_p_170:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 6443
-	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
-plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
-_p_170:
+.word 6456
+	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
+plt_string_IsNullOrWhiteSpace_string:
+_p_171:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 6448
-	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
-plt_System_IO_Directory_CreateDirectory_string:
-_p_171:
+.word 6461
+	.no_dead_strip plt_System_DateTime_get_Now
+plt_System_DateTime_get_Now:
+_p_172:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 6453
-	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
-plt_string_IsNullOrWhiteSpace_string:
-_p_172:
+.word 6466
+	.no_dead_strip plt_System_Globalization_CultureInfo_get_InvariantCulture
+plt_System_Globalization_CultureInfo_get_InvariantCulture:
+_p_173:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 6458
-	.no_dead_strip plt_System_DateTime_get_Now
-plt_System_DateTime_get_Now:
-_p_173:
+.word 6471
+	.no_dead_strip plt_System_DateTime_ToString_string_System_IFormatProvider
+plt_System_DateTime_ToString_string_System_IFormatProvider:
+_p_174:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 6463
-	.no_dead_strip plt_System_Globalization_CultureInfo_get_InvariantCulture
-plt_System_Globalization_CultureInfo_get_InvariantCulture:
-_p_174:
+.word 6476
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
+_p_175:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 6468
-	.no_dead_strip plt_System_DateTime_ToString_string_System_IFormatProvider
-plt_System_DateTime_ToString_string_System_IFormatProvider:
-_p_175:
+.word 6481
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string
+plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string:
+_p_176:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 6473
-	.no_dead_strip plt_string_Concat_string_string_string
-plt_string_Concat_string_string_string:
-_p_176:
+.word 6486
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
+plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
+_p_177:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 6478
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string
-plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string:
-_p_177:
+.word 6488
+	.no_dead_strip plt_UIKit_UIPopoverControllerDelegate__ctor
+plt_UIKit_UIPopoverControllerDelegate__ctor:
+_p_178:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 6483
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
-plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
-_p_178:
+.word 6499
+	.no_dead_strip plt_System_IO_Stream__ctor
+plt_System_IO_Stream__ctor:
+_p_179:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 6485
-	.no_dead_strip plt_UIKit_UIPopoverControllerDelegate__ctor
-plt_UIKit_UIPopoverControllerDelegate__ctor:
-_p_179:
+.word 6504
+	.no_dead_strip plt_System_nuint_op_Implicit_System_nuint
+plt_System_nuint_op_Implicit_System_nuint:
+_p_180:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 6496
-	.no_dead_strip plt_System_IO_Stream__ctor
-plt_System_IO_Stream__ctor:
-_p_180:
+.word 6509
+	.no_dead_strip plt_intptr_ToInt64
+plt_intptr_ToInt64:
+_p_181:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 6501
-	.no_dead_strip plt_System_nuint_op_Implicit_System_nuint
-plt_System_nuint_op_Implicit_System_nuint:
-_p_181:
+.word 6514
+	.no_dead_strip plt_intptr__ctor_long
+plt_intptr__ctor_long:
+_p_182:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 6506
-	.no_dead_strip plt_intptr_ToInt64
-plt_intptr_ToInt64:
-_p_182:
+.word 6519
+	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
+plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
+_p_183:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 6511
-	.no_dead_strip plt_intptr__ctor_long
-plt_intptr__ctor_long:
-_p_183:
+.word 6524
+	.no_dead_strip plt_CoreImage_CIContext_Create
+plt_CoreImage_CIContext_Create:
+_p_184:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 6516
-	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
-plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
-_p_184:
+.word 6529
+	.no_dead_strip plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage
+plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage:
+_p_185:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 6521
-	.no_dead_strip plt_CoreImage_CIContext_Create
-plt_CoreImage_CIContext_Create:
-_p_185:
+.word 6534
+	.no_dead_strip plt_CoreImage_CILanczosScaleTransform__ctor
+plt_CoreImage_CILanczosScaleTransform__ctor:
+_p_186:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 6526
-	.no_dead_strip plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage
-plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage:
-_p_186:
+.word 6539
+	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_Scale_single
+plt_CoreImage_CILanczosScaleTransform_set_Scale_single:
+_p_187:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 6531
-	.no_dead_strip plt_CoreImage_CILanczosScaleTransform__ctor
-plt_CoreImage_CILanczosScaleTransform__ctor:
-_p_187:
+.word 6544
+	.no_dead_strip plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage
+plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage:
+_p_188:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 6536
-	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_Scale_single
-plt_CoreImage_CILanczosScaleTransform_set_Scale_single:
-_p_188:
+.word 6549
+	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single
+plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single:
+_p_189:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 6541
-	.no_dead_strip plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage
-plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage:
-_p_189:
+.word 6554
+	.no_dead_strip plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation
+plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation:
+_p_190:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 6546
-	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single
-plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single:
-_p_190:
+.word 6559
+	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
+plt_CoreGraphics_CGSize_get_Width:
+_p_191:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 6551
-	.no_dead_strip plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation
-plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation:
-_p_191:
+.word 6564
+	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
+plt_CoreGraphics_CGSize_get_Height:
+_p_192:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 6556
-	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
-plt_CoreGraphics_CGSize_get_Width:
-_p_192:
+.word 6569
+	.no_dead_strip plt_CoreGraphics_CGSize__ctor_double_double
+plt_CoreGraphics_CGSize__ctor_double_double:
+_p_193:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 6561
-	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
-plt_CoreGraphics_CGSize_get_Height:
-_p_193:
+.word 6574
+	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
+plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
+_p_194:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 6566
-	.no_dead_strip plt_CoreGraphics_CGSize__ctor_double_double
-plt_CoreGraphics_CGSize__ctor_double_double:
-_p_194:
+.word 6579
+	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
+plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
+_p_195:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 6571
-	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
-plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
-_p_195:
+.word 6584
+	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
+plt_UIKit_UIGraphics_EndImageContext:
+_p_196:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 6576
-	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
-plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
-_p_196:
+.word 6589
+	.no_dead_strip plt_System_Drawing_SizeF__ctor_single_single
+plt_System_Drawing_SizeF__ctor_single_single:
+_p_197:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 6581
-	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
-plt_UIKit_UIGraphics_EndImageContext:
-_p_197:
+.word 6594
+	.no_dead_strip plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF
+plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF:
+_p_198:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 6586
-	.no_dead_strip plt_System_Drawing_SizeF__ctor_single_single
-plt_System_Drawing_SizeF__ctor_single_single:
-_p_198:
+.word 6599
+	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
+plt_System_Drawing_RectangleF__ctor_single_single_single_single:
+_p_199:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 6591
-	.no_dead_strip plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF
-plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF:
-_p_199:
+.word 6604
+	.no_dead_strip plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF
+plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF:
+_p_200:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 6596
-	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
-plt_System_Drawing_RectangleF__ctor_single_single_single_single:
-_p_200:
+.word 6609
+	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
+plt_UIKit_UIGraphics_GetCurrentContext:
+_p_201:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 6601
-	.no_dead_strip plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF
-plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF:
-_p_201:
+.word 6614
+	.no_dead_strip plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect
+plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect:
+_p_202:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 6606
-	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
-plt_UIKit_UIGraphics_GetCurrentContext:
-_p_202:
+.word 6619
+	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
+plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
+_p_203:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 6611
-	.no_dead_strip plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect
-plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect:
-_p_203:
+.word 6624
+	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor
+plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor:
+_p_204:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 6616
-	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
-plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
-_p_204:
+.word 6629
+	.no_dead_strip plt_Photos_PHFetchOptions__ctor
+plt_Photos_PHFetchOptions__ctor:
+_p_205:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 6621
-	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor
-plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor:
-_p_205:
+.word 6631
+	.no_dead_strip plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions
+plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions:
+_p_206:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 6626
-	.no_dead_strip plt_Photos_PHFetchOptions__ctor
-plt_Photos_PHFetchOptions__ctor:
-_p_206:
+.word 6636
+	.no_dead_strip plt_Photos_PHImageManager_get_DefaultManager
+plt_Photos_PHImageManager_get_DefaultManager:
+_p_207:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 6628
-	.no_dead_strip plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions
-plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions:
-_p_207:
+.word 6641
+	.no_dead_strip plt_Photos_PHImageRequestOptions__ctor
+plt_Photos_PHImageRequestOptions__ctor:
+_p_208:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 6633
-	.no_dead_strip plt_Photos_PHImageManager_get_DefaultManager
-plt_Photos_PHImageManager_get_DefaultManager:
-_p_208:
+.word 6646
+	.no_dead_strip plt_Plugin_Media_CrossMedia__c__ctor
+plt_Plugin_Media_CrossMedia__c__ctor:
+_p_209:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 6638
-	.no_dead_strip plt_Photos_PHImageRequestOptions__ctor
-plt_Photos_PHImageRequestOptions__ctor:
-_p_209:
+.word 6651
+	.no_dead_strip plt_Plugin_Media_CrossMedia_CreateMedia
+plt_Plugin_Media_CrossMedia_CreateMedia:
+_p_210:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 6643
-	.no_dead_strip plt_Plugin_Media_CrossMedia__c__ctor
-plt_Plugin_Media_CrossMedia__c__ctor:
-_p_210:
+.word 6653
+	.no_dead_strip plt_Plugin_Media_MediaImplementation__c__ctor
+plt_Plugin_Media_MediaImplementation__c__ctor:
+_p_211:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 6648
-	.no_dead_strip plt_Plugin_Media_CrossMedia_CreateMedia
-plt_Plugin_Media_CrossMedia_CreateMedia:
-_p_211:
+.word 6655
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile
+plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile:
+_p_212:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 6650
-	.no_dead_strip plt_Plugin_Media_MediaImplementation__c__ctor
-plt_Plugin_Media_MediaImplementation__c__ctor:
-_p_212:
+.word 6657
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor
+plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor:
+_p_213:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 6652
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile
-plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile:
-_p_213:
+.word 6668
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaType
+plt_UIKit_UIImagePickerController_get_MediaType:
+_p_214:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 6654
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor
-plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor:
-_p_214:
+.word 6670
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
+plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary:
+_p_215:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 6665
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaType
-plt_UIKit_UIImagePickerController_get_MediaType:
-_p_215:
+.word 6675
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
+plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
+_p_216:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 6667
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
-plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary:
-_p_216:
+.word 6677
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
+_p_217:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 6672
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
-plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
-_p_217:
+.word 6688
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
+_p_218:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 6674
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
-_p_218:
+.word 6699
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
+_p_219:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 6685
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
-_p_219:
+.word 6711
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
+plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary:
+_p_220:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 6696
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
-_p_220:
+.word 6722
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+_p_221:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 6708
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
-plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary:
-_p_221:
+.word 6724
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
+_p_222:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 6719
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
-_p_222:
+.word 6729
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+_p_223:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 6721
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
-_p_223:
+.word 6734
+	.no_dead_strip plt_System_IO_File_OpenRead_string
+plt_System_IO_File_OpenRead_string:
+_p_224:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 6726
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-_p_224:
+.word 6739
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor
+plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor:
+_p_225:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 6731
-	.no_dead_strip plt_System_IO_File_OpenRead_string
-plt_System_IO_File_OpenRead_string:
-_p_225:
+.word 6744
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_EditedImage
+plt_UIKit_UIImagePickerController_get_EditedImage:
+_p_226:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 6736
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor
-plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor:
-_p_226:
+.word 6746
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_OriginalImage
+plt_UIKit_UIImagePickerController_get_OriginalImage:
+_p_227:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 6741
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_EditedImage
-plt_UIKit_UIImagePickerController_get_EditedImage:
-_p_227:
+.word 6751
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured
+plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured:
+_p_228:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 6743
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_OriginalImage
-plt_UIKit_UIImagePickerController_get_OriginalImage:
-_p_228:
+.word 6756
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name
+plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name:
+_p_229:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 6748
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured
-plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured:
-_p_229:
+.word 6758
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string
+plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string:
+_p_230:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 6753
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name
-plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name:
-_p_230:
+.word 6763
+	.no_dead_strip plt_CoreGraphics_CGImage_get_Height
+plt_CoreGraphics_CGImage_get_Height:
+_p_231:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 6755
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string
-plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string:
-_p_231:
+.word 6765
+	.no_dead_strip plt_System_nint_op_Implicit_System_nint
+plt_System_nint_op_Implicit_System_nint:
+_p_232:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 6760
-	.no_dead_strip plt_CoreGraphics_CGImage_get_Height
-plt_CoreGraphics_CGImage_get_Height:
-_p_232:
+.word 6770
+	.no_dead_strip plt_CoreGraphics_CGImage_get_Width
+plt_CoreGraphics_CGImage_get_Width:
+_p_233:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 6762
-	.no_dead_strip plt_System_nint_op_Implicit_System_nint
-plt_System_nint_op_Implicit_System_nint:
-_p_233:
+.word 6775
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize:
+_p_234:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 6767
-	.no_dead_strip plt_CoreGraphics_CGImage_get_Width
-plt_CoreGraphics_CGImage_get_Width:
-_p_234:
+.word 6780
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize:
+_p_235:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 6772
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize:
-_p_235:
+.word 6785
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight:
+_p_236:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 6777
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize:
-_p_236:
+.word 6790
+	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
+plt_System_Nullable_1_int_get_HasValue:
+_p_237:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 6782
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight:
-_p_237:
+.word 6795
+	.no_dead_strip plt_System_Math_Max_long_long
+plt_System_Math_Max_long_long:
+_p_238:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 6787
-	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
-plt_System_Nullable_1_int_get_HasValue:
-_p_238:
+.word 6806
+	.no_dead_strip plt_System_Nullable_1_int_get_Value
+plt_System_Nullable_1_int_get_Value:
+_p_239:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 6792
-	.no_dead_strip plt_System_Math_Max_long_long
-plt_System_Math_Max_long_long:
-_p_239:
+.word 6811
+	.no_dead_strip plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single
+plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single:
+_p_240:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 6803
-	.no_dead_strip plt_System_Nullable_1_int_get_Value
-plt_System_Nullable_1_int_get_Value:
-_p_240:
+.word 6822
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaMetadata
+plt_UIKit_UIImagePickerController_get_MediaMetadata:
+_p_241:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 6808
-	.no_dead_strip plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single
-plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single:
-_p_241:
+.word 6824
+	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFOrientation
+plt_ImageIO_CGImageProperties_get_TIFFOrientation:
+_p_242:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 6819
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaMetadata
-plt_UIKit_UIImagePickerController_get_MediaMetadata:
-_p_242:
+.word 6829
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location:
+_p_243:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 6821
-	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFOrientation
-plt_ImageIO_CGImageProperties_get_TIFFOrientation:
-_p_243:
+.word 6834
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location
+plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location:
+_p_244:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 6826
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location:
-_p_244:
+.word 6839
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_ReferenceUrl
+plt_UIKit_UIImagePickerController_get_ReferenceUrl:
+_p_245:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 6831
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location
-plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location:
-_p_245:
+.word 6841
+	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl
+plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl:
+_p_246:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 6836
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_ReferenceUrl
-plt_UIKit_UIImagePickerController_get_ReferenceUrl:
-_p_246:
+.word 6846
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality:
+_p_247:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 6838
-	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl
-plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl:
-_p_247:
+.word 6848
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string
+plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string:
+_p_248:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 6843
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality:
-_p_248:
+.word 6853
+	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum
+plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum:
+_p_249:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 6845
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string
-plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string:
-_p_249:
+.word 6855
+	.no_dead_strip plt_AssetsLibrary_ALAssetsLibrary__ctor
+plt_AssetsLibrary_ALAssetsLibrary__ctor:
+_p_250:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 6850
-	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum
-plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum:
-_p_250:
+.word 6860
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter
+plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter:
+_p_251:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 6852
-	.no_dead_strip plt_AssetsLibrary_ALAssetsLibrary__ctor
-plt_AssetsLibrary_ALAssetsLibrary__ctor:
-_p_251:
+.word 6865
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted:
+_p_252:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 6857
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter
-plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter:
-_p_252:
+.word 6876
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
+_p_253:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 6862
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted:
-_p_253:
+.word 6887
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult:
+_p_254:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 6873
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
-_p_254:
+.word 6899
+	.no_dead_strip plt_string_Concat_object_object
+plt_string_Concat_object_object:
+_p_255:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 6884
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult:
-_p_255:
+.word 6910
+	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string
+plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string:
+_p_256:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 6896
-	.no_dead_strip plt_string_Concat_object_object
-plt_string_Concat_object_object:
-_p_256:
+.word 6915
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception:
+_p_257:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 6907
-	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string
-plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string:
-_p_257:
+.word 6920
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
+_p_258:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 6912
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception:
-_p_258:
+.word 6931
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+_p_259:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 6917
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
-_p_259:
+.word 6942
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor
+plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor:
+_p_260:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 6928
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-_p_260:
+.word 6953
+	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaURL
+plt_UIKit_UIImagePickerController_get_MediaURL:
+_p_261:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 6939
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor
-plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor:
-_p_261:
+.word 6955
+	.no_dead_strip plt_System_IO_Path_GetFileName_string
+plt_System_IO_Path_GetFileName_string:
+_p_262:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 6950
-	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaURL
-plt_UIKit_UIImagePickerController_get_MediaURL:
-_p_262:
+.word 6960
+	.no_dead_strip plt_System_IO_File_Move_string_string
+plt_System_IO_File_Move_string_string:
+_p_263:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 6952
-	.no_dead_strip plt_System_IO_Path_GetFileName_string
-plt_System_IO_Path_GetFileName_string:
-_p_263:
+.word 6965
+	.no_dead_strip plt_Foundation_NSUrl__ctor_string
+plt_Foundation_NSUrl__ctor_string:
+_p_264:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 6957
-	.no_dead_strip plt_System_IO_File_Move_string_string
-plt_System_IO_File_Move_string_string:
-_p_264:
+.word 6970
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
+_p_265:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 6962
-	.no_dead_strip plt_Foundation_NSUrl__ctor_string
-plt_Foundation_NSUrl__ctor_string:
-_p_265:
+.word 6975
+	.no_dead_strip plt_CoreImage_CIImage_FromData_Foundation_NSData
+plt_CoreImage_CIImage_FromData_Foundation_NSData:
+_p_266:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 6967
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
-_p_266:
+.word 6987
+	.no_dead_strip plt_CoreImage_CIImage_get_Properties
+plt_CoreImage_CIImage_get_Properties:
+_p_267:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 6972
-	.no_dead_strip plt_CoreImage_CIImage_FromData_Foundation_NSData
-plt_CoreImage_CIImage_FromData_Foundation_NSData:
-_p_267:
+.word 6992
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Orientation
+plt_CoreGraphics_CGImageProperties_get_Orientation:
+_p_268:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 6984
-	.no_dead_strip plt_CoreImage_CIImage_get_Properties
-plt_CoreImage_CIImage_get_Properties:
-_p_268:
+.word 6997
+	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString
+plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString:
+_p_269:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 6989
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Orientation
-plt_CoreGraphics_CGImageProperties_get_Orientation:
-_p_269:
+.word 7002
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Exif
+plt_CoreGraphics_CGImageProperties_get_Exif:
+_p_270:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 6994
-	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString
-plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString:
-_p_270:
+.word 7024
+	.no_dead_strip plt_Foundation_NSDictionary__ctor
+plt_Foundation_NSDictionary__ctor:
+_p_271:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 6999
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Exif
-plt_CoreGraphics_CGImageProperties_get_Exif:
-_p_271:
+.word 7029
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Tiff
+plt_CoreGraphics_CGImageProperties_get_Tiff:
+_p_272:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 7021
-	.no_dead_strip plt_Foundation_NSDictionary__ctor
-plt_Foundation_NSDictionary__ctor:
-_p_272:
+.word 7034
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Gps
+plt_CoreGraphics_CGImageProperties_get_Gps:
+_p_273:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 7026
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Tiff
-plt_CoreGraphics_CGImageProperties_get_Tiff:
-_p_273:
+.word 7039
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Iptc
+plt_CoreGraphics_CGImageProperties_get_Iptc:
+_p_274:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 7031
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Gps
-plt_CoreGraphics_CGImageProperties_get_Gps:
-_p_274:
+.word 7044
+	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Jfif
+plt_CoreGraphics_CGImageProperties_get_Jfif:
+_p_275:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 7036
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Iptc
-plt_CoreGraphics_CGImageProperties_get_Iptc:
-_p_275:
+.word 7049
+	.no_dead_strip plt_System_Console_WriteLine_object
+plt_System_Console_WriteLine_object:
+_p_276:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 7041
-	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Jfif
-plt_CoreGraphics_CGImageProperties_get_Jfif:
-_p_276:
+.word 7054
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_277:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 7046
-	.no_dead_strip plt_System_Console_WriteLine_object
-plt_System_Console_WriteLine_object:
-_p_277:
+.word 7059
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_278:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 7051
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_278:
+.word 7125
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_279:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 7056
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_279:
+.word 7133
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_280:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 7122
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_280:
+.word 7152
+	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
+plt_System_Nullable_1_bool_Unbox_object:
+_p_281:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 7130
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_281:
+.word 7181
+	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
+_p_282:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 7149
-	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
-plt_System_Nullable_1_bool_Unbox_object:
-_p_282:
+.word 7203
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
+_p_283:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 7178
-	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
-plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
-_p_283:
+.word 7225
+	.no_dead_strip plt_bool_GetHashCode
+plt_bool_GetHashCode:
+_p_284:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 7200
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
-_p_284:
+.word 7230
+	.no_dead_strip plt_bool_ToString
+plt_bool_ToString:
+_p_285:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 7222
-	.no_dead_strip plt_bool_GetHashCode
-plt_bool_GetHashCode:
-_p_285:
+.word 7235
+	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
+plt_System_Nullable_1_bool__ctor_bool:
+_p_286:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 7227
-	.no_dead_strip plt_bool_ToString
-plt_bool_ToString:
-_p_286:
+.word 7240
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
+plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
+_p_287:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 7232
-	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
-plt_System_Nullable_1_bool__ctor_bool:
-_p_287:
+.word 7262
+	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
+plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
+_p_288:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 7237
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
-plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
-_p_288:
+.word 7283
+	.no_dead_strip plt_long_GetHashCode
+plt_long_GetHashCode:
+_p_289:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 7259
-	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
-plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
-_p_289:
+.word 7304
+	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
+plt_System_Nullable_1_int_Unbox_object:
+_p_290:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 7280
-	.no_dead_strip plt_long_GetHashCode
-plt_long_GetHashCode:
-_p_290:
+.word 7309
+	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
+plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
+_p_291:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 7301
-	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
-plt_System_Nullable_1_int_Unbox_object:
-_p_291:
+.word 7331
+	.no_dead_strip plt_int_Equals_object
+plt_int_Equals_object:
+_p_292:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 7306
-	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
-plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
-_p_292:
+.word 7353
+	.no_dead_strip plt_int_GetHashCode
+plt_int_GetHashCode:
+_p_293:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 7328
-	.no_dead_strip plt_int_Equals_object
-plt_int_Equals_object:
-_p_293:
+.word 7358
+	.no_dead_strip plt_int_ToString
+plt_int_ToString:
+_p_294:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 7350
-	.no_dead_strip plt_int_GetHashCode
-plt_int_GetHashCode:
-_p_294:
+.word 7363
+	.no_dead_strip plt_System_Nullable_1_int__ctor_int
+plt_System_Nullable_1_int__ctor_int:
+_p_295:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 7355
-	.no_dead_strip plt_int_ToString
-plt_int_ToString:
-_p_295:
+.word 7368
+	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
+plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
+_p_296:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 7360
-	.no_dead_strip plt_System_Nullable_1_int__ctor_int
-plt_System_Nullable_1_int__ctor_int:
-_p_296:
+.word 7390
+	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
+plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation:
+_p_297:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 7365
-	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
-plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
-_p_297:
+.word 7412
+	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
+plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation:
+_p_298:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 7387
-	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
-plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation:
-_p_298:
+.word 7434
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_299:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 7409
-	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
-plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation:
-_p_299:
+.word 7484
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_300:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 7431
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_300:
+.word 7492
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_301:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 7481
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_301:
+.word 7518
+	.no_dead_strip plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
+plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow:
+_p_302:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 7489
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_302:
+.word 7541
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_303:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 7515
-	.no_dead_strip plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
-plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow:
-_p_303:
+.word 7583
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_304:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 7538
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_304:
+.word 7630
+	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
+plt_wrapper_alloc_object_Alloc_intptr:
+_p_305:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 7580
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_305:
+.word 7638
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_306:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 7627
-	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
-plt_wrapper_alloc_object_Alloc_intptr:
-_p_306:
+.word 7646
+	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
+plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
+_p_307:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 7635
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_307:
+.word 7654
+	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
+plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
+_p_308:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 7643
-	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
-plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
-_p_308:
+.word 7659
+	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
+plt__jit_icall_mono_gsharedvt_constrained_call:
+_p_309:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 7651
-	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
-plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
-_p_309:
+.word 7664
+	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
+plt_System_Threading_ExecutionContextSwitcher_Undo:
+_p_310:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 7656
-	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
-plt__jit_icall_mono_gsharedvt_constrained_call:
-_p_310:
+.word 7698
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
+plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
+_p_311:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 7661
-	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
-plt_System_Threading_ExecutionContextSwitcher_Undo:
-_p_311:
+.word 7703
+	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
+plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
+_p_312:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 7695
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
-plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
-_p_312:
+.word 7705
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_313:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 7700
-	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
-plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
-_p_313:
+.word 7729
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+_p_314:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 7702
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
-_p_314:
+.word 7779
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+_p_315:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 7726
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
-_p_315:
+.word 7784
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+_p_316:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 7776
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
-_p_316:
+.word 7789
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
+_p_317:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 7781
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
-_p_317:
+.word 7794
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
+_p_318:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 7786
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
-_p_318:
+.word 7799
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+_p_319:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 7791
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
-_p_319:
+.word 7807
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
+_p_320:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 7796
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
-_p_320:
+.word 7812
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+_p_321:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 7804
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
-_p_321:
+.word 7820
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
+_p_322:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 7809
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
-_p_322:
+.word 7825
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+_p_323:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 7817
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
-_p_323:
+.word 7833
+	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
+plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
+_p_324:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 7822
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
-_p_324:
+.word 7838
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action:
+_p_325:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 7830
-	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
-plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
-_p_325:
+.word 7875
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_326:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 7835
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action:
-_p_326:
+.word 7896
+	.no_dead_strip plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor
+plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor:
+_p_327:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 7872
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
-_p_327:
+.word 7909
+	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
+plt_System_Linq_Error_ArgumentNull_string:
+_p_328:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 7894
-	.no_dead_strip plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor
-plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor:
-_p_328:
+.word 7928
+	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
+plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
+_p_329:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 7907
-	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
-plt_System_Linq_Error_ArgumentNull_string:
-_p_329:
+.word 7933
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_330:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 7926
-	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
-plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
-_p_330:
+.word 7953
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
+_p_331:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 7931
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_331:
+.word 7977
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_332:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 7951
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
-_p_332:
+.word 8001
+	.no_dead_strip plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
+plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow:
+_p_333:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 7975
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_333:
+.word 8006
+	.no_dead_strip plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
+plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow:
+_p_334:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 7999
-	.no_dead_strip plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
-plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow:
-_p_334:
+.word 8029
+	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
+plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool:
+_p_335:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 8004
-	.no_dead_strip plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
-plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow:
-_p_335:
+.word 8052
+	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
+plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
+_p_336:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 8027
-	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
-plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool:
-_p_336:
+.word 8075
+	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
+plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
+_p_337:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 8050
-	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
-plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
-_p_337:
+.word 8095
+	.no_dead_strip plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
+plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
+_p_338:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 8073
-	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
-plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
-_p_338:
+.word 8100
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
+plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
+_p_339:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 8093
-	.no_dead_strip plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
-plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
-_p_339:
+.word 8120
+	.no_dead_strip plt_System_nfloat_CompareTo_System_nfloat
+plt_System_nfloat_CompareTo_System_nfloat:
+_p_340:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 8098
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
-plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
-_p_340:
+.word 8125
+	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor
+plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor:
+_p_341:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 8118
-	.no_dead_strip plt_System_nfloat_CompareTo_System_nfloat
-plt_System_nfloat_CompareTo_System_nfloat:
-_p_341:
+.word 8130
+	.no_dead_strip plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor
+plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor:
+_p_342:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 8123
-	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor
-plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor:
-_p_342:
+.word 8158
+	.no_dead_strip plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor
+plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor:
+_p_343:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 8128
-	.no_dead_strip plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor
-plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor:
-_p_343:
+.word 8185
+	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
+plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow:
+_p_344:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 8156
-	.no_dead_strip plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor
-plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor:
-_p_344:
+.word 8204
+	.no_dead_strip plt_System_Collections_Comparer_Compare_object_object
+plt_System_Collections_Comparer_Compare_object_object:
+_p_345:
 adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 8183
-	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
-plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow:
-_p_345:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2056]
-br x16
-.word 8202
-	.no_dead_strip plt_System_Collections_Comparer_Compare_object_object
-plt_System_Collections_Comparer_Compare_object_object:
-_p_346:
-adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2064]
-br x16
-.word 8225
+.word 8227
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Plugin_Media_got, 6168
+.lcomm mono_aot_Plugin_Media_got, 6152
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -33090,13 +33388,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 424,6168,347,222,70,391195135,0,49174
-	.long 128,8,8,10,0,26,55536,6352
-	.long 5920,4664,0,5416,5872,4840,0,3672
+	.long 423,6152,346,222,70,391195135,0,49214
+	.long 128,8,8,10,0,25,55568,6344
+	.long 5912,4664,0,5416,5864,4840,0,3672
 	.long 336,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 226,104,189,80,135,136,104,212,73,25,129,175,158,176,43,3
+	.byte 174,10,195,135,224,118,184,207,156,101,39,115,163,251,227,27
 	.globl _mono_aot_module_Plugin_Media_info
 	.align 3
 _mono_aot_module_Plugin_Media_info:
@@ -33319,7 +33617,7 @@ Lfde5_start:
 LDIFF_SYM23=Lme_5 - Plugin_Media_CrossMedia__cctor
 	.long LDIFF_SYM23
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde5_end:
 
@@ -37238,8 +37536,8 @@ Lfde22_start:
 LDIFF_SYM668=Lme_16 - Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 	.long LDIFF_SYM668
 	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20
-	.byte 154,19
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18
+	.byte 154,17
 	.align 3
 Lfde22_end:
 
@@ -37641,7 +37939,7 @@ Lfde32_start:
 LDIFF_SYM710=Lme_20 - Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
 	.long LDIFF_SYM710
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10
 	.align 3
 Lfde32_end:
 
@@ -37714,7 +38012,7 @@ Lfde34_start:
 LDIFF_SYM717=Lme_22 - Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
 	.long LDIFF_SYM717
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde34_end:
 
@@ -37836,7 +38134,7 @@ Lfde37_start:
 LDIFF_SYM730=Lme_25 - Plugin_Media_MediaPickerDelegate_FinishedPickingMedia_UIKit_UIImagePickerController_Foundation_NSDictionary
 	.long LDIFF_SYM730
 	.long 0
-	.byte 12,31,0,68,14,176,3,157,54,158,53,68,13,29
+	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29
 	.align 3
 Lfde37_end:
 
@@ -38447,7 +38745,7 @@ Lfde46_start:
 LDIFF_SYM804=Lme_2e - Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
 	.long LDIFF_SYM804
 	.long 0
-	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29
+	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29
 	.align 3
 Lfde46_end:
 
@@ -38849,7 +39147,7 @@ Lfde49_start:
 LDIFF_SYM868=Lme_31 - Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
 	.long LDIFF_SYM868
 	.long 0
-	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29
+	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29
 	.align 3
 Lfde49_end:
 
@@ -39207,7 +39505,7 @@ Lfde56_start:
 LDIFF_SYM912=Lme_38 - Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
 	.long LDIFF_SYM912
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
 Lfde56_end:
 
@@ -39645,7 +39943,7 @@ Lfde59_start:
 LDIFF_SYM983=Lme_3b - Plugin_Media_NSDataStream__ctor_Foundation_NSData
 	.long LDIFF_SYM983
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde59_end:
 
@@ -41106,8 +41404,8 @@ Lfde86_start:
 LDIFF_SYM1165=Lme_56 - Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_MoveNext
 	.long LDIFF_SYM1165
 	.long 0
-	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
-	.byte 154,27
+	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26
+	.byte 154,25
 	.align 3
 Lfde86_end:
 
@@ -41456,8 +41754,8 @@ Lfde90_start:
 LDIFF_SYM1218=Lme_5a - Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
 	.long LDIFF_SYM1218
 	.long 0
-	.byte 12,31,0,84,14,176,5,157,86,158,85,68,13,29,68,147,84,148,83,68,149,82,150,81,68,151,80,152,79,68,153,78
-	.byte 154,77
+	.byte 12,31,0,84,14,160,5,157,84,158,83,68,13,29,68,147,82,148,81,68,149,80,150,79,68,151,78,152,77,68,153,76
+	.byte 154,75
 	.align 3
 Lfde90_end:
 
@@ -41727,8 +42025,8 @@ Lfde94_start:
 LDIFF_SYM1256=Lme_5e - Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
 	.long LDIFF_SYM1256
 	.long 0
-	.byte 12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,147,46,148,45,68,149,44,150,43,68,151,42,152,41,68,153,40
-	.byte 154,39
+	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38
+	.byte 154,37
 	.align 3
 Lfde94_end:
 
@@ -42104,7 +42402,7 @@ Lfde98_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
 
-	.byte 1,78
+	.byte 1,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 	.quad Lme_64
 
@@ -42128,7 +42426,7 @@ Lfde99_start:
 LDIFF_SYM1309=Lme_64 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 	.long LDIFF_SYM1309
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
 Lfde99_end:
 
@@ -46569,7 +46867,7 @@ LDIFF_SYM1885=LTDIE_177 - Ldebug_info_start
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
-	.byte 1,239,1
+	.byte 1,215,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 	.quad Lme_b8
 
@@ -46598,7 +46896,7 @@ Lfde175_start:
 LDIFF_SYM1889=Lme_b8 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 	.long LDIFF_SYM1889
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde175_end:
 
@@ -46828,7 +47126,7 @@ Lfde177_end:
 	.asciz "System.Array:InternalArray__ICollection_get_Count"
 	.asciz "System_Array_InternalArray__ICollection_get_Count"
 
-	.byte 1,68
+	.byte 1,61
 	.quad System_Array_InternalArray__ICollection_get_Count
 	.quad Lme_bc
 
@@ -46862,7 +47160,7 @@ Lfde178_end:
 	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
 	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
 
-	.byte 1,73
+	.byte 1,66
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 	.quad Lme_bd
 
@@ -46896,7 +47194,7 @@ Lfde179_end:
 	.asciz "System.Array:InternalArray__ICollection_Clear"
 	.asciz "System_Array_InternalArray__ICollection_Clear"
 
-	.byte 1,83
+	.byte 1,76
 	.quad System_Array_InternalArray__ICollection_Clear
 	.quad Lme_be
 
@@ -46930,7 +47228,7 @@ Lfde180_end:
 	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
 
-	.byte 1,88
+	.byte 1,81
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 	.quad Lme_bf
 
@@ -46969,7 +47267,7 @@ Lfde181_end:
 	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
 
-	.byte 1,93
+	.byte 1,86
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 	.quad Lme_c0
 
@@ -47008,7 +47306,7 @@ Lfde182_end:
 	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
 
-	.byte 1,98
+	.byte 1,91
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 	.quad Lme_c1
 
@@ -47062,7 +47360,7 @@ Lfde183_end:
 	.asciz "System.Array:InternalArray__ICollection_CopyTo<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int"
 
-	.byte 1,123
+	.byte 1,116
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 	.quad Lme_c2
 
@@ -47076,12 +47374,12 @@ LDIFF_SYM1948=LTDIE_141_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1949=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1949
-	.byte 1,105,3
-	.asciz "index"
+	.byte 2,141,40,3
+	.asciz "arrayIndex"
 
 LDIFF_SYM1950=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1950
-	.byte 3,141,192,0,0
+	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -47096,7 +47394,7 @@ Lfde184_start:
 LDIFF_SYM1952=Lme_c2 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 	.long LDIFF_SYM1952
 	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
 Lfde184_end:
 
@@ -47951,7 +48249,7 @@ Lfde198_start:
 LDIFF_SYM2066=Lme_d1 - System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 	.long LDIFF_SYM2066
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8
 	.align 3
 Lfde198_end:
 
@@ -48140,7 +48438,7 @@ Lfde201_start:
 LDIFF_SYM2092=Lme_d4 - System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
 	.long LDIFF_SYM2092
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8
 	.align 3
 Lfde201_end:
 
@@ -48314,7 +48612,7 @@ Lfde204_start:
 LDIFF_SYM2115=Lme_d7 - System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
 	.long LDIFF_SYM2115
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8
 	.align 3
 Lfde204_end:
 
