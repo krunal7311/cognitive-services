@@ -17950,7 +17950,7 @@ _mono_aot_file_info:
 	.long 200,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 146,141,210,103,145,134,30,222,28,139,30,200,22,159,26,96
+	.byte 191,112,160,180,207,11,206,188,78,144,165,131,236,6,51,0
 	.globl _mono_aot_module_System_Numerics_info
 	.align 3
 _mono_aot_module_System_Numerics_info:

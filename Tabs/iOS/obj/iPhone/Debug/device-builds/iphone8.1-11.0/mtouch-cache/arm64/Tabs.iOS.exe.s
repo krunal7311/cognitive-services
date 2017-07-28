@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Tabs_iOS_Application_Main_string__
 Tabs_iOS_Application_Main_string__:
-.file 1 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/iOS/Main.cs"
+.file 1 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip Tabs_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Tabs_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/iOS/AppDelegate.cs"
+.file 2 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "23D61240-AD7C-4749-950F-975A87CADBFA"
+	.asciz "7492B15A-253E-4AFA-B14D-9B1CE6C536CC"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -566,7 +566,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 149,204,230,158,210,246,39,103,164,75,250,89,179,231,247,108
+	.byte 55,252,93,131,28,0,59,204,228,142,31,62,146,38,159,87
 	.globl _mono_aot_module_Tabs_iOS_info
 	.align 3
 _mono_aot_module_Tabs_iOS_info:

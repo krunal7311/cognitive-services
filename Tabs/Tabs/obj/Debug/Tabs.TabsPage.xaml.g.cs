@@ -11,8 +11,8 @@
 namespace Tabs {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/TabsPa" +
-        "ge.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/TabsPage.xaml" +
+        "")]
     public partial class TabsPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

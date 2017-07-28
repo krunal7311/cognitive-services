@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Tabs_App__ctor
 Tabs_App__ctor:
-.file 1 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/App.xaml.cs"
+.file 1 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/App.xaml.cs"
 .loc 1 7 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -338,8 +338,8 @@ Lme_3:
 	.align 4
 	.no_dead_strip Tabs_App_InitializeComponent
 Tabs_App_InitializeComponent:
-.file 2 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.App.xaml.g.cs"
-.loc 2 19 0 prologue_end
+.file 2 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.App.xaml.g.cs"
+.loc 2 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -362,7 +362,7 @@ ldr x16, [x16, #240]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 20 0
+.loc 2 19 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -381,7 +381,7 @@ bl _p_6
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 21 0
+.loc 2 20 0
 .word 0xf9400fb1
 .word 0xf940a231
 .word 0xb4000051
@@ -399,7 +399,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip Tabs_TabsPage__ctor
 Tabs_TabsPage__ctor:
-.file 3 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/TabsPage.xaml.cs"
+.file 3 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/TabsPage.xaml.cs"
 .loc 3 7 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -467,7 +467,7 @@ Lme_5:
 	.align 4
 	.no_dead_strip Tabs_TabsPage_InitializeComponent
 Tabs_TabsPage_InitializeComponent:
-.file 4 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.TabsPage.xaml.g.cs"
+.file 4 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.TabsPage.xaml.g.cs"
 .loc 4 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -528,7 +528,7 @@ Lme_6:
 	.align 4
 	.no_dead_strip Tabs_AzureTable__ctor
 Tabs_AzureTable__ctor:
-.file 5 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/AzureTable.xaml.cs"
+.file 5 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/AzureTable.xaml.cs"
 .loc 5 12 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -833,7 +833,7 @@ Lme_8:
 	.align 4
 	.no_dead_strip Tabs_AzureTable_InitializeComponent
 Tabs_AzureTable_InitializeComponent:
-.file 6 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.AzureTable.xaml.g.cs"
+.file 6 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.AzureTable.xaml.g.cs"
 .loc 6 22 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1304,7 +1304,7 @@ Lme_c:
 	.align 4
 	.no_dead_strip Tabs_CustomVision__ctor
 Tabs_CustomVision__ctor:
-.file 7 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/CustomVision.xaml.cs"
+.file 7 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/CustomVision.xaml.cs"
 .loc 7 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1878,7 +1878,7 @@ Lme_10:
 	.align 4
 	.no_dead_strip Tabs_CustomVision_InitializeComponent
 Tabs_CustomVision_InitializeComponent:
-.file 8 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/obj/Debug/Tabs.CustomVision.xaml.g.cs"
+.file 8 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.CustomVision.xaml.g.cs"
 .loc 8 28 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -4902,7 +4902,7 @@ Lme_1d:
 	.align 4
 	.no_dead_strip Tabs_AzureManager__ctor
 Tabs_AzureManager__ctor:
-.file 9 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/AzureManager.cs"
+.file 9 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/AzureManager.cs"
 .loc 9 13 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -5726,7 +5726,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip Tabs_DataModels_mycognitivetable_get_ID
 Tabs_DataModels_mycognitivetable_get_ID:
-.file 10 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/DataModels/mycognitivetable.cs"
+.file 10 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/DataModels/mycognitivetable.cs"
 .loc 10 9 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6005,7 +6005,7 @@ Lme_2b:
 	.align 4
 	.no_dead_strip Tabs_Model_EvaluationModel_get_Id
 Tabs_Model_EvaluationModel_get_Id:
-.file 11 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services-master/Tabs/Tabs/Model/EvaluationModel.cs"
+.file 11 "/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/Model/EvaluationModel.cs"
 .loc 11 7 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -34720,7 +34720,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "C634721E-C76F-4E37-942A-FC3A2F4039DC"
+	.asciz "55B25DC8-B021-43DF-A1A6-22DB9A5F9DF5"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -34803,7 +34803,7 @@ _mono_aot_file_info:
 	.long 424,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 66,185,39,135,33,114,149,7,220,127,50,39,238,87,16,181
+	.byte 238,119,135,197,249,22,7,67,185,52,32,132,41,126,160,131
 	.globl _mono_aot_module_Tabs_info
 	.align 3
 _mono_aot_module_Tabs_info:
@@ -39315,7 +39315,7 @@ Lfde3_end:
 	.asciz "Tabs.App:InitializeComponent"
 	.asciz "Tabs_App_InitializeComponent"
 
-	.byte 2,19
+	.byte 2,18
 	.quad Tabs_App_InitializeComponent
 	.quad Lme_4
 
