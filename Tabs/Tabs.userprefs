@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{922710AB-BAB6-432B-B71D-0713D63BD4EE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tabs/CustomVision.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tabs/AzureManager.cs">
     <Files>
-      <File FileName="Tabs/AzureTable.xaml" Line="23" Column="15" />
-      <File FileName="Tabs/AzureManager.cs" Line="1" Column="1" />
-      <File FileName="Tabs/AzureTable.xaml.cs" Line="1" Column="1" />
-      <File FileName="Tabs/CustomVision.xaml.cs" Line="73" Column="21" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="606" Column="3" />
+      <File FileName="Tabs/AzureTable.xaml" Line="24" Column="1" />
+      <File FileName="Tabs/App.xaml" Line="7" Column="1" />
+      <File FileName="Tabs/CustomVision.xaml" Line="12" Column="1" />
+      <File FileName="Tabs/TabsPage.xaml" Line="13" Column="14" />
+      <File FileName="Tabs/packages.config" Line="1" Column="1" />
+      <File FileName="Tabs/TabsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Tabs/AzureManager.cs" Line="38" Column="64" />
+      <File FileName="Tabs/CustomVision.xaml.cs" Line="92" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

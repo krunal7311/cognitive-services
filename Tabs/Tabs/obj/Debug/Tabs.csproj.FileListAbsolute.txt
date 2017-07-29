@@ -47,6 +47,8 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Tabs.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Newtonsoft.Json.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Geolocator.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Media.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/System.Net.Http.Extensions.dll
@@ -70,8 +72,10 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/System.Net.Http.Extensions.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/System.Net.Http.Primitives.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Microsoft.WindowsAzure.Mobile.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Geolocator.Abstractions.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Geolocator.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Plugin.Geolocator.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.csproj.App.config
-/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.csprojResolveAssemblyReference.cache
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.csproj.CoreCompileInputs.cache
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.App.xaml.g.cs
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/obj/Debug/Tabs.TabsPage.xaml.g.cs

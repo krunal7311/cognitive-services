@@ -7582,7 +7582,7 @@ _mono_aot_file_info:
 	.long 176,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 44,25,50,150,57,225,104,162,160,66,25,156,41,112,241,216
+	.byte 32,96,68,133,24,170,112,190,30,144,132,64,174,29,113,110
 	.globl _mono_aot_module_Plugin_Media_Abstractions_info
 	.align 3
 _mono_aot_module_Plugin_Media_Abstractions_info:

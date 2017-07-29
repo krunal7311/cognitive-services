@@ -31,9 +31,17 @@
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" \
 	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.dll" \
+	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll" \
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.dll" \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -341,9 +349,17 @@
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" \
 	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.dll" \
+	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll" \
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll" \
+	-r \
+	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.dll" \
 	-r \
 	"/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Extensions.dll" \
 	-r \

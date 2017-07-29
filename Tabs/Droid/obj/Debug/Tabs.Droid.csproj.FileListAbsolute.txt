@@ -83,7 +83,9 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Geolocator.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Geolocator.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Tabs.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Tabs.dll.config
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Newtonsoft.Json.xml
@@ -103,8 +105,11 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Microsoft.WindowsAzure.Mobile.Ext.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.Abstractions.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.Abstractions.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Geolocator.Abstractions.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Media.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Geolocator.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/bin/Debug/Plugin.Geolocator.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/Tabs.Droid.csprojResolveAssemblyReference.cache
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/Tabs.Droid.csproj.CoreCompileInputs.cache
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/Tabs.Droid.dll

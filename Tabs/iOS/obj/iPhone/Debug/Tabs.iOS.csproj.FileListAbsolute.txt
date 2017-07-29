@@ -80,8 +80,12 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.Ext.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Geolocator.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Media.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Media.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Permissions.Abstractions.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Permissions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/System.Net.Http.Extensions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/System.Net.Http.Primitives.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Tabs.dll
@@ -107,6 +111,12 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/System.Net.Http.Primitives.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.Ext.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Permissions.Abstractions.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Permissions.Abstractions.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Permissions.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Geolocator.Abstractions.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Geolocator.pdb
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/Plugin.Geolocator.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll

@@ -37,5 +37,17 @@ namespace Tabs
         {
             return await this.notcognitivetable.ToListAsync(); 
         }
+        public async Task PostCognitiveInformation(DataModels.mycognitivetable mycognitivetable)
+        {
+            await this.notcognitivetable.InsertAsync(mycognitivetable);
+        }
+        public async Task UpdateCognitiveInformation(DataModels.mycognitivetable mycognitivetable)
+		{
+            await this.notcognitivetable.UpdateAsync(mycognitivetable);
+		}
+		public async Task DeleteCognitiveInformation(DataModels.mycognitivetable mycognitivetable)
+		{
+			await this.notcognitivetable.DeleteAsync(mycognitivetable);
+		}
     }
 }

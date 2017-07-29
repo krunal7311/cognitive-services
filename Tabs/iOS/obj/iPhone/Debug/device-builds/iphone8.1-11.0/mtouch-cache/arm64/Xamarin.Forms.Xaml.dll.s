@@ -117872,7 +117872,7 @@ _mono_aot_file_info:
 	.long 1392,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 141,195,245,235,109,14,161,138,96,211,172,157,69,177,123,197
+	.byte 188,23,47,47,111,185,68,213,144,92,123,133,246,246,24,99
 	.globl _mono_aot_module_Xamarin_Forms_Xaml_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Xaml_info:

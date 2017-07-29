@@ -119,7 +119,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Tabs.dll",
 		"Plugin.Media.Abstractions.dll",
+		"Plugin.Geolocator.Abstractions.dll",
 		"Plugin.Media.dll",
+		"Plugin.Geolocator.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

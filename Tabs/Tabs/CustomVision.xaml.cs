@@ -11,7 +11,8 @@ using Xamarin.Forms;
 using Newtonsoft.Json.Linq;
 using Tabs.Model;
 using System.Linq;
-
+using Newtonsoft.Json;
+using Plugin.Geolocator;
 namespace Tabs
 {
 	public partial class CustomVision : ContentPage
@@ -45,7 +46,7 @@ namespace Tabs
             {
                 return file.GetStream();
             });
-
+            await postLocationAsync();
             await MakePredictionRequest(file);
 
 		}
@@ -70,9 +71,11 @@ namespace Tabs
                 if (response.IsSuccessStatusCode)
                 {
                     var responseString = await response.Content.ReadAsStringAsync();
-
+                    //EvaluationModel responseModel = JsonConvert.DeserializeObject<Model.EvaluationModel>(responseString);
 					JObject rss = JObject.Parse(responseString);
-
+                  //  var max = responseModel.Predictions.Max(m => m.Probablitiy);
+                //    double max2 = double.Parse(max);
+                 
 					//Querying with LINQ
 					//Get all Prediction Values
 					var Probability = from p in rss["Predictions"] select (string)p["Probability"];
@@ -99,6 +102,23 @@ namespace Tabs
 				}
             }
 
+		}
+		async Task postLocationAsync()
+		{
+
+			var locator = CrossGeolocator.Current;
+			locator.DesiredAccuracy = 50;
+
+            var position = await locator.GetPositionAsync();
+
+            DataModels.mycognitivetable model = new DataModels.mycognitivetable()
+			{
+				Longitude = (float)position.Longitude,
+				Latitude = (float)position.Latitude
+
+			};
+
+            await AzureManager.AzureManagerInstance.PostCognitiveInformation(model);
 		}
 		}
 	

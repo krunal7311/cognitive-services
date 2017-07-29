@@ -66,4 +66,6 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/Mono.Security.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/Plugin.Media.Abstractions.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/Plugin.Geolocator.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/Plugin.Media.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Droid/obj/Debug/android/assets/Plugin.Geolocator.dll

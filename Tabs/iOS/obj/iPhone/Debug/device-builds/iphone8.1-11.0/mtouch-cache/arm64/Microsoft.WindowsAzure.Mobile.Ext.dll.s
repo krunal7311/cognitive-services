@@ -115481,7 +115481,7 @@ _mono_aot_file_info:
 	.long 1336,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 206,163,222,77,83,52,237,57,150,55,123,187,137,164,92,4
+	.byte 99,160,254,183,122,152,23,14,226,194,217,30,86,127,251,132
 	.globl _mono_aot_module_Microsoft_WindowsAzure_Mobile_Ext_info
 	.align 3
 _mono_aot_module_Microsoft_WindowsAzure_Mobile_Ext_info:

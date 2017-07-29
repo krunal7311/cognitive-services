@@ -48,5 +48,9 @@
 	<string>Permission required to access photos</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Permission required to access microphone</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Requires Location access</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Requires Location Access</string>
 </dict>
 </plist>
