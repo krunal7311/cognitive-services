@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{922710AB-BAB6-432B-B71D-0713D63BD4EE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tabs/AzureManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
       <File FileName="../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="606" Column="3" />
-      <File FileName="Tabs/AzureTable.xaml" Line="24" Column="1" />
+      <File FileName="Tabs/AzureTable.xaml" Line="25" Column="39" />
       <File FileName="Tabs/App.xaml" Line="7" Column="1" />
       <File FileName="Tabs/CustomVision.xaml" Line="12" Column="1" />
       <File FileName="Tabs/TabsPage.xaml" Line="13" Column="14" />
       <File FileName="Tabs/packages.config" Line="1" Column="1" />
       <File FileName="Tabs/TabsPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Tabs/AzureManager.cs" Line="38" Column="64" />
-      <File FileName="Tabs/CustomVision.xaml.cs" Line="92" Column="43" />
+      <File FileName="Tabs/CustomVision.xaml.cs" Line="63" Column="198" />
+      <File FileName="Tabs/AzureTable.xaml.cs" Line="28" Column="22" />
+      <File FileName="Tabs/DataModels/mycognitivetable.cs" Line="17" Column="37" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Tabs.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B258E049-2C89-4AE5-985E-3CEF21249550" />
+  <MonoDevelop.Ide.ItemProperties.Tabs.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.959fb318d87136e310268cf28b779721a3719684" />
   <MultiItemStartupConfigurations />
 </Properties>

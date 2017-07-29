@@ -14,5 +14,8 @@ namespace Tabs.DataModels
 		[JsonProperty(PropertyName = "Latitude")]
 		public float Latitude { get; set; }
 
+		[JsonProperty(PropertyName = "City")]
+
+		public string City { get; set; }
     }
 }

@@ -143,7 +143,7 @@ _mono_aot_file_info:
 	.long 24,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 24,30,49,95,194,154,236,74,220,8,106,45,181,127,246,123
+	.byte 73,157,64,159,34,34,140,157,237,136,74,224,98,233,187,56
 	.globl _mono_aot_module_System_Net_Http_Primitives_info
 	.align 3
 _mono_aot_module_System_Net_Http_Primitives_info:

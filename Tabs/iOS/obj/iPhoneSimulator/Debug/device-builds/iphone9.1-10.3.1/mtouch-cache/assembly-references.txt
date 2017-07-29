@@ -52,6 +52,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.14/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/Tabs/bin/Debug/Tabs.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xamarin.Forms.2.3.4.247/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xamarin.Forms.Maps.2.3.4.247/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll

@@ -90,6 +90,8 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Tabs.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
@@ -117,6 +119,7 @@
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.pdb
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.xml
+/Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.xml
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/krunalbodiwala/Google Drive/MSA/cognitive-services/Tabs/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll

@@ -260,9 +260,19 @@ bl _p_3
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 18 0
+.loc 2 17 0
 .word 0xf9401bb1
 .word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_4
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 18 0
+.word 0xf9401bb1
+.word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -272,34 +282,34 @@ add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x0, [x16, #232]
 .word 0xd2802a01
 .word 0xd2802a01
-bl _p_4
-.word 0xf90033a0
 bl _p_5
+.word 0xf90033a0
+bl _p_6
 .word 0xf9401bb1
-.word 0xf940ee31
+.word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
 .word 0xaa1803e0
-bl _p_6
+bl _p_7
 .word 0xf9401bb1
-.word 0xf9410a31
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 2 20 0
 .word 0xf9401bb1
-.word 0xf9411a31
+.word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf94013a1
 .word 0xf94017a2
 .word 0xaa1803e0
-bl _p_7
+bl _p_8
 .word 0x53001c00
 .word 0xf9002fa0
 .word 0xf9401bb1
-.word 0xf9414631
+.word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -307,13 +317,13 @@ bl _p_7
 .word 0xaa0003f7
 .loc 2 21 0
 .word 0xf9401bb1
-.word 0xf9416231
+.word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xf9401bb1
-.word 0xf9417a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -341,7 +351,7 @@ ldr x16, [x16, #240]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_8
+bl _p_9
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -417,50 +427,58 @@ add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
 .word 319
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+	.no_dead_strip plt_Xamarin_FormsMaps_Init
+plt_Xamarin_FormsMaps_Init:
 _p_4:
 adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
 add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
 .word 324
-	.no_dead_strip plt_Tabs_App__ctor
-plt_Tabs_App__ctor:
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_5:
 adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
 add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 332
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 329
+	.no_dead_strip plt_Tabs_App__ctor
+plt_Tabs_App__ctor:
 _p_6:
 adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
 add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
 .word 337
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_7:
 adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
 add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
 .word 342
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_8:
 adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
 add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
 .word 347
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_9:
+adrp x16, mono_aot_Tabs_iOS_got@PAGE+0
+add x16, x16, mono_aot_Tabs_iOS_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 352
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Tabs_iOS_got, 320
+.lcomm mono_aot_Tabs_iOS_got, 328
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -483,7 +501,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "01D5234D-4840-4445-8755-BD5F8AC390E9"
+	.asciz "D32A5911-0AAA-4FB1-82DC-430EE02A9256"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -560,13 +578,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 31,320,9,5,70,391195135,0,922
-	.long 128,8,8,10,0,25,1800,872
+	.long 31,328,10,5,70,391195135,0,943
+	.long 128,8,8,10,0,25,1912,960
 	.long 352,184,0,296,328,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 114,33,252,223,29,9,63,244,114,61,59,219,56,254,119,9
+	.byte 39,171,96,28,76,156,185,127,235,64,252,201,134,78,176,121
 	.globl _mono_aot_module_Tabs_iOS_info
 	.align 3
 _mono_aot_module_Tabs_iOS_info:

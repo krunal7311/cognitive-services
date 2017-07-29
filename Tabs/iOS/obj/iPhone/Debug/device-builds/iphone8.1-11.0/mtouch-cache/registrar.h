@@ -8,6 +8,7 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <CoreMotion/CoreMotion.h>
 #import <QuartzCore/QuartzCore.h>
@@ -37,6 +38,7 @@
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UIView_UIViewAppearance;
+@class MapKit_MKMapView__MKMapViewDelegate;
 @class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
 @class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
@@ -134,6 +136,8 @@
 @class Xamarin_Auth__MobileServices_WebAuthenticatorController;
 @class Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell;
 @class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource;
+@class Xamarin_Forms_Maps_iOS_MapRenderer;
+@class Xamarin_Forms_Maps_iOS_MapDelegate;
 @class Plugin_Media_MediaPickerController;
 @class Plugin_Media_MediaPickerPopoverDelegate;
 @class Plugin_Media_MediaPickerDelegate;
@@ -515,6 +519,12 @@
 	-(void) webView:(UIWebView *)p0 didFailLoadWithError:(NSError *)p1;
 	-(void) webViewDidFinishLoad:(UIWebView *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Maps_iOS_MapRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer {
+}
+	-(void) layoutSubviews;
+	-(id) init;
 @end
 
 @interface Plugin_Media_MediaPickerController : UIImagePickerController {

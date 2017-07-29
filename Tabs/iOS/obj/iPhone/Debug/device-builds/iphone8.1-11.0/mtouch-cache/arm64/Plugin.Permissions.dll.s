@@ -37938,7 +37938,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 8594
+.word 8595
 	.no_dead_strip plt_Plugin_Permissions_CrossPermissions_NotImplementedInReferenceAssembly
 plt_Plugin_Permissions_CrossPermissions_NotImplementedInReferenceAssembly:
 _p_2:
@@ -37946,7 +37946,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 8605
+.word 8606
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
@@ -37954,7 +37954,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 8607
+.word 8608
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
@@ -37962,7 +37962,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 8635
+.word 8636
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__ctor
 plt_Plugin_Permissions_PermissionsImplementation__ctor:
 _p_5:
@@ -37970,7 +37970,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 8643
+.word 8644
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_6:
@@ -37978,7 +37978,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 8645
+.word 8646
 	.no_dead_strip plt_System_Lazy_1_Plugin_Permissions_Abstractions_IPermissions__ctor_System_Func_1_Plugin_Permissions_Abstractions_IPermissions_System_Threading_LazyThreadSafetyMode
 plt_System_Lazy_1_Plugin_Permissions_Abstractions_IPermissions__ctor_System_Func_1_Plugin_Permissions_Abstractions_IPermissions_System_Threading_LazyThreadSafetyMode:
 _p_7:
@@ -37986,7 +37986,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 8650
+.word 8651
 	.no_dead_strip plt_Plugin_Permissions_CrossPermissions_get_Current
 plt_Plugin_Permissions_CrossPermissions_get_Current:
 _p_8:
@@ -37994,7 +37994,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 8661
+.word 8662
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
@@ -38002,7 +38002,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 8663
+.word 8664
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
 plt_System_Threading_Tasks_Task_FromResult_bool_bool:
 _p_10:
@@ -38010,7 +38010,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 8698
+.word 8699
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_GetEventPermissionStatus_EventKit_EKEntityType
 plt_Plugin_Permissions_PermissionsImplementation_GetEventPermissionStatus_EventKit_EKEntityType:
 _p_11:
@@ -38018,7 +38018,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 8710
+.word 8711
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Permissions_Abstractions_PermissionStatus
 plt_System_Threading_Tasks_Task_FromResult_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Permissions_Abstractions_PermissionStatus:
 _p_12:
@@ -38026,7 +38026,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 8712
+.word 8713
 	.no_dead_strip plt_AVFoundation_AVMediaType_get_Video
 plt_AVFoundation_AVMediaType_get_Video:
 _p_13:
@@ -38034,7 +38034,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 8724
+.word 8725
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_GetAVPermissionStatus_Foundation_NSString
 plt_Plugin_Permissions_PermissionsImplementation_GetAVPermissionStatus_Foundation_NSString:
 _p_14:
@@ -38042,7 +38042,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 8729
+.word 8730
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_get_ContactsPermissionStatus
 plt_Plugin_Permissions_PermissionsImplementation_get_ContactsPermissionStatus:
 _p_15:
@@ -38050,7 +38050,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 8731
+.word 8732
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_get_LocationPermissionStatus
 plt_Plugin_Permissions_PermissionsImplementation_get_LocationPermissionStatus:
 _p_16:
@@ -38058,7 +38058,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 8733
+.word 8734
 	.no_dead_strip plt_AVFoundation_AVMediaType_get_Audio
 plt_AVFoundation_AVMediaType_get_Audio:
 _p_17:
@@ -38066,7 +38066,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 8735
+.word 8736
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_get_PhotosPermissionStatus
 plt_Plugin_Permissions_PermissionsImplementation_get_PhotosPermissionStatus:
 _p_18:
@@ -38074,7 +38074,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 8740
+.word 8741
 	.no_dead_strip plt_CoreMotion_CMMotionActivityManager_get_IsActivityAvailable
 plt_CoreMotion_CMMotionActivityManager_get_IsActivityAvailable:
 _p_19:
@@ -38082,7 +38082,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 8742
+.word 8743
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_get_SpeechPermissionStatus
 plt_Plugin_Permissions_PermissionsImplementation_get_SpeechPermissionStatus:
 _p_20:
@@ -38090,7 +38090,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 8747
+.word 8748
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_21:
@@ -38098,7 +38098,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 8749
+.word 8750
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Create:
 _p_22:
@@ -38106,7 +38106,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 8754
+.word 8755
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_23:
@@ -38114,7 +38114,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 8765
+.word 8766
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_:
 _p_24:
@@ -38122,7 +38122,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 8770
+.word 8771
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_Task:
 _p_25:
@@ -38130,7 +38130,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 8782
+.word 8783
 	.no_dead_strip plt_AVFoundation_AVCaptureDevice_GetAuthorizationStatus_Foundation_NSString
 plt_AVFoundation_AVCaptureDevice_GetAuthorizationStatus_Foundation_NSString:
 _p_26:
@@ -38138,7 +38138,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 8793
+.word 8794
 	.no_dead_strip plt_AddressBook_ABAddressBook_GetAuthorizationStatus
 plt_AddressBook_ABAddressBook_GetAuthorizationStatus:
 _p_27:
@@ -38146,7 +38146,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 8798
+.word 8799
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass12_0__ctor
 plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass12_0__ctor:
 _p_28:
@@ -38154,7 +38154,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 8803
+.word 8804
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_29:
@@ -38162,7 +38162,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 8805
+.word 8806
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_30:
@@ -38170,7 +38170,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 8831
+.word 8832
 	.no_dead_strip plt_AddressBook_ABAddressBook__ctor
 plt_AddressBook_ABAddressBook__ctor:
 _p_31:
@@ -38178,7 +38178,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 8863
+.word 8864
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus__ctor:
 _p_32:
@@ -38186,7 +38186,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 8868
+.word 8869
 	.no_dead_strip plt_AddressBook_ABAddressBook_RequestAccess_System_Action_2_bool_Foundation_NSError
 plt_AddressBook_ABAddressBook_RequestAccess_System_Action_2_bool_Foundation_NSError:
 _p_33:
@@ -38194,7 +38194,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 8879
+.word 8880
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus_get_Task
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus_get_Task:
 _p_34:
@@ -38202,7 +38202,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 8884
+.word 8885
 	.no_dead_strip plt_EventKit_EKEventStore_GetAuthorizationStatus_EventKit_EKEntityType
 plt_EventKit_EKEventStore_GetAuthorizationStatus_EventKit_EKEntityType:
 _p_35:
@@ -38210,7 +38210,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 8895
+.word 8896
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Create:
 _p_36:
@@ -38218,7 +38218,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 8900
+.word 8901
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_:
 _p_37:
@@ -38226,7 +38226,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 8911
+.word 8912
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_get_Task:
 _p_38:
@@ -38234,7 +38234,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 8923
+.word 8924
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass15_0__ctor
 plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass15_0__ctor:
 _p_39:
@@ -38242,7 +38242,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 8934
+.word 8935
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_40:
@@ -38250,7 +38250,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 8936
+.word 8937
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_41:
@@ -38258,7 +38258,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 8941
+.word 8942
 	.no_dead_strip plt_CoreLocation_CLLocationManager__ctor
 plt_CoreLocation_CLLocationManager__ctor:
 _p_42:
@@ -38266,7 +38266,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 8946
+.word 8947
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs
 plt_CoreLocation_CLLocationManager_add_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs:
 _p_43:
@@ -38274,7 +38274,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 8951
+.word 8952
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_44:
@@ -38282,7 +38282,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 8956
+.word 8957
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_45:
@@ -38290,7 +38290,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 8961
+.word 8962
 	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
 plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
 _p_46:
@@ -38298,7 +38298,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 8966
+.word 8967
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_47:
@@ -38306,7 +38306,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 8971
+.word 8972
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_LocationServicesEnabled
 plt_CoreLocation_CLLocationManager_get_LocationServicesEnabled:
 _p_48:
@@ -38314,7 +38314,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 8991
+.word 8992
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_Status
 plt_CoreLocation_CLLocationManager_get_Status:
 _p_49:
@@ -38322,7 +38322,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 8996
+.word 8997
 	.no_dead_strip plt_Photos_PHPhotoLibrary_get_AuthorizationStatus
 plt_Photos_PHPhotoLibrary_get_AuthorizationStatus:
 _p_50:
@@ -38330,7 +38330,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 9001
+.word 9002
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass20_0__ctor
 plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass20_0__ctor:
 _p_51:
@@ -38338,7 +38338,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 9006
+.word 9007
 	.no_dead_strip plt_Photos_PHPhotoLibrary_RequestAuthorization_System_Action_1_Photos_PHAuthorizationStatus
 plt_Photos_PHPhotoLibrary_RequestAuthorization_System_Action_1_Photos_PHAuthorizationStatus:
 _p_52:
@@ -38346,7 +38346,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 9008
+.word 9009
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_Start_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_:
 _p_53:
@@ -38354,7 +38354,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 9013
+.word 9014
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass22_0__ctor
 plt_Plugin_Permissions_PermissionsImplementation__c__DisplayClass22_0__ctor:
 _p_54:
@@ -38362,7 +38362,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 9025
+.word 9026
 	.no_dead_strip plt_Speech_SFSpeechRecognizer_RequestAuthorization_System_Action_1_Speech_SFSpeechRecognizerAuthorizationStatus
 plt_Speech_SFSpeechRecognizer_RequestAuthorization_System_Action_1_Speech_SFSpeechRecognizerAuthorizationStatus:
 _p_55:
@@ -38370,7 +38370,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 9027
+.word 9028
 	.no_dead_strip plt_Speech_SFSpeechRecognizer_get_AuthorizationStatus
 plt_Speech_SFSpeechRecognizer_get_AuthorizationStatus:
 _p_56:
@@ -38378,7 +38378,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 9032
+.word 9033
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_57:
@@ -38386,7 +38386,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 9037
+.word 9038
 	.no_dead_strip plt_UIKit_UIApplication_get_OpenSettingsUrlString
 plt_UIKit_UIApplication_get_OpenSettingsUrlString:
 _p_58:
@@ -38394,7 +38394,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 9042
+.word 9043
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_59:
@@ -38402,7 +38402,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 9047
+.word 9048
 	.no_dead_strip plt_Foundation_NSUrl__ctor_string
 plt_Foundation_NSUrl__ctor_string:
 _p_60:
@@ -38410,7 +38410,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 9052
+.word 9053
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_61:
@@ -38418,7 +38418,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 9057
+.word 9058
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus__ctor
 plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus__ctor:
 _p_62:
@@ -38426,7 +38426,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 9096
+.word 9097
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_ContainsKey_Plugin_Permissions_Abstractions_Permission
 plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_ContainsKey_Plugin_Permissions_Abstractions_Permission:
 _p_63:
@@ -38434,7 +38434,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 9107
+.word 9108
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestEventPermission_EventKit_EKEntityType
 plt_Plugin_Permissions_PermissionsImplementation_RequestEventPermission_EventKit_EKEntityType:
 _p_64:
@@ -38442,7 +38442,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 9118
+.word 9119
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Permissions_Abstractions_PermissionStatus_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_Plugin_Permissions_Abstractions_PermissionStatus_ConfigureAwait_bool:
 _p_65:
@@ -38450,7 +38450,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 9120
+.word 9121
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter:
 _p_66:
@@ -38458,7 +38458,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 9131
+.word 9132
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted:
 _p_67:
@@ -38466,7 +38466,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 9142
+.word 9143
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_:
 _p_68:
@@ -38474,7 +38474,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 9153
+.word 9154
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_GetResult:
 _p_69:
@@ -38482,7 +38482,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 9165
+.word 9166
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Add_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus
 plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Add_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus:
 _p_70:
@@ -38490,7 +38490,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 9176
+.word 9177
 	.no_dead_strip plt_AVFoundation_AVCaptureDevice_RequestAccessForMediaTypeAsync_Foundation_NSString
 plt_AVFoundation_AVCaptureDevice_RequestAccessForMediaTypeAsync_Foundation_NSString:
 _p_71:
@@ -38498,7 +38498,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 9187
+.word 9188
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_bool_ConfigureAwait_bool:
 _p_72:
@@ -38506,7 +38506,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 9192
+.word 9193
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_bool_GetAwaiter:
 _p_73:
@@ -38514,7 +38514,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 9203
+.word 9204
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_get_IsCompleted:
 _p_74:
@@ -38522,7 +38522,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 9214
+.word 9215
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool__Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_:
 _p_75:
@@ -38530,7 +38530,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 9225
+.word 9226
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_GetResult:
 _p_76:
@@ -38538,7 +38538,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 9237
+.word 9238
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestContactsPermission
 plt_Plugin_Permissions_PermissionsImplementation_RequestContactsPermission:
 _p_77:
@@ -38546,7 +38546,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 9248
+.word 9249
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestLocationPermission
 plt_Plugin_Permissions_PermissionsImplementation_RequestLocationPermission:
 _p_78:
@@ -38554,7 +38554,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 9250
+.word 9251
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestPhotosPermission
 plt_Plugin_Permissions_PermissionsImplementation_RequestPhotosPermission:
 _p_79:
@@ -38562,7 +38562,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 9252
+.word 9253
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestSensorsPermission
 plt_Plugin_Permissions_PermissionsImplementation_RequestSensorsPermission:
 _p_80:
@@ -38570,7 +38570,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 9254
+.word 9255
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation_RequestSpeechPermission
 plt_Plugin_Permissions_PermissionsImplementation_RequestSpeechPermission:
 _p_81:
@@ -38578,7 +38578,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 9256
+.word 9257
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetException_System_Exception:
 _p_82:
@@ -38586,7 +38586,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 9258
+.word 9259
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus:
 _p_83:
@@ -38594,7 +38594,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 9269
+.word 9270
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_84:
@@ -38602,7 +38602,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 9280
+.word 9281
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_Plugin_Permissions_Abstractions_PermissionStatus
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_Plugin_Permissions_Abstractions_PermissionStatus:
 _p_85:
@@ -38610,7 +38610,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 9291
+.word 9292
 	.no_dead_strip plt_EventKit_EKEventStore__ctor
 plt_EventKit_EKEventStore__ctor:
 _p_86:
@@ -38618,7 +38618,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 9302
+.word 9303
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Tuple_2_bool_Foundation_NSError_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_Tuple_2_bool_Foundation_NSError_ConfigureAwait_bool:
 _p_87:
@@ -38626,7 +38626,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 9307
+.word 9308
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Tuple_2_bool_Foundation_NSError_GetAwaiter
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Tuple_2_bool_Foundation_NSError_GetAwaiter:
 _p_88:
@@ -38634,7 +38634,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 9318
+.word 9319
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_get_IsCompleted
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_get_IsCompleted:
 _p_89:
@@ -38642,7 +38642,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 9329
+.word 9330
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError__Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError__Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_:
 _p_90:
@@ -38650,7 +38650,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 9340
+.word 9341
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_GetResult:
 _p_91:
@@ -38658,7 +38658,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 9352
+.word 9353
 	.no_dead_strip plt_System_Tuple_2_bool_Foundation_NSError_get_Item1
 plt_System_Tuple_2_bool_Foundation_NSError_get_Item1:
 _p_92:
@@ -38666,7 +38666,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 9363
+.word 9364
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetException_System_Exception:
 _p_93:
@@ -38674,7 +38674,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 9374
+.word 9375
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_Plugin_Permissions_Abstractions_PermissionStatus
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetResult_Plugin_Permissions_Abstractions_PermissionStatus:
 _p_94:
@@ -38682,7 +38682,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 9385
+.word 9386
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_95:
@@ -38690,7 +38690,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 9396
+.word 9397
 	.no_dead_strip plt_CoreLocation_CLAuthorizationChangedEventArgs_get_Status
 plt_CoreLocation_CLAuthorizationChangedEventArgs_get_Status:
 _p_96:
@@ -38698,7 +38698,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 9407
+.word 9408
 	.no_dead_strip plt_CoreLocation_CLLocationManager_remove_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs
 plt_CoreLocation_CLLocationManager_remove_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs:
 _p_97:
@@ -38706,7 +38706,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 9412
+.word 9413
 	.no_dead_strip plt_CoreMotion_CMMotionActivityManager__ctor
 plt_CoreMotion_CMMotionActivityManager__ctor:
 _p_98:
@@ -38714,7 +38714,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 9417
+.word 9418
 	.no_dead_strip plt_Foundation_NSDate_get_DistantPast
 plt_Foundation_NSDate_get_DistantPast:
 _p_99:
@@ -38722,7 +38722,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 9422
+.word 9423
 	.no_dead_strip plt_Foundation_NSDate_get_DistantFuture
 plt_Foundation_NSDate_get_DistantFuture:
 _p_100:
@@ -38730,7 +38730,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 9427
+.word 9428
 	.no_dead_strip plt_Foundation_NSOperationQueue_get_MainQueue
 plt_Foundation_NSOperationQueue_get_MainQueue:
 _p_101:
@@ -38738,7 +38738,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 9432
+.word 9433
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_CoreMotion_CMMotionActivity___ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_CoreMotion_CMMotionActivity___ConfigureAwait_bool:
 _p_102:
@@ -38746,7 +38746,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 9437
+.word 9438
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_CoreMotion_CMMotionActivity___GetAwaiter
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_CoreMotion_CMMotionActivity___GetAwaiter:
 _p_103:
@@ -38754,7 +38754,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 9448
+.word 9449
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___get_IsCompleted
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___get_IsCompleted:
 _p_104:
@@ -38762,7 +38762,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 9459
+.word 9460
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity____Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Permissions_Abstractions_PermissionStatus_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity____Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_:
 _p_105:
@@ -38770,7 +38770,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 9470
+.word 9471
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___GetResult:
 _p_106:
@@ -38778,7 +38778,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 9482
+.word 9483
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_107:
@@ -38786,7 +38786,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 9493
+.word 9494
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_108:
@@ -38794,7 +38794,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 9498
+.word 9499
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_109:
@@ -38802,7 +38802,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 9503
+.word 9504
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_110:
@@ -38810,7 +38810,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 9541
+.word 9542
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_111:
@@ -38818,7 +38818,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 9588
+.word 9589
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_112:
@@ -38826,7 +38826,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 9612
+.word 9613
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_113:
@@ -38834,7 +38834,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 9654
+.word 9655
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_114:
@@ -38842,7 +38842,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 9662
+.word 9663
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_115:
@@ -38850,7 +38850,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 9685
+.word 9686
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_116:
@@ -38858,7 +38858,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 9721
+.word 9722
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_117:
@@ -38866,7 +38866,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 9729
+.word 9730
 	.no_dead_strip plt_System_Text_StringBuilderCache_Acquire_int
 plt_System_Text_StringBuilderCache_Acquire_int:
 _p_118:
@@ -38874,7 +38874,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 9752
+.word 9753
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_119:
@@ -38882,7 +38882,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 9757
+.word 9758
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_120:
@@ -38890,7 +38890,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 9783
+.word 9784
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_121:
@@ -38898,7 +38898,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 9791
+.word 9792
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_122:
@@ -38906,7 +38906,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 9817
+.word 9818
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_123:
@@ -38914,7 +38914,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 9831
+.word 9832
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_124:
@@ -38922,7 +38922,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 9845
+.word 9846
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_125:
@@ -38930,7 +38930,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 9853
+.word 9854
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_126:
@@ -38938,7 +38938,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 9858
+.word 9859
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_127:
@@ -38946,7 +38946,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 9884
+.word 9885
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_128:
@@ -38954,7 +38954,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 9898
+.word 9899
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_129:
@@ -38962,7 +38962,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 9912
+.word 9913
 	.no_dead_strip plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder
 plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder:
 _p_130:
@@ -38970,7 +38970,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 9920
+.word 9921
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_131:
@@ -38978,7 +38978,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 9943
+.word 9944
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_132:
@@ -38986,7 +38986,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 9951
+.word 9952
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_133:
@@ -38994,7 +38994,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 9959
+.word 9960
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_134:
@@ -39002,7 +39002,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 10000
+.word 10001
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_135:
@@ -39010,7 +39010,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 10008
+.word 10009
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_136:
@@ -39018,7 +39018,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 10013
+.word 10014
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_137:
@@ -39026,7 +39026,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 10021
+.word 10022
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_138:
@@ -39034,7 +39034,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 10035
+.word 10036
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_139:
@@ -39042,7 +39042,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 10043
+.word 10044
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_140:
@@ -39050,7 +39050,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 10048
+.word 10049
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_141:
@@ -39058,7 +39058,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 10056
+.word 10057
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_142:
@@ -39066,7 +39066,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 10061
+.word 10062
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_143:
@@ -39074,7 +39074,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 10075
+.word 10076
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_144:
@@ -39082,7 +39082,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 10083
+.word 10084
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_145:
@@ -39090,7 +39090,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 10124
+.word 10125
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_146:
@@ -39098,7 +39098,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 10132
+.word 10133
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_147:
@@ -39106,7 +39106,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 10140
+.word 10141
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_148:
@@ -39114,7 +39114,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 10148
+.word 10149
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_149:
@@ -39122,7 +39122,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 10171
+.word 10172
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_150:
@@ -39130,7 +39130,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 10179
+.word 10180
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_151:
@@ -39138,7 +39138,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 10205
+.word 10206
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_152:
@@ -39146,7 +39146,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 10229
+.word 10230
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_153:
@@ -39154,7 +39154,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 10271
+.word 10272
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_154:
@@ -39162,7 +39162,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 10295
+.word 10296
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_155:
@@ -39170,7 +39170,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 10319
+.word 10320
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_156:
@@ -39178,7 +39178,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 10351
+.word 10352
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_157:
@@ -39186,7 +39186,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 10392
+.word 10393
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_158:
@@ -39194,7 +39194,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 10433
+.word 10434
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_159:
@@ -39202,7 +39202,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 10450
+.word 10451
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_SetType_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_SetType_System_Type:
 _p_160:
@@ -39210,7 +39210,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 10458
+.word 10459
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_161:
@@ -39218,7 +39218,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 10481
+.word 10482
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_162:
@@ -39226,7 +39226,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 10522
+.word 10523
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_163:
@@ -39234,7 +39234,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 10530
+.word 10531
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_164:
@@ -39242,7 +39242,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 10556
+.word 10557
 	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
 plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_165:
@@ -39250,7 +39250,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 10586
+.word 10587
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_166:
@@ -39258,7 +39258,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 10624
+.word 10625
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_167:
@@ -39266,7 +39266,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 10671
+.word 10672
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_168:
@@ -39274,7 +39274,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 10718
+.word 10719
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_169:
@@ -39282,7 +39282,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 10765
+.word 10766
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_170:
@@ -39290,7 +39290,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 10773
+.word 10774
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_171:
@@ -39298,7 +39298,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 10820
+.word 10821
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_172:
@@ -39306,7 +39306,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 10828
+.word 10829
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_173:
@@ -39314,7 +39314,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 10875
+.word 10876
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_174:
@@ -39322,7 +39322,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 10901
+.word 10902
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_175:
@@ -39330,7 +39330,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 10911
+.word 10912
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_176:
@@ -39338,7 +39338,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 10937
+.word 10938
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_177:
@@ -39346,7 +39346,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 10978
+.word 10979
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_178:
@@ -39354,7 +39354,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 10986
+.word 10987
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_179:
@@ -39362,7 +39362,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 11045
+.word 11046
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_180:
@@ -39370,7 +39370,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 11092
+.word 11093
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_181:
@@ -39378,7 +39378,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 11139
+.word 11140
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_182:
@@ -39386,7 +39386,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 11186
+.word 11187
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_183:
@@ -39394,7 +39394,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 11194
+.word 11195
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_184:
@@ -39402,7 +39402,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 11241
+.word 11242
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_185:
@@ -39410,7 +39410,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 11249
+.word 11250
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_186:
@@ -39418,7 +39418,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 11296
+.word 11297
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_187:
@@ -39426,7 +39426,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 11322
+.word 11323
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_188:
@@ -39434,7 +39434,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 11332
+.word 11333
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_189:
@@ -39442,7 +39442,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 11358
+.word 11359
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_190:
@@ -39450,7 +39450,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 11393
+.word 11394
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_191:
@@ -39458,7 +39458,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 11401
+.word 11402
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_192:
@@ -39466,7 +39466,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 11442
+.word 11443
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_193:
@@ -39474,7 +39474,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 11483
+.word 11484
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_194:
@@ -39482,7 +39482,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 11491
+.word 11492
 	.no_dead_strip plt_System_Threading_SpinWait_SpinOnce
 plt_System_Threading_SpinWait_SpinOnce:
 _p_195:
@@ -39490,7 +39490,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 11514
+.word 11515
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_196:
@@ -39498,7 +39498,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 11519
+.word 11520
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_197:
@@ -39506,7 +39506,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 11542
+.word 11543
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_198:
@@ -39514,7 +39514,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 11550
+.word 11551
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_199:
@@ -39522,7 +39522,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 11573
+.word 11574
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_200:
@@ -39530,7 +39530,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 11614
+.word 11615
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_201:
@@ -39538,7 +39538,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 11637
+.word 11638
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_202:
@@ -39546,7 +39546,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 11660
+.word 11661
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_203:
@@ -39554,7 +39554,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 11668
+.word 11669
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_204:
@@ -39562,7 +39562,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 11691
+.word 11692
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_205:
@@ -39570,7 +39570,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 11732
+.word 11733
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_206:
@@ -39578,7 +39578,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 11773
+.word 11774
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_207:
@@ -39586,7 +39586,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 11814
+.word 11815
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_208:
@@ -39594,7 +39594,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 11822
+.word 11823
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_209:
@@ -39602,7 +39602,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 11845
+.word 11846
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_210:
@@ -39610,7 +39610,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 11886
+.word 11887
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_211:
@@ -39618,7 +39618,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 11909
+.word 11910
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_212:
@@ -39626,7 +39626,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 11914
+.word 11915
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_213:
@@ -39634,7 +39634,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 11919
+.word 11920
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_214:
@@ -39642,7 +39642,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 11942
+.word 11943
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_215:
@@ -39650,7 +39650,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 11965
+.word 11966
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_216:
@@ -39658,7 +39658,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 11970
+.word 11971
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_217:
@@ -39666,7 +39666,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 11993
+.word 11994
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_218:
@@ -39674,7 +39674,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 12034
+.word 12035
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_219:
@@ -39682,7 +39682,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 12057
+.word 12058
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_220:
@@ -39690,7 +39690,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 12080
+.word 12081
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_221:
@@ -39698,7 +39698,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 12121
+.word 12122
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_222:
@@ -39706,7 +39706,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 12129
+.word 12130
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_223:
@@ -39714,7 +39714,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 12152
+.word 12153
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_224:
@@ -39722,7 +39722,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 12175
+.word 12176
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_225:
@@ -39730,7 +39730,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 12183
+.word 12184
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_226:
@@ -39738,7 +39738,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 12206
+.word 12207
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_227:
@@ -39746,7 +39746,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 12211
+.word 12212
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_228:
@@ -39754,7 +39754,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 12216
+.word 12217
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_229:
@@ -39762,7 +39762,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 12239
+.word 12240
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_230:
@@ -39770,7 +39770,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 12262
+.word 12263
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_231:
@@ -39778,7 +39778,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 12285
+.word 12286
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_232:
@@ -39786,7 +39786,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 12308
+.word 12309
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_233:
@@ -39794,7 +39794,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 12313
+.word 12314
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_234:
@@ -39802,7 +39802,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 12318
+.word 12319
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_235:
@@ -39810,7 +39810,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 12323
+.word 12324
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_236:
@@ -39818,7 +39818,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 12328
+.word 12329
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_237:
@@ -39826,7 +39826,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 12333
+.word 12334
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_238:
@@ -39834,7 +39834,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 12338
+.word 12339
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_239:
@@ -39842,7 +39842,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 12361
+.word 12362
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_240:
@@ -39850,7 +39850,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 12384
+.word 12385
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_241:
@@ -39858,7 +39858,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 12389
+.word 12390
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_242:
@@ -39866,7 +39866,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 12412
+.word 12413
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_243:
@@ -39874,7 +39874,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 12420
+.word 12421
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_244:
@@ -39882,7 +39882,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 12454
+.word 12455
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_245:
@@ -39890,7 +39890,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 12474
+.word 12475
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_246:
@@ -39898,7 +39898,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 12509
+.word 12510
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_247:
@@ -39906,7 +39906,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 12517
+.word 12518
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_248:
@@ -39914,7 +39914,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 12567
+.word 12568
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_249:
@@ -39922,7 +39922,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 12575
+.word 12576
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_250:
@@ -39930,7 +39930,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 12598
+.word 12599
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_251:
@@ -39938,7 +39938,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 12621
+.word 12622
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_252:
@@ -39946,7 +39946,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 12662
+.word 12663
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_253:
@@ -39954,7 +39954,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 12703
+.word 12704
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_254:
@@ -39962,7 +39962,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 12726
+.word 12727
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_255:
@@ -39970,7 +39970,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 12758
+.word 12759
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_256:
@@ -39978,7 +39978,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 12766
+.word 12767
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_257:
@@ -39986,7 +39986,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 12789
+.word 12790
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_258:
@@ -39994,7 +39994,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 12821
+.word 12822
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_259:
@@ -40002,7 +40002,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 12829
+.word 12830
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_260:
@@ -40010,7 +40010,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 12852
+.word 12853
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_261:
@@ -40018,7 +40018,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 12869
+.word 12870
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_262:
@@ -40026,7 +40026,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 12877
+.word 12878
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_263:
@@ -40034,7 +40034,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 12885
+.word 12886
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_264:
@@ -40042,7 +40042,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 12908
+.word 12909
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_265:
@@ -40050,7 +40050,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 12932
+.word 12933
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_266:
@@ -40058,7 +40058,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 12940
+.word 12941
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_267:
@@ -40066,7 +40066,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 12980
+.word 12981
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_268:
@@ -40074,7 +40074,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 13003
+.word 13004
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_269:
@@ -40082,7 +40082,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 13008
+.word 13009
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_270:
@@ -40090,7 +40090,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 13040
+.word 13041
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_271:
@@ -40098,7 +40098,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 13048
+.word 13049
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_272:
@@ -40106,7 +40106,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 13089
+.word 13090
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_273:
@@ -40114,7 +40114,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 13097
+.word 13098
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_274:
@@ -40122,7 +40122,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 13120
+.word 13121
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_275:
@@ -40130,7 +40130,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 13143
+.word 13144
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_276:
@@ -40138,7 +40138,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 13151
+.word 13152
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_277:
@@ -40146,7 +40146,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 13174
+.word 13175
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_278:
@@ -40154,7 +40154,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 13197
+.word 13198
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_279:
@@ -40162,7 +40162,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 13202
+.word 13203
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_280:
@@ -40170,7 +40170,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 13207
+.word 13208
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_281:
@@ -40178,7 +40178,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 13212
+.word 13213
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_282:
@@ -40186,7 +40186,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 13217
+.word 13218
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_283:
@@ -40194,7 +40194,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 13222
+.word 13223
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_284:
@@ -40202,7 +40202,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 13245
+.word 13246
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_285:
@@ -40210,7 +40210,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 13286
+.word 13287
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_286:
@@ -40218,7 +40218,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 13294
+.word 13295
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_287:
@@ -40226,7 +40226,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 13344
+.word 13345
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_288:
@@ -40234,7 +40234,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 13352
+.word 13353
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_289:
@@ -40242,7 +40242,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 13375
+.word 13376
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_290:
@@ -40250,7 +40250,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 13380
+.word 13381
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_291:
@@ -40258,7 +40258,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 13388
+.word 13389
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_292:
@@ -40266,7 +40266,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 13411
+.word 13412
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_293:
@@ -40274,7 +40274,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 13416
+.word 13417
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_294:
@@ -40282,7 +40282,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 13421
+.word 13422
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_295:
@@ -40290,7 +40290,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 13435
+.word 13436
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_296:
@@ -40298,7 +40298,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 13443
+.word 13444
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_297:
@@ -40306,7 +40306,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 13466
+.word 13467
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_298:
@@ -40314,7 +40314,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 13471
+.word 13472
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_299:
@@ -40322,7 +40322,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 13494
+.word 13495
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_300:
@@ -40330,7 +40330,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 13517
+.word 13518
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_301:
@@ -40338,7 +40338,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 13522
+.word 13523
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_302:
@@ -40346,7 +40346,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 13530
+.word 13531
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_303:
@@ -40354,7 +40354,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 13553
+.word 13554
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_304:
@@ -40362,7 +40362,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 13576
+.word 13577
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_305:
@@ -40370,7 +40370,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 13599
+.word 13600
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_306:
@@ -40378,7 +40378,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 13622
+.word 13623
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_307:
@@ -40386,7 +40386,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 13652
+.word 13653
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_308:
@@ -40394,7 +40394,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 13684
+.word 13685
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_309:
@@ -40402,7 +40402,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 13692
+.word 13693
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_310:
@@ -40410,7 +40410,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 13733
+.word 13734
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_311:
@@ -40418,7 +40418,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 13741
+.word 13742
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_312:
@@ -40426,7 +40426,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 13764
+.word 13765
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_313:
@@ -40434,7 +40434,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 13772
+.word 13773
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_314:
@@ -40442,7 +40442,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 13813
+.word 13814
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_315:
@@ -40450,7 +40450,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 13821
+.word 13822
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_316:
@@ -40458,7 +40458,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 13862
+.word 13863
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_317:
@@ -40466,7 +40466,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 13870
+.word 13871
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_318:
@@ -40474,7 +40474,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 13893
+.word 13894
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_319:
@@ -40482,7 +40482,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 13901
+.word 13902
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_320:
@@ -40490,7 +40490,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 13924
+.word 13925
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_321:
@@ -40498,7 +40498,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 13965
+.word 13966
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_322:
@@ -40506,7 +40506,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 13973
+.word 13974
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_323:
@@ -40514,7 +40514,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 13981
+.word 13982
 	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_TResult_INT_object
 plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_TResult_INT_object:
 _p_324:
@@ -40522,7 +40522,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 14005
+.word 14006
 	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
 plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_325:
@@ -40530,7 +40530,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 14025
+.word 14026
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_326:
@@ -40538,7 +40538,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 14030
+.word 14031
 	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
 plt_uintptr_op_Equality_uintptr_uintptr:
 _p_327:
@@ -40546,7 +40546,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 14035
+.word 14036
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_328:
@@ -40554,7 +40554,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 14040
+.word 14041
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_329:
@@ -40562,7 +40562,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 14048
+.word 14049
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_330:
@@ -40570,7 +40570,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 14056
+.word 14057
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_331:
@@ -40578,7 +40578,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 14064
+.word 14065
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_332:
@@ -40586,7 +40586,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 14105
+.word 14106
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_333:
@@ -40594,7 +40594,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 14129
+.word 14130
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_334:
@@ -40602,7 +40602,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 14153
+.word 14154
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_335:
@@ -40610,7 +40610,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 14188
+.word 14189
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_336:
@@ -40618,7 +40618,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 14196
+.word 14197
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_337:
@@ -40626,7 +40626,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 14219
+.word 14220
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_338:
@@ -40634,7 +40634,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 14224
+.word 14225
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_339:
@@ -40642,7 +40642,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 14256
+.word 14257
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_340:
@@ -40650,7 +40650,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 14264
+.word 14265
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_341:
@@ -40658,7 +40658,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 14305
+.word 14306
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_342:
@@ -40666,7 +40666,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 14346
+.word 14347
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_343:
@@ -40674,7 +40674,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 14387
+.word 14388
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_344:
@@ -40682,7 +40682,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 14428
+.word 14429
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_345:
@@ -40690,7 +40690,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 14469
+.word 14470
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_346:
@@ -40698,7 +40698,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 14477
+.word 14478
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_347:
@@ -40706,7 +40706,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 14518
+.word 14519
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_348:
@@ -40714,7 +40714,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 14526
+.word 14527
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_349:
@@ -40722,7 +40722,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 14567
+.word 14568
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_350:
@@ -40730,7 +40730,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 14608
+.word 14609
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_351:
@@ -40738,7 +40738,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 14649
+.word 14650
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_352:
@@ -40746,7 +40746,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 14690
+.word 14691
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_353:
@@ -40754,7 +40754,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 14698
+.word 14699
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_354:
@@ -40762,7 +40762,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 14732
+.word 14733
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_355:
@@ -40770,7 +40770,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 14752
+.word 14753
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_356:
@@ -40778,7 +40778,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 14787
+.word 14788
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_357:
@@ -40786,7 +40786,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 14795
+.word 14796
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_358:
@@ -40794,7 +40794,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 14845
+.word 14846
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_359:
@@ -40802,7 +40802,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 14853
+.word 14854
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_360:
@@ -40810,7 +40810,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 14894
+.word 14895
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_361:
@@ -40818,7 +40818,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 14935
+.word 14936
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_362:
@@ -40826,7 +40826,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 14976
+.word 14977
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_363:
@@ -40834,7 +40834,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 15026
+.word 15027
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_364:
@@ -40842,7 +40842,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 15034
+.word 15035
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_365:
@@ -40850,7 +40850,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 15084
+.word 15085
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_366:
@@ -40858,7 +40858,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 15092
+.word 15093
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_367:
@@ -40866,7 +40866,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 15115
+.word 15116
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_368:
@@ -40874,7 +40874,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 15132
+.word 15133
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_369:
@@ -40882,7 +40882,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 15140
+.word 15141
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_370:
@@ -40890,7 +40890,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 15148
+.word 15149
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_371:
@@ -40898,7 +40898,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 15182
+.word 15183
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_372:
@@ -40906,7 +40906,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 15190
+.word 15191
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_373:
@@ -40914,7 +40914,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 15230
+.word 15231
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_374:
@@ -40922,7 +40922,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 15280
+.word 15281
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_375:
@@ -40930,7 +40930,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 15288
+.word 15289
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_376:
@@ -40938,7 +40938,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 15329
+.word 15330
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_377:
@@ -40946,7 +40946,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 15337
+.word 15338
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_378:
@@ -40954,7 +40954,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 15378
+.word 15379
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_379:
@@ -40962,7 +40962,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 15386
+.word 15387
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_380:
@@ -40970,7 +40970,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 15409
+.word 15410
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_381:
@@ -40978,7 +40978,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 15432
+.word 15433
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_382:
@@ -40986,7 +40986,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 15455
+.word 15456
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_383:
@@ -40994,7 +40994,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 15496
+.word 15497
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_384:
@@ -41002,7 +41002,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 15504
+.word 15505
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_385:
@@ -41010,7 +41010,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 15554
+.word 15555
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_386:
@@ -41018,7 +41018,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 15562
+.word 15563
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_387:
@@ -41026,7 +41026,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 15585
+.word 15586
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_388:
@@ -41034,7 +41034,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 15593
+.word 15594
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_389:
@@ -41042,7 +41042,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 15625
+.word 15626
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_390:
@@ -41050,7 +41050,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 15633
+.word 15634
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_391:
@@ -41058,7 +41058,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 15656
+.word 15657
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_392:
@@ -41066,7 +41066,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 15679
+.word 15680
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_393:
@@ -41074,7 +41074,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 15702
+.word 15703
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_394:
@@ -41082,7 +41082,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 15710
+.word 15711
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_395:
@@ -41090,7 +41090,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 15733
+.word 15734
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_396:
@@ -41098,7 +41098,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 15756
+.word 15757
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_397:
@@ -41106,7 +41106,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 15779
+.word 15780
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_398:
@@ -41114,7 +41114,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 15829
+.word 15830
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_399:
@@ -41122,7 +41122,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 15837
+.word 15838
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_400:
@@ -41130,7 +41130,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 15887
+.word 15888
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_401:
@@ -41138,7 +41138,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 15895
+.word 15896
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_402:
@@ -41146,7 +41146,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 15939
+.word 15940
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_403:
@@ -41154,7 +41154,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 15947
+.word 15948
 	.no_dead_strip plt__rgctx_fetch_226
 plt__rgctx_fetch_226:
 _p_404:
@@ -41162,7 +41162,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 15976
+.word 15977
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_405:
@@ -41170,7 +41170,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 15984
+.word 15985
 	.no_dead_strip plt__rgctx_fetch_227
 plt__rgctx_fetch_227:
 _p_406:
@@ -41178,7 +41178,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 15989
+.word 15990
 	.no_dead_strip plt__rgctx_fetch_228
 plt__rgctx_fetch_228:
 _p_407:
@@ -41186,7 +41186,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 16018
+.word 16019
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_408:
@@ -41194,7 +41194,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 16026
+.word 16027
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_409:
@@ -41202,7 +41202,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 16031
+.word 16032
 	.no_dead_strip plt__rgctx_fetch_229
 plt__rgctx_fetch_229:
 _p_410:
@@ -41210,7 +41210,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 16057
+.word 16058
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_411:
@@ -41218,7 +41218,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 16065
+.word 16066
 	.no_dead_strip plt__rgctx_fetch_230
 plt__rgctx_fetch_230:
 _p_412:
@@ -41226,7 +41226,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 16098
+.word 16099
 	.no_dead_strip plt__rgctx_fetch_231
 plt__rgctx_fetch_231:
 _p_413:
@@ -41234,7 +41234,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 16106
+.word 16107
 	.no_dead_strip plt__rgctx_fetch_232
 plt__rgctx_fetch_232:
 _p_414:
@@ -41242,7 +41242,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 16157
+.word 16158
 	.no_dead_strip plt__rgctx_fetch_233
 plt__rgctx_fetch_233:
 _p_415:
@@ -41250,7 +41250,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 16165
+.word 16166
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_416:
@@ -41258,7 +41258,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 16188
+.word 16189
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_417:
@@ -41266,7 +41266,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 16193
+.word 16194
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_MoveNext
 plt_Plugin_Permissions_PermissionsImplementation__RequestPermissionsAsyncd__8_MoveNext:
 _p_418:
@@ -41274,7 +41274,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 16198
+.word 16199
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_419:
@@ -41282,7 +41282,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 16200
+.word 16201
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_MoveNext
 plt_Plugin_Permissions_PermissionsImplementation__RequestEventPermissiond__14_MoveNext:
 _p_420:
@@ -41290,7 +41290,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 16205
+.word 16206
 	.no_dead_strip plt_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_MoveNext
 plt_Plugin_Permissions_PermissionsImplementation__RequestSensorsPermissiond__21_MoveNext:
 _p_421:
@@ -41298,7 +41298,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 16207
+.word 16208
 	.no_dead_strip plt__rgctx_fetch_234
 plt__rgctx_fetch_234:
 _p_422:
@@ -41306,7 +41306,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 16230
+.word 16231
 	.no_dead_strip plt__rgctx_fetch_235
 plt__rgctx_fetch_235:
 _p_423:
@@ -41314,7 +41314,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 16277
+.word 16278
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_424:
@@ -41322,7 +41322,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 16303
+.word 16304
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_425:
@@ -41330,7 +41330,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 16308
+.word 16309
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_426:
@@ -41338,7 +41338,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 16345
+.word 16346
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action:
 _p_427:
@@ -41346,7 +41346,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 16350
+.word 16351
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_428:
@@ -41354,7 +41354,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 16371
+.word 16372
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_bool_UnsafeOnCompleted_System_Action:
 _p_429:
@@ -41362,7 +41362,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 16376
+.word 16377
 	.no_dead_strip plt__rgctx_fetch_236
 plt__rgctx_fetch_236:
 _p_430:
@@ -41370,7 +41370,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 16419
+.word 16420
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Tuple_2_bool_Foundation_NSError_UnsafeOnCompleted_System_Action:
 _p_431:
@@ -41378,7 +41378,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 16447
+.word 16448
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_CoreMotion_CMMotionActivity___UnsafeOnCompleted_System_Action:
 _p_432:
@@ -41386,7 +41386,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 16470
+.word 16471
 	.no_dead_strip plt__rgctx_fetch_237
 plt__rgctx_fetch_237:
 _p_433:
@@ -41394,7 +41394,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 16513
+.word 16514
 	.no_dead_strip plt__rgctx_fetch_238
 plt__rgctx_fetch_238:
 _p_434:
@@ -41402,7 +41402,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 16566
+.word 16567
 	.no_dead_strip plt__rgctx_fetch_239
 plt__rgctx_fetch_239:
 _p_435:
@@ -41410,7 +41410,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 16623
+.word 16624
 	.no_dead_strip plt__rgctx_fetch_240
 plt__rgctx_fetch_240:
 _p_436:
@@ -41418,7 +41418,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 16635
+.word 16636
 	.no_dead_strip plt__rgctx_fetch_241
 plt__rgctx_fetch_241:
 _p_437:
@@ -41426,7 +41426,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 16690
+.word 16691
 	.no_dead_strip plt__rgctx_fetch_242
 plt__rgctx_fetch_242:
 _p_438:
@@ -41434,7 +41434,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 16702
+.word 16703
 	.no_dead_strip plt__rgctx_fetch_243
 plt__rgctx_fetch_243:
 _p_439:
@@ -41442,7 +41442,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 16750
+.word 16751
 	.no_dead_strip plt__rgctx_fetch_244
 plt__rgctx_fetch_244:
 _p_440:
@@ -41450,7 +41450,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 16787
+.word 16788
 	.no_dead_strip plt__rgctx_fetch_245
 plt__rgctx_fetch_245:
 _p_441:
@@ -41458,7 +41458,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 16814
+.word 16815
 	.no_dead_strip plt__rgctx_fetch_246
 plt__rgctx_fetch_246:
 _p_442:
@@ -41466,7 +41466,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 16841
+.word 16842
 	.no_dead_strip plt__rgctx_fetch_247
 plt__rgctx_fetch_247:
 _p_443:
@@ -41474,7 +41474,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 16851
+.word 16852
 	.no_dead_strip plt__rgctx_fetch_248
 plt__rgctx_fetch_248:
 _p_444:
@@ -41482,7 +41482,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 16900
+.word 16901
 	.no_dead_strip plt__rgctx_fetch_249
 plt__rgctx_fetch_249:
 _p_445:
@@ -41490,7 +41490,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 16927
+.word 16928
 	.no_dead_strip plt__rgctx_fetch_250
 plt__rgctx_fetch_250:
 _p_446:
@@ -41498,7 +41498,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 16975
+.word 16976
 	.no_dead_strip plt__rgctx_fetch_251
 plt__rgctx_fetch_251:
 _p_447:
@@ -41506,7 +41506,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 17012
+.word 17013
 	.no_dead_strip plt__rgctx_fetch_252
 plt__rgctx_fetch_252:
 _p_448:
@@ -41514,7 +41514,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 17024
+.word 17025
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_449:
@@ -41522,7 +41522,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 17051
+.word 17052
 	.no_dead_strip plt__rgctx_fetch_253
 plt__rgctx_fetch_253:
 _p_450:
@@ -41530,7 +41530,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 17077
+.word 17078
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_451:
@@ -41538,7 +41538,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 17105
+.word 17106
 	.no_dead_strip plt__rgctx_fetch_254
 plt__rgctx_fetch_254:
 _p_452:
@@ -41546,7 +41546,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 17143
+.word 17144
 	.no_dead_strip plt__rgctx_fetch_255
 plt__rgctx_fetch_255:
 _p_453:
@@ -41554,7 +41554,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 17178
+.word 17179
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_454:
@@ -41562,7 +41562,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 17192
+.word 17193
 	.no_dead_strip plt__rgctx_fetch_256
 plt__rgctx_fetch_256:
 _p_455:
@@ -41570,7 +41570,7 @@ adrp x16, mono_aot_Plugin_Permissions_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Permissions_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 17197
+.word 17198
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -41682,13 +41682,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 439,7160,456,290,70,391195135,0,70448
+	.long 439,7160,456,290,70,391195135,0,70449
 	.long 128,8,8,10,0,25,80104,9648
 	.long 9288,7968,0,8648,9256,8056,0,5944
 	.long 416,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 221,85,45,204,249,41,163,87,195,97,184,73,95,26,234,173
+	.byte 118,90,3,161,110,112,53,155,183,180,83,155,216,55,102,250
 	.globl _mono_aot_module_Plugin_Permissions_info
 	.align 3
 _mono_aot_module_Plugin_Permissions_info:

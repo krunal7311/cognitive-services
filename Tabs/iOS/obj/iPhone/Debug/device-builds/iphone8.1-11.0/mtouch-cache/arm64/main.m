@@ -20,6 +20,8 @@ extern void *mono_aot_module_System_Numerics_info;
 extern void *mono_aot_module_System_Xml_Linq_info;
 extern void *mono_aot_module_Microsoft_CSharp_info;
 extern void *mono_aot_module_System_Net_Http_Primitives_info;
+extern void *mono_aot_module_Xamarin_Forms_Maps_iOS_info;
+extern void *mono_aot_module_Xamarin_Forms_Maps_info;
 extern void *mono_aot_module_Tabs_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
 extern void *mono_aot_module_Plugin_Media_Abstractions_info;
@@ -51,6 +53,8 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_CSharp_info);
 	mono_aot_register_module (mono_aot_module_System_Net_Http_Primitives_info);
+	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Maps_iOS_info);
+	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Maps_info);
 	mono_aot_register_module (mono_aot_module_Tabs_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
 	mono_aot_register_module (mono_aot_module_Plugin_Media_Abstractions_info);
@@ -68,6 +72,8 @@ void xamarin_register_assemblies_impl ()
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Microsoft.WindowsAzure.Mobile.Ext.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Xamarin.Forms.Maps.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Plugin.Media.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);

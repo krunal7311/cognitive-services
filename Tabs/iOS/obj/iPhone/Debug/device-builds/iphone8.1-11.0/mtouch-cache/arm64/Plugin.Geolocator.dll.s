@@ -45403,7 +45403,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 9638
+.word 9642
 	.no_dead_strip plt_Plugin_Geolocator_CrossGeolocator_NotImplementedInReferenceAssembly
 plt_Plugin_Geolocator_CrossGeolocator_NotImplementedInReferenceAssembly:
 _p_2:
@@ -45411,7 +45411,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 9649
+.word 9653
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
@@ -45419,7 +45419,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 9651
+.word 9655
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
@@ -45427,7 +45427,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 9679
+.word 9683
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__ctor
 plt_Plugin_Geolocator_GeolocatorImplementation__ctor:
 _p_5:
@@ -45435,7 +45435,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 9687
+.word 9691
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_6:
@@ -45443,7 +45443,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 9689
+.word 9693
 	.no_dead_strip plt_System_Lazy_1_Plugin_Geolocator_Abstractions_IGeolocator__ctor_System_Func_1_Plugin_Geolocator_Abstractions_IGeolocator_System_Threading_LazyThreadSafetyMode
 plt_System_Lazy_1_Plugin_Geolocator_Abstractions_IGeolocator__ctor_System_Func_1_Plugin_Geolocator_Abstractions_IGeolocator_System_Threading_LazyThreadSafetyMode:
 _p_7:
@@ -45451,7 +45451,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 9694
+.word 9698
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_8:
@@ -45459,7 +45459,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 9705
+.word 9709
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position__ctor
 plt_Plugin_Geolocator_Abstractions_Position__ctor:
 _p_9:
@@ -45467,7 +45467,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 9740
+.word 9744
 	.no_dead_strip plt_CoreLocation_CLLocationManagerDelegate__ctor
 plt_CoreLocation_CLLocationManagerDelegate__ctor:
 _p_10:
@@ -45475,7 +45475,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 9745
+.word 9749
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position__ctor_object
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position__ctor_object:
 _p_11:
@@ -45483,7 +45483,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 9750
+.word 9754
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate__c__DisplayClass8_0__ctor
 plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate__c__DisplayClass8_0__ctor:
 _p_12:
@@ -45491,7 +45491,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 9761
+.word 9765
 	.no_dead_strip plt_System_Threading_Timer__ctor_System_Threading_TimerCallback_object_int_int
 plt_System_Threading_Timer__ctor_System_Threading_TimerCallback_object_int_int:
 _p_13:
@@ -45499,7 +45499,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 9763
+.word 9767
 	.no_dead_strip plt_System_Threading_CancellationToken_Register_System_Action
 plt_System_Threading_CancellationToken_Register_System_Action:
 _p_14:
@@ -45507,7 +45507,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 9768
+.word 9772
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_get_Task
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_get_Task:
 _p_15:
@@ -45515,7 +45515,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 9773
+.word 9777
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate_StopListening
 plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate_StopListening:
 _p_16:
@@ -45523,7 +45523,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 9784
+.word 9788
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_GeolocationException__ctor_Plugin_Geolocator_Abstractions_GeolocationError
 plt_Plugin_Geolocator_Abstractions_GeolocationException__ctor_Plugin_Geolocator_Abstractions_GeolocationError:
 _p_17:
@@ -45531,7 +45531,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 9786
+.word 9790
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetException_System_Exception
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetException_System_Exception:
 _p_18:
@@ -45539,7 +45539,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 9791
+.word 9795
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_SetException_System_Exception
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_SetException_System_Exception:
 _p_19:
@@ -45547,7 +45547,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 9802
+.word 9806
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_get_Accuracy
 plt_Plugin_Geolocator_Abstractions_Position_get_Accuracy:
 _p_20:
@@ -45555,7 +45555,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 9813
+.word 9817
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Accuracy_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Accuracy_double:
 _p_21:
@@ -45563,7 +45563,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 9818
+.word 9822
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Altitude_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Altitude_double:
 _p_22:
@@ -45571,7 +45571,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 9823
+.word 9827
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_AltitudeAccuracy_double
 plt_Plugin_Geolocator_Abstractions_Position_set_AltitudeAccuracy_double:
 _p_23:
@@ -45579,7 +45579,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 9828
+.word 9832
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Latitude_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Latitude_double:
 _p_24:
@@ -45587,7 +45587,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 9833
+.word 9837
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Longitude_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Longitude_double:
 _p_25:
@@ -45595,7 +45595,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 9838
+.word 9842
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Speed_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Speed_double:
 _p_26:
@@ -45603,7 +45603,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 9843
+.word 9847
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationUtils_ToDateTime_Foundation_NSDate
 plt_Plugin_Geolocator_GeolocationUtils_ToDateTime_Foundation_NSDate:
 _p_27:
@@ -45611,7 +45611,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 9848
+.word 9852
 	.no_dead_strip plt_System_DateTimeOffset__ctor_System_DateTime
 plt_System_DateTimeOffset__ctor_System_DateTime:
 _p_28:
@@ -45619,7 +45619,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 9850
+.word 9854
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Timestamp_System_DateTimeOffset
 plt_Plugin_Geolocator_Abstractions_Position_set_Timestamp_System_DateTimeOffset:
 _p_29:
@@ -45627,7 +45627,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 9855
+.word 9859
 	.no_dead_strip plt_System_DateTimeOffset_get_UtcNow
 plt_System_DateTimeOffset_get_UtcNow:
 _p_30:
@@ -45635,7 +45635,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 9860
+.word 9864
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_31:
@@ -45643,7 +45643,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 9865
+.word 9869
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position__ctor_Plugin_Geolocator_Abstractions_Position
 plt_Plugin_Geolocator_Abstractions_Position__ctor_Plugin_Geolocator_Abstractions_Position:
 _p_32:
@@ -45651,7 +45651,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 9904
+.word 9908
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetResult_Plugin_Geolocator_Abstractions_Position
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetResult_Plugin_Geolocator_Abstractions_Position:
 _p_33:
@@ -45659,7 +45659,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 9909
+.word 9913
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_set_Heading_double
 plt_Plugin_Geolocator_Abstractions_Position_set_Heading_double:
 _p_34:
@@ -45667,7 +45667,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 9920
+.word 9924
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_HeadingAvailable
 plt_CoreLocation_CLLocationManager_get_HeadingAvailable:
 _p_35:
@@ -45675,7 +45675,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 9925
+.word 9929
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetCanceled
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_TrySetCanceled:
 _p_36:
@@ -45683,7 +45683,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 9930
+.word 9934
 	.no_dead_strip plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Plugin_Geolocator_Abstractions_Address_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Plugin_Geolocator_Abstractions_Address
 plt_System_Linq_Enumerable_Select_CoreLocation_CLPlacemark_Plugin_Geolocator_Abstractions_Address_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark_System_Func_2_CoreLocation_CLPlacemark_Plugin_Geolocator_Abstractions_Address:
 _p_37:
@@ -45691,7 +45691,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 9941
+.word 9945
 	.no_dead_strip plt_Foundation_NSDate_op_Explicit_Foundation_NSDate
 plt_Foundation_NSDate_op_Explicit_Foundation_NSDate:
 _p_38:
@@ -45699,7 +45699,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 9953
+.word 9957
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_set_DesiredAccuracy_double
 plt_Plugin_Geolocator_GeolocatorImplementation_set_DesiredAccuracy_double:
 _p_39:
@@ -45707,7 +45707,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 9958
+.word 9962
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_GetManager
 plt_Plugin_Geolocator_GeolocatorImplementation_GetManager:
 _p_40:
@@ -45715,7 +45715,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 9960
+.word 9964
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs
 plt_CoreLocation_CLLocationManager_add_AuthorizationChanged_System_EventHandler_1_CoreLocation_CLAuthorizationChangedEventArgs:
 _p_41:
@@ -45723,7 +45723,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 9962
+.word 9966
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_Failed_System_EventHandler_1_Foundation_NSErrorEventArgs
 plt_CoreLocation_CLLocationManager_add_Failed_System_EventHandler_1_Foundation_NSErrorEventArgs:
 _p_42:
@@ -45731,7 +45731,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 9967
+.word 9971
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_43:
@@ -45739,7 +45739,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 9972
+.word 9976
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_44:
@@ -45747,7 +45747,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 9977
+.word 9981
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_LocationsUpdated_System_EventHandler_1_CoreLocation_CLLocationsUpdatedEventArgs
 plt_CoreLocation_CLLocationManager_add_LocationsUpdated_System_EventHandler_1_CoreLocation_CLLocationsUpdatedEventArgs:
 _p_45:
@@ -45755,7 +45755,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 9982
+.word 9986
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_UpdatedLocation_System_EventHandler_1_CoreLocation_CLLocationUpdatedEventArgs
 plt_CoreLocation_CLLocationManager_add_UpdatedLocation_System_EventHandler_1_CoreLocation_CLLocationUpdatedEventArgs:
 _p_46:
@@ -45763,7 +45763,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 9987
+.word 9991
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_UpdatedHeading_System_EventHandler_1_CoreLocation_CLHeadingUpdatedEventArgs
 plt_CoreLocation_CLLocationManager_add_UpdatedHeading_System_EventHandler_1_CoreLocation_CLHeadingUpdatedEventArgs:
 _p_47:
@@ -45771,7 +45771,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 9992
+.word 9996
 	.no_dead_strip plt_CoreLocation_CLLocationManager_add_DeferredUpdatesFinished_System_EventHandler_1_Foundation_NSErrorEventArgs
 plt_CoreLocation_CLLocationManager_add_DeferredUpdatesFinished_System_EventHandler_1_Foundation_NSErrorEventArgs:
 _p_48:
@@ -45779,7 +45779,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 9997
+.word 10001
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_DeferredLocationUpdatesAvailable
 plt_CoreLocation_CLLocationManager_get_DeferredLocationUpdatesAvailable:
 _p_49:
@@ -45787,7 +45787,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 10002
+.word 10006
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Create:
 _p_50:
@@ -45795,7 +45795,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 10007
+.word 10011
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_:
 _p_51:
@@ -45803,7 +45803,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 10018
+.word 10022
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_get_Task:
 _p_52:
@@ -45811,7 +45811,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 10030
+.word 10034
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_53:
@@ -45819,7 +45819,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 10041
+.word 10045
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_54:
@@ -45827,7 +45827,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 10046
+.word 10050
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_Status
 plt_CoreLocation_CLLocationManager_get_Status:
 _p_55:
@@ -45835,7 +45835,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 10051
+.word 10055
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_LocationServicesEnabled
 plt_CoreLocation_CLLocationManager_get_LocationServicesEnabled:
 _p_56:
@@ -45843,7 +45843,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 10056
+.word 10060
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_57:
@@ -45851,7 +45851,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 10061
+.word 10065
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_58:
@@ -45859,7 +45859,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 10066
+.word 10070
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_59:
@@ -45867,7 +45867,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 10098
+.word 10102
 	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
 plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
 _p_60:
@@ -45875,7 +45875,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 10103
+.word 10107
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_61:
@@ -45883,7 +45883,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 10108
+.word 10112
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Create:
 _p_62:
@@ -45891,7 +45891,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 10128
+.word 10132
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Start_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Start_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_:
 _p_63:
@@ -45899,7 +45899,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 10139
+.word 10143
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_get_Task:
 _p_64:
@@ -45907,7 +45907,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 10151
+.word 10155
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_65:
@@ -45915,7 +45915,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 10162
+.word 10166
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_66:
@@ -45923,7 +45923,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 10167
+.word 10171
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Start_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_Start_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_:
 _p_67:
@@ -45931,7 +45931,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 10172
+.word 10176
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_Create:
 _p_68:
@@ -45939,7 +45939,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 10184
+.word 10188
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_Start_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_Start_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_:
 _p_69:
@@ -45947,7 +45947,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 10195
+.word 10199
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_get_Task:
 _p_70:
@@ -45955,7 +45955,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 10207
+.word 10211
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_:
 _p_71:
@@ -45963,7 +45963,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 10218
+.word 10222
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
 plt_System_Threading_Tasks_Task_FromResult_bool_bool:
 _p_72:
@@ -45971,7 +45971,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 10230
+.word 10234
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferLocationUpdates
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferLocationUpdates:
 _p_73:
@@ -45979,7 +45979,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 10242
+.word 10246
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_get_CanDeferLocationUpdate
 plt_Plugin_Geolocator_GeolocatorImplementation_get_CanDeferLocationUpdate:
 _p_74:
@@ -45987,7 +45987,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 10247
+.word 10251
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_ListenForSignificantChanges
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_ListenForSignificantChanges:
 _p_75:
@@ -45995,7 +45995,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 10249
+.word 10253
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass34_0__ctor
 plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass34_0__ctor:
 _p_76:
@@ -46003,7 +46003,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 10254
+.word 10258
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_77:
@@ -46011,7 +46011,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 10256
+.word 10260
 	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
 plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
 _p_78:
@@ -46019,7 +46019,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 10261
+.word 10265
 	.no_dead_strip plt_CoreLocation_CLHeadingUpdatedEventArgs_get_NewHeading
 plt_CoreLocation_CLHeadingUpdatedEventArgs_get_NewHeading:
 _p_79:
@@ -46027,7 +46027,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 10266
+.word 10270
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_PositionEventArgs__ctor_Plugin_Geolocator_Abstractions_Position
 plt_Plugin_Geolocator_Abstractions_PositionEventArgs__ctor_Plugin_Geolocator_Abstractions_Position:
 _p_80:
@@ -46035,7 +46035,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 10271
+.word 10275
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_OnPositionChanged_Plugin_Geolocator_Abstractions_PositionEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_OnPositionChanged_Plugin_Geolocator_Abstractions_PositionEventArgs:
 _p_81:
@@ -46043,7 +46043,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 10276
+.word 10280
 	.no_dead_strip plt_CoreLocation_CLLocationsUpdatedEventArgs_get_Locations
 plt_CoreLocation_CLLocationsUpdatedEventArgs_get_Locations:
 _p_82:
@@ -46051,7 +46051,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 10278
+.word 10282
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_UpdatePosition_CoreLocation_CLLocation
 plt_Plugin_Geolocator_GeolocatorImplementation_UpdatePosition_CoreLocation_CLLocation:
 _p_83:
@@ -46059,7 +46059,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 10283
+.word 10287
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferralDistanceMeters
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferralDistanceMeters:
 _p_84:
@@ -46067,7 +46067,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 10285
+.word 10289
 	.no_dead_strip plt_System_Nullable_1_double_get_HasValue
 plt_System_Nullable_1_double_get_HasValue:
 _p_85:
@@ -46075,7 +46075,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 10290
+.word 10294
 	.no_dead_strip plt_System_Nullable_1_double_GetValueOrDefault
 plt_System_Nullable_1_double_GetValueOrDefault:
 _p_86:
@@ -46083,7 +46083,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 10301
+.word 10305
 	.no_dead_strip plt_CoreLocation_CLLocationDistance_get_MaxDistance
 plt_CoreLocation_CLLocationDistance_get_MaxDistance:
 _p_87:
@@ -46091,7 +46091,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 10312
+.word 10316
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferralTime
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_DeferralTime:
 _p_88:
@@ -46099,7 +46099,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 10317
+.word 10321
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_get_HasValue
 plt_System_Nullable_1_System_TimeSpan_get_HasValue:
 _p_89:
@@ -46107,7 +46107,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 10322
+.word 10326
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_GetValueOrDefault
 plt_System_Nullable_1_System_TimeSpan_GetValueOrDefault:
 _p_90:
@@ -46115,7 +46115,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 10333
+.word 10337
 	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
 plt_System_TimeSpan_get_TotalSeconds:
 _p_91:
@@ -46123,7 +46123,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 10344
+.word 10348
 	.no_dead_strip plt_CoreLocation_CLLocationManager_get_MaxTimeInterval
 plt_CoreLocation_CLLocationManager_get_MaxTimeInterval:
 _p_92:
@@ -46131,7 +46131,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 10349
+.word 10353
 	.no_dead_strip plt_CoreLocation_CLLocationUpdatedEventArgs_get_NewLocation
 plt_CoreLocation_CLLocationUpdatedEventArgs_get_NewLocation:
 _p_93:
@@ -46139,7 +46139,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 10354
+.word 10358
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_94:
@@ -46147,7 +46147,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 10359
+.word 10363
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_95:
@@ -46155,7 +46155,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 10364
+.word 10368
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_:
 _p_96:
@@ -46163,7 +46163,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 10369
+.word 10373
 	.no_dead_strip plt_Foundation_NSErrorEventArgs_get_Error
 plt_Foundation_NSErrorEventArgs_get_Error:
 _p_97:
@@ -46171,7 +46171,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 10381
+.word 10385
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_PositionErrorEventArgs__ctor_Plugin_Geolocator_Abstractions_GeolocationError
 plt_Plugin_Geolocator_Abstractions_PositionErrorEventArgs__ctor_Plugin_Geolocator_Abstractions_GeolocationError:
 _p_98:
@@ -46179,7 +46179,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 10386
+.word 10390
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_OnPositionError_Plugin_Geolocator_Abstractions_PositionErrorEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_OnPositionError_Plugin_Geolocator_Abstractions_PositionErrorEventArgs:
 _p_99:
@@ -46187,7 +46187,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 10391
+.word 10395
 	.no_dead_strip plt_CoreLocation_CLAuthorizationChangedEventArgs_get_Status
 plt_CoreLocation_CLAuthorizationChangedEventArgs_get_Status:
 _p_100:
@@ -46195,7 +46195,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 10393
+.word 10397
 	.no_dead_strip plt_Plugin_Geolocator_CrossGeolocator__c__ctor
 plt_Plugin_Geolocator_CrossGeolocator__c__ctor:
 _p_101:
@@ -46203,7 +46203,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 10398
+.word 10402
 	.no_dead_strip plt_Plugin_Geolocator_CrossGeolocator_CreateGeolocator
 plt_Plugin_Geolocator_CrossGeolocator_CreateGeolocator:
 _p_102:
@@ -46211,7 +46211,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 10400
+.word 10404
 	.no_dead_strip plt_System_Threading_Timer_Dispose
 plt_System_Threading_Timer_Dispose:
 _p_103:
@@ -46219,7 +46219,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 10402
+.word 10406
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationUtils__c__ctor
 plt_Plugin_Geolocator_GeolocationUtils__c__ctor:
 _p_104:
@@ -46227,7 +46227,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 10407
+.word 10411
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address__ctor
 plt_Plugin_Geolocator_Abstractions_Address__ctor:
 _p_105:
@@ -46235,7 +46235,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 10409
+.word 10413
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_Longitude_double
 plt_Plugin_Geolocator_Abstractions_Address_set_Longitude_double:
 _p_106:
@@ -46243,7 +46243,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 10414
+.word 10418
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_Latitude_double
 plt_Plugin_Geolocator_Abstractions_Address_set_Latitude_double:
 _p_107:
@@ -46251,7 +46251,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 10419
+.word 10423
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_FeatureName_string
 plt_Plugin_Geolocator_Abstractions_Address_set_FeatureName_string:
 _p_108:
@@ -46259,7 +46259,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 10424
+.word 10428
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_PostalCode_string
 plt_Plugin_Geolocator_Abstractions_Address_set_PostalCode_string:
 _p_109:
@@ -46267,7 +46267,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 10429
+.word 10433
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_SubLocality_string
 plt_Plugin_Geolocator_Abstractions_Address_set_SubLocality_string:
 _p_110:
@@ -46275,7 +46275,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 10434
+.word 10438
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_CountryCode_string
 plt_Plugin_Geolocator_Abstractions_Address_set_CountryCode_string:
 _p_111:
@@ -46283,7 +46283,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 10439
+.word 10443
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_CountryName_string
 plt_Plugin_Geolocator_Abstractions_Address_set_CountryName_string:
 _p_112:
@@ -46291,7 +46291,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 10444
+.word 10448
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_Thoroughfare_string
 plt_Plugin_Geolocator_Abstractions_Address_set_Thoroughfare_string:
 _p_113:
@@ -46299,7 +46299,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 10449
+.word 10453
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_SubThoroughfare_string
 plt_Plugin_Geolocator_Abstractions_Address_set_SubThoroughfare_string:
 _p_114:
@@ -46307,7 +46307,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 10454
+.word 10458
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Address_set_Locality_string
 plt_Plugin_Geolocator_Abstractions_Address_set_Locality_string:
 _p_115:
@@ -46315,7 +46315,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 10459
+.word 10463
 	.no_dead_strip plt_Plugin_Permissions_CrossPermissions_get_Current
 plt_Plugin_Permissions_CrossPermissions_get_Current:
 _p_116:
@@ -46323,7 +46323,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 10464
+.word 10468
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter:
 _p_117:
@@ -46331,7 +46331,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 10469
+.word 10473
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted:
 _p_118:
@@ -46339,7 +46339,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 10480
+.word 10484
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_:
 _p_119:
@@ -46347,7 +46347,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 10491
+.word 10495
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_GetResult:
 _p_120:
@@ -46355,7 +46355,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 10503
+.word 10507
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_121:
@@ -46363,7 +46363,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 10514
+.word 10518
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_122:
@@ -46371,7 +46371,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 10519
+.word 10523
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_GetAwaiter:
 _p_123:
@@ -46379,7 +46379,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 10527
+.word 10531
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_IsCompleted:
 _p_124:
@@ -46387,7 +46387,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 10538
+.word 10542
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus__Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_:
 _p_125:
@@ -46395,7 +46395,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 10549
+.word 10553
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_GetResult:
 _p_126:
@@ -46403,7 +46403,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 10561
+.word 10565
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_Item_Plugin_Permissions_Abstractions_Permission
 plt_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_get_Item_Plugin_Permissions_Abstractions_Permission:
 _p_127:
@@ -46411,7 +46411,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 10572
+.word 10576
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetException_System_Exception:
 _p_128:
@@ -46419,7 +46419,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 10583
+.word 10587
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetResult_bool
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetResult_bool:
 _p_129:
@@ -46427,7 +46427,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 10594
+.word 10598
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_130:
@@ -46435,7 +46435,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 10605
+.word 10609
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_CheckPermissions
 plt_Plugin_Geolocator_GeolocatorImplementation_CheckPermissions:
 _p_131:
@@ -46443,7 +46443,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 10616
+.word 10620
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_132:
@@ -46451,7 +46451,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 10618
+.word 10622
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted:
 _p_133:
@@ -46459,7 +46459,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 10629
+.word 10633
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_:
 _p_134:
@@ -46467,7 +46467,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 10640
+.word 10644
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_135:
@@ -46475,7 +46475,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 10652
+.word 10656
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetException_System_Exception:
 _p_136:
@@ -46483,7 +46483,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 10663
+.word 10667
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetResult_Plugin_Geolocator_Abstractions_Position
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetResult_Plugin_Geolocator_Abstractions_Position:
 _p_137:
@@ -46491,7 +46491,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 10674
+.word 10678
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_138:
@@ -46499,7 +46499,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 10685
+.word 10689
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_PositionErrorEventArgs_get_Error
 plt_Plugin_Geolocator_Abstractions_PositionErrorEventArgs_get_Error:
 _p_139:
@@ -46507,7 +46507,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 10696
+.word 10700
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_remove_PositionError_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionErrorEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_remove_PositionError_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionErrorEventArgs:
 _p_140:
@@ -46515,7 +46515,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 10701
+.word 10705
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_PositionEventArgs_get_Position
 plt_Plugin_Geolocator_Abstractions_PositionEventArgs_get_Position:
 _p_141:
@@ -46523,7 +46523,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 10703
+.word 10707
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_remove_PositionChanged_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_remove_PositionChanged_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionEventArgs:
 _p_142:
@@ -46531,7 +46531,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 10708
+.word 10712
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass30_0__ctor
 plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass30_0__ctor:
 _p_143:
@@ -46539,7 +46539,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 10710
+.word 10714
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_:
 _p_144:
@@ -46547,7 +46547,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 10712
+.word 10716
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_get_Value
 plt_System_Nullable_1_System_TimeSpan_get_Value:
 _p_145:
@@ -46555,7 +46555,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 10724
+.word 10728
 	.no_dead_strip plt_System_TimeSpan_get_TotalMilliseconds
 plt_System_TimeSpan_get_TotalMilliseconds:
 _p_146:
@@ -46563,7 +46563,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 10735
+.word 10739
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_get_HasValue
 plt_System_Nullable_1_System_Threading_CancellationToken_get_HasValue:
 _p_147:
@@ -46571,7 +46571,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 10740
+.word 10744
 	.no_dead_strip plt_System_Threading_CancellationToken_get_None
 plt_System_Threading_CancellationToken_get_None:
 _p_148:
@@ -46579,7 +46579,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 10751
+.word 10755
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken
 plt_System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken:
 _p_149:
@@ -46587,7 +46587,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 10756
+.word 10760
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_get_IsListening
 plt_Plugin_Geolocator_GeolocatorImplementation_get_IsListening:
 _p_150:
@@ -46595,7 +46595,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 10767
+.word 10771
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_get_DesiredAccuracy
 plt_Plugin_Geolocator_GeolocatorImplementation_get_DesiredAccuracy:
 _p_151:
@@ -46603,7 +46603,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 10769
+.word 10773
 	.no_dead_strip plt_Foundation_NSString_op_Explicit_string
 plt_Foundation_NSString_op_Explicit_string:
 _p_152:
@@ -46611,7 +46611,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 10771
+.word 10775
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_get_Value
 plt_System_Nullable_1_System_Threading_CancellationToken_get_Value:
 _p_153:
@@ -46619,7 +46619,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 10776
+.word 10780
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate__ctor_CoreLocation_CLLocationManager_double_bool_int_System_Threading_CancellationToken
 plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate__ctor_CoreLocation_CLLocationManager_double_bool_int_System_Threading_CancellationToken:
 _p_154:
@@ -46627,7 +46627,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 10787
+.word 10791
 	.no_dead_strip plt_CoreLocation_CLLocationManager_set_Delegate_CoreLocation_ICLLocationManagerDelegate
 plt_CoreLocation_CLLocationManager_set_Delegate_CoreLocation_ICLLocationManagerDelegate:
 _p_155:
@@ -46635,7 +46635,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 10789
+.word 10793
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_get_SupportsHeading
 plt_Plugin_Geolocator_GeolocatorImplementation_get_SupportsHeading:
 _p_156:
@@ -46643,7 +46643,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 10794
+.word 10798
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate_get_Task
 plt_Plugin_Geolocator_GeolocationSingleUpdateDelegate_get_Task:
 _p_157:
@@ -46651,7 +46651,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 10796
+.word 10800
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_GetAwaiter:
 _p_158:
@@ -46659,7 +46659,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 10798
+.word 10802
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_get_IsCompleted:
 _p_159:
@@ -46667,7 +46667,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 10809
+.word 10813
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position__Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Geolocator_Abstractions_Position_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position__Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_:
 _p_160:
@@ -46675,7 +46675,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 10820
+.word 10824
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_GetResult:
 _p_161:
@@ -46683,7 +46683,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 10832
+.word 10836
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position__ctor:
 _p_162:
@@ -46691,7 +46691,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 10843
+.word 10847
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass30_1__ctor
 plt_Plugin_Geolocator_GeolocatorImplementation__c__DisplayClass30_1__ctor:
 _p_163:
@@ -46699,7 +46699,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 10854
+.word 10858
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault
 plt_System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault:
 _p_164:
@@ -46707,7 +46707,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 10856
+.word 10860
 	.no_dead_strip plt_System_Threading_CancellationToken_op_Inequality_System_Threading_CancellationToken_System_Threading_CancellationToken
 plt_System_Threading_CancellationToken_op_Inequality_System_Threading_CancellationToken_System_Threading_CancellationToken:
 _p_165:
@@ -46715,7 +46715,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 10867
+.word 10871
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_add_PositionError_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionErrorEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_add_PositionError_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionErrorEventArgs:
 _p_166:
@@ -46723,7 +46723,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 10872
+.word 10876
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_add_PositionChanged_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionEventArgs
 plt_Plugin_Geolocator_GeolocatorImplementation_add_PositionChanged_System_EventHandler_1_Plugin_Geolocator_Abstractions_PositionEventArgs:
 _p_167:
@@ -46731,7 +46731,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 10874
+.word 10878
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_SetResult_Plugin_Geolocator_Abstractions_Position
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Geolocator_Abstractions_Position_SetResult_Plugin_Geolocator_Abstractions_Position:
 _p_168:
@@ -46739,7 +46739,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 10876
+.word 10880
 	.no_dead_strip plt_CoreLocation_CLGeocoder__ctor
 plt_CoreLocation_CLGeocoder__ctor:
 _p_169:
@@ -46747,7 +46747,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 10887
+.word 10891
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_get_Latitude
 plt_Plugin_Geolocator_Abstractions_Position_get_Latitude:
 _p_170:
@@ -46755,7 +46755,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 10892
+.word 10896
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_Position_get_Longitude
 plt_Plugin_Geolocator_Abstractions_Position_get_Longitude:
 _p_171:
@@ -46763,7 +46763,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 10897
+.word 10901
 	.no_dead_strip plt_CoreLocation_CLLocation__ctor_double_double
 plt_CoreLocation_CLLocation__ctor_double_double:
 _p_172:
@@ -46771,7 +46771,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 10902
+.word 10906
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_CoreLocation_CLPlacemark___GetAwaiter
 plt_System_Threading_Tasks_Task_1_CoreLocation_CLPlacemark___GetAwaiter:
 _p_173:
@@ -46779,7 +46779,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 10907
+.word 10911
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___get_IsCompleted:
 _p_174:
@@ -46787,7 +46787,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 10918
+.word 10922
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark____Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark____Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_:
 _p_175:
@@ -46795,7 +46795,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 10929
+.word 10933
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___GetResult:
 _p_176:
@@ -46803,7 +46803,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 10941
+.word 10945
 	.no_dead_strip plt_Plugin_Geolocator_GeolocationUtils_ToAddresses_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark
 plt_Plugin_Geolocator_GeolocationUtils_ToAddresses_System_Collections_Generic_IEnumerable_1_CoreLocation_CLPlacemark:
 _p_177:
@@ -46811,7 +46811,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 10952
+.word 10956
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetException_System_Exception:
 _p_178:
@@ -46819,7 +46819,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 10954
+.word 10958
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address:
 _p_179:
@@ -46827,7 +46827,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 10965
+.word 10969
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_180:
@@ -46835,7 +46835,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 10976
+.word 10980
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_:
 _p_181:
@@ -46843,7 +46843,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 10987
+.word 10991
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings__ctor
 plt_Plugin_Geolocator_Abstractions_ListenerSettings__ctor:
 _p_182:
@@ -46851,7 +46851,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 10999
+.word 11003
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_AllowBackgroundUpdates
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_AllowBackgroundUpdates:
 _p_183:
@@ -46859,7 +46859,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 11004
+.word 11008
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_PauseLocationUpdatesAutomatically
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_PauseLocationUpdatesAutomatically:
 _p_184:
@@ -46867,7 +46867,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 11009
+.word 11013
 	.no_dead_strip plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_ActivityType
 plt_Plugin_Geolocator_Abstractions_ListenerSettings_get_ActivityType:
 _p_185:
@@ -46875,7 +46875,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 11014
+.word 11018
 	.no_dead_strip plt_CoreLocation_CLLocationDistance_get_FilterNone
 plt_CoreLocation_CLLocationDistance_get_FilterNone:
 _p_186:
@@ -46883,7 +46883,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 11019
+.word 11023
 	.no_dead_strip plt_CoreLocation_CLLocation_get_AccuracyBest
 plt_CoreLocation_CLLocation_get_AccuracyBest:
 _p_187:
@@ -46891,7 +46891,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 11024
+.word 11028
 	.no_dead_strip plt_CoreLocation_CLLocationManager__ctor
 plt_CoreLocation_CLLocationManager__ctor:
 _p_188:
@@ -46899,7 +46899,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 11029
+.word 11033
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation_StopListeningAsync
 plt_Plugin_Geolocator_GeolocatorImplementation_StopListeningAsync:
 _p_189:
@@ -46907,7 +46907,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 11034
+.word 11038
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Plugin_Geolocator_GeolocatorImplementation__OnPositionErrord__40_:
 _p_190:
@@ -46915,7 +46915,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 11036
+.word 11040
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_191:
@@ -46923,7 +46923,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 11048
+.word 11052
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_192:
@@ -46931,7 +46931,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 11053
+.word 11057
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_193:
@@ -46939,7 +46939,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 11058
+.word 11062
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_194:
@@ -46947,7 +46947,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 11063
+.word 11067
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_195:
@@ -46955,7 +46955,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 11101
+.word 11105
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_196:
@@ -46963,7 +46963,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 11133
+.word 11137
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_197:
@@ -46971,7 +46971,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 11141
+.word 11145
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_198:
@@ -46979,7 +46979,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 11167
+.word 11171
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_199:
@@ -46987,7 +46987,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 11208
+.word 11212
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_200:
@@ -46995,7 +46995,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 11216
+.word 11220
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_201:
@@ -47003,7 +47003,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 11239
+.word 11243
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_202:
@@ -47011,7 +47011,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 11244
+.word 11248
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_203:
@@ -47019,7 +47019,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 11249
+.word 11253
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_204:
@@ -47027,7 +47027,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 11254
+.word 11258
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_205:
@@ -47035,7 +47035,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 11259
+.word 11263
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_206:
@@ -47043,7 +47043,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 11267
+.word 11271
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_207:
@@ -47051,7 +47051,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 11290
+.word 11294
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_208:
@@ -47059,7 +47059,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 11319
+.word 11323
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_209:
@@ -47067,7 +47067,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 11342
+.word 11346
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_210:
@@ -47075,7 +47075,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 11350
+.word 11354
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_211:
@@ -47083,7 +47083,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 11391
+.word 11395
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_212:
@@ -47091,7 +47091,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 11399
+.word 11403
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_213:
@@ -47099,7 +47099,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 11422
+.word 11426
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_214:
@@ -47107,7 +47107,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 11430
+.word 11434
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_215:
@@ -47115,7 +47115,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 11453
+.word 11457
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_216:
@@ -47123,7 +47123,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 11458
+.word 11462
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_217:
@@ -47131,7 +47131,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 11499
+.word 11503
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_218:
@@ -47139,7 +47139,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 11507
+.word 11511
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_219:
@@ -47147,7 +47147,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 11515
+.word 11519
 	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_TResult_BOOL_object
 plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_TResult_BOOL_object:
 _p_220:
@@ -47155,7 +47155,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 11539
+.word 11543
 	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
 plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_221:
@@ -47163,7 +47163,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 11559
+.word 11563
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_222:
@@ -47171,7 +47171,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 11564
+.word 11568
 	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
 plt_uintptr_op_Equality_uintptr_uintptr:
 _p_223:
@@ -47179,7 +47179,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 11569
+.word 11573
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_224:
@@ -47187,7 +47187,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 11574
+.word 11578
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_225:
@@ -47195,7 +47195,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 11582
+.word 11586
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_226:
@@ -47203,7 +47203,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 11590
+.word 11594
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_227:
@@ -47211,7 +47211,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 11598
+.word 11602
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_228:
@@ -47219,7 +47219,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 11639
+.word 11643
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_229:
@@ -47227,7 +47227,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 11663
+.word 11667
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_230:
@@ -47235,7 +47235,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 11687
+.word 11691
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_231:
@@ -47243,7 +47243,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 11695
+.word 11699
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_232:
@@ -47251,7 +47251,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 11700
+.word 11704
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_233:
@@ -47259,7 +47259,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 11705
+.word 11709
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_234:
@@ -47267,7 +47267,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 11728
+.word 11732
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_235:
@@ -47275,7 +47275,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 11751
+.word 11755
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_236:
@@ -47283,7 +47283,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 11756
+.word 11760
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_237:
@@ -47291,7 +47291,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 11779
+.word 11783
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_238:
@@ -47299,7 +47299,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 11820
+.word 11824
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_239:
@@ -47307,7 +47307,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 11843
+.word 11847
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_240:
@@ -47315,7 +47315,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 11866
+.word 11870
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_241:
@@ -47323,7 +47323,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 11907
+.word 11911
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_242:
@@ -47331,7 +47331,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 11915
+.word 11919
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_243:
@@ -47339,7 +47339,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 11938
+.word 11942
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_244:
@@ -47347,7 +47347,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 11961
+.word 11965
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_245:
@@ -47355,7 +47355,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 11969
+.word 11973
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_246:
@@ -47363,7 +47363,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 11992
+.word 11996
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_247:
@@ -47371,7 +47371,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 11997
+.word 12001
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_248:
@@ -47379,7 +47379,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 12002
+.word 12006
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_249:
@@ -47387,7 +47387,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 12007
+.word 12011
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_250:
@@ -47395,7 +47395,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 12030
+.word 12034
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_251:
@@ -47403,7 +47403,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 12053
+.word 12057
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_252:
@@ -47411,7 +47411,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 12076
+.word 12080
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_253:
@@ -47419,7 +47419,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 12099
+.word 12103
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_254:
@@ -47427,7 +47427,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 12104
+.word 12108
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_255:
@@ -47435,7 +47435,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 12109
+.word 12113
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_256:
@@ -47443,7 +47443,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 12114
+.word 12118
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_257:
@@ -47451,7 +47451,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 12119
+.word 12123
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_258:
@@ -47459,7 +47459,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 12124
+.word 12128
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_259:
@@ -47467,7 +47467,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 12129
+.word 12133
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_260:
@@ -47475,7 +47475,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 12152
+.word 12156
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_261:
@@ -47483,7 +47483,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 12175
+.word 12179
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_262:
@@ -47491,7 +47491,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 12180
+.word 12184
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_263:
@@ -47499,7 +47499,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 12203
+.word 12207
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_264:
@@ -47507,7 +47507,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 12211
+.word 12215
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_265:
@@ -47515,7 +47515,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 12245
+.word 12249
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_266:
@@ -47523,7 +47523,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 12253
+.word 12257
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_267:
@@ -47531,7 +47531,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 12273
+.word 12277
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_268:
@@ -47539,7 +47539,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 12308
+.word 12312
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_269:
@@ -47547,7 +47547,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 12316
+.word 12320
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_270:
@@ -47555,7 +47555,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 12366
+.word 12370
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_271:
@@ -47563,7 +47563,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 12374
+.word 12378
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_272:
@@ -47571,7 +47571,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 12397
+.word 12401
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_273:
@@ -47579,7 +47579,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 12420
+.word 12424
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_274:
@@ -47587,7 +47587,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 12461
+.word 12465
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_275:
@@ -47595,7 +47595,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 12502
+.word 12506
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_276:
@@ -47603,7 +47603,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 12525
+.word 12529
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_277:
@@ -47611,7 +47611,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 12557
+.word 12561
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_278:
@@ -47619,7 +47619,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 12565
+.word 12569
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_279:
@@ -47627,7 +47627,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 12588
+.word 12592
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_280:
@@ -47635,7 +47635,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 12620
+.word 12624
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_281:
@@ -47643,7 +47643,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 12628
+.word 12632
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_282:
@@ -47651,7 +47651,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 12651
+.word 12655
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_283:
@@ -47659,7 +47659,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 12668
+.word 12672
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_284:
@@ -47667,7 +47667,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 12676
+.word 12680
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_285:
@@ -47675,7 +47675,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 12684
+.word 12688
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_286:
@@ -47683,7 +47683,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 12707
+.word 12711
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_287:
@@ -47691,7 +47691,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 12731
+.word 12735
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_288:
@@ -47699,7 +47699,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 12739
+.word 12743
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_289:
@@ -47707,7 +47707,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 12779
+.word 12783
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_290:
@@ -47715,7 +47715,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 12802
+.word 12806
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_291:
@@ -47723,7 +47723,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 12807
+.word 12811
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_292:
@@ -47731,7 +47731,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 12839
+.word 12843
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_293:
@@ -47739,7 +47739,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 12847
+.word 12851
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_294:
@@ -47747,7 +47747,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 12888
+.word 12892
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_295:
@@ -47755,7 +47755,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 12896
+.word 12900
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_296:
@@ -47763,7 +47763,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 12937
+.word 12941
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_297:
@@ -47771,7 +47771,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 12945
+.word 12949
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_298:
@@ -47779,7 +47779,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 12968
+.word 12972
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_299:
@@ -47787,7 +47787,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 12991
+.word 12995
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_300:
@@ -47795,7 +47795,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 12996
+.word 13000
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_301:
@@ -47803,7 +47803,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 13019
+.word 13023
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_302:
@@ -47811,7 +47811,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 13060
+.word 13064
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_303:
@@ -47819,7 +47819,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 13068
+.word 13072
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_304:
@@ -47827,7 +47827,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 13118
+.word 13122
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_305:
@@ -47835,7 +47835,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 13126
+.word 13130
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_306:
@@ -47843,7 +47843,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 13149
+.word 13153
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_307:
@@ -47851,7 +47851,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 13154
+.word 13158
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_308:
@@ -47859,7 +47859,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 13162
+.word 13166
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_309:
@@ -47867,7 +47867,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 13185
+.word 13189
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_310:
@@ -47875,7 +47875,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 13190
+.word 13194
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_311:
@@ -47883,7 +47883,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 13195
+.word 13199
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_312:
@@ -47891,7 +47891,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 13200
+.word 13204
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_313:
@@ -47899,7 +47899,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 13214
+.word 13218
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_314:
@@ -47907,7 +47907,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 13222
+.word 13226
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_315:
@@ -47915,7 +47915,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 13245
+.word 13249
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_316:
@@ -47923,7 +47923,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 13250
+.word 13254
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_317:
@@ -47931,7 +47931,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 13273
+.word 13277
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_318:
@@ -47939,7 +47939,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 13296
+.word 13300
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_319:
@@ -47947,7 +47947,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 13301
+.word 13305
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_320:
@@ -47955,7 +47955,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 13309
+.word 13313
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_321:
@@ -47963,7 +47963,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 13332
+.word 13336
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_322:
@@ -47971,7 +47971,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 13355
+.word 13359
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_323:
@@ -47979,7 +47979,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 13378
+.word 13382
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_324:
@@ -47987,7 +47987,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 13401
+.word 13405
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_325:
@@ -47995,7 +47995,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 13459
+.word 13463
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_326:
@@ -48003,7 +48003,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 13467
+.word 13471
 	.no_dead_strip plt_System_Nullable_1_double_Unbox_object
 plt_System_Nullable_1_double_Unbox_object:
 _p_327:
@@ -48011,7 +48011,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 13486
+.word 13490
 	.no_dead_strip plt_System_Nullable_1_double_Equals_System_Nullable_1_double
 plt_System_Nullable_1_double_Equals_System_Nullable_1_double:
 _p_328:
@@ -48019,7 +48019,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 13508
+.word 13512
 	.no_dead_strip plt_double_Equals_object
 plt_double_Equals_object:
 _p_329:
@@ -48027,7 +48027,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 13530
+.word 13534
 	.no_dead_strip plt_double_GetHashCode
 plt_double_GetHashCode:
 _p_330:
@@ -48035,7 +48035,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 13535
+.word 13539
 	.no_dead_strip plt_double_ToString
 plt_double_ToString:
 _p_331:
@@ -48043,7 +48043,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 13540
+.word 13544
 	.no_dead_strip plt_System_Nullable_1_double__ctor_double
 plt_System_Nullable_1_double__ctor_double:
 _p_332:
@@ -48051,7 +48051,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 13545
+.word 13549
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Unbox_object
 plt_System_Nullable_1_System_TimeSpan_Unbox_object:
 _p_333:
@@ -48059,7 +48059,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 13567
+.word 13571
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan:
 _p_334:
@@ -48067,7 +48067,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 13589
+.word 13593
 	.no_dead_strip plt_System_TimeSpan_Equals_object
 plt_System_TimeSpan_Equals_object:
 _p_335:
@@ -48075,7 +48075,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 13611
+.word 13615
 	.no_dead_strip plt_System_TimeSpan_GetHashCode
 plt_System_TimeSpan_GetHashCode:
 _p_336:
@@ -48083,7 +48083,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 13616
+.word 13620
 	.no_dead_strip plt_System_TimeSpan_ToString
 plt_System_TimeSpan_ToString:
 _p_337:
@@ -48091,7 +48091,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 13621
+.word 13625
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan:
 _p_338:
@@ -48099,7 +48099,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 13626
+.word 13630
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_339:
@@ -48107,7 +48107,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 13666
+.word 13670
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_340:
@@ -48115,7 +48115,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 13707
+.word 13711
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_341:
@@ -48123,7 +48123,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 13748
+.word 13752
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_342:
@@ -48131,7 +48131,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 13789
+.word 13793
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_343:
@@ -48139,7 +48139,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 13830
+.word 13834
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_344:
@@ -48147,7 +48147,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 13838
+.word 13842
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_345:
@@ -48155,7 +48155,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 13879
+.word 13883
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_346:
@@ -48163,7 +48163,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 13887
+.word 13891
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_347:
@@ -48171,7 +48171,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 13928
+.word 13932
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_348:
@@ -48179,7 +48179,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 13969
+.word 13973
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_349:
@@ -48187,7 +48187,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 14010
+.word 14014
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_350:
@@ -48195,7 +48195,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 14051
+.word 14055
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_351:
@@ -48203,7 +48203,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 14059
+.word 14063
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_352:
@@ -48211,7 +48211,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 14093
+.word 14097
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_353:
@@ -48219,7 +48219,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 14113
+.word 14117
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_354:
@@ -48227,7 +48227,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 14148
+.word 14152
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_355:
@@ -48235,7 +48235,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 14156
+.word 14160
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_356:
@@ -48243,7 +48243,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 14206
+.word 14210
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_357:
@@ -48251,7 +48251,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 14214
+.word 14218
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_358:
@@ -48259,7 +48259,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 14255
+.word 14259
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_359:
@@ -48267,7 +48267,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 14296
+.word 14300
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_360:
@@ -48275,7 +48275,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 14337
+.word 14341
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_361:
@@ -48283,7 +48283,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 14387
+.word 14391
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_362:
@@ -48291,7 +48291,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 14395
+.word 14399
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_363:
@@ -48299,7 +48299,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 14445
+.word 14449
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_364:
@@ -48307,7 +48307,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 14453
+.word 14457
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_365:
@@ -48315,7 +48315,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 14476
+.word 14480
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_366:
@@ -48323,7 +48323,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 14493
+.word 14497
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_367:
@@ -48331,7 +48331,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 14501
+.word 14505
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_368:
@@ -48339,7 +48339,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 14509
+.word 14513
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_369:
@@ -48347,7 +48347,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 14543
+.word 14547
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_370:
@@ -48355,7 +48355,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 14551
+.word 14555
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_371:
@@ -48363,7 +48363,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 14591
+.word 14595
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_372:
@@ -48371,7 +48371,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 14641
+.word 14645
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_373:
@@ -48379,7 +48379,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 14649
+.word 14653
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_374:
@@ -48387,7 +48387,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 14690
+.word 14694
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_375:
@@ -48395,7 +48395,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 14698
+.word 14702
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_376:
@@ -48403,7 +48403,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 14739
+.word 14743
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_377:
@@ -48411,7 +48411,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 14747
+.word 14751
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_378:
@@ -48419,7 +48419,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 14770
+.word 14774
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_379:
@@ -48427,7 +48427,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 14793
+.word 14797
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_380:
@@ -48435,7 +48435,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 14816
+.word 14820
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_381:
@@ -48443,7 +48443,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 14857
+.word 14861
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_382:
@@ -48451,7 +48451,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 14865
+.word 14869
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_383:
@@ -48459,7 +48459,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 14915
+.word 14919
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_384:
@@ -48467,7 +48467,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 14923
+.word 14927
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_385:
@@ -48475,7 +48475,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 14946
+.word 14950
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_386:
@@ -48483,7 +48483,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 14954
+.word 14958
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_387:
@@ -48491,7 +48491,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 14986
+.word 14990
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_388:
@@ -48499,7 +48499,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 14994
+.word 14998
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_389:
@@ -48507,7 +48507,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 15017
+.word 15021
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_390:
@@ -48515,7 +48515,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 15040
+.word 15044
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_391:
@@ -48523,7 +48523,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 15063
+.word 15067
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_392:
@@ -48531,7 +48531,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 15071
+.word 15075
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_393:
@@ -48539,7 +48539,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 15094
+.word 15098
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_394:
@@ -48547,7 +48547,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 15117
+.word 15121
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_395:
@@ -48555,7 +48555,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 15140
+.word 15144
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_396:
@@ -48563,7 +48563,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 15163
+.word 15167
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_397:
@@ -48571,7 +48571,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 15168
+.word 15172
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_398:
@@ -48579,7 +48579,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 15200
+.word 15204
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_399:
@@ -48587,7 +48587,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 15208
+.word 15212
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_400:
@@ -48595,7 +48595,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 15249
+.word 15253
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_401:
@@ -48603,7 +48603,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 15273
+.word 15277
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_402:
@@ -48611,7 +48611,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 15315
+.word 15319
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_403:
@@ -48619,7 +48619,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 15323
+.word 15327
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_404:
@@ -48627,7 +48627,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 15346
+.word 15350
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_405:
@@ -48635,7 +48635,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 15382
+.word 15386
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_406:
@@ -48643,7 +48643,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 15390
+.word 15394
 	.no_dead_strip plt_System_Text_StringBuilderCache_Acquire_int
 plt_System_Text_StringBuilderCache_Acquire_int:
 _p_407:
@@ -48651,7 +48651,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 15413
+.word 15417
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_408:
@@ -48659,7 +48659,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 15418
+.word 15422
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_409:
@@ -48667,7 +48667,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 15444
+.word 15448
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_410:
@@ -48675,7 +48675,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 15452
+.word 15456
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_411:
@@ -48683,7 +48683,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 15478
+.word 15482
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_412:
@@ -48691,7 +48691,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 15492
+.word 15496
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_413:
@@ -48699,7 +48699,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 15506
+.word 15510
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_414:
@@ -48707,7 +48707,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 15514
+.word 15518
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_415:
@@ -48715,7 +48715,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 15519
+.word 15523
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_416:
@@ -48723,7 +48723,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 15545
+.word 15549
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_417:
@@ -48731,7 +48731,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 15559
+.word 15563
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_418:
@@ -48739,7 +48739,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 15573
+.word 15577
 	.no_dead_strip plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder
 plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder:
 _p_419:
@@ -48747,7 +48747,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 15581
+.word 15585
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_420:
@@ -48755,7 +48755,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 15604
+.word 15608
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_421:
@@ -48763,7 +48763,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 15612
+.word 15616
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_422:
@@ -48771,7 +48771,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 15620
+.word 15624
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_423:
@@ -48779,7 +48779,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 15661
+.word 15665
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_424:
@@ -48787,7 +48787,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 15669
+.word 15673
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_425:
@@ -48795,7 +48795,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 15674
+.word 15678
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_426:
@@ -48803,7 +48803,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 15682
+.word 15686
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_427:
@@ -48811,7 +48811,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 15696
+.word 15700
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_428:
@@ -48819,7 +48819,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 15704
+.word 15708
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_429:
@@ -48827,7 +48827,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 15709
+.word 15713
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_430:
@@ -48835,7 +48835,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 15714
+.word 15718
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_431:
@@ -48843,7 +48843,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 15728
+.word 15732
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_432:
@@ -48851,7 +48851,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 15736
+.word 15740
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_433:
@@ -48859,7 +48859,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 15777
+.word 15781
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_434:
@@ -48867,7 +48867,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 15785
+.word 15789
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_435:
@@ -48875,7 +48875,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 15793
+.word 15797
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_436:
@@ -48883,7 +48883,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 15816
+.word 15820
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_437:
@@ -48891,7 +48891,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 15824
+.word 15828
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_438:
@@ -48899,7 +48899,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 15850
+.word 15854
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_439:
@@ -48907,7 +48907,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 15874
+.word 15878
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_440:
@@ -48915,7 +48915,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 15916
+.word 15920
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_441:
@@ -48923,7 +48923,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 15940
+.word 15944
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_442:
@@ -48931,7 +48931,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 15964
+.word 15968
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_443:
@@ -48939,7 +48939,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 15996
+.word 16000
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_444:
@@ -48947,7 +48947,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 16037
+.word 16041
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_445:
@@ -48955,7 +48955,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 16078
+.word 16082
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_446:
@@ -48963,7 +48963,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 16095
+.word 16099
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_SetType_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_SetType_System_Type:
 _p_447:
@@ -48971,7 +48971,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 16103
+.word 16107
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_448:
@@ -48979,7 +48979,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 16126
+.word 16130
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_449:
@@ -48987,7 +48987,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 16167
+.word 16171
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_450:
@@ -48995,7 +48995,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 16175
+.word 16179
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_451:
@@ -49003,7 +49003,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 16201
+.word 16205
 	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
 plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_452:
@@ -49011,7 +49011,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 16231
+.word 16235
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_453:
@@ -49019,7 +49019,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 16269
+.word 16273
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_454:
@@ -49027,7 +49027,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 16316
+.word 16320
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_455:
@@ -49035,7 +49035,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 16363
+.word 16367
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_456:
@@ -49043,7 +49043,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 16410
+.word 16414
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_457:
@@ -49051,7 +49051,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 16420
+.word 16424
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_458:
@@ -49059,7 +49059,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 16469
+.word 16473
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_459:
@@ -49067,7 +49067,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 16479
+.word 16483
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_460:
@@ -49075,7 +49075,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 16528
+.word 16532
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_461:
@@ -49083,7 +49083,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 16556
+.word 16560
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_462:
@@ -49091,7 +49091,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 16568
+.word 16572
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_463:
@@ -49099,7 +49099,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 16596
+.word 16600
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_464:
@@ -49107,7 +49107,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 16639
+.word 16643
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_465:
@@ -49115,7 +49115,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 16651
+.word 16655
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_466:
@@ -49123,7 +49123,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 16714
+.word 16718
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_467:
@@ -49131,7 +49131,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 16765
+.word 16769
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_468:
@@ -49139,7 +49139,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 16816
+.word 16820
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_469:
@@ -49147,7 +49147,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 16867
+.word 16871
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_470:
@@ -49155,7 +49155,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 16879
+.word 16883
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_471:
@@ -49163,7 +49163,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 16930
+.word 16934
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_472:
@@ -49171,7 +49171,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 16942
+.word 16946
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_473:
@@ -49179,7 +49179,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 16993
+.word 16997
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_474:
@@ -49187,7 +49187,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 17023
+.word 17027
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_475:
@@ -49195,7 +49195,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 17035
+.word 17039
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_476:
@@ -49203,7 +49203,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 17063
+.word 17067
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_477:
@@ -49211,7 +49211,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 17100
+.word 17104
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_478:
@@ -49219,7 +49219,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 17112
+.word 17116
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_Unbox_object
 plt_System_Nullable_1_System_Threading_CancellationToken_Unbox_object:
 _p_479:
@@ -49227,7 +49227,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 17139
+.word 17143
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken
 plt_System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken:
 _p_480:
@@ -49235,7 +49235,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 17161
+.word 17165
 	.no_dead_strip plt_System_Threading_CancellationToken_Equals_object
 plt_System_Threading_CancellationToken_Equals_object:
 _p_481:
@@ -49243,7 +49243,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 17183
+.word 17187
 	.no_dead_strip plt_System_Threading_CancellationToken_GetHashCode
 plt_System_Threading_CancellationToken_GetHashCode:
 _p_482:
@@ -49251,7 +49251,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 17188
+.word 17192
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_483:
@@ -49259,7 +49259,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 17193
+.word 17197
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_484:
@@ -49267,7 +49267,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 17245
+.word 17249
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_485:
@@ -49275,7 +49275,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 17250
+.word 17254
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_MoveNext
 plt_Plugin_Geolocator_GeolocatorImplementation__CheckPermissionsd__9_MoveNext:
 _p_486:
@@ -49283,7 +49283,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 17255
+.word 17259
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_487:
@@ -49291,7 +49291,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 17257
+.word 17261
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_MoveNext
 plt_Plugin_Geolocator_GeolocatorImplementation__GetLastKnownLocationAsyncd__29_MoveNext:
 _p_488:
@@ -49299,7 +49299,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 17262
+.word 17266
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_MoveNext
 plt_Plugin_Geolocator_GeolocatorImplementation__GetPositionAsyncd__30_MoveNext:
 _p_489:
@@ -49307,7 +49307,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 17264
+.word 17268
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_MoveNext
 plt_Plugin_Geolocator_GeolocatorImplementation__GetAddressesForPositionAsyncd__31_MoveNext:
 _p_490:
@@ -49315,7 +49315,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 17266
+.word 17270
 	.no_dead_strip plt_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_MoveNext
 plt_Plugin_Geolocator_GeolocatorImplementation__StartListeningAsyncd__32_MoveNext:
 _p_491:
@@ -49323,7 +49323,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 17268
+.word 17272
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_492:
@@ -49331,7 +49331,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 17298
+.word 17302
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_493:
@@ -49339,7 +49339,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 17310
+.word 17314
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_494:
@@ -49347,7 +49347,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 17356
+.word 17360
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_495:
@@ -49355,7 +49355,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 17405
+.word 17409
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_496:
@@ -49363,7 +49363,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 17415
+.word 17419
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_497:
@@ -49371,7 +49371,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 17423
+.word 17427
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_498:
@@ -49379,7 +49379,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 17433
+.word 17437
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_499:
@@ -49387,7 +49387,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 17488
+.word 17492
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_500:
@@ -49395,7 +49395,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 17516
+.word 17520
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_501:
@@ -49403,7 +49403,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 17521
+.word 17525
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_502:
@@ -49411,7 +49411,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 17558
+.word 17562
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_Dictionary_2_Plugin_Permissions_Abstractions_Permission_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action:
 _p_503:
@@ -49419,7 +49419,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 17563
+.word 17567
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_504:
@@ -49427,7 +49427,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 17586
+.word 17590
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Permissions_Abstractions_PermissionStatus_UnsafeOnCompleted_System_Action:
 _p_505:
@@ -49435,7 +49435,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 17591
+.word 17595
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
 _p_506:
@@ -49443,7 +49443,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 17612
+.word 17616
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Geolocator_Abstractions_Position_UnsafeOnCompleted_System_Action:
 _p_507:
@@ -49451,7 +49451,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 17634
+.word 17638
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_CoreLocation_CLPlacemark___UnsafeOnCompleted_System_Action:
 _p_508:
@@ -49459,7 +49459,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 17655
+.word 17659
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_509:
@@ -49467,7 +49467,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 17700
+.word 17705
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_510:
@@ -49475,7 +49475,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 17752
+.word 17757
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_511:
@@ -49483,7 +49483,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 17757
+.word 17762
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_512:
@@ -49491,7 +49491,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 17767
+.word 17772
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_513:
@@ -49499,7 +49499,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 17777
+.word 17782
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_514:
@@ -49507,7 +49507,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 17815
+.word 17820
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_515:
@@ -49515,7 +49515,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 17827
+.word 17832
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_516:
@@ -49523,7 +49523,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 17881
+.word 17886
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_517:
@@ -49531,7 +49531,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 17893
+.word 17898
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_518:
@@ -49539,7 +49539,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 17947
+.word 17952
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_519:
@@ -49547,7 +49547,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 17959
+.word 17964
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_520:
@@ -49555,7 +49555,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 18005
+.word 18010
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_521:
@@ -49563,7 +49563,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 18058
+.word 18063
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_522:
@@ -49571,7 +49571,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 18106
+.word 18111
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_523:
@@ -49579,7 +49579,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 18164
+.word 18169
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_524:
@@ -49587,7 +49587,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 18176
+.word 18181
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_525:
@@ -49595,7 +49595,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 18233
+.word 18238
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_526:
@@ -49603,7 +49603,7 @@ adrp x16, mono_aot_Plugin_Geolocator_got@PAGE+8192
 add x16, x16, mono_aot_Plugin_Geolocator_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 18260
+.word 18265
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -49715,13 +49715,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 549,8608,527,338,70,391195135,0,79855
-	.long 128,8,8,10,0,25,92384,12520
+	.long 549,8608,527,338,70,391195135,0,79860
+	.long 128,8,8,10,0,25,92392,12520
 	.long 11896,10264,0,11160,11848,10424,0,8144
 	.long 464,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 51,162,142,43,100,37,161,54,211,99,221,162,211,248,180,11
+	.byte 135,228,165,93,41,217,231,14,247,76,194,217,100,209,141,36
 	.globl _mono_aot_module_Plugin_Geolocator_info
 	.align 3
 _mono_aot_module_Plugin_Geolocator_info:
